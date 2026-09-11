@@ -1,0 +1,82 @@
+{
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects",
+		"blog": "Blog",
+		"docs": "Docs",
+		"tools": "Tools",
+		"gallery": "Gallery",
+		"donate": "Donate",
+		"contact": "Contact",
+		"ariaLogo": "sefinek.net home",
+		"ariaMain": "Main navigation",
+		"ariaMobile": "Mobile menu",
+		"ariaToggle": "Toggle menu"
+	},
+	"ext": {
+		"freeApi": "Free API",
+		"sniffcat": "SniffCat"
+	},
+	"lang": {
+		"label": "Language"
+	},
+	"noscript": "<strong>JavaScript is disabled.</strong> Some features of this site may not work correctly. Please enable JavaScript in your browser settings.",
+	"bgSettings": {
+		"title": "Background settings",
+		"music": "Music",
+		"musicVolume": "Music volume",
+		"ambient": "Ambient sounds",
+		"ambientVolume": "Ambient volume",
+		"intro": "Modem intro",
+		"introTitle": "Play the modem dial-up sound when landing on the home page",
+		"rhythm": "Music rhythm",
+		"rhythmTitle": "Bass, drums and arpeggio in the background (no ambient pad)",
+		"clicks": "Click sounds",
+		"clicksAria": "Mouse click sounds",
+		"clicksVolume": "Click volume",
+		"keys": "Keyboard sounds",
+		"keysAria": "Keyboard sounds (typing)",
+		"keysVolume": "Keyboard volume",
+		"fpsLimit": "FPS limit",
+		"particles": "Particles",
+		"particlesOn": "Planet",
+		"particlesOnTitle": "Always show the planet",
+		"particlesOff": "Network",
+		"particlesOffTitle": "Scattered particle network, no planet",
+		"particlesNone": "Off",
+		"particlesNoneTitle": "Disable particles",
+		"bgType": "Background type",
+		"canvas": "Canvas",
+		"wallpaper": "Wallpaper",
+		"reset": "Reset to defaults"
+	},
+	"footer": {
+		"brand": "Thinking is useful, but it is easy to get lost in it. I am not convinced by wisdom that amounts to lecturing, mentoring, and cultivating one's own image. When knowledge stays at the level of words, quotes, and winning arguments, it becomes just another illusion. What matters to me is what is grounded in reality and can be tested beyond one's own mind.",
+		"copyright": "Copyright {{startYear}}-{{year}} © by Sefinek. All Rights Reserved.",
+		"nowPlaying": "Now playing:",
+		"navigate": "Navigate",
+		"services": "Services",
+		"connect": "Connect",
+		"links": {
+			"home": "Home",
+			"projects": "Projects",
+			"gallery": "Gallery",
+			"printing": "3D Printing",
+			"tools": "Tools",
+			"blog": "Blog",
+			"profiles": "Profiles",
+			"blocklistGenerator": "Blocklist Generator",
+			"blocklistCollection": "Sefinek Blocklist Collection",
+			"sniffcat": "SniffCat",
+			"freeApi": "Free API",
+			"status": "Status",
+			"github": "GitHub",
+			"discord": "Discord",
+			"meshcore": "MeshCore Poland",
+			"email": "Email",
+			"support": "Support me",
+			"contact": "Contact"
+		}
+	}
+}

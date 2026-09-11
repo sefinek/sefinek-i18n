@@ -1,0 +1,56 @@
+{
+	"listLabel": "List",
+	"webLabel": "Website",
+	"blocklistGenerator": {
+		"desc": "Generate your own DNS blocklist for your server. Configure filters to match your preferences and start blocking exactly what you want.",
+		"tags": ["Security", "DNS", "Pi-hole", "AdGuard"]
+	},
+	"meshcorePolska": {
+		"desc": "A Polish community building an independent LoRa mesh radio network - no internet or cellular coverage required. Hardware, antenna, and firmware documentation, plus a Discord server for operators.",
+		"tags": ["LoRa", "Radio", "Mesh network", "Discord"]
+	},
+	"sniffcat": {
+		"desc": "Analyze and report malicious IP addresses. Check reputation and download blocklists for firewalls. No tracking, no hidden costs.",
+		"tags": ["Security", "API", "Threat Intelligence"]
+	},
+	"cloudflareWaf": {
+		"desc": "Production-ready Cloudflare WAF rules and an auto-update script. Block bots, scrapers, and malicious requests before they reach your origin server.",
+		"tags": ["Cloudflare", "WAF", "Security"]
+	},
+	"sefinekDnsBlocklists": {
+		"desc": "DNS blocklists for Pi-hole, AdGuard, Dnsmasq, Unbound, and more. Multiple formats, a whitelist system to reduce false positives, and updates every 3 hours. +45M requests served this year.",
+		"tags": ["DNS", "Blocklist", "AdGuard", "Pi-hole"]
+	},
+	"maliciousIpAddresses": {
+		"desc": "A list of IP addresses linked to botnets, cyberattacks, and bot traffic. Intended only for traffic classification - not for blocking.",
+		"tags": ["Security", "Blacklist", "IP"]
+	},
+	"trustedIpsWhitelist": {
+		"desc": "A list of IP addresses used by legitimate crawlers and services: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot, and more.",
+		"tags": ["Whitelist", "IP", "Crawlers"]
+	},
+	"tempEmailDomains": {
+		"desc": "A list of domains used by temporary/disposable email inboxes. Useful for filtering signups, blocking spam, and validating addresses.",
+		"tags": ["Spam", "Email", "Domains"]
+	},
+	"sefinekApi": {
+		"desc": "A free REST API for developers. Random images, data, and utilities. Most endpoints require no authorization.",
+		"tags": ["REST API", "Node.js", "Free"]
+	},
+	"esp32Monitoring": {
+		"desc": "Live environmental monitoring from the West Pomeranian Voivodeship in Poland. Temperature, humidity, pressure, and light served via an ESP32-S3 board and connected sensors.",
+		"tags": ["IoT", "ESP32", "Weather", "Node.js"]
+	},
+	"vstarcamEye4Viewer": {
+		"desc": "A local SD card viewer for Vstarcam / Eye4 cameras. Browse, filter, and play back recordings without the cloud or a mobile app.",
+		"tags": ["IoT", "Camera", "Node.js"]
+	},
+	"malkontenci": {
+		"desc": "A humorous parody of a psychology clinic. A 20-question test that sorts you into one of five types of complainers - pure satire, zero seriousness.",
+		"tags": ["Quiz", "Humor", "Test"]
+	},
+	"genshinStellaMod": {
+		"desc": "Better graphics and a way to unlock the 60 FPS cap in Genshin Impact. Play smoothly with significantly better visuals. A solid community and a 4.8-star rating on Trustpilot.",
+		"tags": ["C#", "ReShade", "Windows"]
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"nav": {
+		"home": "Strona główna",
+		"about": "O mnie",
+		"projects": "Projekty",
+		"blog": "Blog",
+		"docs": "Dokumentacja",
+		"tools": "Narzędzia",
+		"gallery": "Galeria",
+		"donate": "Wesprzyj",
+		"contact": "Kontakt",
+		"ariaLogo": "sefinek.net strona główna",
+		"ariaMain": "Nawigacja główna",
+		"ariaMobile": "Menu mobilne",
+		"ariaToggle": "Przełącz menu"
+	},
+	"ext": {
+		"freeApi": "Darmowe API",
+		"sniffcat": "SniffCat"
+	},
+	"lang": {
+		"label": "Język"
+	},
+	"noscript": "<strong>JavaScript jest wyłączony.</strong> Niektóre funkcje tej strony mogą nie działać poprawnie. Włącz JavaScript w ustawieniach przeglądarki.",
+	"bgSettings": {
+		"title": "Ustawienia tła",
+		"music": "Muzyka",
+		"musicVolume": "Głośność muzyki",
+		"ambient": "Dźwięki ambientowe",
+		"ambientVolume": "Głośność ambientu",
+		"intro": "Intro modemu",
+		"introTitle": "Odtwarzaj dźwięk łączenia się modemu przy wejściu na stronę główną",
+		"rhythm": "Rytm muzyki",
+		"rhythmTitle": "Bas, perkusja i arpeggio w tle (bez pada ambientowego)",
+		"clicks": "Dźwięki kliknięć",
+		"clicksAria": "Dźwięki kliknięć myszą",
+		"clicksVolume": "Głośność kliknięć",
+		"keys": "Dźwięki klawiatury",
+		"keysAria": "Dźwięki klawiatury (pisanie)",
+		"keysVolume": "Głośność klawiatury",
+		"fpsLimit": "Limit FPS",
+		"particles": "Cząstki",
+		"particlesOn": "Planeta",
+		"particlesOnTitle": "Zawsze pokazuj planetę",
+		"particlesOff": "Sieć",
+		"particlesOffTitle": "Rozproszona sieć cząstek, bez planety",
+		"particlesNone": "Wył.",
+		"particlesNoneTitle": "Wyłącz cząstki",
+		"bgType": "Typ tła",
+		"canvas": "Canvas",
+		"wallpaper": "Tapeta",
+		"reset": "Przywróć domyślne ustawienia"
+	},
+	"footer": {
+		"brand": "Myślenie jest przydatne, ale łatwo się w nim zgubić. Nie przekonuje mnie mądrość, która sprowadza się do pouczania, mentorowania, podtrzymywania własnej narracji i dbania o wizerunek. Kiedy wiedza zostaje tylko w słowach, cytatach i wygrywaniu rozmów, staje się iluzją. Liczy się dla mnie to, co ma kontakt z rzeczywistością i da się sprawdzić poza własną głową.",
+		"copyright": "Copyright {{startYear}}-{{year}} © by Sefinek. All Rights Reserved.",
+		"nowPlaying": "Teraz gramy:",
+		"navigate": "Nawigacja",
+		"services": "Usługi",
+		"connect": "Społeczność",
+		"links": {
+			"home": "Strona główna",
+			"projects": "Projekty",
+			"gallery": "Galeria",
+			"printing": "Druk 3D",
+			"tools": "Narzędzia",
+			"blog": "Blog",
+			"profiles": "Profile",
+			"blocklistGenerator": "Generator blocklist",
+			"blocklistCollection": "Sefinek Blocklist Collection",
+			"sniffcat": "SniffCat",
+			"freeApi": "Darmowe API",
+			"status": "Status",
+			"github": "GitHub",
+			"discord": "Discord",
+			"meshcore": "MeshCore Polska",
+			"email": "E-mail",
+			"support": "Wesprzyj mnie",
+			"contact": "Kontakt"
+		}
+	}
+}

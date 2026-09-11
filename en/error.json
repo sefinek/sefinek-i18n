@@ -1,0 +1,32 @@
+{
+	"label": "Error {{code}}",
+	"report": "Report this issue:",
+	"goHome": "Go home",
+	"goBack": "Go back",
+	"unknown": {
+		"title": "Error",
+		"message": "An unexpected error occurred."
+	},
+	"codes": {
+		"404": {
+			"title": "Page Not Found",
+			"message": "We couldn't find the page you're looking for. The address may be incorrect, outdated, or the page may have been moved. Check the URL you entered or go back home."
+		},
+		"423": {
+			"title": "Locked",
+			"message": "This resource is currently locked and cannot be processed."
+		},
+		"429": {
+			"title": "Too Many Requests",
+			"message": "We received too many requests in a short period of time. Wait a moment before trying again so the system can safely handle your request."
+		},
+		"500": {
+			"title": "Internal Server Error",
+			"message": "A server-side problem occurred and the request could not be processed correctly. If this error keeps happening, please contact us and describe what you were trying to do."
+		},
+		"503": {
+			"title": "Service Unavailable",
+			"message": "The service is temporarily unavailable because the server is overloaded or maintenance is in progress. This is usually short-lived, so please try again in a few minutes. If the problem persists, please contact us."
+		}
+	}
+}

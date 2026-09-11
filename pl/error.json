@@ -1,0 +1,32 @@
+{
+	"label": "Błąd {{code}}",
+	"report": "Zgłoś ten problem:",
+	"goHome": "Strona główna",
+	"goBack": "Wstecz",
+	"unknown": {
+		"title": "Błąd",
+		"message": "Wystąpił nieoczekiwany błąd."
+	},
+	"codes": {
+		"404": {
+			"title": "Nie znaleziono strony",
+			"message": "Nie udało się odnaleźć strony, której szukasz. Adres może być nieprawidłowy, nieaktualny albo strona została przeniesiona. Sprawdź wpisany URL lub wróć na stronę główną."
+		},
+		"423": {
+			"title": "Zablokowane",
+			"message": "Ten zasób jest obecnie zablokowany i nie może zostać przetworzony."
+		},
+		"429": {
+			"title": "Zbyt wiele żądań",
+			"message": "Otrzymaliśmy zbyt wiele żądań w krótkim czasie. Odczekaj chwilę przed ponowną próbą, aby system mógł bezpiecznie obsłużyć Twoje zapytanie."
+		},
+		"500": {
+			"title": "Wewnętrzny błąd serwera",
+			"message": "Wystąpił problem po stronie serwera i nie udało się poprawnie przetworzyć żądania. Jeśli błąd będzie się powtarzał, skontaktuj się z nami i opisz, co próbowałeś zrobić."
+		},
+		"503": {
+			"title": "Usługa niedostępna",
+			"message": "Usługa jest tymczasowo niedostępna, ponieważ serwer jest przeciążony albo trwają prace konserwacyjne. Zwykle jest to krótkotrwałe, więc spróbuj ponownie za kilka minut. Jeśli problem będzie się powtarzał, skontaktuj się z nami."
+		}
+	}
+}

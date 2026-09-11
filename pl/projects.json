@@ -1,0 +1,56 @@
+{
+	"listLabel": "Lista",
+	"webLabel": "Strona WWW",
+	"blocklistGenerator": {
+		"desc": "Wygeneruj własną blocklistę dla swojego serwera DNS. Skonfiguruj filtry według własnych upodobań i zacznij blokować to, co faktycznie chcesz.",
+		"tags": ["Bezpieczeństwo", "DNS", "Pi-hole", "AdGuard"]
+	},
+	"meshcorePolska": {
+		"desc": "Polska społeczność budująca niezależną, radiową sieć komunikacji mesh w oparciu o LoRa - bez internetu i zasięgu komórkowego. Dokumentacja, anteny, konfiguracja, mapa, a także serwer Discord.",
+		"tags": ["LoRa", "Radio", "Sieć mesh", "Discord"]
+	},
+	"sniffcat": {
+		"desc": "Analizuj i zgłaszaj złośliwe adresy IP. Sprawdzaj reputację, pobieraj blacklisty do firewalli. Bez śledzenia i ukrytych kosztów.",
+		"tags": ["Bezpieczeństwo", "API", "Threat Intelligence"]
+	},
+	"cloudflareWaf": {
+		"desc": "Gotowe do produkcji reguły Cloudflare WAF i skrypt ich automatycznej aktualizacji. Blokuj boty, scrapery i złośliwe żądania, zanim dotrą one do Twojego źródłowego serwera.",
+		"tags": ["Cloudflare", "WAF", "Bezpieczeństwo"]
+	},
+	"sefinekDnsBlocklists": {
+		"desc": "Blocklisty DNS dla Pi-hole, AdGuard, Dnsmasq, Unbound i nie tylko. Wiele formatów, system whitelist do ograniczania false positive i aktualizacje co 3 godziny. Ponad 45 milionów obsłużonych żądań w ciągu roku.",
+		"tags": ["DNS", "Blocklist", "AdGuard", "Pi-hole"]
+	},
+	"maliciousIpAddresses": {
+		"desc": "Lista adresów IP powiązanych z botnetami, cyberatakami i sztucznym ruchem. Służy wyłącznie do klasyfikowania ruchu - nie do jego blokowania.",
+		"tags": ["Bezpieczeństwo", "Blacklist", "IP"]
+	},
+	"trustedIpsWhitelist": {
+		"desc": "Lista adresów IP używanych przez legalne crawlery i usługi: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot i inne.",
+		"tags": ["Whitelist", "IP", "Crawlery"]
+	},
+	"tempEmailDomains": {
+		"desc": "Lista domen używanych przez tymczasowe skrzynki e-mail. Przydatna przy filtrowaniu rejestracji, blokowaniu spamu i walidacji adresów.",
+		"tags": ["Spam", "Email", "Domeny"]
+	},
+	"sefinekApi": {
+		"desc": "Darmowe REST API dla deweloperów. Losowe obrazy, dane i inne narzędzia. Większość endpointów nie wymaga autoryzacji.",
+		"tags": ["REST API", "Node.js", "Darmowe"]
+	},
+	"esp32Monitoring": {
+		"desc": "Monitoring środowiska na żywo z województwa zachodniopomorskiego w Polsce. Temperatura, wilgotność, ciśnienie i światło serwowane dzięki płytce ESP32-S3 i podłączonym czujnikom.",
+		"tags": ["IoT", "ESP32", "Pogoda", "Node.js"]
+	},
+	"vstarcamEye4Viewer": {
+		"desc": "Lokalna przeglądarka kart SD dla kamer Vstarcam / Eye4. Przeglądaj, filtruj i odtwarzaj nagrania bez chmury ani aplikacji mobilnej.",
+		"tags": ["IoT", "Kamera", "Node.js"]
+	},
+	"malkontenci": {
+		"desc": "Żartobliwa parodia poradni psychologicznej. 20-pytaniowy test klasyfikujący Cię do jednej z pięciu kategorii malkontentów - czysta satyra, zero powagi.",
+		"tags": ["Quiz", "Humor", "Test"]
+	},
+	"genshinStellaMod": {
+		"desc": "Lepsza grafika oraz odblokowanie limitu 60 FPS dla Genshin Impact. Graj płynnie i z znacznie lepszą grafiką. Spora społeczność i 4.8-gwiazdkowa ocena na Trustpilot.",
+		"tags": ["C#", "ReShade", "Windows"]
+	}
+}

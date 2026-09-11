@@ -1,0 +1,28 @@
+{
+	"meta": {
+		"title": "Dokumentacja | Sefinek",
+		"description": "Dokumentacja, poradniki i listy komend dla różnych projektów.",
+		"tags": "dokumentacja, poradniki, meshcore, cli"
+	},
+	"label": "Dokumentacja",
+	"heading": "Docs",
+	"indexSub": "Poradniki, listy komend i dokumentacja techniczna dla różnych projektów.",
+	"docsCrumb": "Docs",
+	"startWith": "Rozpocznij od {{title}}",
+	"onThisPage": "Na tej stronie",
+	"published": "Utworzono",
+	"updated": "Zaktualizowano",
+	"prev": "Poprzednia",
+	"next": "Następna",
+	"fallbackNotice": "Ta strona nie została jeszcze przetłumaczona - pokazujemy wersję oryginalną.",
+	"langNotice": "Dokumentacja jest pisana głównie po polsku, więc tłumaczenia na angielski mogą być niedokładne. Jeśli znajdziesz błąd w tłumaczeniu, utwórz nowy Issue lub Pull request w [repozytorium tłumaczeń](https://github.com/sefinek/sefinek-i18n).",
+	"byLangHeading": "Dokumenty według języka",
+	"byLangEmpty": "Brak dokumentów w tym języku.",
+	"otherLangNotice": "Ta dokumentacja jest dostępna także w języku {{langs}}.",
+	"otherLangSwitch": "Aby zmienić język, kliknij ikonę języka u góry strony.",
+	"langName_pl": "polskim",
+	"langName_en": "angielskim",
+	"pageCount_one": "{{count}} strona",
+	"pageCount_few": "{{count}} strony",
+	"pageCount_many": "{{count}} stron"
+}
