@@ -10,23 +10,23 @@
 	"codes": {
 		"404": {
 			"title": "Nie znaleziono strony",
-			"message": "Nie udało się odnaleźć strony, której szukasz. Adres może być nieprawidłowy, nieaktualny albo strona została przeniesiona. Sprawdź wpisany URL lub wróć na stronę główną."
+			"message": "Nie udało się znaleźć strony, której szukasz. Adres może być nieprawidłowy lub nieaktualny, albo strona mogła zostać przeniesiona. Sprawdź adres URL lub wróć na stronę główną."
 		},
 		"423": {
-			"title": "Zablokowane",
+			"title": "Zasób zablokowany",
 			"message": "Ten zasób jest obecnie zablokowany i nie może zostać przetworzony."
 		},
 		"429": {
 			"title": "Zbyt wiele żądań",
-			"message": "Otrzymaliśmy zbyt wiele żądań w krótkim czasie. Odczekaj chwilę przed ponowną próbą, aby system mógł bezpiecznie obsłużyć Twoje zapytanie."
+			"message": "Otrzymaliśmy zbyt wiele żądań w krótkim czasie. Odczekaj chwilę i spróbuj ponownie."
 		},
 		"500": {
 			"title": "Wewnętrzny błąd serwera",
-			"message": "Wystąpił problem po stronie serwera i nie udało się poprawnie przetworzyć żądania. Jeśli błąd będzie się powtarzał, skontaktuj się z nami i opisz, co próbowałeś zrobić."
+			"message": "Wystąpił problem po stronie serwera i nie udało się przetworzyć żądania. Jeśli problem będzie się powtarzał, skontaktuj się ze mną."
 		},
 		"503": {
 			"title": "Usługa niedostępna",
-			"message": "Usługa jest tymczasowo niedostępna, ponieważ serwer jest przeciążony albo trwają prace konserwacyjne. Zwykle jest to krótkotrwałe, więc spróbuj ponownie za kilka minut. Jeśli problem będzie się powtarzał, skontaktuj się z nami."
+			"message": "Usługa jest tymczasowo niedostępna z powodu przeciążenia serwera lub prac konserwacyjnych. Spróbuj ponownie za kilka minut."
 		}
 	}
 }
