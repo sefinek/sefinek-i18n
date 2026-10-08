@@ -6,7 +6,7 @@
 	},
 	"page": {
 		"heading": "Weryfikacja na serwerze Discord",
-		"subtitle": "Aby dołączyć na ten serwer, musisz przejść weryfikację. Zgodnie z Warunkami korzystania z usługi użytkownicy muszą spełniać również minimalne wymagania wiekowe. Globalne minimum to 13 lat, jednak w niektórych krajach obowiązują inne wymagania wiekowe (np. 16+ w Polsce). Sprawdź <a href=\"https://support.discord.com/hc/en-us/community/posts/360050817374-Age-restriction\" target=\"_blank\" rel=\"noopener noreferrer\">pełną listę wymagań wiekowych</a>. Niespełnienie wymagań wiekowych może skutkować banem na tym serwerze. Pamiętaj, aby myśleć, przed wysłaniem jakiejkolwiek wiadomości."
+		"subtitle": "Aby dołączyć na ten serwer, musisz przejść weryfikację. Zgodnie z Warunkami korzystania z usługi użytkownicy muszą spełniać również minimalne wymagania wiekowe. Globalne minimum to 13 lat, jednak w niektórych krajach obowiązują inne wymagania wiekowe (np. 16+ w Polsce). Sprawdź <a href=\"https://support.discord.com/hc/en-us/community/posts/360050817374-Age-restriction\" target=\"_blank\" rel=\"noopener noreferrer\">pełną listę wymagań wiekowych</a>. Niespełnienie wymagań wiekowych może skutkować banem na tym serwerze. Pamiętaj, aby myśleć przed wysłaniem jakiejkolwiek wiadomości."
 	},
 	"steps": {
 		"initial": { "title": "Weryfikacja wstępna", "desc": "Ukończ weryfikację poniżej" },

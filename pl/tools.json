@@ -1,0 +1,55 @@
+{
+	"meta": {
+		"title": "Narzędzia | Sefinek",
+		"description": "Przydatne i czasem mniej przydatne narzędzia Sefinka - sprawdzanie IP, generator blocklist i więcej.",
+		"keywords": "narzędzia, sprawdzanie IP, generator blocklist, darmowe API, sefin tools"
+	},
+	"intro": "Przydatne i czasem mniej przydatne narzędzia do różnych zadań. Darmowe, bez konta.",
+	"open": "Otwórz",
+	"external": "Zewnętrzne narzędzia i zasoby",
+	"reportFalsePositive": "Zgłoś błędne blokowanie",
+	"githubRepository": "Repozytorium GitHub",
+	"newProject": "Nowy projekt",
+	"cards": {
+		"blocklist": {
+			"title": "Blocklist Generator",
+			"description": "Twórz własne blocklisty dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Wybierz, co blokować, i od razu dostań URL-e."
+		},
+		"ip": {
+			"title": "Sprawdzanie adresu IP",
+			"description": "Pobierz dane GeoIP i sprawdź, czy adres IP jest powiązany z proxy, VPN, TOR albo złośliwą aktywnością."
+		},
+		"sniffcat": {
+			"description": "Sprawdź dowolny adres IP pod kątem złośliwej aktywności. Threat intelligence z wielu źródeł, aktualizowany na bieżąco."
+		},
+		"api": {
+			"description": "Publiczne REST API dla deweloperów. Losowe obrazy i narzędzia. Większość endpointów nie wymaga autoryzacji."
+		}
+	},
+	"ipChecker": {
+		"meta": {
+			"title": "Sprawdzanie IP - Proxy, VPN, TOR, złośliwość | Sefinek",
+			"description": "Użyj narzędzia IP Checker, aby pobrać dane GeoIP i sprawdzić, czy adres IP jest powiązany z proxy, VPN, TOR albo złośliwą aktywnością.",
+			"keywords": "geoip, sprawdzanie IP, proxy, VPN, TOR, złośliwe adresy IP, darmowe narzędzia"
+		},
+		"heading": "Darmowe sprawdzanie danych IP",
+		"placeholder": "Wpisz adres IP do sprawdzenia",
+		"submit": "Sprawdź teraz",
+		"documentation": "Oficjalna dokumentacja API",
+		"documentationTitle": "Zobacz oficjalną dokumentację API.",
+		"geoIp": "Dane GeoIP",
+		"geoIpTitle": "Zobacz dane GeoIP dla podanego adresu IP",
+		"threat": "VPN/Proxy/TOR/Złośliwe?",
+		"threatTitle": "Sprawdź, czy IP jest powiązane z VPN, proxy, TOR albo złośliwą aktywnością.",
+		"waiting": "Oczekiwanie...",
+		"notice": "Pamiętaj, że to darmowe API bez limitów. Niektóre wyniki mogą być niedokładne. Polecam dodatkowo sprawdzić",
+		"sniffcatTitle": "SniffCat to szybka, szanująca prywatność baza nadużyć IP i platforma threat intelligence dla administratorów oraz specjalistów cyberbezpieczeństwa.",
+		"js": {
+			"invalidIp": "Wpisz poprawny adres IP.",
+			"loadingGeoIp": "Pobieranie danych (1)...",
+			"loadingThreat": "Pobieranie danych (2)...",
+			"geoIpError": "Błąd pobierania danych GeoIP!",
+			"threatError": "Błąd pobierania danych VPN/Proxy!"
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"meta": {
+		"title": "Tools | Sefinek",
+		"description": "Useful and sometimes less useful tools by Sefinek - IP lookup, a blocklist generator and more.",
+		"keywords": "tools, IP checker, blocklist generator, free API, sefin tools"
+	},
+	"intro": "Useful and sometimes less useful tools for various tasks. Free, no account required.",
+	"open": "Open",
+	"external": "External tools and resources",
+	"reportFalsePositive": "Report incorrect blocking",
+	"githubRepository": "GitHub repository",
+	"newProject": "New project",
+	"cards": {
+		"blocklist": {
+			"title": "Blocklist Generator",
+			"description": "Create your own blocklists for AdGuard, Pi-hole, Unbound, Dnsmasq and more. Choose what to block and get the URLs right away."
+		},
+		"ip": {
+			"title": "IP address lookup",
+			"description": "Look up GeoIP data and check whether an IP address is associated with a proxy, VPN, TOR or malicious activity."
+		},
+		"sniffcat": {
+			"description": "Check any IP address for malicious activity. Threat intelligence from multiple sources, continuously updated."
+		},
+		"api": {
+			"description": "Public REST API for developers. Random images and tools. Most endpoints require no authorization."
+		}
+	},
+	"ipChecker": {
+		"meta": {
+			"title": "IP Lookup - Proxy, VPN, TOR, malicious activity | Sefinek",
+			"description": "Use IP Checker to retrieve GeoIP data and check whether an IP address is associated with a proxy, VPN, TOR or malicious activity.",
+			"keywords": "geoip, IP checker, proxy check, VPN check, TOR check, malicious IP, IP lookup, free tools"
+		},
+		"heading": "Free IP address lookup",
+		"placeholder": "Enter an IP address to check",
+		"submit": "Check now",
+		"documentation": "Official API documentation",
+		"documentationTitle": "View the official API documentation.",
+		"geoIp": "GeoIP data",
+		"geoIpTitle": "View GeoIP data for the specified IP address",
+		"threat": "VPN/Proxy/TOR/Malicious?",
+		"threatTitle": "Check whether the IP address is associated with a VPN, proxy, TOR or malicious activity.",
+		"waiting": "Waiting...",
+		"notice": "This is a free API with no limits. Some results may be inaccurate. I also recommend checking",
+		"sniffcatTitle": "SniffCat is a fast, privacy-respecting IP abuse database and threat intelligence platform for administrators and cybersecurity professionals.",
+		"js": {
+			"invalidIp": "Enter a valid IP address.",
+			"loadingGeoIp": "Fetching data (1)...",
+			"loadingThreat": "Fetching data (2)...",
+			"geoIpError": "Failed to fetch GeoIP data!",
+			"threatError": "Failed to fetch VPN/Proxy data!"
+		}
+	}
+}
