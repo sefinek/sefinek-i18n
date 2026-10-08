@@ -1,0 +1,62 @@
+{
+	"meta": {
+		"title": "DBVictory server statistics - live player tracking and server monitoring",
+		"description": "Track DBVictory (DBV) server statistics in real time. Monitor player activity, online counts, monsters and server uptime in World 1 and World 2.",
+		"keywords": "DBVictory, DBV, server statistics, player stats, online players, game server monitoring, real-time stats, server uptime, MMORPG stats"
+	},
+	"controls": "Statistics time range selection",
+	"rangeAria": "Choose the time range for displayed statistics",
+	"intervalAria": "Choose the data display interval",
+	"chartsAria": "Server statistics charts",
+	"world1": {
+		"onlineAria": "Interactive chart showing current and historical online player counts in DBVictory World 1",
+		"monstersAria": "Interactive chart showing monster counts and statistics in DBVictory World 1",
+		"uptimeAria": "Interactive chart showing uptime and availability of the DBVictory World 1 server",
+		"online": "World - online players",
+		"monsters": "World - monsters",
+		"uptime": "World - uptime"
+	},
+	"world2": {
+		"onlineAria": "Interactive chart showing current and historical online player counts in DBVictory World 2",
+		"monstersAria": "Interactive chart showing monster counts and statistics in DBVictory World 2",
+		"uptimeAria": "Interactive chart showing uptime and availability of the DBVictory World 2 server",
+		"online": "World II - online players",
+		"monsters": "World II - monsters",
+		"uptime": "World II - uptime"
+	},
+	"comparisonAria": "World statistics comparison",
+	"comparisonChartAria": "Interactive comparison chart showing player counts, monsters and uptime for both DBVictory worlds",
+	"heading": "DBVictory :: A legend with an ending...",
+	"intro": "Real-time player activity monitoring on Dragon Ball Victory (Open Tibia Server) servers.",
+	"updated": "Last updated:",
+	"loading": "Loading, please wait...",
+	"range": "Time range:",
+	"ranges": {
+		"day": "Last 24 hours",
+		"threeDays": "Last 3 days",
+		"week": "Last 7 days",
+		"twoWeeks": "Last 14 days",
+		"month": "Last 30 days",
+		"all": "All available data"
+	},
+	"interval": "Data interval (average):",
+	"chartsTitle": "Player statistics by world",
+	"noscript": "JavaScript is required to display interactive charts.",
+	"comparison": "Comparison - both worlds",
+	"comparisonDescription": "Key DBVictory World 1 and World 2 metrics compared side by side",
+	"chartLabels": {
+		"players": "players",
+		"monsters": "monsters",
+		"hours": "hours",
+		"offline": "Offline",
+		"intervals": {
+			"1": "Every 1 minute",
+			"10": "Every 10 minutes",
+			"30": "Every 30 minutes",
+			"60": "Every 1 hour",
+			"240": "Every 4 hours",
+			"720": "Every 12 hours",
+			"1440": "Every 24 hours"
+		}
+	}
+}

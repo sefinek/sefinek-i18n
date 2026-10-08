@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Blog | Sefinek",
+		"description": "Tutorials, devlogs, opinions and practical resources from Sefinek. In Polish and English.",
+		"keywords": "sefinek blog, tutorials, devlog, security, self-hosting, dns, cloudflare, pi-hole"
+	},
+	"featuredAria": "Featured post",
+	"languageFilter": "Filter by language",
+	"categoryFilter": "Filter by category",
+	"searchPlaceholder": "Search posts…",
+	"searchLabel": "Search posts",
+	"clearSearch": "Clear search",
+	"label": "Knowledge base",
+	"intro": {
+		"start": "Tutorials, devlogs, opinions and practical resources. Written in Polish",
+		"end": "and English"
+	},
+	"featured": "Featured",
+	"readArticle": "Read article",
+	"allTopics": "All topics",
+	"security": "Security",
+	"empty": "No posts match the filters.",
+	"emptyHint": "Change the filters or clear your search.",
+	"all": "All",
+	"english": "English",
+	"polish": "Polish",
+	"tutorials": "Tutorials",
+	"opinions": "Opinions",
+	"read": "Read",
+	"categories": {
+		"tutorial": "Tutorial",
+		"devlog": "DevLog",
+		"security": "Security",
+		"opinion": "Opinion"
+	}
+}

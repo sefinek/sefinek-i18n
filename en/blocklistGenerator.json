@@ -1,0 +1,113 @@
+{
+	"meta": {
+		"title": "Blocklist Generator | Sefinek",
+		"description": "Create custom DNS blocklists for AdGuard, Pi-hole, Unbound, Dnsmasq and more. Choose categories and get ready-to-use URLs.",
+		"keywords": "blocklist generator, dns blocklist, adguard home, pi-hole, unbound, dnsmasq, rpz, domain list, sefinek"
+	},
+	"softwareDescription": "Generate custom DNS blocklists for AdGuard, Pi-hole, Unbound, Dnsmasq and other filtering software.",
+	"modalAria": "Generated blocklist",
+	"label": "DNS filtering",
+	"heading": "Blocklist Generator",
+	"intro": {
+		"start": "Choose categories and a DNS format to get ready-to-use URLs. The lists are hosted on",
+		"end": "and updated twice a day."
+	},
+	"notice": {
+		"start": "Avoid downloading the lists too frequently. Excessive downloads may result in a block. I recommend downloading once a day, preferably at night. See the",
+		"link": "update schedule",
+		"end": ". You can use it as a reference when configuring cron. Good luck!"
+	},
+	"generator": "Generator",
+	"updated": "Last updated",
+	"groups": {
+		"core": "Core",
+		"security": "Security",
+		"content": "Content",
+		"other": "Other",
+		"social": "Social media",
+		"apps": "Apps and games"
+	},
+	"all": "All",
+	"none": "None",
+	"categories": {
+		"ads": "Ads",
+		"tracking": "Tracking and telemetry",
+		"malicious": "Malicious",
+		"abuse": "Abuse",
+		"fraud": "Fraud",
+		"piracy": "Piracy",
+		"redirects": "Redirects",
+		"suspicious": "Suspicious",
+		"nsfw": "Pornography / NSFW",
+		"drugs": "Drugs",
+		"gambling": "Gambling",
+		"dating": "Dating sites",
+		"dead": "Dead domains",
+		"useless": "Useless / parked",
+		"extension": "Extension pack",
+		"polish": "Polish filters",
+		"crypto": "Crypto sites",
+		"anime": "Anime sites"
+	},
+	"sponsored": "Sponsored by",
+	"format": {
+		"title": "Output format",
+		"nullExample": "0.0.0.0 domain",
+		"localhost": "Localhost redirect",
+		"localhostExample": "127.0.0.1 domain",
+		"plain": "Plain domain list",
+		"domainOnly": "domain only"
+	},
+	"selectedUrls": "URLs · selected",
+	"selectedCategories": "categories",
+	"preview": "Preview generated list",
+	"download": "Download as .txt",
+	"copy": "Copy all",
+	"email": {
+		"title": "Send by email",
+		"description": "Receive an email with the lists. Up to 3 emails per day.",
+		"send": "Send"
+	},
+	"protection": {
+		"title": "Check whether it works",
+		"description": "Verify whether your network actually uses these blocklists.",
+		"check": "Check again"
+	},
+	"modalTitle": "Generated list ·",
+	"urls": "URLs",
+	"close": "Close",
+	"js": {
+		"copied": "Copied!",
+		"emailTitle": "Send by email",
+		"emailRequired": "Enter an email address.",
+		"categoryRequired": "Select at least one category first.",
+		"sending": "Sending...",
+		"sent": "Sent. Check your inbox.",
+		"error": "Something went wrong.",
+		"sendError": "Failed to send. Try again.",
+		"checking": "Checking...",
+		"protected": "Your protection is active",
+		"partialProtection": "Partial protection - check your configuration",
+		"unprotected": "You are not using these lists"
+	},
+	"errors": {
+		"missing": "`email` or `generatedBlocklist` is missing.",
+		"tooLarge": "Blocklist is too large.",
+		"empty": "Blocklist is empty.",
+		"invalidUrls": "Blocklist contains {{count}} unrecognized URL(s).",
+		"dailyLimit": "Daily limit reached ({{count}} requests). Please try again tomorrow.",
+		"invalidEmail": "Invalid email address or no MX records.",
+		"send": "Failed to send blocklist."
+	},
+	"mail": {
+		"subject": "Your generated blocklist from sefinek.net",
+		"greeting": "Hello {{name}}!",
+		"intro": "Here is your personalized blocklist, generated just for you. More details are available at",
+		"support": "If you find this tool helpful, please consider",
+		"supportLink": "supporting my work",
+		"questions": "Have any questions or suggestions? Just reply to this email. Have a great day!",
+		"generatorVersion": "Generator version:",
+		"updated": "last updated {{date}}",
+		"websiteVersion": "Website version:"
+	}
+}

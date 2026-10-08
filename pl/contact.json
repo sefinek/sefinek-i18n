@@ -1,0 +1,21 @@
+{
+	"meta": {
+		"title": "Kontakt | Sefinek",
+		"description": "Masz pytania albo potrzebujesz pomocy? Skontaktuj się z Sefinkiem przez e-mail lub Discord.",
+		"keywords": "contact sefinek, email, discord, github issues, support"
+	},
+	"heading": "Skontaktuj się ze mną",
+	"intro": "Masz pytania albo potrzebujesz pomocy? Napisz śmiało! Zazwyczaj odpowiadam w ciągu 24-48 godzin.",
+	"discordMessage": "Napisz na Discordzie",
+	"emailDescription": "Najlepsze miejsce na szczegółowe pytania, propozycje współpracy i zgłoszenia błędów. Mam Thunderbirda włączonego cały czas, więc zwykle nie trzeba czekać długo na odpowiedź.",
+	"discordServer": "Serwer Discord",
+	"discordDescription": "Dobre miejsce na szybkie pytania, luźne rozmowy i wzajemne wsparcie od innych. Informuję tu też na bieżąco o nowościach i zmianach w moich projektach.",
+	"githubDescription": "Przeglądaj moje repozytoria i znajdź to, którego dotyczy Twoja sprawa. Błąd, pomysł na nową funkcję albo pytanie techniczne - zgłoś je jako Issue bezpośrednio pod odpowiednim projektem.",
+	"status": "Status usług",
+	"statusDescription": "Zanim napiszesz w sprawie awarii, zerknij najpierw na stronę statusu - aktualizuje się automatycznie i zwykle widać tam, czy problem jest już znany.",
+	"cta": {
+		"title": "Chcesz się tylko przywitać?",
+		"description": "Napisz w dowolnym momencie. Czytam wszystko i staram się odpowiadać każdemu."
+	},
+	"label": "Kontakt"
+}

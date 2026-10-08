@@ -1,0 +1,31 @@
+{
+	"meta": {
+		"title": "Wesprzyj moją pracę | Sefinek",
+		"description": "Wesprzyj projekty open source Sefinka przez PayPal, Patreon, Ko-fi, GitHub Sponsors albo przedmioty CS2.",
+		"keywords": "support sefinek, donate, patreon, ko-fi, paypal, github sponsors, cs2 skins"
+	},
+	"label": "Wsparcie open source",
+	"heading": "Wesprzyj moją pracę",
+	"intro": {
+		"start": "Większość moich projektów jest",
+		"highlight": "darmowych i open source",
+		"end": ", które działają 24/7 na domowym serwerze, utrzymuje je dodatkowo sam. Jeśli któreś z nich Ci się przydało, rozważ wsparcie mojej pracy. Nawet mała darowizna pomoże utrzymać serwery online i zdecydowanie zmotywuje mnie do dalszej pracy. Dziękuję!"
+	},
+	"paypal": "Szybka jednorazowa darowizna. Przy płatności kartą konto nie jest wymagane. Najprostsza opcja.",
+	"patreon": "Miesięczne wsparcie. Dobre, jeśli regularnie korzystasz z moich narzędzi i chcesz wspierać je stale.",
+	"kofi": "Postaw mi kawę. Luźne wsparcie jednorazowe albo cykliczne. Konto nie jest wymagane.",
+	"github": "Sponsoruj bezpośrednio na GitHubie. Dostępne są progi miesięczne. Wsparcie pojawia się na moim profilu GitHub.",
+	"steam": {
+		"title": "Skiny CS2 i przedmioty Steam",
+		"description": "Masz w ekwipunku Steam przedmioty, które chcesz przekazać? Skiny CS2 i inne przedmioty Steam są mile widziane i bardzo doceniane.",
+		"link": "Tutaj jest mój trade URL",
+		"thanks": "- dzięki!"
+	},
+	"why": {
+		"title": "Dlaczego warto wesprzeć?",
+		"description": "Moje serwery przetwarzają dziennie tysiące Waszych zapytań. Twoje wsparcie bezpośrednio pomaga utrzymywać te usługi dostępne 24/7 dla wszystkich. Dlaczego nie hostuję swoich usług za darmo w Oracle? Cóż, nie mam ochoty uzależniać się od zewnętrznych firm ani przekazywać im pełnych danych osobowych tylko po to, żeby dostać darmowy serwer VPS. Jestem szanującą się osobą."
+	},
+	"sponsor": "Sponsoruj na GitHubie",
+	"coffee": "Postaw kawę",
+	"note": "Wszystkie moje projekty open source są w pełni non-profit. Rozwijam je po godzinach, w wolnym czasie i bez żadnego wynagrodzenia. Jeśli zechcesz wesprzeć ich utrzymanie, każda, nawet najdrobniejsza darowizna jest dla mnie ogromnym wsparciem i motywacją do dalszej pracy. Z całego serca dziękuję! ฅ^•ﻌ•^ฅ"
+}

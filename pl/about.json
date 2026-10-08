@@ -1,0 +1,48 @@
+{
+	"meta": {
+		"title": "O mnie | Sefinek",
+		"description": "Poznaj Sefinka - programistę samouka z Polski, którego interesuje bezpieczeństwo sieci, open source, serwery domowe i budowanie rzeczy, które naprawdę działają.",
+		"keywords": "sefinek, about, developer, poland, open source, network security, home server"
+	},
+	"label": "Poznaj mnie",
+	"heading": "O mnie",
+	"intro": "Cześć, jestem Sefinek - samouk z Polski z obsesją na punkcie prywatności, bezpieczeństwa sieci i tworzenia rzeczy, które wnoszą coś dobrego. Lubię mieć kontrolę nad tym, co uruchamiam - najlepiej na własnym sprzęcie, szumiącym gdzieś w rogu pokoju.",
+	"bio": {
+		"title": "Kim jestem",
+		"beginning": "Moja przygoda z informatyką zaczęła się mniej więcej w wieku 13 lat. Początkowo próbowałem tworzyć strony w różnych kreatorach online, ale szybko zaczęły mi przeszkadzać ich ograniczenia. Efekty często wydawały mi się ubogie, dlatego postanowiłem spróbować zrobić coś samodzielnie. Znalazłem pierwszy lepszy kurs HTML-a na YouTube i od tego właściwie wszystko się zaczęło.",
+		"programming": "Później zainteresowałem się plikami wsadowymi, a z czasem także programowaniem w C# i C++. Na początku była to głównie ciekawość i chęć eksperymentowania. Nie miałem konkretnego planu ani większego celu. Po prostu lubiłem sprawdzać, jak coś działa, zmieniać różne rzeczy i szukać własnych rozwiązań.",
+		"servers": "Pierwszy większy krok w stronę serwerów zrobiłem, gdy potrzebowałem miejsca do uruchomienia własnego bota na Discordzie. Kupiłem wtedy pierwszego VPS-a z prawdopodobnie Ubuntu 18.04.",
+		"today": "Dzisiaj programowanie traktuję głównie jako narzędzie do realizowania własnych pomysłów. Znacznie bardziej interesują mnie serwery, zarządzanie usługami i rozbudowana infrastruktura. Coraz więcej uwagi poświęcam też infrastrukturze radiowej, która daje mi zupełnie nowe pole do eksperymentowania.",
+		"learning": "Większości rzeczy nauczyłem się samodzielnie. Już jako dzieciak rzadko prosiłem kogokolwiek o pomoc - były to jeszcze czasy sprzed powszechnego dostępu do narzędzi AI, więc odpowiedzi trzeba było szukać samemu, głównie w dokumentacji, na forach i metodą prób i błędów. Z czasem rzeczy, które zaczynałem tworzyć wyłącznie dla siebie, zaczęły być używane również przez innych."
+	},
+	"firstSteps": {
+		"title": "Pierwsze kroki",
+		"description": "Już jako dzieciak sporo odbiegałem od rówieśników. Oni woleli marnować czas na graniu, a ja wolałem robić coś pożytecznego - nawet na sprzęcie, na którym nawet Tibia potrafiła lagować, nie mówiąc już o oglądaniu filmów na YouTube. Mimo to doceniałem to, co miałem. Był to jakiś Acer z Windows 7 i 2GB RAM-u - to właśnie na nim postawiłem pierwsze kroki z HTML-em. Nie licząc tego, moim pierwszym komputerem był jeszcze wcześniej Windows XP, z dyskiem twardym o pojemności jakichś 50GB."
+	},
+	"work": {
+		"title": "Czym się zajmuję",
+		"infrastructure": "Najwięcej czasu poświęcam administracji serwerami, infrastrukturze sieciowej i pokrewnym tematom. W domu utrzymuję własne środowisko oparte głównie na Proxmoxie, obejmujące wiele maszyn i usług, w tym także honeypoty. Zajmuję się również utrzymaniem blocklist oraz analizowaniem złośliwych adresów IP z wykorzystaniem OSINT-u. Zebrane dane trafiają później do SniffCat i AbuseIPDB.",
+		"openSource": "Większość swoich projektów publikuję jako open source. Lubię otwarte i możliwie liberalne podejście do oprogramowania oraz dzielenia się kodem. Programowanie traktuję głównie jako narzędzie do automatyzacji, integracji usług oraz budowania własnych rozwiązań i nowych platform.",
+		"radio": "Obecnie sporo uwagi poświęcam także MeshCore i infrastrukturze radiowej - repeatery, LoRa, zasilanie off-grid, anteny i SDR. Jak trzeba, to również coś polutuję."
+	},
+	"interests": {
+		"homeServers": "Serwery domowe",
+		"security": "Bezpieczeństwo sieci",
+		"dns": "DNS i blocklisty",
+		"radio": "Krótkofalarstwo",
+		"title": "Zainteresowania",
+		"automation": "Automatyzacja",
+		"diy": "Majsterkowanie",
+		"electronics": "Elektronika"
+	},
+	"technology": "Technologie i narzędzia",
+	"music": "Gust muzyczny",
+	"personal": {
+		"title": "Poza technologią",
+		"music": "Podczas pracy praktycznie zawsze słucham muzyki.",
+		"photography": "Czasem zajmuję się fotografią, obecnie głównie z wykorzystaniem drona.",
+		"anime": "Kiedyś zdarzało mi się oglądać anime, ale dziś praktycznie w ogóle mnie to nie interesuje.",
+		"games": "Gry również zeszły u mnie na dalszy plan - zdecydowanie bardziej wolę coś pożytecznego zrobić.",
+		"cats": "Zdecydowanie lubię koty."
+	}
+}

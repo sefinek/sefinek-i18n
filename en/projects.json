@@ -27,54 +27,161 @@
 	},
 	"blocklistGenerator": {
 		"desc": "Generate your own DNS blocklist for your server. Configure filters to match your preferences and start blocking exactly what you want.",
-		"tags": ["Security", "DNS", "Pi-hole", "AdGuard"]
+		"tags": [
+			"Security",
+			"DNS",
+			"Pi-hole",
+			"AdGuard"
+		]
 	},
 	"meshcorePolska": {
 		"desc": "A Polish community building an independent LoRa mesh radio network - no internet or cellular coverage required. Documentation, antennas, configuration, a map and a Discord server.",
-		"tags": ["LoRa", "Radio", "Mesh network", "Discord"]
+		"tags": [
+			"LoRa",
+			"Radio",
+			"Mesh network",
+			"Discord"
+		]
 	},
 	"sniffcat": {
 		"desc": "Analyze and report malicious IP addresses. Check reputation and download blocklists for firewalls. No tracking, no hidden costs.",
-		"tags": ["Security", "API", "Threat Intelligence"]
+		"tags": [
+			"Security",
+			"API",
+			"Threat Intelligence"
+		]
 	},
 	"cloudflareWaf": {
 		"desc": "Cloudflare WAF rules ready for production use and a script for automatic updates. Block bots, scrapers and malicious requests. Integration with SniffCat and AbuseIPDB.",
-		"tags": ["Cloudflare", "WAF", "Security"]
+		"tags": [
+			"Cloudflare",
+			"WAF",
+			"Security"
+		]
 	},
 	"sefinekDnsBlocklists": {
 		"desc": "DNS blocklists for Pi-hole, AdGuard, Dnsmasq, Unbound and more. Multiple formats, allowlists to reduce incorrect blocking and updates every 3 hours. Over 45 million requests served in a year.",
-		"tags": ["DNS", "Blocklist", "AdGuard", "Pi-hole"]
+		"tags": [
+			"DNS",
+			"Blocklist",
+			"AdGuard",
+			"Pi-hole"
+		]
 	},
 	"maliciousIpAddresses": {
 		"desc": "A list of IP addresses linked to botnets, cyberattacks and artificial traffic. Intended only for traffic classification - not for blocking.",
-		"tags": ["Security", "Blacklist", "IP"]
+		"tags": [
+			"Security",
+			"Blacklist",
+			"IP"
+		]
 	},
 	"trustedIpsWhitelist": {
 		"desc": "A list of IP addresses used by trusted crawlers and services: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot and more.",
-		"tags": ["Whitelist", "IP", "Crawlers"]
+		"tags": [
+			"Whitelist",
+			"IP",
+			"Crawlers"
+		]
 	},
 	"tempEmailDomains": {
 		"desc": "A list of domains used by temporary/disposable email inboxes. Useful for filtering signups, blocking spam, and validating addresses.",
-		"tags": ["Spam", "Email", "Domains"]
+		"tags": [
+			"Spam",
+			"Email",
+			"Domains"
+		]
 	},
 	"sefinekApi": {
 		"desc": "A free REST API for developers. Random images, data, and utilities. Most endpoints require no authorization.",
-		"tags": ["REST API", "Node.js", "Free"]
+		"tags": [
+			"REST API",
+			"Node.js",
+			"Free"
+		]
 	},
 	"esp32Monitoring": {
 		"desc": "Live environmental readings from the West Pomeranian Voivodeship in Poland. Temperature, humidity, pressure and light intensity measured by sensors connected to an ESP32-S3 board.",
-		"tags": ["IoT", "ESP32", "Weather", "Node.js"]
+		"tags": [
+			"IoT",
+			"ESP32",
+			"Weather",
+			"Node.js"
+		],
+		"name": "ESP32 environmental monitoring"
 	},
 	"vstarcamEye4Viewer": {
 		"desc": "A local viewer for recordings stored on SD cards in Vstarcam / Eye4 cameras. Browse, filter and play back recordings without the cloud or a mobile app.",
-		"tags": ["IoT", "Camera", "Node.js"]
+		"tags": [
+			"IoT",
+			"Camera",
+			"Node.js"
+		]
 	},
 	"malkontenci": {
 		"desc": "A humorous parody of a psychology clinic. A test with 20 questions that places you in one of five categories of complainers - pure satire.",
-		"tags": ["Quiz", "Humor", "Test"]
+		"tags": [
+			"Quiz",
+			"Humor",
+			"Test"
+		]
 	},
 	"genshinStellaMod": {
 		"desc": "Better graphics and the ability to exceed the 60 FPS cap in Genshin Impact. Play more smoothly and enjoy improved visuals. A large community and a 4.8/5 rating on Trustpilot.",
-		"tags": ["C#", "ReShade", "Windows"]
+		"tags": [
+			"C#",
+			"ReShade",
+			"Windows"
+		]
+	},
+	"meta": {
+		"title": "Projects | Sefinek",
+		"description": "Sefinek's open source projects - network security tools, DNS blocklists, APIs, integration scripts and more.",
+		"keywords": "sefinek projects, open source, dns blocklist, sniffcat, stella mod, npm packages, node.js"
+	},
+	"filterLabel": "Filter projects",
+	"searchPlaceholder": "Search projects...",
+	"clearSearch": "Clear search",
+	"label": "Open source work",
+	"featured": {
+		"label": "Flagship project",
+		"description": "One of the most comprehensive DNS blocklists for AdGuard, Pi-hole and any DNS server. 100+ curated lists, 7 output formats. Updated every 3 hours through GitHub Actions.",
+		"privacy": "Privacy",
+		"domains": "Blocked domains",
+		"stars": "GitHub stars",
+		"lists": "Curated lists"
+	},
+	"empty": "No projects found in this category.",
+	"integrations": {
+		"label": "Security tools",
+		"title": "Reporter integrations",
+		"description": "Automated integrations for reporting IP abuse - send malicious traffic from your stack directly to threat intelligence platforms.",
+		"source": "Source",
+		"soon": "Coming soon"
+	},
+	"npm": {
+		"label": "npm ecosystem",
+		"title": "npm packages",
+		"description": "Reusable modules published for the community.",
+		"geoip": "A fast, native GeoIP implementation in JS based on MaxMind. An improved and maintained fork.",
+		"moecounter": "Efficient moe counters for displaying statistics on websites or in projects.",
+		"emailValidator": "Lightweight email address validation for browsers and Node.js.",
+		"randomAnimals": "Fetch random animal images from a fast API.",
+		"ufw": "A lightweight, fast UFW firewall log parser. Supports TCP flags, timestamps and detailed packet metadata.",
+		"sitemap": "A free, simple sitemap.xml generator without limits. Works with any site structure, with no configuration.",
+		"cleverbot": "An unofficial npm module for the Cleverbot API. Simple and free - no API key required.",
+		"more": "+ more on npm",
+		"all": "View all published packages in the npm registry."
+	},
+	"heading": "Projects",
+	"filters": {
+		"all": "All",
+		"security": "Security",
+		"lists": "Lists",
+		"api": "APIs and tools",
+		"infra": "Infrastructure",
+		"community": "Community",
+		"meme": "Memes",
+		"gaming": "Gaming"
 	}
 }

@@ -1,0 +1,13 @@
+{
+	"meta": {
+		"title": "Serwery Discord | Sefinek",
+		"description": "Lista serwerów Discord prowadzonych przez Sefinka - główny, ogólny serwer oraz społeczność MeshCore Polska.",
+		"keywords": "sefinek discord, serwer discord, meshcore polska discord"
+	},
+	"mainIcon": "Ikona serwera Discord Sefinek",
+	"meshcoreLogo": "Logo MeshCore Polska",
+	"heading": "Serwery Discord",
+	"intro": "Prowadzę tak naprawdę więcej serwerów. Natomiast tutaj wymieniłem jedynie te najbardziej potrzebne.",
+	"mainDescription": "Służy on głównie do wysyłana ważnych informacji oraz o informowaniu użytkownikach o zmianach w moich projektach. Otwarty dla wszystkich, po polsku i angielsku.",
+	"meshcoreDescription": "Polska społeczność budująca niezależną, radiową sieć komunikacji mesh w oparciu o LoRa. Anteny, sprzęt, konfiguracja firmware i pomoc dla nowych operatorów."
+}

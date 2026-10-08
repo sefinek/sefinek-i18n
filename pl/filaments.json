@@ -1,0 +1,131 @@
+{
+	"meta": {
+		"title": "Druk 3D - filamenty i zapasy | Sefinek",
+		"description": "Aktualny stan filamentów do druku 3D: rodzaje (PLA, PETG), kolory z kodami HEX i orientacyjny zapas każdej szpuli. Drukuję też na zamówienie.",
+		"keywords": "druk 3d, filamenty, pla, petg, sefinek, wydruki 3d, kolory filamentów, hex"
+	},
+	"stats": {
+		"label": "Podsumowanie filamentów",
+		"types": "RODZAJE FILAMENTU",
+		"colors": "DOSTĘPNE KOLORY",
+		"updated": "AKTUALIZACJA DANYCH"
+	},
+	"label": "Druk 3D",
+	"heading": "Filamenty i zapasy",
+	"intro": {
+		"start": "Trzymam tu publicznie aktualny stan filamentów, na których drukuję - z podziałem na rodzaje, dokładnymi kolorami (z kodami HEX) i orientacyjnym zapasem każdej szpuli, gdzie",
+		"highlight": "100% to jedna pełna szpula",
+		"end": "(więcej niż jedna potrafi przekroczyć 100%). Listę aktualizuję ręcznie, więc traktuj ją jako podgląd tego, co mam pod ręką. Coś Ci pasuje?"
+	},
+	"contact": "Napisz do mnie",
+	"guide": {
+		"label": "Mały poradnik",
+		"title": "Czym różni się PLA od PETG?",
+		"description": "Krótko i bez technicznego żargonu - tyle, żeby łatwo wybrać materiał odpowiedni do Twojego wydruku.",
+		"good": "Dobry do",
+		"avoid": "Unikaj"
+	},
+	"nozzle": "Dysza",
+	"bed": "Stół",
+	"cta": {
+		"title": "Chcesz coś wydrukować?",
+		"description": "Wyślij mi model albo opisz, czego potrzebujesz, a wycenię wydruk i ustalę termin."
+	},
+	"note": {
+		"stock": "Zapas jest orientacyjny i aktualizowany ręcznie - dostępność konkretnego koloru potwierdzam przy zamówieniu.",
+		"colors": "Kolory na ekranie mogą się nieznacznie różnić od rzeczywistych ze względu na różne panele i ustawienia wyświetlaczy."
+	},
+	"stockAria": "Zapas: {{color}}",
+	"stock": {
+		"empty": "Brak",
+		"crit": "Końcówka",
+		"low": "Mała ilość",
+		"mid": "Średnia ilość",
+		"high": "Duża ilość",
+		"vhigh": "Bardzo dużo"
+	},
+	"families": {
+		"pla-matte": {
+			"desc": "Matowy PLA bez połysku - wydruki mają jednolitą, matową strukturę, która świetnie maskuje warstwy. Łatwy w druku i w pełni biodegradowalny. Idealny do figurek, dekoracji i elementów, które mają ładnie wyglądać.",
+			"traits": [
+				"Łatwy w druku",
+				"Matowa struktura powierzchni",
+				"Biodegradowalny",
+				"Mała wytrzymałość mechaniczna"
+			],
+			"colors": [
+				"Mandarynkowy pomarańcz",
+				"Trawiasty zielony",
+				"Szkarłatna czerwień",
+				"Kość słoniowa biała",
+				"Węgiel drzewny"
+			]
+		},
+		"pla-silk": {
+			"desc": "PLA z jedwabistym, niemal chromowanym połyskiem i gładką, lustrzaną powierzchnią. Ma lepszą adhezję warstw niż zwykły silk i drukuje się bezproblemowo, ale wciąż jest bardziej dekoracyjny niż użytkowy - połysk ładnie ukrywa drobne defekty, choć wytrzymałość nadal pozostaje niska.",
+			"traits": [
+				"Chromowany połysk",
+				"Lepsza adhezja warstw",
+				"Ściana zewn. 50 mm/s dla połysku",
+				"Suszenie przed drukiem"
+			],
+			"colors": [
+				"Niebieski"
+			]
+		},
+		"pla-basic": {
+			"desc": "Klasyczny, uniwersalny PLA z gładką powierzchnią. Najprostszy w druku materiał, w pełni biodegradowalny - dobry do prototypów, modeli i większości codziennych wydruków, które nie są mocno obciążane.",
+			"traits": [
+				"Łatwy w druku",
+				"Gładka powierzchnia",
+				"Biodegradowalny",
+				"Sztywny, ale kruchy"
+			],
+			"colors": [
+				"Czarny",
+				"Cyjan"
+			]
+		},
+		"petg-hf": {
+			"desc": "PETG High Flow - wytrzymały, lekko elastyczny materiał odporny na uderzenia, wilgoć i warunki zewnętrzne, z gładką, miękką w dotyku powierzchnią. Dzięki High Flow drukuje się szybko i bez większego strojenia. Świetny do elementów funkcjonalnych, obudów i części narażonych na obciążenia.",
+			"traits": [
+				"Szybki druk i mało strojenia",
+				"Wytrzymały, odporny na uderzenia",
+				"Odporny na warunki zewnętrzne",
+				"Gładka, miękka powierzchnia",
+				"Suszenie przed drukiem"
+			],
+			"colors": [
+				"Czarny",
+				"Niebieski",
+				"Biały"
+			]
+		},
+		"petg-translucent": {
+			"desc": "Półprzezroczysty PETG o lekko prześwitującym, mlecznym wyglądzie. Wytrzymały, łatwy w druku i mało podatny na warping. Świetny do kloszy, elementów dekoracyjnych i obudów, w których chcesz przepuścić trochę światła.",
+			"traits": [
+				"Półprzezroczysty wygląd",
+				"Wytrzymały",
+				"Łatwy w druku",
+				"Mały warping"
+			],
+			"colors": [
+				"Przezroczysty"
+			]
+		}
+	},
+	"materials": {
+		"0": {
+			"tag": "Najłatwiejszy",
+			"summary": "Najprostszy i najbardziej wyrozumiały materiał do druku - wybacza błędy i wychodzi ładnie nawet bez dopieszczania ustawień, choć podczas druku potrafi trochę śmierdzieć. Jest sztywny, ale dość kruchy i mięknie już w stosunkowo wysokich temperaturach, więc nie nadaje się do części narażonych na ciepło czy spore obciążenia.",
+			"good": "Figurki, dekoracje, prototypy itp. Modele, które mają po prostu ładnie wyglądać",
+			"avoid": "Nasłonecznione miejsca, mróz, mocne obciążenia mechanicznie"
+		},
+		"1": {
+			"tag": "Wytrzymały",
+			"summary": "Łączy względną łatwość druku z realną wytrzymałością - jest odporny na uderzenia, wilgoć i wyższe temperatury, a pod naciskiem raczej się ugina, niż pęka od razu. Wariant HF (High Flow) pozwala drukować szybciej, a sam materiał to coś, na czym możesz polegać w częściach użytkowych.",
+			"good": "Obudowy, uchwyty, mocowania oraz części funkcjonalne i mechaniczne",
+			"avoid": "Bardzo drobne, precyzyjne detale czysto dekoracyjne"
+		}
+	}
+}

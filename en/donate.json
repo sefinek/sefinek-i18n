@@ -1,0 +1,31 @@
+{
+	"meta": {
+		"title": "Support my work | Sefinek",
+		"description": "Support Sefinek's open source projects through PayPal, Patreon, Ko-fi, GitHub Sponsors or CS2 items.",
+		"keywords": "support sefinek, donate, patreon, ko-fi, paypal, github sponsors, cs2 skins"
+	},
+	"label": "Support open source",
+	"heading": "Support my work",
+	"intro": {
+		"start": "Most of my projects are",
+		"highlight": "free and open source",
+		"end": ", running 24/7 on a home server that I also maintain myself. If any of them have been useful to you, consider supporting my work. Even a small donation helps keep the servers online and motivates me to keep going. Thank you!"
+	},
+	"paypal": "A quick one-time donation. No account is required when paying by card. The simplest option.",
+	"patreon": "Monthly support. A good choice if you regularly use my tools and want to support them on an ongoing basis.",
+	"kofi": "Buy me a coffee. Casual one-time or recurring support. No account required.",
+	"github": "Sponsor me directly on GitHub. Monthly tiers are available. Your support appears on my GitHub profile.",
+	"steam": {
+		"title": "CS2 skins and Steam items",
+		"description": "Have items in your Steam inventory you'd like to donate? CS2 skins and other Steam items are welcome and greatly appreciated.",
+		"link": "Here's my trade URL",
+		"thanks": "- thanks!"
+	},
+	"why": {
+		"title": "Why support my work?",
+		"description": "My servers process thousands of your requests every day. Your support directly helps keep these services available 24/7 for everyone. Why don't I host my services for free on Oracle? Well, I don't want to depend on outside companies or hand over all my personal details just to get a free VPS. I have self-respect."
+	},
+	"sponsor": "Sponsor on GitHub",
+	"coffee": "Buy me a coffee",
+	"note": "All my open source projects are entirely non-profit. I develop them after hours, in my free time, without any pay. If you decide to support their upkeep, every donation, however small, means a lot to me and motivates me to keep working. Thank you from the bottom of my heart! ฅ^•ﻌ•^ฅ"
+}

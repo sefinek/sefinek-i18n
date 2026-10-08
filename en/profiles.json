@@ -1,0 +1,26 @@
+{
+	"meta": {
+		"title": "My profiles | Sefinek",
+		"description": "Sefinek's official profiles on platforms such as GitHub, npm, WakaTime, YouTube and Steam.",
+		"keywords": "sefinek profiles, github, npm, wakatime, youtube, steam, discord, abuseipdb, sniffcat"
+	},
+	"aria": {
+		"github": "GitHub profile",
+		"npm": "npm profile",
+		"wakatime": "WakaTime profile",
+		"youtube": "YouTube channel",
+		"steam": "Steam profile",
+		"discord": "Discord server",
+		"sniffcat": "SniffCat profile",
+		"abuseipdb": "AbuseIPDB profile"
+	},
+	"heading": "Where to find me",
+	"intro": "My official profiles online. Feel free to follow, leave a star or get in touch.",
+	"discord": "Discord server",
+	"contributor": "Contributor profile",
+	"reports": "2.5M+ reports",
+	"note": {
+		"start": "Current as of May 2026. If you find a fake profile impersonating me, contact me at",
+		"or": "or on"
+	}
+}

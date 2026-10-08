@@ -1,0 +1,16 @@
+{
+	"meta": {
+		"title": "Random cats | Sefinek",
+		"description": "Explore Sefinek's Random Kittens app for Microsoft Store. View various cat photos and discover breeds.",
+		"keywords": "msstore, random, random cats, random kittens, cat, cats, kitten, kittens, Microsoft Store, Random Kittens app, cat images, cat breeds, cat knowledge"
+	},
+	"repository": "GitHub repository",
+	"heading": "🐈 Random cats",
+	"source": "App source code",
+	"privacy": {
+		"title": "📝 Privacy policy",
+		"visit": "When visiting",
+		"logged": "your IP address is logged along with your",
+		"description": "This data is not shared with third parties. No other information is collected or stored. Server logs are deleted every few months."
+	}
+}

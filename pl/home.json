@@ -1,0 +1,93 @@
+{
+	"meta": {
+		"title": "Strona główna - oficjalna strona Sefinka",
+		"description": "Oficjalna strona Sefinka. Znajdziesz tu linki do moich profili, projektów i adres kontaktowy.",
+		"keywords": "sefinek, genshin impact, pihole blocklist generator, contact, github, projects, links, discord"
+	},
+	"statusBadge": "Website Status Badge",
+	"fullscreen": "Przełącz pełny ekran",
+	"stats": {
+		"label": "Najważniejsze liczby",
+		"experience": "Lat doświadczenia",
+		"stars": "Gwiazdek open source",
+		"followers": "Obserwujących na GitHubie",
+		"repositories": "Repozytoriów",
+		"reports": "Zgłoszonych złośliwych IP"
+	},
+	"about": {
+		"label": "O mnie",
+		"heading": "O mnie",
+		"title": "Najlepiej uczę się po swojemu.",
+		"description": "Jestem samoukiem i mieszkam w Polsce, w województwie zachodniopomorskim. Większości rzeczy nauczyłem się samodzielnie, głównie poprzez praktykę, własne projekty i pracę przy domowych serwerach. Lubię poznawać sposób działania różnych technologii, samodzielnie szukać rozwiązań i mieć możliwie dużą kontrolę nad usługami, z których korzystam. Nie gonię za trendami. Wolę rozwijać rzeczy, które są dla mnie rzeczywiście przydatne. Nie korzystam też z TikToka - zdecydowanie wolę przeznaczać ten czas na inne rzeczy. Podczas pracy niemal zawsze towarzyszy mi muzyka. Czasem zajmuję się również fotografią, obecnie głównie z wykorzystaniem drona. Uwielbiam też jeździć na rowerze i hulajnodze, nagrywając przejazdy kamerką zamontowaną na kasku.",
+		"more": "Poznaj mnie bliżej",
+		"profiles": "Profile społecznościowe"
+	},
+	"sniffcat": {
+		"contributor": "SniffCat Contributor",
+		"badge": "SniffCat Contributor Badge",
+		"title": "SniffCat, alternatywa dla AbuseIPDB",
+		"new": "Nowa platforma",
+		"description": "Platforma do sprawdzania reputacji i zgłaszania złośliwych adresów IP. Stworzyłem ją głównie z myślą o administratorach, programistach i osobach zajmujących się bezpieczeństwem sieci. Możesz sprawdzać reputację konkretnych adresów IP, zgłaszać nadużycia, pobierać czarne listy i korzystać z darmowego API. Wszystkie zgłoszenia są moderowane, a wbudowane whitelisty pomagają ograniczyć ryzyko błędnego oznaczania znanych i bezpiecznych botów. Bez śledzenia i ukrytych kosztów.",
+		"visit": "Odwiedź witrynę",
+		"report": "Zacznij zgłaszać"
+	},
+	"abuseipdb": {
+		"contributor": "AbuseIPDB Contributor",
+		"title": "AbuseIPDB Contributor",
+		"reports": "zgłoszonych IP"
+	},
+	"hero": {
+		"title": "Hej, jestem Sefinek",
+		"description": "Najbardziej interesują mnie serwery, infrastruktura i szeroko pojęta informatyka. Zajmuję się również programowaniem i OSINT-em. Utrzymuję sporą kolekcję blocklist przeznaczonych dla serwerów DNS. Od niedawna rozwijam też zainteresowanie krótkofalarstwem - obecnie szczególnie LoRa MeshCore. Jestem również nasłuchowcem, a w przyszłości planuję zdać egzamin i uzyskać własny znak wywoławczy. Jeśli masz ciekawy pomysł na projekt albo chciałbyś wspólnie nad czymś popracować, odezwij się do mnie! Tymczasem życzę Ci miłego dnia lub nocy. 73!",
+		"projects": "Zobacz projekty",
+		"contact": "Skontaktuj się",
+		"label": "Wprowadzenie"
+	},
+	"quote": {
+		"firstLine": "Ja nie żyję dla czasu, to czas jest dla mnie,",
+		"secondLine": "choć ciągle upływa nieubłaganie.",
+		"label": "Cytat"
+	},
+	"projects": {
+		"label": "Wybrane prace",
+		"title": "Wyróżnione projekty",
+		"description": "Wybrane narzędzia i projekty, które rozwijam.",
+		"all": "Wszystkie projekty",
+		"blocklists": "100+ kuratorowanych blocklist z 6M+ domen. Gotowe formaty dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Repozytorium aktualizowane co 3 godziny, na głównym serwerze 2 razy w nocy.",
+		"waf": "Reguły WAF do blokowania złośliwych zapytań, botów, skanerów i złośliwych IP. Integracja ze SniffCat i AbuseIPDB. Automatyczne wdrożenia. Wszystko działa na darmowym planie Cloudflare."
+	},
+	"blog": {
+		"label": "Baza wiedzy",
+		"title": "Z bloga",
+		"description": "Poradniki, devlogi i opinie. Po polsku i angielsku.",
+		"all": "Wszystkie wpisy",
+		"empty": "Nie ma jeszcze żadnych wpisów. Zapewne wkrótce coś się pojawi."
+	},
+	"now": {
+		"label": "Na bieżąco",
+		"title": "Czym zajmuję się teraz",
+		"building": "Aktualnie buduję",
+		"rebuildTitle": "Przebudowa sefinek.net",
+		"rebuildDescription": "Całkowita przebudowa strony po raz pierwszy od 5 lat. Nowy wygląd i funkcjonalny blog. To, co widzisz, jest właśnie wersją beta.",
+		"sideProject": "Poboczny projekt",
+		"meshcore": "Polska społeczność rozwijająca niezależną sieć komunikacji tekstowej, która działa bez internetu i zasięgu GSM. Nasze przekaźniki są zasilane za pomocą ogniw i paneli słonecznych.",
+		"profiles": "Publiczne profile operatorów i węzłów MeshCore, połączone z interaktywną mapą. Ułatwiają sprawdzanie informacji o repeaterach i ich właścicielach."
+	},
+	"contact": {
+		"description": "Jestem otwarty na ciekawe projekty i współpracę, a także na interesujące rozmowy na różne tematy.",
+		"profiles": "Wszystkie profile",
+		"support": "Wesprzyj mnie",
+		"label": "Kontakt",
+		"title": "Porozmawiajmy."
+	},
+	"minimize": "Minimalizuj",
+	"close": "Zamknij",
+	"egg": {
+		"title": "Znalazłeś easter egga ฅ^•ﻌ•^ฅ",
+		"minimize": "Minimalizuj",
+		"maximize": "Maksymalizuj",
+		"close": "Zamknij",
+		"sudoers": "nobody nie znajduje się w pliku sudoers. Ten incydent zostanie zgłoszony.",
+		"sandwich": "// Może poproś swoją dziewczynę o zrobienie Ci kanapki (;"
+	}
+}

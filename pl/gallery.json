@@ -1,0 +1,27 @@
+{
+	"meta": {
+		"title": "Galeria | Sefinek",
+		"description": "Galeria zdjęć Sefinka - życie, morze i koty. Chwile uchwycone w województwie zachodniopomorskim.",
+		"keywords": "gallery, photos, cats, sea, poland, sefinek, photography"
+	},
+	"filterLabel": "Filtruj według kategorii",
+	"preview": "Podgląd zdjęcia",
+	"closePreview": "Zamknij podgląd",
+	"previous": "Poprzednie zdjęcie",
+	"next": "Następne zdjęcie",
+	"intro": "Różne ciekawe (niektóre może mniej) zdjęcia wykonane przeze mnie.",
+	"empty": "Brak zdjęć w galerii.",
+	"label": "Fotografia",
+	"heading": "Galeria",
+	"all": "Wszystkie",
+	"photoCount": {
+		"one": "{{count}} zdjęcie",
+		"few": "{{count}} zdjęcia",
+		"many": "{{count}} zdjęć",
+		"other": "{{count}} zdjęcia"
+	},
+	"loadMore": "Pokaż więcej ({{count}})",
+	"categories": {
+		"my-cats": "Moje koty"
+	}
+}

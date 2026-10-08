@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"title": "@sefinek/email-validator Demo | Sefinek",
+		"description": "Interaktywne demo pakietu npm @sefinek/email-validator. Szybka i lekka walidacja adresów e-mail w przeglądarce.",
+		"keywords": "email validator, email validation, npm, javascript, sefinek, email-validator demo"
+	},
+	"softwareDescription": "Fast, lightweight email address validation library for JavaScript, with an interactive browser demo.",
+	"issues": "Zgłoszenia",
+	"lastCommit": "Ostatni commit",
+	"commitActivity": "Aktywność commitów",
+	"codeSize": "Rozmiar kodu",
+	"randomTitle": "Wygeneruj losowy e-mail",
+	"label": "pakiet npm",
+	"intro": "Szybka i lekka walidacja adresów e-mail dla przeglądarek i Node.js.",
+	"try": "Wypróbuj",
+	"description": "Wpisz adres e-mail poniżej, aby zwalidować go biblioteką działającą bezpośrednio w przeglądarce.",
+	"waiting": "Oczekiwanie na dane...",
+	"downloads": "Pobrania",
+	"validate": "Waliduj",
+	"random": "Losowy",
+	"valid": "Poprawny adres e-mail.",
+	"invalid": "Niepoprawny adres e-mail."
+}

@@ -1,0 +1,37 @@
+{
+	"meta": {
+		"title": "moecounter.js Demo | Sefinek",
+		"description": "An interactive demo of the moecounter.js npm package. Cute animated counters for GitHub profiles and web projects.",
+		"keywords": "moecounter, moecounter.js, npm, animated counter, github profile counter, moe counter"
+	},
+	"softwareDescription": "Cute, animated visitor counters for GitHub profiles and web projects.",
+	"issues": "Issues",
+	"lastCommit": "Last commit",
+	"commitActivity": "Commit activity",
+	"codeSize": "Code size",
+	"local": {
+		"preview": "Local moecounter preview",
+		"title": "Local control",
+		"description": "You control the displayed number. Connect the counter to your own database and display any value."
+	},
+	"valuePlaceholder": "Enter the counter value",
+	"lengthPlaceholder": "Enter the counter length",
+	"remote": {
+		"preview": "Remote moecounter preview",
+		"title": "Remote control",
+		"description": "The server manages the counter. Each unique visit increases the count - limited to one view per IP every 20 minutes."
+	},
+	"label": "npm package",
+	"intro": "Cute animated counters for GitHub profiles and web projects.",
+	"generatedUrl": "Generated URL",
+	"value": "Value",
+	"length": "Length",
+	"recommended": "Yes (recommended)",
+	"name": "Counter name",
+	"downloads": "Downloads",
+	"documentation": "Documentation",
+	"theme": "Theme",
+	"pixelated": "Pixelated",
+	"no": "No",
+	"waiting": "Waiting..."
+}

@@ -1,0 +1,15 @@
+{
+	"meta": {
+		"title": "Sefinek Blocklists for Microsoft Store | Sefinek",
+		"description": "Explore the Sefinek Blocklists app for Microsoft Store and manage the blocklist collection directly on Windows.",
+		"keywords": "sefinek blocklists, microsoft store, windows, dns blocklists, adblock"
+	},
+	"repository": "GitHub repository",
+	"source": "App source code",
+	"privacy": {
+		"title": "📝 Privacy policy",
+		"visit": "When visiting",
+		"logged": "your IP address is logged along with your",
+		"description": "This data is not shared with third parties. No other information is collected or stored. Server logs are deleted every few months."
+	}
+}

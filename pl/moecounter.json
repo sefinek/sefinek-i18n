@@ -1,0 +1,37 @@
+{
+	"meta": {
+		"title": "moecounter.js Demo | Sefinek",
+		"description": "Interaktywne demo pakietu npm moecounter.js. Urocze animowane liczniki do profili GitHub i projektów webowych.",
+		"keywords": "moecounter, moecounter.js, npm, animated counter, github profile counter, moe counter"
+	},
+	"softwareDescription": "Cute, animated visitor counters for GitHub profiles and web projects.",
+	"issues": "Zgłoszenia",
+	"lastCommit": "Ostatni commit",
+	"commitActivity": "Aktywność commitów",
+	"codeSize": "Rozmiar kodu",
+	"local": {
+		"preview": "Podgląd lokalnego moecountera",
+		"title": "Kontrola lokalna",
+		"description": "Ty kontrolujesz wyświetlaną liczbę. Podłącz licznik do własnej bazy danych i pokaż dowolną wartość."
+	},
+	"valuePlaceholder": "Wpisz wartość licznika",
+	"lengthPlaceholder": "Wpisz długość licznika",
+	"remote": {
+		"preview": "Podgląd zdalnego moecountera",
+		"title": "Kontrola zdalna",
+		"description": "Serwer zarządza licznikiem. Każda unikalna wizyta zwiększa wynik - limit to jedno wyświetlenie na IP co 20 minut."
+	},
+	"label": "pakiet npm",
+	"intro": "Urocze animowane liczniki do profili GitHub i projektów webowych.",
+	"generatedUrl": "Wygenerowany URL",
+	"value": "Wartość",
+	"length": "Długość",
+	"recommended": "Tak (zalecane)",
+	"name": "Nazwa licznika",
+	"downloads": "Pobrania",
+	"documentation": "Dokumentacja",
+	"theme": "Motyw",
+	"pixelated": "Pikselowy",
+	"no": "Nie",
+	"waiting": "Oczekiwanie..."
+}

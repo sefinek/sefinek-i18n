@@ -1,0 +1,25 @@
+{
+	"meta": {
+		"title": "Gallery | Sefinek",
+		"description": "Sefinek's photo gallery - life, the sea and cats. Moments captured in Poland's West Pomeranian Voivodeship.",
+		"keywords": "gallery, photos, cats, sea, poland, sefinek, photography"
+	},
+	"filterLabel": "Filter by category",
+	"preview": "Photo preview",
+	"closePreview": "Close preview",
+	"previous": "Previous photo",
+	"next": "Next photo",
+	"intro": "Various interesting (and perhaps some less interesting) photos I've taken.",
+	"empty": "No photos in the gallery.",
+	"label": "Photography",
+	"heading": "Gallery",
+	"all": "All",
+	"photoCount": {
+		"one": "{{count}} photo",
+		"other": "{{count}} photos"
+	},
+	"loadMore": "Show more ({{count}})",
+	"categories": {
+		"my-cats": "My cats"
+	}
+}

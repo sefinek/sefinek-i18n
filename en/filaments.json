@@ -1,0 +1,131 @@
+{
+	"meta": {
+		"title": "3D printing - filaments and stock | Sefinek",
+		"description": "Current 3D printing filament stock: types (PLA, PETG), colors with HEX codes and approximate stock for each spool. Custom printing is available too.",
+		"keywords": "3d printing, filaments, pla, petg, sefinek, 3d prints, filament colors, hex"
+	},
+	"stats": {
+		"label": "Filament summary",
+		"types": "FILAMENT TYPES",
+		"colors": "AVAILABLE COLORS",
+		"updated": "DATA UPDATED"
+	},
+	"label": "3D printing",
+	"heading": "Filaments and stock",
+	"intro": {
+		"start": "Here I keep a public overview of the filaments I print with - organized by type, precise colors (with HEX codes) and approximate stock for each spool, where",
+		"highlight": "100% means one full spool",
+		"end": "(more than one can exceed 100%). I update the list manually, so treat it as an overview of what I have on hand. See something you like?"
+	},
+	"contact": "Write to me",
+	"guide": {
+		"label": "A short guide",
+		"title": "What's the difference between PLA and PETG?",
+		"description": "Briefly and without technical jargon - just enough to help you choose the right material for your print.",
+		"good": "Good for",
+		"avoid": "Avoid"
+	},
+	"nozzle": "Nozzle",
+	"bed": "Bed",
+	"cta": {
+		"title": "Want something printed?",
+		"description": "Send me a model or describe what you need, and I'll quote the print and arrange a date."
+	},
+	"note": {
+		"stock": "Stock is approximate and updated manually - I confirm the availability of a specific color when you order.",
+		"colors": "Colors on screen may differ slightly from the actual colors due to different display panels and settings."
+	},
+	"stockAria": "Stock: {{color}}",
+	"stock": {
+		"empty": "Out of stock",
+		"crit": "Almost gone",
+		"low": "Low stock",
+		"mid": "Medium stock",
+		"high": "High stock",
+		"vhigh": "Very high stock"
+	},
+	"families": {
+		"pla-matte": {
+			"desc": "Matte PLA without gloss - prints have a uniform matte texture that hides layers well. Easy to print and fully biodegradable. Ideal for figurines, decorations and parts that should look good.",
+			"traits": [
+				"Easy to print",
+				"Matte surface texture",
+				"Biodegradable",
+				"Low mechanical strength"
+			],
+			"colors": [
+				"Mandarin orange",
+				"Grass green",
+				"Scarlet red",
+				"Ivory white",
+				"Charcoal"
+			]
+		},
+		"pla-silk": {
+			"desc": "PLA with a silky, almost chrome-like shine and a smooth, mirror-like surface. It has better layer adhesion than regular silk and prints easily, but is still more decorative than functional - the shine hides minor defects, while strength remains low.",
+			"traits": [
+				"Chrome-like shine",
+				"Better layer adhesion",
+				"Outer wall at 50 mm/s for shine",
+				"Dry before printing"
+			],
+			"colors": [
+				"Blue"
+			]
+		},
+		"pla-basic": {
+			"desc": "Classic, versatile PLA with a smooth surface. The easiest material to print and fully biodegradable - good for prototypes, models and most everyday prints that are not heavily loaded.",
+			"traits": [
+				"Easy to print",
+				"Smooth surface",
+				"Biodegradable",
+				"Rigid but brittle"
+			],
+			"colors": [
+				"Black",
+				"Cyan"
+			]
+		},
+		"petg-hf": {
+			"desc": "PETG High Flow - a strong, slightly flexible material resistant to impacts, moisture and outdoor conditions, with a smooth, soft-touch surface. High Flow enables fast printing with little tuning. Great for functional parts, enclosures and parts under load.",
+			"traits": [
+				"Fast printing with little tuning",
+				"Strong and impact-resistant",
+				"Resistant to outdoor conditions",
+				"Smooth, soft surface",
+				"Dry before printing"
+			],
+			"colors": [
+				"Black",
+				"Blue",
+				"White"
+			]
+		},
+		"petg-translucent": {
+			"desc": "Translucent PETG with a slightly see-through, milky appearance. Strong, easy to print and not prone to warping. Great for lampshades, decorative parts and enclosures that need to let some light through.",
+			"traits": [
+				"Translucent appearance",
+				"Strong",
+				"Easy to print",
+				"Low warping"
+			],
+			"colors": [
+				"Transparent"
+			]
+		}
+	},
+	"materials": {
+		"0": {
+			"tag": "Easiest",
+			"summary": "The simplest and most forgiving printing material - it tolerates mistakes and looks good even without finely tuned settings, though it can smell a little during printing. It is rigid but fairly brittle and softens at elevated temperatures, so it is unsuitable for parts exposed to heat or heavy loads.",
+			"good": "Figurines, decorations, prototypes and similar prints. Models that simply need to look good",
+			"avoid": "Sunny locations, frost and heavy mechanical loads"
+		},
+		"1": {
+			"tag": "Strong",
+			"summary": "Combines relatively easy printing with real strength - resistant to impacts, moisture and higher temperatures, and tends to bend under pressure rather than break immediately. The HF (High Flow) variant enables faster printing and is a material you can rely on for functional parts.",
+			"good": "Enclosures, handles, mounts and functional or mechanical parts",
+			"avoid": "Very small, precise details intended purely for decoration"
+		}
+	}
+}

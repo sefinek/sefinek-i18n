@@ -1,0 +1,16 @@
+{
+	"meta": {
+		"title": "Losowe koty | Sefinek",
+		"description": "Poznaj aplikację Random Kittens dla Microsoft Store od Sefinka. Oglądaj różne zdjęcia kotów i odkrywaj rasy.",
+		"keywords": "msstore, random, random cats, random kittens, cat, cats, kitten, kittens, Microsoft Store, Random Kittens app, cat images, cat breeds, cat knowledge"
+	},
+	"repository": "Repozytorium GitHub",
+	"heading": "🐈 Losowe koty",
+	"source": "Kod źródłowy aplikacji",
+	"privacy": {
+		"title": "📝 Polityka prywatności",
+		"visit": "Podczas odwiedzania",
+		"logged": "logowany jest Twój adres IP oraz",
+		"description": "Te dane nie są udostępniane podmiotom trzecim. Żadne inne informacje nie są zbierane ani przechowywane. Logi serwera są usuwane co kilka miesięcy."
+	}
+}

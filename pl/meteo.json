@@ -1,0 +1,112 @@
+{
+	"meta": {
+		"title": "Dane Meteo Zachodniopomorskie - Monitoring na Żywo | Sefinek",
+		"description": "Dane meteorologiczne na żywo z województwa zachodniopomorskiego: temperatura, wilgotność, ciśnienie i natężenie światła z czujników ESP32-S3, BME280 i BH1750.",
+		"keywords": "pogoda zachodniopomorskie, dane meteo, temperatura, wilgotność, ciśnienie atmosferyczne, czujnik deszczu, czujnik gazu, ESP32, stacja pogodowa, BME280, BH1750, MQ-2, IoT Polska"
+	},
+	"controls": "Kontrolki danych",
+	"rangeAria": "Wybierz zakres czasowy dla wyświetlanych danych",
+	"intervalAria": "Wybierz interwał agregacji danych",
+	"refreshAria": "Odśwież dane z czujników",
+	"currentAria": "Aktualne odczyty z czujników",
+	"celsius": "stopnie Celsjusza",
+	"chartsAria": "Wykresy historycznych danych z czujników",
+	"temperature": {
+		"chartAria": "Wykres liniowy przedstawiający temperaturę zewnętrzną i wewnętrzną w czasie",
+		"canvasAria": "Wykres temperatury",
+		"label": "Temperatura",
+		"history": "Historia temperatury"
+	},
+	"humidity": {
+		"chartAria": "Wykres liniowy przedstawiający wilgotność zewnętrzną i wewnętrzną w czasie",
+		"canvasAria": "Wykres wilgotności",
+		"label": "Wilgotność",
+		"history": "Historia wilgotności"
+	},
+	"pressure": {
+		"chartAria": "Wykres liniowy przedstawiający ciśnienie atmosferyczne w czasie",
+		"canvasAria": "Wykres ciśnienia",
+		"label": "Ciśnienie",
+		"history": "Historia ciśnienia",
+		"sensors": "zewnątrz · poziom morza · wewnątrz"
+	},
+	"light": {
+		"chartAria": "Wykres liniowy przedstawiający natężenie światła w czasie",
+		"canvasAria": "Wykres natężenia światła",
+		"label": "Natężenie światła",
+		"history": "Historia natężenia światła"
+	},
+	"rain": {
+		"chartAria": "Wykres liniowy przedstawiający intensywność opadów w czasie",
+		"canvasAria": "Wykres opadów",
+		"label": "Opady",
+		"history": "Historia opadów",
+		"sensor": "YL-83 · intensywność"
+	},
+	"gas": {
+		"chartAria": "Wykres liniowy przedstawiający intensywność gazu i dymu w czasie",
+		"canvasAria": "Wykres gazu i dymu",
+		"label": "Gaz / dym",
+		"history": "Historia gazu / dymu",
+		"sensor": "MQ-2 · intensywność"
+	},
+	"uptime": {
+		"chartAria": "Wykres liniowy przedstawiający czas działania systemu w czasie",
+		"canvasAria": "Wykres czasu działania",
+		"history": "Historia czasu działania systemu"
+	},
+	"heading": "Monitoring Środowiskowy ESP32",
+	"intro": "ESP32-S3 z czujnikami środowiskowymi: temperatura, wilgotność i ciśnienie (zewnątrz i wewnątrz), natężenie światła, opady oraz gaz/dym.",
+	"location": "Województwo Zachodniopomorskie, Polska",
+	"updated": "Ostatnia aktualizacja:",
+	"loading": "Ładowanie...",
+	"range": "Zakres czasowy:",
+	"ranges": {
+		"hour": "Ostatnia godzina",
+		"sixHours": "Ostatnie 6 godzin",
+		"twelveHours": "Ostatnie 12 godzin",
+		"day": "Ostatnie 24 godziny",
+		"twoDays": "Ostatnie 48 godzin",
+		"threeDays": "Ostatnie 3 dni",
+		"week": "Ostatni tydzień"
+	},
+	"interval": "Interwał danych:",
+	"intervals": {
+		"tenSeconds": "10 sekund",
+		"thirtySeconds": "30 sekund",
+		"minute": "1 minuta",
+		"fiveMinutes": "5 minut",
+		"fifteenMinutes": "15 minut",
+		"thirtyMinutes": "30 minut",
+		"hour": "1 godzina",
+		"fourHours": "4 godziny",
+		"eightHours": "8 godzin",
+		"sixteenHours": "16 godzin",
+		"day": "24 godziny"
+	},
+	"refresh": "Odśwież dane",
+	"outdoorSensor": "zewnątrz · BME280",
+	"seaLevel": "poziom morza",
+	"indoorSensor": "wewnątrz · BME280",
+	"outdoorVsIndoor": "zewnątrz vs wewnątrz",
+	"empty": "Brak danych",
+	"locationAria": "Lokalizacja",
+	"chartLabels": {
+		"temperature": "Zewnątrz",
+		"inTemp": "Wewnątrz",
+		"humidity": "Zewnątrz",
+		"inHumidity": "Wewnątrz",
+		"pressure": "Zewnątrz",
+		"pressureSL": "Poziom morza",
+		"inPressure": "Wewnątrz",
+		"light": "BH1750",
+		"rainPct": "Intensywność",
+		"gasPct": "Intensywność",
+		"uptime": "Uptime"
+	},
+	"units": {
+		"percent": "procent",
+		"pressure": "hektopaskale",
+		"light": "luksy"
+	}
+}

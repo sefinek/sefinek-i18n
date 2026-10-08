@@ -1,0 +1,112 @@
+{
+	"meta": {
+		"title": "West Pomeranian weather data - Live monitoring | Sefinek",
+		"description": "Live meteorological data from Poland's West Pomeranian Voivodeship: temperature, humidity, pressure and light intensity from ESP32-S3, BME280 and BH1750 sensors.",
+		"keywords": "west pomeranian weather, weather data, temperature, humidity, atmospheric pressure, rain sensor, gas sensor, ESP32, weather station, BME280, BH1750, MQ-2, IoT Poland"
+	},
+	"controls": "Data controls",
+	"rangeAria": "Choose the time range for displayed data",
+	"intervalAria": "Choose the data aggregation interval",
+	"refreshAria": "Refresh sensor data",
+	"currentAria": "Current sensor readings",
+	"celsius": "degrees Celsius",
+	"chartsAria": "Historical sensor data charts",
+	"temperature": {
+		"chartAria": "Line chart showing outdoor and indoor temperature over time",
+		"canvasAria": "Temperature chart",
+		"label": "Temperature",
+		"history": "Temperature history"
+	},
+	"humidity": {
+		"chartAria": "Line chart showing outdoor and indoor humidity over time",
+		"canvasAria": "Humidity chart",
+		"label": "Humidity",
+		"history": "Humidity history"
+	},
+	"pressure": {
+		"chartAria": "Line chart showing atmospheric pressure over time",
+		"canvasAria": "Pressure chart",
+		"label": "Pressure",
+		"history": "Pressure history",
+		"sensors": "outdoors · sea level · indoors"
+	},
+	"light": {
+		"chartAria": "Line chart showing light intensity over time",
+		"canvasAria": "Light intensity chart",
+		"label": "Light intensity",
+		"history": "Light intensity history"
+	},
+	"rain": {
+		"chartAria": "Line chart showing rainfall intensity over time",
+		"canvasAria": "Rainfall chart",
+		"label": "Rainfall",
+		"history": "Rainfall history",
+		"sensor": "YL-83 · intensity"
+	},
+	"gas": {
+		"chartAria": "Line chart showing gas and smoke intensity over time",
+		"canvasAria": "Gas and smoke chart",
+		"label": "Gas / smoke",
+		"history": "Gas / smoke history",
+		"sensor": "MQ-2 · intensity"
+	},
+	"uptime": {
+		"chartAria": "Line chart showing system uptime over time",
+		"canvasAria": "Uptime chart",
+		"history": "System uptime history"
+	},
+	"heading": "ESP32 environmental monitoring",
+	"intro": "ESP32-S3 with environmental sensors: temperature, humidity and pressure (outdoors and indoors), light intensity, rainfall and gas/smoke.",
+	"location": "West Pomeranian Voivodeship, Poland",
+	"updated": "Last updated:",
+	"loading": "Loading...",
+	"range": "Time range:",
+	"ranges": {
+		"hour": "Last hour",
+		"sixHours": "Last 6 hours",
+		"twelveHours": "Last 12 hours",
+		"day": "Last 24 hours",
+		"twoDays": "Last 48 hours",
+		"threeDays": "Last 3 days",
+		"week": "Last week"
+	},
+	"interval": "Data interval:",
+	"intervals": {
+		"tenSeconds": "10 seconds",
+		"thirtySeconds": "30 seconds",
+		"minute": "1 minute",
+		"fiveMinutes": "5 minutes",
+		"fifteenMinutes": "15 minutes",
+		"thirtyMinutes": "30 minutes",
+		"hour": "1 hour",
+		"fourHours": "4 hours",
+		"eightHours": "8 hours",
+		"sixteenHours": "16 hours",
+		"day": "24 hours"
+	},
+	"refresh": "Refresh data",
+	"outdoorSensor": "outdoors · BME280",
+	"seaLevel": "sea level",
+	"indoorSensor": "indoors · BME280",
+	"outdoorVsIndoor": "outdoors vs indoors",
+	"empty": "No data",
+	"locationAria": "Location",
+	"chartLabels": {
+		"temperature": "Outdoors",
+		"inTemp": "Indoors",
+		"humidity": "Outdoors",
+		"inHumidity": "Indoors",
+		"pressure": "Outdoors",
+		"pressureSL": "Sea level",
+		"inPressure": "Indoors",
+		"light": "BH1750",
+		"rainPct": "Intensity",
+		"gasPct": "Intensity",
+		"uptime": "Uptime"
+	},
+	"units": {
+		"percent": "percent",
+		"pressure": "hectopascals",
+		"light": "lux"
+	}
+}

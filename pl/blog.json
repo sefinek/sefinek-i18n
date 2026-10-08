@@ -1,0 +1,36 @@
+{
+	"meta": {
+		"title": "Blog | Sefinek",
+		"description": "Poradniki, devlogi, opinie i praktyczne materiały od Sefinka. Po polsku i angielsku.",
+		"keywords": "sefinek blog, tutorials, devlog, security, self-hosting, dns, cloudflare, pi-hole"
+	},
+	"featuredAria": "Wyróżniony wpis",
+	"languageFilter": "Filtruj według języka",
+	"categoryFilter": "Filtruj według kategorii",
+	"searchPlaceholder": "Szukaj wpisów…",
+	"searchLabel": "Szukaj wpisów",
+	"clearSearch": "Wyczyść wyszukiwanie",
+	"label": "Baza wiedzy",
+	"intro": {
+		"start": "Poradniki, devlogi, opinie i praktyczne materiały. Pisane po polsku",
+		"end": "i angielsku"
+	},
+	"featured": "Wyróżniony",
+	"readArticle": "Czytaj artykuł",
+	"allTopics": "Wszystkie tematy",
+	"security": "Bezpieczeństwo",
+	"empty": "Nie znaleziono wpisów pasujących do filtrów.",
+	"emptyHint": "Zmień filtry albo wyczyść wyszukiwanie.",
+	"all": "Wszystkie",
+	"english": "Angielski",
+	"polish": "Polski",
+	"tutorials": "Poradniki",
+	"opinions": "Opinie",
+	"read": "Czytaj",
+	"categories": {
+		"tutorial": "Poradnik",
+		"devlog": "DevLog",
+		"security": "Bezpieczeństwo",
+		"opinion": "Opinia"
+	}
+}

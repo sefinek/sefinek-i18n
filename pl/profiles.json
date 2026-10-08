@@ -1,0 +1,26 @@
+{
+	"meta": {
+		"title": "Moje profile | Sefinek",
+		"description": "Oficjalne profile Sefinka na różnych platformach, takich jak GitHub, npm, WakaTime, YouTube i Steam.",
+		"keywords": "sefinek profiles, github, npm, wakatime, youtube, steam, discord, abuseipdb, sniffcat"
+	},
+	"aria": {
+		"github": "Profil GitHub",
+		"npm": "Profil npm",
+		"wakatime": "Profil WakaTime",
+		"youtube": "Kanał YouTube",
+		"steam": "Profil Steam",
+		"discord": "Serwer Discord",
+		"sniffcat": "Profil SniffCat",
+		"abuseipdb": "Profil AbuseIPDB"
+	},
+	"heading": "Gdzie mnie znaleźć",
+	"intro": "Moje oficjalne profile w internecie. Możesz zaobserwować, dać gwiazdkę albo się odezwać.",
+	"discord": "Serwer Discord",
+	"contributor": "Profil kontrybutora",
+	"reports": "2.5M+ zgłoszeń",
+	"note": {
+		"start": "Aktualne na maj 2026. Jeśli trafisz na fałszywy profil podszywający się pode mnie, skontaktuj się ze mną przez",
+		"or": "albo na"
+	}
+}

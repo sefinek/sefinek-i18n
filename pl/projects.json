@@ -27,54 +27,161 @@
 	},
 	"blocklistGenerator": {
 		"desc": "Wygeneruj własną blocklistę dla swojego serwera DNS. Skonfiguruj filtry według własnych upodobań i zacznij blokować to, co faktycznie chcesz.",
-		"tags": ["Bezpieczeństwo", "DNS", "Pi-hole", "AdGuard"]
+		"tags": [
+			"Bezpieczeństwo",
+			"DNS",
+			"Pi-hole",
+			"AdGuard"
+		]
 	},
 	"meshcorePolska": {
 		"desc": "Polska społeczność budująca niezależną, radiową sieć komunikacji mesh w oparciu o LoRa - bez internetu i zasięgu komórkowego. Dokumentacja, anteny, konfiguracja, mapa, a także serwer Discord.",
-		"tags": ["LoRa", "Radio", "Sieć mesh", "Discord"]
+		"tags": [
+			"LoRa",
+			"Radio",
+			"Sieć mesh",
+			"Discord"
+		]
 	},
 	"sniffcat": {
 		"desc": "Analizuj i zgłaszaj złośliwe adresy IP. Sprawdzaj reputację, pobieraj blacklisty do firewalli. Bez śledzenia i ukrytych kosztów.",
-		"tags": ["Bezpieczeństwo", "API", "Threat Intelligence"]
+		"tags": [
+			"Bezpieczeństwo",
+			"API",
+			"Threat Intelligence"
+		]
 	},
 	"cloudflareWaf": {
 		"desc": "Reguły Cloudflare WAF gotowe do użycia w środowisku produkcyjnym i skrypt do ich automatycznych aktualizacji. Blokuj boty, scrapery i złośliwe żądania. Integracja z SniffCat i AbuseIPDB.",
-		"tags": ["Cloudflare", "WAF", "Bezpieczeństwo"]
+		"tags": [
+			"Cloudflare",
+			"WAF",
+			"Bezpieczeństwo"
+		]
 	},
 	"sefinekDnsBlocklists": {
 		"desc": "Listy blokowania DNS dla Pi-hole, AdGuard, Dnsmasq, Unbound i nie tylko. Wiele formatów, listy wyjątków ograniczające błędne blokowanie, wszystko aktualizowane co 3 godziny. Ponad 45 milionów obsłużonych żądań w ciągu roku.",
-		"tags": ["DNS", "Blocklist", "AdGuard", "Pi-hole"]
+		"tags": [
+			"DNS",
+			"Blocklist",
+			"AdGuard",
+			"Pi-hole"
+		]
 	},
 	"maliciousIpAddresses": {
 		"desc": "Lista adresów IP powiązanych z botnetami, cyberatakami i sztucznym ruchem. Służy wyłącznie do klasyfikowania ruchu - nie do jego blokowania.",
-		"tags": ["Bezpieczeństwo", "Blacklist", "IP"]
+		"tags": [
+			"Bezpieczeństwo",
+			"Blacklist",
+			"IP"
+		]
 	},
 	"trustedIpsWhitelist": {
 		"desc": "Lista adresów IP używanych przez zaufane roboty indeksujące i usługi: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot i inne.",
-		"tags": ["Whitelist", "IP", "Crawlery"]
+		"tags": [
+			"Whitelist",
+			"IP",
+			"Crawlery"
+		]
 	},
 	"tempEmailDomains": {
 		"desc": "Lista domen używanych przez tymczasowe skrzynki e-mail. Przydatna przy filtrowaniu rejestracji, blokowaniu spamu i walidacji adresów.",
-		"tags": ["Spam", "Email", "Domeny"]
+		"tags": [
+			"Spam",
+			"Email",
+			"Domeny"
+		]
 	},
 	"sefinekApi": {
 		"desc": "Darmowe REST API dla deweloperów. Losowe obrazy, dane i inne narzędzia. Większość endpointów nie wymaga autoryzacji.",
-		"tags": ["REST API", "Node.js", "Darmowe"]
+		"tags": [
+			"REST API",
+			"Node.js",
+			"Darmowe"
+		]
 	},
 	"esp32Monitoring": {
 		"desc": "Pomiary warunków otoczenia na żywo z województwa zachodniopomorskiego. Temperatura, wilgotność, ciśnienie i natężenie światła mierzone przez czujniki podłączone do płytki ESP32-S3.",
-		"tags": ["IoT", "ESP32", "Pogoda", "Node.js"]
+		"tags": [
+			"IoT",
+			"ESP32",
+			"Pogoda",
+			"Node.js"
+		],
+		"name": "Monitoring środowiskowy ESP32"
 	},
 	"vstarcamEye4Viewer": {
 		"desc": "Lokalna przeglądarka nagrań z kart SD kamer Vstarcam / Eye4. Przeglądaj, filtruj i odtwarzaj nagrania bez chmury ani aplikacji mobilnej.",
-		"tags": ["IoT", "Kamera", "Node.js"]
+		"tags": [
+			"IoT",
+			"Kamera",
+			"Node.js"
+		]
 	},
 	"malkontenci": {
 		"desc": "Żartobliwa parodia poradni psychologicznej. Test z 20 pytaniami przypisujący Cię do jednej z pięciu kategorii malkontentów - czysta satyra.",
-		"tags": ["Quiz", "Humor", "Test"]
+		"tags": [
+			"Quiz",
+			"Humor",
+			"Test"
+		]
 	},
 	"genshinStellaMod": {
 		"desc": "Lepsza grafika i możliwość przekroczenia limitu 60 FPS w Genshin Impact. Graj płynniej i ciesz się lepszą grafiką. Spora społeczność i ocena 4,8/5 na Trustpilot.",
-		"tags": ["C#", "ReShade", "Windows"]
+		"tags": [
+			"C#",
+			"ReShade",
+			"Windows"
+		]
+	},
+	"meta": {
+		"title": "Projekty | Sefinek",
+		"description": "Projekty open source Sefinka - narzędzia bezpieczeństwa sieci, blocklisty DNS, API, skrypty integracyjne i nie tylko.",
+		"keywords": "sefinek projects, open source, dns blocklist, sniffcat, stella mod, npm packages, node.js"
+	},
+	"filterLabel": "Filtruj projekty",
+	"searchPlaceholder": "Szukaj projektów...",
+	"clearSearch": "Wyczyść wyszukiwanie",
+	"label": "Praca open source",
+	"featured": {
+		"label": "Flagowy projekt",
+		"description": "Jedna z najbardziej rozbudowanych blocklist DNS dla AdGuard, Pi-hole i dowolnego serwera DNS. 100+ kuratorowanych list, 7 formatów wyjściowych. Aktualizacja co 3 godziny przez GitHub Actions.",
+		"privacy": "Prywatność",
+		"domains": "Blokowanych domen",
+		"stars": "Gwiazdek na GitHubie",
+		"lists": "Kuratorowanych list"
+	},
+	"empty": "Nie znaleziono projektów w tej kategorii.",
+	"integrations": {
+		"label": "Narzędzia bezpieczeństwa",
+		"title": "Integracje reporterów",
+		"description": "Automatyczne integracje do zgłaszania nadużyć IP - przekazuj złośliwy ruch ze swojego stacku bezpośrednio do platform threat intelligence.",
+		"source": "Źródło",
+		"soon": "Wkrótce"
+	},
+	"npm": {
+		"label": "Ekosystem npm",
+		"title": "Pakiety npm",
+		"description": "Moduły wielokrotnego użytku publikowane dla społeczności.",
+		"geoip": "Szybka, natywna implementacja GeoIP w JS na bazie MaxMind. Ulepszony i utrzymywany fork.",
+		"moecounter": "Wydajne liczniki moe do wyświetlania statystyk na stronie lub w projektach.",
+		"emailValidator": "Lekka walidacja adresów e-mail dla przeglądarek i Node.js.",
+		"randomAnimals": "Pobieraj losowe obrazy zwierząt z szybkiego API.",
+		"ufw": "Lekki i szybki parser logów firewalla UFW. Obsługuje flagi TCP, znaczniki czasu i szczegółowe metadane pakietów.",
+		"sitemap": "Darmowy i prosty generator sitemap.xml bez ograniczeń. Działa z dowolną strukturą strony, bez konfiguracji.",
+		"cleverbot": "Nieoficjalny moduł npm dla Cleverbot API. Prosty i darmowy - bez klucza API.",
+		"more": "+ więcej na npm",
+		"all": "Zobacz wszystkie opublikowane pakiety w rejestrze npm."
+	},
+	"heading": "Projekty",
+	"filters": {
+		"all": "Wszystkie",
+		"security": "Bezpieczeństwo",
+		"lists": "Listy",
+		"api": "API i narzędzia",
+		"infra": "Infrastruktura",
+		"community": "Społeczność",
+		"meme": "Memy",
+		"gaming": "Gaming"
 	}
 }

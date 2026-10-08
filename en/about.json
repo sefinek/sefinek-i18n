@@ -1,0 +1,48 @@
+{
+	"meta": {
+		"title": "About me | Sefinek",
+		"description": "Meet Sefinek - a self-taught developer from Poland interested in network security, open source, home servers and building things that actually work.",
+		"keywords": "sefinek, about, developer, poland, open source, network security, home server"
+	},
+	"label": "Get to know me",
+	"heading": "About me",
+	"intro": "Hi, I'm Sefinek - self-taught, from Poland, with an obsession with privacy, network security and creating things that do some good. I like being in control of what I run - preferably on my own hardware, humming somewhere in the corner of my room.",
+	"bio": {
+		"title": "Who I am",
+		"beginning": "My computing journey started when I was about 13. At first, I tried making websites with various online builders, but their limitations soon started getting in the way. The results often felt basic, so I decided to try building something myself. I found an HTML course on YouTube, and that's where it all really began.",
+		"programming": "Later, I became interested in batch files and eventually in programming in C# and C++. At first, it was mostly curiosity and a desire to experiment. I didn't have a specific plan or a bigger goal. I simply enjoyed figuring out how things worked, changing things and finding my own solutions.",
+		"servers": "My first major step towards servers came when I needed somewhere to run my own Discord bot. That's when I bought my first VPS, probably running Ubuntu 18.04.",
+		"today": "Today, I mainly see programming as a tool for bringing my own ideas to life. I'm much more interested in servers, service management and extensive infrastructure. I'm also paying more attention to radio infrastructure, which gives me a whole new area to experiment with.",
+		"learning": "I learned most things on my own. Even as a kid, I rarely asked anyone for help - this was before AI tools became widely available, so I had to find answers myself, mainly in documentation, on forums and through trial and error. Over time, things I originally built just for myself began to be used by others too."
+	},
+	"firstSteps": {
+		"title": "First steps",
+		"description": "Even as a kid, I was quite different from my peers. They preferred spending time gaming, while I preferred doing something useful - even on hardware where Tibia could lag, let alone playing YouTube videos. Still, I appreciated what I had. It was some Acer with Windows 7 and 2GB of RAM - that's where I took my first steps with HTML. Before that, my first computer ran Windows XP and had a hard drive of about 50GB."
+	},
+	"work": {
+		"title": "What I do",
+		"infrastructure": "I spend most of my time on server administration, network infrastructure and related topics. At home, I maintain my own environment, mainly based on Proxmox, with numerous machines and services, including honeypots. I also maintain blocklists and analyze malicious IP addresses using OSINT. The collected data then goes to SniffCat and AbuseIPDB.",
+		"openSource": "I publish most of my projects as open source. I like an open and reasonably permissive approach to software and sharing code. I mainly use programming to automate tasks, integrate services and build my own solutions and new platforms.",
+		"radio": "I'm currently also focusing on MeshCore and radio infrastructure - repeaters, LoRa, off-grid power, antennas and SDR. When needed, I do some soldering too."
+	},
+	"interests": {
+		"homeServers": "Home servers",
+		"security": "Network security",
+		"dns": "DNS and blocklists",
+		"radio": "Amateur radio",
+		"title": "Interests",
+		"automation": "Automation",
+		"diy": "DIY",
+		"electronics": "Electronics"
+	},
+	"technology": "Technologies and tools",
+	"music": "Music taste",
+	"personal": {
+		"title": "Beyond technology",
+		"music": "I almost always listen to music while working.",
+		"photography": "I sometimes do photography, currently mostly with a drone.",
+		"anime": "I used to watch anime occasionally, but these days it barely interests me at all.",
+		"games": "Games have also taken a back seat - I'd much rather do something useful.",
+		"cats": "I definitely like cats."
+	}
+}

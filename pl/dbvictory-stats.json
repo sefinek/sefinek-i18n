@@ -1,0 +1,62 @@
+{
+	"meta": {
+		"title": "Statystyki serwera DBVictory - śledzenie graczy i monitoring serwera na żywo",
+		"description": "Śledź statystyki serwera DBVictory (DBV) w czasie rzeczywistym. Monitoruj aktywność graczy, liczbę online, potwory i uptime serwera na World 1 oraz World 2.",
+		"keywords": "DBVictory, DBV, server statistics, player stats, online players, game server monitoring, real-time stats, server uptime, MMORPG stats"
+	},
+	"controls": "Wybór zakresu czasu statystyk",
+	"rangeAria": "Wybierz zakres czasu dla wyświetlanych statystyk",
+	"intervalAria": "Wybierz interwał wyświetlania danych",
+	"chartsAria": "Wykresy statystyk serwera",
+	"world1": {
+		"onlineAria": "Interaktywny wykres pokazujący aktualną i historyczną liczbę graczy online w DBVictory World 1",
+		"monstersAria": "Interaktywny wykres pokazujący liczbę potworów i statystyki DBVictory World 1",
+		"uptimeAria": "Interaktywny wykres pokazujący uptime i dostępność serwera DBVictory World 1",
+		"online": "World - gracze online",
+		"monsters": "World - potwory",
+		"uptime": "World - uptime"
+	},
+	"world2": {
+		"onlineAria": "Interaktywny wykres pokazujący aktualną i historyczną liczbę graczy online w DBVictory World 2",
+		"monstersAria": "Interaktywny wykres pokazujący liczbę potworów i statystyki DBVictory World 2",
+		"uptimeAria": "Interaktywny wykres pokazujący uptime i dostępność serwera DBVictory World 2",
+		"online": "World II - gracze online",
+		"monsters": "World II - potwory",
+		"uptime": "World II - uptime"
+	},
+	"comparisonAria": "Porównanie statystyk światów",
+	"comparisonChartAria": "Interaktywny wykres porównawczy pokazujący liczbę graczy, potwory i uptime dla obu światów DBVictory",
+	"heading": "DBVictory :: Legenda Z Końcem...",
+	"intro": "Monitoring aktywności graczy na serwerach Dragon Ball Victory (Open Tibia Server) w czasie rzeczywistym.",
+	"updated": "Ostatnia aktualizacja:",
+	"loading": "Ładowanie, proszę czekać...",
+	"range": "Zakres czasu:",
+	"ranges": {
+		"day": "Ostatnie 24 godziny",
+		"threeDays": "Ostatnie 3 dni",
+		"week": "Ostatnie 7 dni",
+		"twoWeeks": "Ostatnie 14 dni",
+		"month": "Ostatnie 30 dni",
+		"all": "Wszystkie dostępne dane"
+	},
+	"interval": "Interwał danych (średnia):",
+	"chartsTitle": "Statystyki graczy według świata",
+	"noscript": "JavaScript jest wymagany do wyświetlenia interaktywnych wykresów.",
+	"comparison": "Porównanie - oba światy",
+	"comparisonDescription": "Porównanie kluczowych metryk DBVictory World 1 i World 2 obok siebie",
+	"chartLabels": {
+		"players": "graczy",
+		"monsters": "potworów",
+		"hours": "godz.",
+		"offline": "Offline",
+		"intervals": {
+			"1": "Co 1 minutę",
+			"10": "Co 10 minut",
+			"30": "Co 30 minut",
+			"60": "Co 1 godzinę",
+			"240": "Co 4 godziny",
+			"720": "Co 12 godzin",
+			"1440": "Co 24 godziny"
+		}
+	}
+}

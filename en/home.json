@@ -1,0 +1,93 @@
+{
+	"meta": {
+		"title": "Home - Sefinek's official website",
+		"description": "Sefinek's official website. Find links to my profiles, projects and contact details.",
+		"keywords": "sefinek, genshin impact, pihole blocklist generator, contact, github, projects, links, discord"
+	},
+	"statusBadge": "Website status badge",
+	"fullscreen": "Toggle fullscreen",
+	"stats": {
+		"label": "Key numbers",
+		"experience": "Years of experience",
+		"stars": "Open source stars",
+		"followers": "GitHub followers",
+		"repositories": "Repositories",
+		"reports": "Malicious IPs reported"
+	},
+	"about": {
+		"label": "About me",
+		"heading": "About me",
+		"title": "I learn best in my own way.",
+		"description": "I'm self-taught and live in Poland's West Pomeranian Voivodeship. I learned most things independently, mainly through practice, my own projects and work on home servers. I enjoy understanding how different technologies work, finding solutions myself and having as much control as possible over the services I use. I don't chase trends. I prefer developing things that are actually useful to me. I don't use TikTok either - I'd much rather spend that time on other things. Music almost always accompanies me while I work. I also do photography sometimes, currently mostly with a drone. I love riding my bike and scooter too, recording rides with a camera mounted on my helmet.",
+		"more": "Get to know me",
+		"profiles": "Social profiles"
+	},
+	"sniffcat": {
+		"contributor": "SniffCat contributor",
+		"badge": "SniffCat contributor badge",
+		"title": "SniffCat, an alternative to AbuseIPDB",
+		"new": "New platform",
+		"description": "A platform for checking reputations and reporting malicious IP addresses. I built it mainly for administrators, developers and people working in network security. You can check the reputation of individual IP addresses, report abuse, download blocklists and use a free API. All reports are moderated, and built-in allowlists help reduce the risk of incorrectly flagging known, safe bots. No tracking or hidden costs.",
+		"visit": "Visit website",
+		"report": "Start reporting"
+	},
+	"abuseipdb": {
+		"contributor": "AbuseIPDB contributor",
+		"title": "AbuseIPDB contributor",
+		"reports": "IPs reported"
+	},
+	"hero": {
+		"title": "Hi, I'm Sefinek",
+		"description": "My main interests are servers, infrastructure and computing in general. I also work with programming and OSINT. I maintain a large collection of blocklists for DNS servers. Recently, I've also become interested in amateur radio, particularly LoRa MeshCore. I'm a radio listener too, and I plan to take the exam and get my own callsign in the future. If you have an interesting project idea or would like to work on something together, get in touch! In the meantime, have a good day or night. 73!",
+		"projects": "View projects",
+		"contact": "Get in touch",
+		"label": "Introduction"
+	},
+	"quote": {
+		"firstLine": "I don't live for time, time is for me,",
+		"secondLine": "though it keeps passing relentlessly.",
+		"label": "Quote"
+	},
+	"projects": {
+		"label": "Selected work",
+		"title": "Featured projects",
+		"description": "Selected tools and projects I develop.",
+		"all": "All projects",
+		"blocklists": "100+ curated blocklists with 6M+ domains. Ready-to-use formats for AdGuard, Pi-hole, Unbound, Dnsmasq and more. The repository is updated every 3 hours, and the main server twice a night.",
+		"waf": "WAF rules for blocking malicious requests, bots, scanners and malicious IPs. SniffCat and AbuseIPDB integration. Automated deployments. Everything works on Cloudflare's free plan."
+	},
+	"blog": {
+		"label": "Knowledge base",
+		"title": "From the blog",
+		"description": "Tutorials, devlogs and opinions. In Polish and English.",
+		"all": "All posts",
+		"empty": "There are no posts yet. Something will probably appear soon."
+	},
+	"now": {
+		"label": "Updates",
+		"title": "What I'm working on now",
+		"building": "Currently building",
+		"rebuildTitle": "Rebuilding sefinek.net",
+		"rebuildDescription": "A complete rebuild of the website for the first time in 5 years. A new look and a working blog. What you're seeing is the beta version.",
+		"sideProject": "Side project",
+		"meshcore": "A Polish community developing an independent text communication network that works without internet or cellular coverage. Our repeaters are powered by batteries and solar panels.",
+		"profiles": "Public profiles for MeshCore operators and nodes, connected to an interactive map. They make it easier to find information about repeaters and their owners."
+	},
+	"contact": {
+		"description": "I'm open to interesting projects and collaboration, as well as engaging conversations on various topics.",
+		"profiles": "All profiles",
+		"support": "Support me",
+		"label": "Contact",
+		"title": "Let's talk."
+	},
+	"minimize": "Minimize",
+	"close": "Close",
+	"egg": {
+		"title": "You found an easter egg ฅ^•ﻌ•^ฅ",
+		"minimize": "Minimize",
+		"maximize": "Maximize",
+		"close": "Close",
+		"sudoers": "nobody is not in the sudoers file. This incident will be reported.",
+		"sandwich": "// Maybe ask your girlfriend to make you a sandwich (;"
+	}
+}

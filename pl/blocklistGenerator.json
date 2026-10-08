@@ -1,0 +1,113 @@
+{
+	"meta": {
+		"title": "Generator blocklist | Sefinek",
+		"description": "Twórz własne blocklisty DNS dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Wybierz kategorie i otrzymaj gotowe URL-e.",
+		"keywords": "blocklist generator, dns blocklist, adguard home, pi-hole, unbound, dnsmasq, rpz, domain list, sefinek"
+	},
+	"softwareDescription": "Generate custom DNS blocklists for AdGuard, Pi-hole, Unbound, Dnsmasq and other filtering software.",
+	"modalAria": "Wygenerowana blocklista",
+	"label": "Filtrowanie DNS",
+	"heading": "Generator blocklist",
+	"intro": {
+		"start": "Wybierz kategorie, format DNS i otrzymaj gotowe URL-e. Listy są hostowane na",
+		"end": "i aktualizowane dwa razy dziennie."
+	},
+	"notice": {
+		"start": "Unikaj zbyt częstego pobierania list. Nadmierne pobrania mogą skończyć się blokadą. Zalecam pobieranie raz dziennie, najlepiej w nocy. Więcej informacji znajdziesz na stronie",
+		"link": "harmonogramu aktualizacji",
+		"end": ". Możesz użyć jej jako punktu odniesienia przy ustawianiu crona. Powodzenia!"
+	},
+	"generator": "Generator",
+	"updated": "Ostatnia aktualizacja",
+	"groups": {
+		"core": "Podstawowe",
+		"security": "Bezpieczeństwo",
+		"content": "Treści",
+		"other": "Inne",
+		"social": "Media społecznościowe",
+		"apps": "Aplikacje i gry"
+	},
+	"all": "Wszystkie",
+	"none": "Żadne",
+	"categories": {
+		"ads": "Reklamy",
+		"tracking": "Tracking i telemetria",
+		"malicious": "Złośliwe",
+		"abuse": "Nadużycia",
+		"fraud": "Oszustwa",
+		"piracy": "Piractwo",
+		"redirects": "Przekierowania",
+		"suspicious": "Podejrzane",
+		"nsfw": "Pornografia / NSFW",
+		"drugs": "Narkotyki",
+		"gambling": "Hazard",
+		"dating": "Serwisy randkowe",
+		"dead": "Martwe domeny",
+		"useless": "Bezużyteczne / zaparkowane",
+		"extension": "Pakiet rozszerzeń",
+		"polish": "Polskie filtry",
+		"crypto": "Strony crypto",
+		"anime": "Strony anime"
+	},
+	"sponsored": "Sponsorowane przez",
+	"format": {
+		"title": "Format wyjściowy",
+		"nullExample": "0.0.0.0 domena",
+		"localhost": "Przekierowanie localhost",
+		"localhostExample": "127.0.0.1 domena",
+		"plain": "Zwykła lista domen",
+		"domainOnly": "tylko domena"
+	},
+	"selectedUrls": "URL-i · wybrano",
+	"selectedCategories": "kategorii",
+	"preview": "Podgląd wygenerowanej listy",
+	"download": "Pobierz jako .txt",
+	"copy": "Kopiuj wszystko",
+	"email": {
+		"title": "Wyślij na e-mail",
+		"description": "Otrzymaj maila z listami. Maks. 3 wysyłki dziennie.",
+		"send": "Wyślij"
+	},
+	"protection": {
+		"title": "Sprawdź, czy działa",
+		"description": "Zweryfikuj, czy Twoja sieć faktycznie korzysta z tych blocklist.",
+		"check": "Sprawdź ponownie"
+	},
+	"modalTitle": "Wygenerowana lista ·",
+	"urls": "URL-i",
+	"close": "Zamknij",
+	"js": {
+		"copied": "Skopiowano!",
+		"emailTitle": "Wyślij na e-mail",
+		"emailRequired": "Wpisz adres e-mail.",
+		"categoryRequired": "Najpierw wybierz co najmniej jedną kategorię.",
+		"sending": "Wysyłanie...",
+		"sent": "Wysłano. Sprawdź skrzynkę.",
+		"error": "Coś poszło nie tak.",
+		"sendError": "Nie udało się wysłać. Spróbuj ponownie.",
+		"checking": "Sprawdzanie...",
+		"protected": "Korzystasz z aktywnej ochrony",
+		"partialProtection": "Częściowa ochrona - sprawdź konfigurację",
+		"unprotected": "Nie korzystasz z tych list"
+	},
+	"errors": {
+		"missing": "Brakuje pola `email` lub `generatedBlocklist`.",
+		"tooLarge": "Blocklista jest za duża.",
+		"empty": "Blocklista jest pusta.",
+		"invalidUrls": "Blocklista zawiera {{count}} nierozpoznanych URL-i.",
+		"dailyLimit": "Osiągnięto limit dzienny ({{count}} zapytań). Spróbuj ponownie jutro.",
+		"invalidEmail": "Niepoprawny adres e-mail lub brak rekordów MX.",
+		"send": "Nie udało się wysłać blocklisty."
+	},
+	"mail": {
+		"subject": "Twoja wygenerowana blocklista z sefinek.net",
+		"greeting": "Cześć {{name}}!",
+		"intro": "Oto Twoja spersonalizowana blocklista. Więcej informacji znajdziesz na",
+		"support": "Jeśli to narzędzie Ci się przydało, rozważ",
+		"supportLink": "wsparcie mojej pracy",
+		"questions": "Masz pytania lub sugestie? Odpowiedz na tego maila. Miłego dnia!",
+		"generatorVersion": "Wersja generatora:",
+		"updated": "ostatnia aktualizacja {{date}}",
+		"websiteVersion": "Wersja strony:"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"meta": {
+		"title": "Contact | Sefinek",
+		"description": "Have questions or need help? Contact Sefinek by email or Discord.",
+		"keywords": "contact sefinek, email, discord, github issues, support"
+	},
+	"heading": "Get in touch",
+	"intro": "Have questions or need help? Feel free to write! I usually reply within 24-48 hours.",
+	"discordMessage": "Message me on Discord",
+	"emailDescription": "The best place for detailed questions, collaboration proposals and bug reports. I keep Thunderbird running all the time, so you usually won't have to wait long for a reply.",
+	"discordServer": "Discord server",
+	"discordDescription": "A good place for quick questions, casual conversations and support from others. I also share updates and changes to my projects here.",
+	"githubDescription": "Browse my repositories and find the one relevant to your question. A bug, a feature idea or a technical question - open an issue directly in the appropriate project.",
+	"status": "Service status",
+	"statusDescription": "Before writing about an outage, check the status page first - it updates automatically and usually shows whether the problem is already known.",
+	"cta": {
+		"title": "Just want to say hello?",
+		"description": "Write anytime. I read everything and try to reply to everyone."
+	},
+	"label": "Contact"
+}

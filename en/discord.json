@@ -1,0 +1,13 @@
+{
+	"meta": {
+		"title": "Discord servers | Sefinek",
+		"description": "Discord servers run by Sefinek - the main general server and the MeshCore Poland community.",
+		"keywords": "sefinek discord, discord server, meshcore poland discord"
+	},
+	"mainIcon": "Sefinek Discord server icon",
+	"meshcoreLogo": "MeshCore Poland logo",
+	"heading": "Discord servers",
+	"intro": "I actually run more servers, but I've only listed the most relevant ones here.",
+	"mainDescription": "Mainly used for important announcements and updates about my projects. Open to everyone, in Polish and English.",
+	"meshcoreDescription": "A Polish community building an independent radio mesh communication network based on LoRa. Antennas, hardware, firmware configuration and help for new operators."
+}

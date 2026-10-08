@@ -1,0 +1,15 @@
+{
+	"meta": {
+		"title": "Sefinek Blocklists dla Microsoft Store | Sefinek",
+		"description": "Poznaj aplikację Sefinek Blocklists dla Microsoft Store i zarządzaj kolekcją list blokujących bezpośrednio w systemie Windows.",
+		"keywords": "sefinek blocklists, microsoft store, windows, dns blocklists, adblock"
+	},
+	"repository": "Repozytorium GitHub",
+	"source": "Kod źródłowy aplikacji",
+	"privacy": {
+		"title": "📝 Polityka prywatności",
+		"visit": "Podczas odwiedzania",
+		"logged": "logowany jest Twój adres IP oraz",
+		"description": "Te dane nie są udostępniane podmiotom trzecim. Żadne inne informacje nie są zbierane ani przechowywane. Logi serwera są usuwane co kilka miesięcy."
+	}
+}
