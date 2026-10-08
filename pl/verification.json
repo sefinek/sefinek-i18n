@@ -6,12 +6,12 @@
 	},
 	"page": {
 		"heading": "Weryfikacja na serwerze Discord",
-		"subtitle": "Aby dołączyć do tego serwera Discord, musisz przejść proces weryfikacji. Zgodnie z Warunkami korzystania z usługi użytkownicy są zobowiązani do spełnienia minimalnych wymagań wiekowych. Globalne minimum to 13 lat, jednak w niektórych jurysdykcjach obowiązują inne wymagania wiekowe (np. 16+ w Polsce). Pełną listę wymagań wiekowych znajdziesz, <a href=\"https://support.discord.com/hc/en-us/community/posts/360050817374-Age-restriction\" target=\"_blank\" rel=\"noopener noreferrer\">klikając tutaj</a>. Niespełnienie wymagań wiekowych może skutkować banem na tym serwerze. Pamiętaj, aby myśleć, przed wysłaniem jakiejkolwiek wiadomości."
+		"subtitle": "Aby dołączyć na ten serwer, musisz przejść weryfikację. Zgodnie z Warunkami korzystania z usługi użytkownicy muszą spełniać również minimalne wymagania wiekowe. Globalne minimum to 13 lat, jednak w niektórych krajach obowiązują inne wymagania wiekowe (np. 16+ w Polsce). Sprawdź <a href=\"https://support.discord.com/hc/en-us/community/posts/360050817374-Age-restriction\" target=\"_blank\" rel=\"noopener noreferrer\">pełną listę wymagań wiekowych</a>. Niespełnienie wymagań wiekowych może skutkować banem na tym serwerze. Pamiętaj, aby myśleć, przed wysłaniem jakiejkolwiek wiadomości."
 	},
 	"steps": {
 		"initial": { "title": "Weryfikacja wstępna", "desc": "Ukończ weryfikację poniżej" },
 		"processing": { "title": "Przetwarzanie", "desc": "Analizowanie zgłoszenia" },
-		"access": { "title": "Dostęp przyznany", "desc": "Uprawnienia Discord zaktualizowane" }
+		"access": { "title": "Dostęp przyznany", "desc": "Uprawnienia zostały zaktualizowane" }
 	},
 	"account": { "header": "👤 Twoje konto" },
 	"server": { "header": "🏠 Serwer" },
@@ -35,15 +35,15 @@
 		"meshcoreCta": "Dziękujemy za dołączenie! Cenimy Twój czas, dlatego możesz od razu dokończyć konfigurację profilu i wybrać swoje role (region oraz sprzęt). Utworzysz w ten sposób kartę użytkownika MeshCore, a jeśli prowadzisz repeater, zweryfikujesz się jako operator RPT. Twój profil będzie potem widoczny dla innych na stronie i przez komendę /kontakt na Discordzie.",
 		"meshcoreCtaBtn": "Kontynuuj konfigurację →"
 	},
-	"manualReview": "Z przykrością informujemy, że ze względu na pewne wątpliwości Twoje zgłoszenie zostało przekazane do ręcznej weryfikacji przez administratorów serwera. Prosimy o cierpliwość, ponieważ proces ten może potrwać od 1 do 3 dni. O wyniku weryfikacji zostaniesz powiadomiony w wiadomości prywatnej. W razie pytań możesz skontaktować się z nami pod adresem contact@sefinek.net. Jeśli nie chcesz czekać na zakończenie procesu, możesz opuścić serwer.",
-	"success": "Weryfikacja została pomyślnie ukończona w {{seconds}}s! Przyznano pełny dostęp do serwera. Możesz teraz powrócić na Discorda.",
+	"manualReview": "Twoje zgłoszenie wymaga dodatkowego sprawdzenia przez administratorów serwera. Weryfikacja może potrwać od 1 do 3 dni. O wyniku zostaniesz powiadomiony w wiadomości prywatnej. W razie pytań skontaktuj się z nami pod adresem contact@sefinek.net. Jeśli nie chcesz czekać na wynik, możesz opuścić serwer. Dzięki temu zaoszczędzisz nam czas.",
+	"success": "Weryfikacja zakończyła się pomyślnie w {{seconds}} s! Przyznano Ci pełny dostęp do serwera. Możesz teraz wrócić na Discorda.",
 	"errors": {
 		"invalidTokenFormat": "Nieprawidłowy format tokenu weryfikacji.",
 		"linkExpiredRender": "Link weryfikacyjny jest nieprawidłowy lub wygasł. Poproś o nowy na serwerze Discord.",
 		"tokenNotFound": "Token weryfikacji wygasł lub jest nieprawidłowy.",
 		"sessionExpired": "Sesja weryfikacji wygasła. Poproś o nowy link weryfikacyjny na Discordzie.",
 		"unableToComplete": "Nie można ukończyć weryfikacji. Zgłoś ten błąd.",
-		"securityFailed": "Walidacja zabezpieczeń nie powiodła się. Nie możesz dołączyć do tego serwera.",
+		"securityFailed": "Kontrola bezpieczeństwa nie powiodła się. Nie możesz dołączyć do tego serwera.",
 		"manualReviewFailed": "Nie udało się utworzyć zgłoszenia do ręcznej weryfikacji. Spróbuj ponownie lub skontaktuj się z administratorem.",
 		"unexpected": "Podczas przetwarzania weryfikacji wystąpił nieoczekiwany błąd.",
 		"botUnavailable": "Usługa bota Discord jest niedostępna. Zgłoś ten błąd.",
@@ -64,14 +64,14 @@
 		"captchaFailed": "Weryfikacja captcha nieudana",
 		"verificationFailed": "Weryfikacja nieudana",
 		"partiallyCompleted": "Weryfikacja częściowo ukończona",
-		"verificationSuccessful": "Sukces! Pomyślnie się zweryfikowano"
+		"verificationSuccessful": "Weryfikacja zakończona pomyślnie"
 	},
 	"status": {
 		"400": "Nieprawidłowe żądanie weryfikacji. Poproś o nowy link weryfikacyjny na Discordzie.",
 		"401": "Błąd uwierzytelniania bota Discord. Skontaktuj się z administratorem.",
 		"403": "Bot Discord nie ma wymaganych uprawnień. Skontaktuj się z administratorem.",
 		"404": "Token weryfikacji wygasł lub jest nieprawidłowy. Poproś o nowy link weryfikacyjny na Discordzie.",
-		"500": "Bot Discord ma wewnętrzne problemy. Zgłoś ten błąd.",
+		"500": "Wystąpił wewnętrzny błąd bota Discord. Zgłoś ten błąd.",
 		"503": "Usługa bota Discord jest tymczasowo niedostępna. Zgłoś ten błąd."
 	}
 }

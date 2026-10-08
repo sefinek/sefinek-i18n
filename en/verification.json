@@ -6,12 +6,12 @@
 	},
 	"page": {
 		"heading": "Discord Server Verification",
-		"subtitle": "To join this Discord server, you must complete the verification process. According to the Terms of Service, users are required to meet the minimum age requirements. The global minimum is 13 years old; however, in some jurisdictions different age requirements apply (e.g., 16+ in Poland). You can find the full list of age requirements by <a href=\"https://support.discord.com/hc/en-us/community/posts/360050817374-Age-restriction\" target=\"_blank\" rel=\"noopener noreferrer\">clicking here</a>. Failure to meet the age requirements may result in a ban from this server. Remember to think before sending any message."
+		"subtitle": "To join this server, you must complete verification. Under the Terms of Service, users must also meet the minimum age requirements. The global minimum is 13 years old, but some countries have different age requirements (e.g., 16+ in Poland). Check the <a href=\"https://support.discord.com/hc/en-us/community/posts/360050817374-Age-restriction\" target=\"_blank\" rel=\"noopener noreferrer\">full list of age requirements</a>. Failure to meet the age requirements may result in a ban from this server. Remember to think before sending any message."
 	},
 	"steps": {
 		"initial": { "title": "Initial Verification", "desc": "Complete verification below" },
-		"processing": { "title": "Server Processing", "desc": "Analyzing submission" },
-		"access": { "title": "Access Granted", "desc": "Discord permissions updated" }
+		"processing": { "title": "Processing", "desc": "Analyzing submission" },
+		"access": { "title": "Access Granted", "desc": "Permissions have been updated" }
 	},
 	"account": { "header": "👤 Your Account" },
 	"server": { "header": "🏠 Server" },
@@ -22,7 +22,7 @@
 		"verifyLink": "Verify account",
 		"ageConfirm": "I confirm that I am at least {{minimumAge}} years old and meet Discord's minimum age requirements applicable in my country.",
 		"ageConfirm_country": "I confirm that I am at least {{minimumAge}} years old and meet Discord's minimum age requirements applicable in {{countryName}}.",
-		"terms": "By joining this server, you agree to comply with <a href=\"https://discord.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Discord's Terms of Service</a>, <a href=\"https://discord.com/guidelines\" target=\"_blank\" rel=\"noopener noreferrer\">Community Guidelines</a>, and the laws of your country. Illegal content (e.g., incitement to violence, hate speech, piracy, etc.) will result in an immediate ban.",
+		"terms": "By joining this server, you agree to comply with <a href=\"https://discord.com/terms\" target=\"_blank\" rel=\"noopener noreferrer\">Discord's Terms of Service</a>, <a href=\"https://discord.com/guidelines\" target=\"_blank\" rel=\"noopener noreferrer\">Community Guidelines</a> and the laws of Poland. Illegal content (e.g., incitement to violence, hate speech, piracy, etc.) will result in an immediate ban.",
 		"submit": "Complete Verification"
 	},
 	"js": {
@@ -35,15 +35,15 @@
 		"meshcoreCta": "Thanks for joining! We value your time, so you can finish setting up your profile right away and pick your roles (region and hardware). This creates your MeshCore user card, and if you run a repeater, you can verify yourself as an RPT operator. Your profile will then be visible to others on the website and through the /kontakt command on Discord.",
 		"meshcoreCtaBtn": "Continue setup →"
 	},
-	"manualReview": "We regret to inform you that due to certain concerns, your application has been forwarded for manual verification by the server administrators. Please be patient, as this process may take between 1 and 3 days. You will be notified of the verification result via a private message. If you have any questions, you can contact us at contact@sefinek.net. If you prefer not to wait for the process to finish, you may leave the server.",
-	"success": "Verification has been successfully completed in {{seconds}}s! Full server access has been granted. You may now return to Discord.",
+	"manualReview": "Your application requires an additional review by the server administrators. Verification may take between 1 and 3 days. You will be notified of the result in a private message. If you have any questions, contact us at contact@sefinek.net. If you prefer not to wait for the result, you may leave the server.",
+	"success": "Verification completed successfully in {{seconds}} s! You have been granted full access to the server. You can now return to Discord.",
 	"errors": {
 		"invalidTokenFormat": "Invalid verification token format.",
 		"linkExpiredRender": "The verification link is invalid or has expired. Please request a new verification link on the Discord server.",
 		"tokenNotFound": "Verification token has expired or is invalid.",
 		"sessionExpired": "Verification session expired. Please request a new verification link from Discord.",
 		"unableToComplete": "Unable to complete verification. Please report this error.",
-		"securityFailed": "Security validation failed. You cannot join this server.",
+		"securityFailed": "The security check failed. You cannot join this server.",
 		"manualReviewFailed": "Failed to create manual review request. Please try again or contact an administrator.",
 		"unexpected": "An unexpected error occurred while processing verification.",
 		"botUnavailable": "Discord bot service is unavailable. Please report this error.",
@@ -71,7 +71,7 @@
 		"401": "Authentication error with Discord bot. Please contact an administrator.",
 		"403": "Discord bot lacks necessary permissions. Please contact an administrator.",
 		"404": "Verification token has expired or is invalid. Please request a new verification link from Discord.",
-		"500": "Discord bot is experiencing internal issues. Please report this error.",
+		"500": "An internal Discord bot error occurred. Please report this error.",
 		"503": "Discord bot service is temporarily unavailable. Please report this error."
 	}
 }

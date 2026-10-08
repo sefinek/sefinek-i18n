@@ -1,12 +1,36 @@
 {
 	"listLabel": "List",
 	"webLabel": "Website",
+	"sefinTools": {
+		"meta": {
+			"title": "Sefin Tools - useful open source tools | Sefinek",
+			"description": "Sefin Tools is a collection of simple, practical, open source web tools. Explore the planned projects.",
+			"keywords": "sefin tools, web tools, open source, programming, generators"
+		},
+		"label": "Open source web tools",
+		"intro": "Sefin Tools is a collection of simple, practical, open source web tools. Each project will have its own source code repository. Pull requests and other contributions are welcome!",
+		"bannerAlt": "Sefin Tools - useful open source tools",
+		"planned": "Planned tools",
+		"inProgress": "In development",
+		"contact": "Have an idea for a new tool or found a bug? Email",
+		"cardDescription": "Simple, open source web tools. I am currently focusing mainly on tools in Polish, but I also plan to create tools in English in the future.",
+		"homeDescription": "A collection of simple, open source web tools for working with code, data, domains, files and text. Each tool is developed as a separate project.",
+		"categories": {
+			"programming": "Programming and data",
+			"web": "Domains and websites",
+			"files": "Files and photos",
+			"text": "Text and lists",
+			"tests": "Tests and quizzes",
+			"generators": "Generators",
+			"calculations": "Colors and calculations"
+		}
+	},
 	"blocklistGenerator": {
 		"desc": "Generate your own DNS blocklist for your server. Configure filters to match your preferences and start blocking exactly what you want.",
 		"tags": ["Security", "DNS", "Pi-hole", "AdGuard"]
 	},
 	"meshcorePolska": {
-		"desc": "A Polish community building an independent LoRa mesh radio network - no internet or cellular coverage required. Hardware, antenna, and firmware documentation, plus a Discord server for operators.",
+		"desc": "A Polish community building an independent LoRa mesh radio network - no internet or cellular coverage required. Documentation, antennas, configuration, a map and a Discord server.",
 		"tags": ["LoRa", "Radio", "Mesh network", "Discord"]
 	},
 	"sniffcat": {
@@ -14,19 +38,19 @@
 		"tags": ["Security", "API", "Threat Intelligence"]
 	},
 	"cloudflareWaf": {
-		"desc": "Production-ready Cloudflare WAF rules and an auto-update script. Block bots, scrapers, and malicious requests before they reach your origin server.",
+		"desc": "Cloudflare WAF rules ready for production use and a script for automatic updates. Block bots, scrapers and malicious requests. Integration with SniffCat and AbuseIPDB.",
 		"tags": ["Cloudflare", "WAF", "Security"]
 	},
 	"sefinekDnsBlocklists": {
-		"desc": "DNS blocklists for Pi-hole, AdGuard, Dnsmasq, Unbound, and more. Multiple formats, a whitelist system to reduce false positives, and updates every 3 hours. +45M requests served this year.",
+		"desc": "DNS blocklists for Pi-hole, AdGuard, Dnsmasq, Unbound and more. Multiple formats, allowlists to reduce incorrect blocking and updates every 3 hours. Over 45 million requests served in a year.",
 		"tags": ["DNS", "Blocklist", "AdGuard", "Pi-hole"]
 	},
 	"maliciousIpAddresses": {
-		"desc": "A list of IP addresses linked to botnets, cyberattacks, and bot traffic. Intended only for traffic classification - not for blocking.",
+		"desc": "A list of IP addresses linked to botnets, cyberattacks and artificial traffic. Intended only for traffic classification - not for blocking.",
 		"tags": ["Security", "Blacklist", "IP"]
 	},
 	"trustedIpsWhitelist": {
-		"desc": "A list of IP addresses used by legitimate crawlers and services: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot, and more.",
+		"desc": "A list of IP addresses used by trusted crawlers and services: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot and more.",
 		"tags": ["Whitelist", "IP", "Crawlers"]
 	},
 	"tempEmailDomains": {
@@ -38,19 +62,19 @@
 		"tags": ["REST API", "Node.js", "Free"]
 	},
 	"esp32Monitoring": {
-		"desc": "Live environmental monitoring from the West Pomeranian Voivodeship in Poland. Temperature, humidity, pressure, and light served via an ESP32-S3 board and connected sensors.",
+		"desc": "Live environmental readings from the West Pomeranian Voivodeship in Poland. Temperature, humidity, pressure and light intensity measured by sensors connected to an ESP32-S3 board.",
 		"tags": ["IoT", "ESP32", "Weather", "Node.js"]
 	},
 	"vstarcamEye4Viewer": {
-		"desc": "A local SD card viewer for Vstarcam / Eye4 cameras. Browse, filter, and play back recordings without the cloud or a mobile app.",
+		"desc": "A local viewer for recordings stored on SD cards in Vstarcam / Eye4 cameras. Browse, filter and play back recordings without the cloud or a mobile app.",
 		"tags": ["IoT", "Camera", "Node.js"]
 	},
 	"malkontenci": {
-		"desc": "A humorous parody of a psychology clinic. A 20-question test that sorts you into one of five types of complainers - pure satire, zero seriousness.",
+		"desc": "A humorous parody of a psychology clinic. A test with 20 questions that places you in one of five categories of complainers - pure satire.",
 		"tags": ["Quiz", "Humor", "Test"]
 	},
 	"genshinStellaMod": {
-		"desc": "Better graphics and a way to unlock the 60 FPS cap in Genshin Impact. Play smoothly with significantly better visuals. A solid community and a 4.8-star rating on Trustpilot.",
+		"desc": "Better graphics and the ability to exceed the 60 FPS cap in Genshin Impact. Play more smoothly and enjoy improved visuals. A large community and a 4.8/5 rating on Trustpilot.",
 		"tags": ["C#", "ReShade", "Windows"]
 	}
 }

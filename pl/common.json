@@ -47,14 +47,14 @@
 		"particlesNone": "Wył.",
 		"particlesNoneTitle": "Wyłącz cząstki",
 		"bgType": "Typ tła",
-		"canvas": "Canvas",
+		"canvas": "Animacja",
 		"wallpaper": "Tapeta",
 		"reset": "Przywróć ustawienia domyślne"
 	},
 	"footer": {
 		"brand": "Myślenie jest przydatne, ale łatwo się w nim zgubić. Nie przekonuje mnie mądrość, która sprowadza się do pouczania, mentorowania, podtrzymywania własnej narracji i dbania o wizerunek. Kiedy wiedza zostaje tylko w słowach, cytatach i wygrywaniu rozmów, staje się kolejną iluzją. Liczy się dla mnie to, co ma kontakt z rzeczywistością i da się sprawdzić poza własną głową.",
 		"copyright": "Copyright {{startYear}}-{{year}} © by Sefinek. All Rights Reserved.",
-		"nowPlaying": "Teraz gramy:",
+		"nowPlaying": "Teraz odtwarzane:",
 		"navigate": "Nawigacja",
 		"services": "Usługi",
 		"connect": "Społeczność",

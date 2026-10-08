@@ -1,6 +1,30 @@
 {
 	"listLabel": "Lista",
 	"webLabel": "Strona WWW",
+	"sefinTools": {
+		"meta": {
+			"title": "Sefin Tools - przydatne narzędzia open source | Sefinek",
+			"description": "Sefin Tools to otwartoźródłowe, proste i praktyczne narzędzia internetowe. Zobacz listę planowanych projektów.",
+			"keywords": "sefin tools, narzędzia internetowe, open source, programowanie, generatory"
+		},
+		"label": "Otwartoźródłowe narzędzia internetowe",
+		"intro": "Sefin Tools to otwartoźródłowe, proste i praktyczne narzędzia internetowe. Każdy projekt będzie posiadał osobne repozytorium z kodem źródłowym. Pull requesty i inne formy wkładu są mile widziane!",
+		"bannerAlt": "Sefin Tools - przydatne narzędzia open source",
+		"planned": "Planowane narzędzia",
+		"inProgress": "W trakcie prac",
+		"contact": "Masz pomysł na nowe narzędzie lub znalazłeś błąd? Napisz na",
+		"cardDescription": "Proste, otwartoźródłowe narzędzia internetowe. Obecnie skupiam się głównie na narzędziach w języku polskim, ale w przyszłości planuję tworzyć także angielskie.",
+		"homeDescription": "Zbiór prostych, otwartoźródłowych narzędzi internetowych do pracy z kodem, danymi, domenami, plikami i tekstem. Każde narzędzie jest rozwijane jako osobny projekt.",
+		"categories": {
+			"programming": "Programowanie i dane",
+			"web": "Domeny i strony internetowe",
+			"files": "Pliki i zdjęcia",
+			"text": "Tekst i listy",
+			"tests": "Testy i quizy",
+			"generators": "Generatory",
+			"calculations": "Kolory i obliczenia"
+		}
+	},
 	"blocklistGenerator": {
 		"desc": "Wygeneruj własną blocklistę dla swojego serwera DNS. Skonfiguruj filtry według własnych upodobań i zacznij blokować to, co faktycznie chcesz.",
 		"tags": ["Bezpieczeństwo", "DNS", "Pi-hole", "AdGuard"]
@@ -14,11 +38,11 @@
 		"tags": ["Bezpieczeństwo", "API", "Threat Intelligence"]
 	},
 	"cloudflareWaf": {
-		"desc": "Gotowe do produkcji reguły Cloudflare WAF i skrypt ich automatycznej aktualizacji. Blokuj boty, scrapery i złośliwe żądania, zanim dotrą one do Twojego źródłowego serwera.",
+		"desc": "Reguły Cloudflare WAF gotowe do użycia w środowisku produkcyjnym i skrypt do ich automatycznych aktualizacji. Blokuj boty, scrapery i złośliwe żądania. Integracja z SniffCat i AbuseIPDB.",
 		"tags": ["Cloudflare", "WAF", "Bezpieczeństwo"]
 	},
 	"sefinekDnsBlocklists": {
-		"desc": "Blocklisty DNS dla Pi-hole, AdGuard, Dnsmasq, Unbound i nie tylko. Wiele formatów, system whitelist do ograniczania false positive i aktualizacje co 3 godziny. Ponad 45 milionów obsłużonych żądań w ciągu roku.",
+		"desc": "Listy blokowania DNS dla Pi-hole, AdGuard, Dnsmasq, Unbound i nie tylko. Wiele formatów, listy wyjątków ograniczające błędne blokowanie, wszystko aktualizowane co 3 godziny. Ponad 45 milionów obsłużonych żądań w ciągu roku.",
 		"tags": ["DNS", "Blocklist", "AdGuard", "Pi-hole"]
 	},
 	"maliciousIpAddresses": {
@@ -26,7 +50,7 @@
 		"tags": ["Bezpieczeństwo", "Blacklist", "IP"]
 	},
 	"trustedIpsWhitelist": {
-		"desc": "Lista adresów IP używanych przez legalne crawlery i usługi: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot i inne.",
+		"desc": "Lista adresów IP używanych przez zaufane roboty indeksujące i usługi: Googlebot, Bingbot, Cloudflare, Stripe, UptimeRobot i inne.",
 		"tags": ["Whitelist", "IP", "Crawlery"]
 	},
 	"tempEmailDomains": {
@@ -38,19 +62,19 @@
 		"tags": ["REST API", "Node.js", "Darmowe"]
 	},
 	"esp32Monitoring": {
-		"desc": "Monitoring środowiska na żywo z województwa zachodniopomorskiego w Polsce. Temperatura, wilgotność, ciśnienie i światło serwowane dzięki płytce ESP32-S3 i podłączonym czujnikom.",
+		"desc": "Pomiary warunków otoczenia na żywo z województwa zachodniopomorskiego. Temperatura, wilgotność, ciśnienie i natężenie światła mierzone przez czujniki podłączone do płytki ESP32-S3.",
 		"tags": ["IoT", "ESP32", "Pogoda", "Node.js"]
 	},
 	"vstarcamEye4Viewer": {
-		"desc": "Lokalna przeglądarka kart SD dla kamer Vstarcam / Eye4. Przeglądaj, filtruj i odtwarzaj nagrania bez chmury ani aplikacji mobilnej.",
+		"desc": "Lokalna przeglądarka nagrań z kart SD kamer Vstarcam / Eye4. Przeglądaj, filtruj i odtwarzaj nagrania bez chmury ani aplikacji mobilnej.",
 		"tags": ["IoT", "Kamera", "Node.js"]
 	},
 	"malkontenci": {
-		"desc": "Żartobliwa parodia poradni psychologicznej. 20-pytaniowy test klasyfikujący Cię do jednej z pięciu kategorii malkontentów - czysta satyra, zero powagi.",
+		"desc": "Żartobliwa parodia poradni psychologicznej. Test z 20 pytaniami przypisujący Cię do jednej z pięciu kategorii malkontentów - czysta satyra.",
 		"tags": ["Quiz", "Humor", "Test"]
 	},
 	"genshinStellaMod": {
-		"desc": "Lepsza grafika oraz odblokowanie limitu 60 FPS dla Genshin Impact. Graj płynnie i z znacznie lepszą grafiką. Spora społeczność i 4.8-gwiazdkowa ocena na Trustpilot.",
+		"desc": "Lepsza grafika i możliwość przekroczenia limitu 60 FPS w Genshin Impact. Graj płynniej i ciesz się lepszą grafiką. Spora społeczność i ocena 4,8/5 na Trustpilot.",
 		"tags": ["C#", "ReShade", "Windows"]
 	}
 }
