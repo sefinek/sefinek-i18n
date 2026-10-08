@@ -69,7 +69,7 @@
 		"send": "Send"
 	},
 	"protection": {
-		"title": "Check whether it works",
+		"title": "Waiting for JavaScript...",
 		"description": "Verify whether your network actually uses these blocklists.",
 		"check": "Check again"
 	},

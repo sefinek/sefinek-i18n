@@ -69,7 +69,7 @@
 		"send": "Wyślij"
 	},
 	"protection": {
-		"title": "Sprawdź, czy działa",
+		"title": "Oczekiwanie na JavaScript...",
 		"description": "Zweryfikuj, czy Twoja sieć faktycznie korzysta z tych blocklist.",
 		"check": "Sprawdź ponownie"
 	},

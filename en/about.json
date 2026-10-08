@@ -37,12 +37,22 @@
 	},
 	"technology": "Technologies and tools",
 	"music": "Music taste",
+	"musicGenres": {
+		"alternativeRockIndiePop": "Alternative rock / Indie pop",
+		"nuMetalAlternativeMetal": "Nu metal / Alternative metal",
+		"popRockAlternativeRock": "Pop rock / Alternative rock",
+		"grungeAlternativeRock": "Grunge / Alternative rock",
+		"popPunkAlternativeRock": "Pop punk / Alternative rock",
+		"heavyMetalThrashMetal": "Heavy metal / Thrash metal",
+		"dreamPopAlternativePop": "Dream pop / Alternative pop"
+	},
 	"personal": {
 		"title": "Beyond technology",
 		"music": "I almost always listen to music while working.",
 		"photography": "I sometimes do photography, currently mostly with a drone.",
 		"anime": "I used to watch anime occasionally, but these days it barely interests me at all.",
-		"games": "Games have also taken a back seat - I'd much rather do something useful.",
+		"games": "I don't usually enjoy getting into new games or spending too much time playing them. I'd rather do something useful.",
+		"consoles": "I'm a fan of older consoles, especially the Pegasus, PS1, PS2 and PS3. Newer consoles just don't have the same charm for me anymore.",
 		"cats": "I definitely like cats."
 	}
 }

@@ -37,12 +37,22 @@
 	},
 	"technology": "Technologie i narzędzia",
 	"music": "Gust muzyczny",
+	"musicGenres": {
+		"alternativeRockIndiePop": "Rock alternatywny / Indie pop",
+		"nuMetalAlternativeMetal": "Nu metal / Metal alternatywny",
+		"popRockAlternativeRock": "Pop rock / Rock alternatywny",
+		"grungeAlternativeRock": "Grunge / Rock alternatywny",
+		"popPunkAlternativeRock": "Pop punk / Rock alternatywny",
+		"heavyMetalThrashMetal": "Heavy metal / Thrash metal",
+		"dreamPopAlternativePop": "Dream pop / Pop alternatywny"
+	},
 	"personal": {
 		"title": "Poza technologią",
 		"music": "Podczas pracy praktycznie zawsze słucham muzyki.",
 		"photography": "Czasem zajmuję się fotografią, obecnie głównie z wykorzystaniem drona.",
 		"anime": "Kiedyś zdarzało mi się oglądać anime, ale dziś praktycznie w ogóle mnie to nie interesuje.",
-		"games": "Gry również zeszły u mnie na dalszy plan - zdecydowanie bardziej wolę coś pożytecznego zrobić.",
+		"games": "Zwykle nie lubię poznawać nowych gier ani spędzać przy nich zbyt dużo czasu. Wolę zrobić coś pożytecznego.",
+		"consoles": "Jestem fanem starszych konsol. Najbardziej cenię sobie Pegasusa, PS1, PS2 i PS3. Nowsze konsole nie mają już dla mnie tego klimatu co kiedyś.",
 		"cats": "Zdecydowanie lubię koty."
 	}
 }
