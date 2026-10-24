@@ -1,6 +1,18 @@
 {
 	"listLabel": "List",
+	"osmoOverlay": {
+		"desc": "Add a telemetry HUD to your DJI or GoPro camera footage using the GPS and sensor data stored in the MP4: speed, map, route, tilt and G-force.",
+		"tags": ["DJI Osmo", "GPS", "Telemetry", "Video"]
+	},
 	"webLabel": "Website",
+	"sefinOneDarkTheme": {
+		"desc": "A maintained One Dark-inspired theme for JetBrains IDEs. A darker, cooler palette with less yellow tones, designed to look good on OLED and QD-OLED displays. Available in JetBrains Marketplace.",
+		"tags": ["JetBrains", "One Dark", "Theme", "Kotlin"]
+	},
+	"turingMonitor": {
+		"desc": "A Windows WPF application for hardware monitoring on Turing Smart Screen 3.5-inch Rev A USB displays. Shows CPU, GPU, RAM, disk and network readings.",
+		"tags": ["Windows", "WPF", "Monitoring", "Hardware"]
+	},
 	"sefinTools": {
 		"meta": {
 			"title": "Sefin Tools - useful open source tools | Sefinek",
