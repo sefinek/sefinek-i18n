@@ -24,5 +24,25 @@
 	"langName_pl": "Polish",
 	"langName_en": "English",
 	"pageCount_one": "{{count}} page",
-	"pageCount_other": "{{count}} pages"
+	"pageCount_other": "{{count}} pages",
+	"cli": {
+		"fab": "My commands",
+		"title": "My commands",
+		"empty": "Nothing here yet. Click the star next to any command to add it to your set.",
+		"hint": "Fill in the parameters and the command is assembled live. Fields in [ ] brackets are optional.",
+		"copy": "Copy",
+		"copied": "Copied to clipboard",
+		"copyFail": "Could not copy",
+		"copyAll": "Copy all",
+		"download": "Download .txt",
+		"clear": "Clear",
+		"clearConfirm": "Remove all commands from your set?",
+		"remove": "Remove",
+		"up": "Move up",
+		"down": "Move down",
+		"close": "Close",
+		"addFav": "Add to my set",
+		"delFav": "Remove from my set",
+		"unfilled": "Copied, but some parameters are still unfilled"
+	}
 }

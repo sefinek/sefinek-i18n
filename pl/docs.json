@@ -25,5 +25,25 @@
 	"langName_en": "angielskim",
 	"pageCount_one": "{{count}} strona",
 	"pageCount_few": "{{count}} strony",
-	"pageCount_many": "{{count}} stron"
+	"pageCount_many": "{{count}} stron",
+	"cli": {
+		"fab": "Moje komendy",
+		"title": "Moje komendy",
+		"empty": "Pusto. Kliknij gwiazdkę przy dowolnej komendzie, aby dodać ją do swojego zestawu.",
+		"hint": "Uzupełnij parametry, a komenda złożona jest na bieżąco. Pola w nawiasach [ ] są opcjonalne.",
+		"copy": "Kopiuj",
+		"copied": "Skopiowano do schowka",
+		"copyFail": "Nie udało się skopiować",
+		"copyAll": "Kopiuj wszystko",
+		"download": "Pobierz .txt",
+		"clear": "Wyczyść",
+		"clearConfirm": "Usunąć wszystkie komendy z zestawu?",
+		"remove": "Usuń",
+		"up": "W górę",
+		"down": "W dół",
+		"close": "Zamknij",
+		"addFav": "Dodaj do zestawu",
+		"delFav": "Usuń z zestawu",
+		"unfilled": "Skopiowano, ale część parametrów jest jeszcze nieuzupełniona"
+	}
 }
