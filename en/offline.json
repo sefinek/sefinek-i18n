@@ -5,6 +5,7 @@
 	"retry": "Try again",
 	"toast": {
 		"offline": "You are offline. Only previously visited pages are available.",
-		"online": "Connection restored."
+		"online": "Connection restored.",
+		"update": "A new version of the site is available. Refresh to load the changes."
 	}
 }

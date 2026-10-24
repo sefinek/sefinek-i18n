@@ -5,6 +5,7 @@
 	"retry": "Spróbuj ponownie",
 	"toast": {
 		"offline": "Jesteś offline. Dostępne są tylko wcześniej odwiedzone strony.",
-		"online": "Połączenie zostało przywrócone."
+		"online": "Połączenie zostało przywrócone.",
+		"update": "Dostępna jest nowa wersja strony. Odśwież ją, aby załadować zmiany."
 	}
 }
