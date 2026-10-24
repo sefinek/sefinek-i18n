@@ -1,4 +1,5 @@
 {
+	"reportFalsePositiveTitle": "Zgłoś błędnie zablokowaną domenę w listach Sefinek Blocklist Collection",
 	"meta": {
 		"title": "Narzędzia | Sefinek",
 		"description": "Przydatne i czasem mniej przydatne narzędzia Sefinka - sprawdzanie IP, generator blocklist i więcej.",
@@ -6,9 +7,8 @@
 	},
 	"intro": "Przydatne i czasem mniej przydatne narzędzia do różnych zadań. Darmowe, bez konta.",
 	"open": "Otwórz",
-	"external": "Zewnętrzne narzędzia i zasoby",
+	"external": "Powiązane usługi i zasoby",
 	"reportFalsePositive": "Zgłoś błędne blokowanie",
-	"githubRepository": "Repozytorium GitHub",
 	"newProject": "Nowy projekt",
 	"cards": {
 		"blocklist": {

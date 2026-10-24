@@ -1,0 +1,23 @@
+{
+	"open": "Search the site",
+	"close": "Close search",
+	"title": "Search",
+	"placeholder": "Search pages, projects, docs and posts…",
+	"results": "Search results",
+	"empty": "No results. Try a different phrase.",
+	"types": {
+		"page": "Page",
+		"project": "Project",
+		"docs": "Docs",
+		"blog": "Blog"
+	},
+	"hints": {
+		"navigate": "navigate",
+		"open": "open",
+		"close": "close"
+	},
+	"count": {
+		"one": "{{count}} result",
+		"other": "{{count}} results"
+	}
+}

@@ -1,4 +1,6 @@
 {
+	"export": "Export CSV",
+	"exportAria": "Download the displayed data as a CSV file",
 	"meta": {
 		"title": "West Pomeranian weather data - Live monitoring | Sefinek",
 		"description": "Live meteorological data from Poland's West Pomeranian Voivodeship: temperature, humidity, pressure and light intensity from ESP32-S3, BME280 and BH1750 sensors.",

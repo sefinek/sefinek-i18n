@@ -1,4 +1,12 @@
 {
+	"lastCommit": "Last commit:",
+	"sort": {
+		"label": "Sort projects",
+		"default": "Default",
+		"name": "Name (A-Z)",
+		"stars": "Most stars",
+		"recent": "Recently updated"
+	},
 	"listLabel": "List",
 	"osmoOverlay": {
 		"desc": "Add a telemetry HUD to your DJI or GoPro camera footage using the GPS and sensor data stored in the MP4: speed, map, route, tilt and G-force.",
@@ -174,7 +182,7 @@
 	"npm": {
 		"label": "npm ecosystem",
 		"title": "npm packages",
-		"description": "Reusable modules published for the community.",
+		"description": "Various npm packages published for the community. Maybe someone will find them useful.",
 		"geoip": "A fast, native GeoIP implementation in JS based on MaxMind. An improved and maintained fork.",
 		"moecounter": "Efficient moe counters for displaying statistics on websites or in projects.",
 		"emailValidator": "Lightweight email address validation for browsers and Node.js.",

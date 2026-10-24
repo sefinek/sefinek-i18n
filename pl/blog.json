@@ -1,4 +1,15 @@
 {
+	"feed": {
+		"title": "Blog Sefinka - nowe wpisy",
+		"subtitle": "Poradniki, devlogi, opinie i praktyczne materiały od Sefinka.",
+		"subscribe": "Subskrybuj przez RSS"
+	},
+	"tag": {
+		"title": "Wpisy z tagiem {{tag}} | Blog Sefinka",
+		"description": "Wszystkie wpisy na blogu Sefinka oznaczone tagiem {{tag}}.",
+		"label": "Tag",
+		"clear": "Wyczyść filtr tagu"
+	},
 	"meta": {
 		"title": "Blog | Sefinek",
 		"description": "Poradniki, devlogi, opinie i praktyczne materiały od Sefinka. Po polsku i angielsku.",

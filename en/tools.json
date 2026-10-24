@@ -1,4 +1,5 @@
 {
+	"reportFalsePositiveTitle": "Report a wrongly blocked domain in the Sefinek Blocklist Collection",
 	"meta": {
 		"title": "Tools | Sefinek",
 		"description": "Useful and sometimes less useful tools by Sefinek - IP lookup, a blocklist generator and more.",
@@ -6,9 +7,8 @@
 	},
 	"intro": "Useful and sometimes less useful tools for various tasks. Free, no account required.",
 	"open": "Open",
-	"external": "External tools and resources",
+	"external": "Related services and resources",
 	"reportFalsePositive": "Report incorrect blocking",
-	"githubRepository": "GitHub repository",
 	"newProject": "New project",
 	"cards": {
 		"blocklist": {

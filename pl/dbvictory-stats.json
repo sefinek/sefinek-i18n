@@ -1,4 +1,6 @@
 {
+	"export": "Eksport CSV",
+	"exportAria": "Pobierz wyświetlane dane jako plik CSV",
 	"meta": {
 		"title": "Statystyki serwera DBVictory - śledzenie graczy i monitoring serwera na żywo",
 		"description": "Śledź statystyki serwera DBVictory (DBV) w czasie rzeczywistym. Monitoruj aktywność graczy, liczbę online, potwory i uptime serwera na World 1 oraz World 2.",

@@ -23,6 +23,7 @@
 	},
 	"noscript": "<strong>JavaScript jest wyłączony.</strong> Niektóre funkcje tej strony mogą nie działać poprawnie. Włącz JavaScript w ustawieniach przeglądarki.",
 	"bgSettings": {
+		"autoFallback": "Przełączono na tło statyczne, ponieważ animacja działała zbyt wolno lub WebGL jest niedostępny. Animowane tło możesz włączyć w ustawieniach tła.",
 		"title": "Ustawienia tła",
 		"music": "Muzyka",
 		"musicVolume": "Głośność muzyki",

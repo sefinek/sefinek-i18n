@@ -1,4 +1,15 @@
 {
+	"feed": {
+		"title": "Sefinek's Blog - new posts",
+		"subtitle": "Tutorials, devlogs, opinions and practical material from Sefinek.",
+		"subscribe": "Subscribe via RSS"
+	},
+	"tag": {
+		"title": "Posts tagged {{tag}} | Sefinek's Blog",
+		"description": "All posts on Sefinek's blog tagged {{tag}}.",
+		"label": "Tag",
+		"clear": "Clear tag filter"
+	},
 	"meta": {
 		"title": "Blog | Sefinek",
 		"description": "Tutorials, devlogs, opinions and practical resources from Sefinek. In Polish and English.",

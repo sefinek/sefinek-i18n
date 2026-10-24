@@ -1,0 +1,25 @@
+{
+	"open": "Szukaj w serwisie",
+	"close": "Zamknij wyszukiwarkę",
+	"title": "Wyszukiwarka",
+	"placeholder": "Szukaj stron, projektów, dokumentacji i wpisów…",
+	"results": "Wyniki wyszukiwania",
+	"empty": "Brak wyników. Spróbuj innej frazy.",
+	"types": {
+		"page": "Strona",
+		"project": "Projekt",
+		"docs": "Docs",
+		"blog": "Blog"
+	},
+	"hints": {
+		"navigate": "nawigacja",
+		"open": "otwórz",
+		"close": "zamknij"
+	},
+	"count": {
+		"one": "{{count}} wynik",
+		"few": "{{count}} wyniki",
+		"many": "{{count}} wyników",
+		"other": "{{count}} wyniku"
+	}
+}

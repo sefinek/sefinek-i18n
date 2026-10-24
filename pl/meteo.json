@@ -1,4 +1,6 @@
 {
+	"export": "Eksport CSV",
+	"exportAria": "Pobierz wyświetlane dane jako plik CSV",
 	"meta": {
 		"title": "Dane Meteo Zachodniopomorskie - Monitoring na Żywo | Sefinek",
 		"description": "Dane meteorologiczne na żywo z województwa zachodniopomorskiego: temperatura, wilgotność, ciśnienie i natężenie światła z czujników ESP32-S3, BME280 i BH1750.",

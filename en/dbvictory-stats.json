@@ -1,4 +1,6 @@
 {
+	"export": "Export CSV",
+	"exportAria": "Download the displayed data as a CSV file",
 	"meta": {
 		"title": "DBVictory server statistics - live player tracking and server monitoring",
 		"description": "Track DBVictory (DBV) server statistics in real time. Monitor player activity, online counts, monsters and server uptime in World 1 and World 2.",

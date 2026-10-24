@@ -70,7 +70,7 @@
 	},
 	"protection": {
 		"title": "Oczekiwanie na JavaScript...",
-		"description": "Zweryfikuj, czy Twoja sieć faktycznie korzysta z tych blocklist.",
+		"description": "Sprawdź, czy Twoja sieć faktycznie korzysta z tej kolekcji.",
 		"check": "Sprawdź ponownie"
 	},
 	"modalTitle": "Wygenerowana lista ·",

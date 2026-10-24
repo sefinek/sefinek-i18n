@@ -70,7 +70,7 @@
 	},
 	"protection": {
 		"title": "Waiting for JavaScript...",
-		"description": "Verify whether your network actually uses these blocklists.",
+		"description": "Check whether your network actually uses this collection.",
 		"check": "Check again"
 	},
 	"modalTitle": "Generated list ·",

@@ -1,4 +1,12 @@
 {
+	"lastCommit": "Ostatni commit:",
+	"sort": {
+		"label": "Sortuj projekty",
+		"default": "Domyślnie",
+		"name": "Nazwa (A-Z)",
+		"stars": "Najwięcej gwiazdek",
+		"recent": "Ostatnio aktualizowane"
+	},
 	"listLabel": "Lista",
 	"osmoOverlay": {
 		"desc": "Dodawaj HUD z telemetrią do swoich nagrań z kamer DJI lub GoPro na podstawie danych GPS i czujników zapisanych w MP4: prędkość, mapa, trasa, przechył i przeciążenia.",
@@ -174,7 +182,7 @@
 	"npm": {
 		"label": "Ekosystem npm",
 		"title": "Pakiety npm",
-		"description": "Moduły wielokrotnego użytku publikowane dla społeczności.",
+		"description": "Różne paczki npm publikowane dla społeczności. Może komuś się przydadzą.",
 		"geoip": "Szybka, natywna implementacja GeoIP w JS na bazie MaxMind. Ulepszony i utrzymywany fork.",
 		"moecounter": "Wydajne liczniki moe do wyświetlania statystyk na stronie lub w projektach.",
 		"emailValidator": "Lekka walidacja adresów e-mail dla przeglądarek i Node.js.",

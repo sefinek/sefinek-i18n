@@ -23,6 +23,7 @@
 	},
 	"noscript": "<strong>JavaScript is disabled.</strong> Some features of this site may not work correctly. Please enable JavaScript in your browser settings.",
 	"bgSettings": {
+		"autoFallback": "Switched to the static background because the animation was running too slowly or WebGL is unavailable. You can re-enable the animated background in the background settings.",
 		"title": "Background settings",
 		"music": "Music",
 		"musicVolume": "Music volume",
