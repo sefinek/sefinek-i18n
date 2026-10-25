@@ -4,8 +4,7 @@
 	"message": "This page is not available offline because it has not been saved to the cache yet. Connect to the internet and try again.",
 	"retry": "Try again",
 	"toast": {
-		"offline": "You are offline. Only previously visited pages are available.",
-		"online": "Connection restored.",
-		"update": "A new version of the site is available. Refresh to load the changes."
+		"offline": "Your internet connection was lost. This site works offline, so you can keep using it.",
+		"online": "Connection restored."
 	}
 }
