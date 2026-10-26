@@ -85,6 +85,7 @@
 		"sent": "Sent. Check your inbox.",
 		"error": "Something went wrong.",
 		"sendError": "Failed to send. Try again.",
+		"captchaError": "Verification failed. Try again.",
 		"checking": "Checking...",
 		"protected": "Your protection is active",
 		"partialProtection": "Partial protection - check your configuration",
@@ -96,6 +97,7 @@
 		"empty": "Blocklist is empty.",
 		"invalidUrls": "Blocklist contains {{count}} unrecognized URL(s).",
 		"dailyLimit": "Daily limit reached ({{count}} requests). Please try again tomorrow.",
+		"captcha": "Captcha verification failed.",
 		"invalidEmail": "Invalid email address or no MX records.",
 		"send": "Failed to send blocklist."
 	},

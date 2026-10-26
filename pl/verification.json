@@ -26,8 +26,8 @@
 		"submit": "Ukończ weryfikację"
 	},
 	"js": {
-		"captchaError": "Wystąpił błąd hCaptcha. Odśwież stronę i spróbuj ponownie.",
-		"captchaRequired": "Ukończ wyzwanie hCaptcha",
+		"captchaError": "Wystąpił błąd captcha. Odśwież stronę i spróbuj ponownie.",
+		"captchaRequired": "Ukończ wyzwanie captcha",
 		"ageRequired": "Potwierdź, że spełniasz minimalne wymagania wiekowe Discord",
 		"networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
 		"errorHeader": "Weryfikacja nieudana",
@@ -51,10 +51,9 @@
 	},
 	"captcha": {
 		"required": "Ukończ weryfikację captcha.",
-		"hcaptchaRequired": "Ukończ wyzwanie hCaptcha.",
-		"expired": "hCaptcha wygasła. Ukończ wyzwanie ponownie.",
-		"failed": "Weryfikacja hCaptcha nie powiodła się. Zgłoś ten błąd.",
-		"unavailable": "Usługa weryfikacji hCaptcha jest niedostępna. Zgłoś ten błąd."
+		"expired": "Captcha wygasła. Ukończ wyzwanie ponownie.",
+		"invalid": "Weryfikacja captcha nie powiodła się. Zgłoś ten błąd.",
+		"unavailable": "Usługa weryfikacji captcha jest niedostępna. Zgłoś ten błąd."
 	},
 	"headers": {
 		"invalidTokenFormat": "Nieprawidłowy format tokenu",

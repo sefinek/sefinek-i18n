@@ -26,8 +26,8 @@
 		"submit": "Complete Verification"
 	},
 	"js": {
-		"captchaError": "hCaptcha error occurred. Please refresh the page and try again.",
-		"captchaRequired": "Please complete the hCaptcha challenge",
+		"captchaError": "Captcha error occurred. Please refresh the page and try again.",
+		"captchaRequired": "Please complete the captcha challenge",
 		"ageRequired": "Please confirm that you meet Discord's minimum age requirements",
 		"networkError": "Network error. Please check your connection and try again.",
 		"errorHeader": "Verification Failed",
@@ -51,10 +51,9 @@
 	},
 	"captcha": {
 		"required": "Please complete the captcha verification.",
-		"hcaptchaRequired": "Please complete the hCaptcha challenge.",
-		"expired": "hCaptcha has expired. Please complete the challenge again.",
-		"failed": "hCaptcha verification failed. Please report this error.",
-		"unavailable": "hCaptcha verification service unavailable. Please report this error."
+		"expired": "The captcha has expired. Please complete the challenge again.",
+		"invalid": "Captcha verification failed. Please report this error.",
+		"unavailable": "Captcha verification service unavailable. Please report this error."
 	},
 	"headers": {
 		"invalidTokenFormat": "Invalid Token Format",
