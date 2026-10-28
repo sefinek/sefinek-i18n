@@ -33,7 +33,8 @@
 		"errorHeader": "Weryfikacja nieudana",
 		"welcome": "Witaj na serwerze",
 		"meshcoreCta": "Dziękujemy za dołączenie! Cenimy Twój czas, dlatego możesz od razu dokończyć konfigurację profilu i wybrać swoje role (region oraz sprzęt). Utworzysz w ten sposób kartę użytkownika MeshCore, a jeśli prowadzisz repeater, zweryfikujesz się jako operator RPT. Twój profil będzie potem widoczny dla innych na stronie i przez komendę /kontakt na Discordzie.",
-		"meshcoreCtaBtn": "Kontynuuj konfigurację →"
+		"meshcoreCtaBtn": "Kontynuuj konfigurację →",
+		"meshcoreMigration": "Profile zostaną wkrótce przeniesione do <a href=\"https://meshcoreprofiles.com\" target=\"_blank\" rel=\"noopener noreferrer\">meshcoreprofiles.com</a>, gdzie będą połączone z mapą węzłów MeshCore z całego świata. <a href=\"https://meshcorepolska.org/dokumentacja/meshcore/profile-meshcore\" target=\"_blank\" rel=\"noopener noreferrer\">Więcej o projekcie</a>."
 	},
 	"manualReview": "Twoje zgłoszenie wymaga dodatkowego sprawdzenia przez administratorów serwera. Weryfikacja może potrwać od 1 do 3 dni. O wyniku zostaniesz powiadomiony w wiadomości prywatnej. W razie pytań skontaktuj się z nami pod adresem contact@sefinek.net. Jeśli nie chcesz czekać na wynik, możesz opuścić serwer. Dzięki temu zaoszczędzisz nam czas.",
 	"success": "Weryfikacja zakończyła się pomyślnie w {{seconds}} s! Przyznano Ci pełny dostęp do serwera. Możesz teraz wrócić na Discorda.",

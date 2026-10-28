@@ -33,7 +33,8 @@
 		"errorHeader": "Verification Failed",
 		"welcome": "Welcome to the server",
 		"meshcoreCta": "Thanks for joining! We value your time, so you can finish setting up your profile right away and pick your roles (region and hardware). This creates your MeshCore user card, and if you run a repeater, you can verify yourself as an RPT operator. Your profile will then be visible to others on the website and through the /kontakt command on Discord.",
-		"meshcoreCtaBtn": "Continue setup →"
+		"meshcoreCtaBtn": "Continue setup →",
+		"meshcoreMigration": "Profiles will soon move to <a href=\"https://meshcoreprofiles.com\" target=\"_blank\" rel=\"noopener noreferrer\">meshcoreprofiles.com</a>, where they will be connected to a worldwide map of MeshCore nodes. <a href=\"https://meshcorepolska.org/dokumentacja/meshcore/profile-meshcore\" target=\"_blank\" rel=\"noopener noreferrer\">More about the project (in Polish)</a>."
 	},
 	"manualReview": "Your application requires an additional review by the server administrators. Verification may take between 1 and 3 days. You will be notified of the result in a private message. If you have any questions, contact us at contact@sefinek.net. If you prefer not to wait for the result, you may leave the server.",
 	"success": "Verification completed successfully in {{seconds}} s! You have been granted full access to the server. You can now return to Discord.",
