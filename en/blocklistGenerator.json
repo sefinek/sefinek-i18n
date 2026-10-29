@@ -58,7 +58,8 @@
 		"plain": "Plain domain list",
 		"domainOnly": "domain only"
 	},
-	"selectedUrls": "URLs · selected",
+	"selectedUrls": "URLs",
+	"selected": "selected",
 	"selectedCategories": "categories",
 	"preview": "Preview generated list",
 	"download": "Download as .txt",

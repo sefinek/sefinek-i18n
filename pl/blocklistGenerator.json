@@ -58,7 +58,8 @@
 		"plain": "Zwykła lista domen",
 		"domainOnly": "tylko domena"
 	},
-	"selectedUrls": "URL-i · wybrano",
+	"selectedUrls": "URL-i",
+	"selected": "wybrano",
 	"selectedCategories": "kategorii",
 	"preview": "Podgląd wygenerowanej listy",
 	"download": "Pobierz jako .txt",
