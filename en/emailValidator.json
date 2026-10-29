@@ -13,7 +13,7 @@
 	"label": "npm package",
 	"intro": "Fast, lightweight email address validation for browsers and Node.js.",
 	"try": "Try it",
-	"description": "Enter an email address below to validate it with the library running directly in your browser.",
+	"description": "Enter an email address to check whether it is valid. The library runs directly in your browser.",
 	"waiting": "Waiting for input...",
 	"downloads": "Downloads",
 	"validate": "Validate",

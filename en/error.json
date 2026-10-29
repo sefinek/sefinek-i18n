@@ -18,15 +18,15 @@
 		},
 		"429": {
 			"title": "Too Many Requests",
-			"message": "We received too many requests in a short period of time. Wait a moment before trying again so the system can safely handle your request."
+			"message": "Too many requests were sent in a short period of time. Wait a moment and try again."
 		},
 		"500": {
 			"title": "Internal Server Error",
-			"message": "A server-side problem occurred and the request could not be processed correctly. If this error keeps happening, please contact us and describe what you were trying to do."
+			"message": "A server error prevented your request from being processed. If the problem persists, please contact me."
 		},
 		"503": {
 			"title": "Service Unavailable",
-			"message": "The service is temporarily unavailable because the server is overloaded or maintenance is in progress. This is usually short-lived, so please try again in a few minutes. If the problem persists, please contact us."
+			"message": "The service is temporarily unavailable due to server load or maintenance. Please try again in a few minutes."
 		}
 	}
 }

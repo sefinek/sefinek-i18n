@@ -13,15 +13,15 @@
 	"label": "Druk 3D",
 	"heading": "Filamenty i zapasy",
 	"intro": {
-		"start": "Trzymam tu publicznie aktualny stan filamentów, na których drukuję - z podziałem na rodzaje, dokładnymi kolorami (z kodami HEX) i orientacyjnym zapasem każdej szpuli, gdzie",
+		"start": "Tutaj znajdziesz filamenty, których używam do druku, z podziałem na materiały i kolory oraz z kodami HEX. Podaję też orientacyjny zapas:",
 		"highlight": "100% to jedna pełna szpula",
-		"end": "(więcej niż jedna potrafi przekroczyć 100%). Listę aktualizuję ręcznie, więc traktuj ją jako podgląd tego, co mam pod ręką. Coś Ci pasuje?"
+		"end": ". Wartość powyżej 100% oznacza zapas większy niż jedna szpula. Listę aktualizuję ręcznie. Interesuje Cię wydruk w którymś z tych kolorów?"
 	},
 	"contact": "Napisz do mnie",
 	"guide": {
 		"label": "Mały poradnik",
 		"title": "Czym różni się PLA od PETG?",
-		"description": "Krótko i bez technicznego żargonu - tyle, żeby łatwo wybrać materiał odpowiedni do Twojego wydruku.",
+		"description": "Krótkie porównanie, które pomoże Ci wybrać materiał do wydruku.",
 		"good": "Dobry do",
 		"avoid": "Unikaj"
 	},
@@ -117,13 +117,13 @@
 	"materials": {
 		"0": {
 			"tag": "Najłatwiejszy",
-			"summary": "Najprostszy i najbardziej wyrozumiały materiał do druku - wybacza błędy i wychodzi ładnie nawet bez dopieszczania ustawień, choć podczas druku potrafi trochę śmierdzieć. Jest sztywny, ale dość kruchy i mięknie już w stosunkowo wysokich temperaturach, więc nie nadaje się do części narażonych na ciepło czy spore obciążenia.",
+			"summary": "Materiał łatwy w druku, który zwykle daje dobre efekty bez długiego dobierania ustawień. Podczas druku może wydzielać zapach. Jest sztywny, ale dość kruchy i podatny na odkształcenia pod wpływem ciepła, dlatego lepiej sprawdza się w modelach i dekoracjach niż w obciążonych częściach użytkowych.",
 			"good": "Figurki, dekoracje, prototypy itp. Modele, które mają po prostu ładnie wyglądać",
-			"avoid": "Nasłonecznione miejsca, mróz, mocne obciążenia mechanicznie"
+			"avoid": "Nasłonecznione miejsca, mróz, duże obciążenia mechaniczne"
 		},
 		"1": {
 			"tag": "Wytrzymały",
-			"summary": "Łączy względną łatwość druku z realną wytrzymałością - jest odporny na uderzenia, wilgoć i wyższe temperatury, a pod naciskiem raczej się ugina, niż pęka od razu. Wariant HF (High Flow) pozwala drukować szybciej, a sam materiał to coś, na czym możesz polegać w częściach użytkowych.",
+			"summary": "Łączy stosunkowo łatwy druk z odpornością na uderzenia, wilgoć i wyższe temperatury. Pod naciskiem raczej się ugina, niż od razu pęka. Wariant HF (High Flow) pozwala drukować szybciej. Dobrze sprawdza się w częściach użytkowych.",
 			"good": "Obudowy, uchwyty, mocowania oraz części funkcjonalne i mechaniczne",
 			"avoid": "Bardzo drobne, precyzyjne detale czysto dekoracyjne"
 		}

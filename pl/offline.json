@@ -4,7 +4,7 @@
 	"message": "Ta strona nie jest dostępna offline, ponieważ nie została jeszcze zapisana w pamięci podręcznej. Połącz się z internetem i spróbuj ponownie.",
 	"retry": "Spróbuj ponownie",
 	"toast": {
-		"offline": "Połączenie z internetem zostało zerwane. Ta strona potrafi działać offline, więc możesz dalej z niej korzystać.",
+		"offline": "Brak połączenia z internetem. Zapisane wcześniej strony są nadal dostępne offline.",
 		"online": "Połączenie zostało przywrócone."
 	}
 }

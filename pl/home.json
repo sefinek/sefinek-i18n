@@ -4,7 +4,7 @@
 		"description": "Oficjalna strona Sefinka. Znajdziesz tu linki do moich profili, projektów i adres kontaktowy.",
 		"keywords": "sefinek, genshin impact, pihole blocklist generator, contact, github, projects, links, discord"
 	},
-	"statusBadge": "Website Status Badge",
+	"statusBadge": "Status strony",
 	"fullscreen": "Przełącz pełny ekran",
 	"stats": {
 		"label": "Najważniejsze liczby",
@@ -53,7 +53,7 @@
 		"title": "Wyróżnione projekty",
 		"description": "Wybrane narzędzia i projekty, które rozwijam.",
 		"all": "Wszystkie projekty",
-		"blocklists": "100+ kuratorowanych blocklist z 6M+ domen. Gotowe formaty dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Repozytorium aktualizowane co 3 godziny, na głównym serwerze 2 razy w nocy.",
+		"blocklists": "Ponad 100 wyselekcjonowanych blocklist obejmujących ponad 6 milionów domen. Gotowe formaty dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Repozytorium jest aktualizowane co 3 godziny, a listy na głównym serwerze dwa razy w nocy.",
 		"waf": "Reguły WAF do blokowania złośliwych zapytań, botów, skanerów i złośliwych IP. Integracja ze SniffCat i AbuseIPDB. Automatyczne wdrożenia. Wszystko działa na darmowym planie Cloudflare."
 	},
 	"blog": {

@@ -14,7 +14,7 @@
 	},
 	"webLabel": "Website",
 	"sefinOneDarkTheme": {
-		"desc": "A maintained One Dark-inspired theme for JetBrains IDEs. A darker, cooler palette with less yellow tones, designed to look good on OLED and QD-OLED displays. Available in JetBrains Marketplace.",
+		"desc": "An actively developed theme for JetBrains IDEs, inspired by One Dark. A darker, cooler palette with fewer yellow tones, designed for OLED and QD-OLED displays. Available in JetBrains Marketplace.",
 		"tags": ["JetBrains", "One Dark", "Theme", "Kotlin"]
 	},
 	"turingMonitor": {
@@ -173,10 +173,10 @@
 	},
 	"empty": "No projects found in this category.",
 	"integrations": {
-		"label": "Security tools",
-		"title": "Reporter integrations",
-		"description": "Automated integrations for reporting IP abuse - send malicious traffic from your stack directly to threat intelligence platforms.",
-		"source": "Source",
+		"label": "Threat analysis and OSINT",
+		"title": "Threat data collection and reporting",
+		"description": "Scripts for automatically reporting suspicious IP activity to SniffCat and AbuseIPDB. Integrations with UFW, Cloudflare WAF, T-Pot and Suricata.",
+		"source": "Data source",
 		"soon": "Coming soon"
 	},
 	"npm": {
@@ -192,6 +192,14 @@
 		"cleverbot": "An unofficial npm module for the Cleverbot API. Simple and free - no API key required.",
 		"more": "+ more on npm",
 		"all": "View all published packages in the npm registry."
+	},
+	"omadaWebhook": {
+		"desc": "Forward events from your TP-Link Omada controller to a Discord channel. Critical event notifications, optional mentions and sensitive data masking.",
+		"tags": ["Omada", "Discord", "Webhook", "Monitoring"]
+	},
+	"sharexServer": {
+		"desc": "Host ShareX screenshots on your own Node.js server. Manage the files yourself and share them through links. Includes a PM2 configuration and handling for common HTTP errors.",
+		"tags": ["ShareX", "Node.js", "Self-hosting", "Screenshots"]
 	},
 	"heading": "Projects",
 	"filters": {

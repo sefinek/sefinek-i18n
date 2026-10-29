@@ -6,7 +6,7 @@
 		"description": "Dane meteorologiczne na żywo z województwa zachodniopomorskiego: temperatura, wilgotność, ciśnienie i natężenie światła z czujników ESP32-S3, BME280 i BH1750.",
 		"keywords": "pogoda zachodniopomorskie, dane meteo, temperatura, wilgotność, ciśnienie atmosferyczne, czujnik deszczu, czujnik gazu, ESP32, stacja pogodowa, BME280, BH1750, MQ-2, IoT Polska"
 	},
-	"controls": "Kontrolki danych",
+	"controls": "Ustawienia wykresów",
 	"rangeAria": "Wybierz zakres czasowy dla wyświetlanych danych",
 	"intervalAria": "Wybierz interwał agregacji danych",
 	"refreshAria": "Odśwież dane z czujników",
@@ -57,9 +57,9 @@
 		"canvasAria": "Wykres czasu działania",
 		"history": "Historia czasu działania systemu"
 	},
-	"heading": "Monitoring Środowiskowy ESP32",
+	"heading": "Monitoring środowiskowy ESP32",
 	"intro": "ESP32-S3 z czujnikami środowiskowymi: temperatura, wilgotność i ciśnienie (zewnątrz i wewnątrz), natężenie światła, opady oraz gaz/dym.",
-	"location": "Województwo Zachodniopomorskie, Polska",
+	"location": "Województwo zachodniopomorskie, Polska",
 	"updated": "Ostatnia aktualizacja:",
 	"loading": "Ładowanie...",
 	"range": "Zakres czasowy:",

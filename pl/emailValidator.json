@@ -4,7 +4,7 @@
 		"description": "Interaktywne demo pakietu npm @sefinek/email-validator. Szybka i lekka walidacja adresów e-mail w przeglądarce.",
 		"keywords": "email validator, email validation, npm, javascript, sefinek, email-validator demo"
 	},
-	"softwareDescription": "Fast, lightweight email address validation library for JavaScript, with an interactive browser demo.",
+	"softwareDescription": "Szybka i lekka biblioteka JavaScript do walidacji adresów e-mail, z interaktywnym przykładem działającym w przeglądarce.",
 	"issues": "Zgłoszenia",
 	"lastCommit": "Ostatni commit",
 	"commitActivity": "Aktywność commitów",
@@ -13,7 +13,7 @@
 	"label": "pakiet npm",
 	"intro": "Szybka i lekka walidacja adresów e-mail dla przeglądarek i Node.js.",
 	"try": "Wypróbuj",
-	"description": "Wpisz adres e-mail poniżej, aby zwalidować go biblioteką działającą bezpośrednio w przeglądarce.",
+	"description": "Wpisz adres e-mail, aby sprawdzić jego poprawność. Biblioteka działa bezpośrednio w przeglądarce.",
 	"waiting": "Oczekiwanie na dane...",
 	"downloads": "Pobrania",
 	"validate": "Waliduj",

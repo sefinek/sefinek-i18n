@@ -4,7 +4,7 @@
 		"description": "Twórz własne blocklisty DNS dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Wybierz kategorie i otrzymaj gotowe URL-e.",
 		"keywords": "blocklist generator, dns blocklist, adguard home, pi-hole, unbound, dnsmasq, rpz, domain list, sefinek"
 	},
-	"softwareDescription": "Generate custom DNS blocklists for AdGuard, Pi-hole, Unbound, Dnsmasq and other filtering software.",
+	"softwareDescription": "Twórz własne blocklisty DNS dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych narzędzi do filtrowania.",
 	"modalAria": "Wygenerowana blocklista",
 	"label": "Filtrowanie DNS",
 	"heading": "Generator blocklist",
@@ -13,7 +13,7 @@
 		"end": "i aktualizowane dwa razy dziennie."
 	},
 	"notice": {
-		"start": "Unikaj zbyt częstego pobierania list. Nadmierne pobrania mogą skończyć się blokadą. Zalecam pobieranie raz dziennie, najlepiej w nocy. Więcej informacji znajdziesz na stronie",
+		"start": "Nie pobieraj list zbyt często, ponieważ może to skutkować blokadą dostępu. Zalecam pobieranie raz dziennie, najlepiej w nocy. Więcej informacji znajdziesz na stronie",
 		"link": "harmonogramu aktualizacji",
 		"end": ". Możesz użyć jej jako punktu odniesienia przy ustawianiu crona. Powodzenia!"
 	},

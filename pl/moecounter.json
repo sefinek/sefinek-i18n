@@ -4,7 +4,7 @@
 		"description": "Interaktywne demo pakietu npm moecounter.js. Urocze animowane liczniki do profili GitHub i projektów webowych.",
 		"keywords": "moecounter, moecounter.js, npm, animated counter, github profile counter, moe counter"
 	},
-	"softwareDescription": "Cute, animated visitor counters for GitHub profiles and web projects.",
+	"softwareDescription": "Animowane liczniki odwiedzin do profili GitHub i stron internetowych.",
 	"issues": "Zgłoszenia",
 	"lastCommit": "Ostatni commit",
 	"commitActivity": "Aktywność commitów",

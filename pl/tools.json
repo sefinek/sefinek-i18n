@@ -12,15 +12,15 @@
 	"newProject": "Nowy projekt",
 	"cards": {
 		"blocklist": {
-			"title": "Blocklist Generator",
-			"description": "Twórz własne blocklisty dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Wybierz, co blokować, i od razu dostań URL-e."
+			"title": "Generator blocklist",
+			"description": "Twórz własne blocklisty dla AdGuard, Pi-hole, Unbound, Dnsmasq i innych. Wybierz kategorie, aby otrzymać gotowe adresy list."
 		},
 		"ip": {
 			"title": "Sprawdzanie adresu IP",
 			"description": "Pobierz dane GeoIP i sprawdź, czy adres IP jest powiązany z proxy, VPN, TOR albo złośliwą aktywnością."
 		},
 		"sniffcat": {
-			"description": "Sprawdź dowolny adres IP pod kątem złośliwej aktywności. Threat intelligence z wielu źródeł, aktualizowany na bieżąco."
+			"description": "Sprawdź reputację adresu IP na podstawie na bieżąco aktualizowanych danych o zagrożeniach z wielu źródeł."
 		},
 		"api": {
 			"description": "Publiczne REST API dla deweloperów. Losowe obrazy i narzędzia. Większość endpointów nie wymaga autoryzacji."

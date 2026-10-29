@@ -14,7 +14,7 @@
 	},
 	"webLabel": "Strona WWW",
 	"sefinOneDarkTheme": {
-		"desc": "Utrzymywany motyw inspirowany One Dark dla IDE JetBrains. Ciemniejsza, chłodniejsza paleta z mniejszą ilością żółtych tonów, dopasowana do ekranów OLED i QD-OLED. Dostępne w JetBrains Marketplace.",
+		"desc": "Rozwijany motyw dla IDE JetBrains, inspirowany One Dark. Ciemniejsza, chłodniejsza paleta z mniejszą ilością żółtych tonów, dopasowana do ekranów OLED i QD-OLED. Dostępny w JetBrains Marketplace.",
 		"tags": ["JetBrains", "One Dark", "Motyw", "Kotlin"]
 	},
 	"turingMonitor": {
@@ -165,18 +165,18 @@
 	"label": "Praca open source",
 	"featured": {
 		"label": "Flagowy projekt",
-		"description": "Jedna z najbardziej rozbudowanych blocklist DNS dla AdGuard, Pi-hole i dowolnego serwera DNS. 100+ kuratorowanych list, 7 formatów wyjściowych. Aktualizacja co 3 godziny przez GitHub Actions.",
+		"description": "Jedna z najbardziej rozbudowanych kolekcji blocklist DNS dla AdGuard, Pi-hole i innych serwerów DNS. Ponad 100 wyselekcjonowanych list i 7 formatów wyjściowych. Aktualizacja co 3 godziny przez GitHub Actions.",
 		"privacy": "Prywatność",
 		"domains": "Blokowanych domen",
 		"stars": "Gwiazdek na GitHubie",
-		"lists": "Kuratorowanych list"
+		"lists": "Wyselekcjonowanych list"
 	},
 	"empty": "Nie znaleziono projektów w tej kategorii.",
 	"integrations": {
-		"label": "Narzędzia bezpieczeństwa",
-		"title": "Integracje reporterów",
-		"description": "Automatyczne integracje do zgłaszania nadużyć IP - przekazuj złośliwy ruch ze swojego stacku bezpośrednio do platform threat intelligence.",
-		"source": "Źródło",
+		"label": "Analiza zagrożeń i OSINT",
+		"title": "Zbieranie i raportowanie danych o zagrożeniach",
+		"description": "Skrypty do automatycznego raportowania podejrzanej aktywności adresów IP do SniffCat i AbuseIPDB. Integracje z UFW, Cloudflare WAF, T-Pot i Suricatą.",
+		"source": "Źródło danych",
 		"soon": "Wkrótce"
 	},
 	"npm": {
@@ -192,6 +192,14 @@
 		"cleverbot": "Nieoficjalny moduł npm dla Cleverbot API. Prosty i darmowy - bez klucza API.",
 		"more": "+ więcej na npm",
 		"all": "Zobacz wszystkie opublikowane pakiety w rejestrze npm."
+	},
+	"omadaWebhook": {
+		"desc": "Przesyłaj zdarzenia z kontrolera TP-Link Omada na wybrany kanał Discord. Powiadomienia o krytycznych zdarzeniach, opcjonalne wzmianki i maskowanie poufnych danych.",
+		"tags": ["Omada", "Discord", "Webhook", "Monitoring"]
+	},
+	"sharexServer": {
+		"desc": "Hostuj zrzuty ekranu z ShareX na własnym serwerze Node.js. Sam zarządzaj plikami i udostępniaj je przez linki. Gotowa konfiguracja PM2 i obsługa typowych błędów HTTP.",
+		"tags": ["ShareX", "Node.js", "Self-hosting", "Zrzuty ekranu"]
 	},
 	"heading": "Projekty",
 	"filters": {

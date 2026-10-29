@@ -13,15 +13,15 @@
 	"label": "3D printing",
 	"heading": "Filaments and stock",
 	"intro": {
-		"start": "Here I keep a public overview of the filaments I print with - organized by type, precise colors (with HEX codes) and approximate stock for each spool, where",
+		"start": "Here are the filaments I use, organized by material and color, with HEX codes. I also list approximate stock levels:",
 		"highlight": "100% means one full spool",
-		"end": "(more than one can exceed 100%). I update the list manually, so treat it as an overview of what I have on hand. See something you like?"
+		"end": ". A value above 100% means I have more than one spool's worth. I update the list manually. Would you like a print in one of these colors?"
 	},
 	"contact": "Write to me",
 	"guide": {
 		"label": "A short guide",
 		"title": "What's the difference between PLA and PETG?",
-		"description": "Briefly and without technical jargon - just enough to help you choose the right material for your print.",
+		"description": "A short comparison to help you choose a material for your print.",
 		"good": "Good for",
 		"avoid": "Avoid"
 	},
@@ -117,13 +117,13 @@
 	"materials": {
 		"0": {
 			"tag": "Easiest",
-			"summary": "The simplest and most forgiving printing material - it tolerates mistakes and looks good even without finely tuned settings, though it can smell a little during printing. It is rigid but fairly brittle and softens at elevated temperatures, so it is unsuitable for parts exposed to heat or heavy loads.",
+			"summary": "An easy material to print that usually gives good results without extensive tuning. It may produce an odor during printing. It is rigid but fairly brittle and can deform when exposed to heat, so it is better suited to models and decorations than to functional parts under load.",
 			"good": "Figurines, decorations, prototypes and similar prints. Models that simply need to look good",
 			"avoid": "Sunny locations, frost and heavy mechanical loads"
 		},
 		"1": {
 			"tag": "Strong",
-			"summary": "Combines relatively easy printing with real strength - resistant to impacts, moisture and higher temperatures, and tends to bend under pressure rather than break immediately. The HF (High Flow) variant enables faster printing and is a material you can rely on for functional parts.",
+			"summary": "Combines relatively easy printing with resistance to impacts, moisture and higher temperatures. It tends to bend under pressure rather than break immediately. The HF (High Flow) variant allows faster printing. A good choice for functional parts.",
 			"good": "Enclosures, handles, mounts and functional or mechanical parts",
 			"avoid": "Very small, precise details intended purely for decoration"
 		}
