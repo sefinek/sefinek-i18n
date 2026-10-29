@@ -6,11 +6,7 @@
 	},
 	"label": "Wsparcie open source",
 	"heading": "Wesprzyj moją pracę",
-	"intro": {
-		"start": "Większość moich projektów jest",
-		"highlight": "darmowych i open source",
-		"end": ", które działają 24/7 na domowym serwerze, utrzymuje je dodatkowo sam. Jeśli któreś z nich Ci się przydało, rozważ wsparcie mojej pracy. Nawet mała darowizna pomoże utrzymać serwery online i zdecydowanie zmotywuje mnie do dalszej pracy. Dziękuję!"
-	},
+	"intro": "Większość moich projektów jest darmowych i open source. Działają przez całą dobę na domowym serwerze, który sam utrzymuję. Jeśli któryś z nich Ci się przydał, rozważ wsparcie mojej pracy. Nawet mała darowizna pomoże utrzymać serwery online i zdecydowanie zmotywuje mnie do dalszej pracy. Dziękuję!",
 	"paypal": "Szybka jednorazowa darowizna. Przy płatności kartą konto nie jest wymagane. Najprostsza opcja.",
 	"patreon": "Miesięczne wsparcie. Dobre, jeśli regularnie korzystasz z moich narzędzi i chcesz wspierać je stale.",
 	"kofi": "Postaw mi kawę. Luźne wsparcie jednorazowe albo cykliczne. Konto nie jest wymagane.",

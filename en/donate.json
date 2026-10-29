@@ -6,11 +6,7 @@
 	},
 	"label": "Support open source",
 	"heading": "Support my work",
-	"intro": {
-		"start": "Most of my projects are",
-		"highlight": "free and open source",
-		"end": ", running 24/7 on a home server that I also maintain myself. If any of them have been useful to you, consider supporting my work. Even a small donation helps keep the servers online and motivates me to keep going. Thank you!"
-	},
+	"intro": "Most of my projects are free and open source. They run around the clock on a home server that I maintain myself. If any of them have been useful to you, consider supporting my work. Even a small donation helps keep the servers online and motivates me to keep going. Thank you!",
 	"paypal": "A quick one-time donation. No account is required when paying by card. The simplest option.",
 	"patreon": "Monthly support. A good choice if you regularly use my tools and want to support them on an ongoing basis.",
 	"kofi": "Buy me a coffee. Casual one-time or recurring support. No account required.",
