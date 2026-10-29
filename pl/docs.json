@@ -9,7 +9,7 @@
 	"heading": "Dokumentacja",
 	"indexSub": "Poradniki, listy komend i dokumentacja techniczna dla różnych projektów.",
 	"docsCrumb": "Dokumentacja",
-	"startWith": "Rozpocznij od {{title}}",
+	"startWith": "Zacznij tutaj: {{title}}",
 	"onThisPage": "Na tej stronie",
 	"published": "Utworzono",
 	"updated": "Zaktualizowano",
@@ -29,21 +29,21 @@
 	"cli": {
 		"fab": "Moje komendy",
 		"title": "Moje komendy",
-		"empty": "Pusto. Kliknij gwiazdkę przy dowolnej komendzie, aby dodać ją do swojego zestawu.",
-		"hint": "Uzupełnij parametry, a komenda złożona jest na bieżąco. Pola w nawiasach [ ] są opcjonalne.",
+		"empty": "Nie masz jeszcze zapisanych komend. Kliknij gwiazdkę przy komendzie, aby dodać ją do zestawu.",
+		"hint": "Wpisz wartości parametrów, aby przygotować komendę do skopiowania. Jej podgląd aktualizuje się podczas wpisywania. Parametry oznaczone w dokumentacji nawiasami [ ] są opcjonalne.",
 		"copy": "Kopiuj",
 		"copied": "Skopiowano do schowka",
-		"copyFail": "Nie udało się skopiować",
-		"copyAll": "Kopiuj wszystko",
-		"download": "Pobierz .txt",
+		"copyFail": "Nie udało się skopiować do schowka",
+		"copyAll": "Kopiuj wszystkie komendy",
+		"download": "Pobierz plik .txt",
 		"clear": "Wyczyść",
 		"clearConfirm": "Usunąć wszystkie komendy z zestawu?",
 		"remove": "Usuń",
-		"up": "W górę",
-		"down": "W dół",
+		"up": "Przenieś wyżej",
+		"down": "Przenieś niżej",
 		"close": "Zamknij",
 		"addFav": "Dodaj do zestawu",
 		"delFav": "Usuń z zestawu",
-		"unfilled": "Skopiowano, ale część parametrów jest jeszcze nieuzupełniona"
+		"unfilled": "Skopiowano do schowka, natomiast nie wszystkie wymagane parametry zostały uzupełnione."
 	}
 }

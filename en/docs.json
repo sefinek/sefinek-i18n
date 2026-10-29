@@ -9,7 +9,7 @@
 	"heading": "Documentation",
 	"indexSub": "Guides, command references and technical documentation for various projects.",
 	"docsCrumb": "Documentation",
-	"startWith": "Start with {{title}}",
+	"startWith": "Start here: {{title}}",
 	"onThisPage": "On this page",
 	"published": "Created",
 	"updated": "Updated",
@@ -28,13 +28,13 @@
 	"cli": {
 		"fab": "My commands",
 		"title": "My commands",
-		"empty": "Nothing here yet. Click the star next to any command to add it to your set.",
-		"hint": "Fill in the parameters and the command is assembled live. Fields in [ ] brackets are optional.",
+		"empty": "You have no saved commands yet. Click the star next to a command to add it to your set.",
+		"hint": "Enter parameter values to prepare a command for copying. The preview updates as you type. Parameters shown in [ ] brackets in the documentation are optional.",
 		"copy": "Copy",
 		"copied": "Copied to clipboard",
-		"copyFail": "Could not copy",
-		"copyAll": "Copy all",
-		"download": "Download .txt",
+		"copyFail": "Could not copy to clipboard",
+		"copyAll": "Copy all commands",
+		"download": "Download .txt file",
 		"clear": "Clear",
 		"clearConfirm": "Remove all commands from your set?",
 		"remove": "Remove",
@@ -43,6 +43,6 @@
 		"close": "Close",
 		"addFav": "Add to my set",
 		"delFav": "Remove from my set",
-		"unfilled": "Copied, but some parameters are still unfilled"
+		"unfilled": "Copied to clipboard, but some required parameters are still missing."
 	}
 }
