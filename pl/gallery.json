@@ -21,8 +21,13 @@
 		"many": "{{count}} zdjęć",
 		"other": "{{count}} zdjęcia"
 	},
-	"loadMore": "Pokaż więcej ({{count}})",
+	"loadMore": "Wczytaj więcej ({{count}})",
 	"categories": {
-		"my-cats": "Moje koty"
+		"forest": "Las",
+		"frogs": "Żaby",
+		"misc": "Różne",
+		"my-cats": "Moje koty",
+		"sea": "Morze",
+		"winter": "Zima"
 	}
 }

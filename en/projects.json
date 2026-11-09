@@ -8,8 +8,8 @@
 		"recent": "Recently updated"
 	},
 	"listLabel": "List",
-	"osmoOverlay": {
-		"desc": "Add a telemetry HUD to your DJI or GoPro camera footage using the GPS and sensor data stored in the MP4: speed, map, route, tilt and G-force.",
+	"telemavixStudio": {
+		"desc": "Add a HUD with speed, map, route and tilt to DJI Osmo, GoPro and DJI drone footage. Use camera telemetry, flight logs or external GPS tracks and export video with the source's codec and settings.",
 		"tags": ["DJI Osmo", "GPS", "Telemetry", "Video"]
 	},
 	"webLabel": "Website",
@@ -209,7 +209,7 @@
 		"api": "APIs and tools",
 		"infra": "Infrastructure",
 		"community": "Community",
-		"meme": "Memes",
+		"meme": "Humor",
 		"gaming": "Gaming"
 	}
 }

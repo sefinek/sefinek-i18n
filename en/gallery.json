@@ -21,6 +21,11 @@
 	},
 	"loadMore": "Show more ({{count}})",
 	"categories": {
-		"my-cats": "My cats"
+		"forest": "Forest",
+		"frogs": "Frogs",
+		"misc": "Miscellaneous",
+		"my-cats": "My cats",
+		"sea": "Sea",
+		"winter": "Winter"
 	}
 }

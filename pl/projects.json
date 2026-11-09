@@ -8,8 +8,8 @@
 		"recent": "Ostatnio aktualizowane"
 	},
 	"listLabel": "Lista",
-	"osmoOverlay": {
-		"desc": "Dodawaj HUD z telemetrią do swoich nagrań z kamer DJI lub GoPro na podstawie danych GPS i czujników zapisanych w MP4: prędkość, mapa, trasa, przechył i przeciążenia.",
+	"telemavixStudio": {
+		"desc": "Dodawaj HUD z prędkością, mapą, trasą i przechyłem do nagrań z DJI Osmo, GoPro i dronów DJI. Wykorzystuj telemetrię kamery, dzienniki lotów lub zewnętrzne ślady GPS i eksportuj wideo z kodekiem i ustawieniami źródła.",
 		"tags": ["DJI Osmo", "GPS", "Telemetria", "Wideo"]
 	},
 	"webLabel": "Strona WWW",
@@ -209,7 +209,7 @@
 		"api": "API i narzędzia",
 		"infra": "Infrastruktura",
 		"community": "Społeczność",
-		"meme": "Memy",
+		"meme": "Humor",
 		"gaming": "Gaming"
 	}
 }
