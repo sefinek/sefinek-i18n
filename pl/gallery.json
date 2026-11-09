@@ -23,8 +23,9 @@
 	},
 	"loadMore": "Wczytaj więcej ({{count}})",
 	"categories": {
+		"autumn": "Jesień",
 		"forest": "Las",
-		"frogs": "Żaby",
+		"lake": "Jezioro",
 		"misc": "Różne",
 		"my-cats": "Moje koty",
 		"sea": "Morze",

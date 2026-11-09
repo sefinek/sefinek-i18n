@@ -21,8 +21,9 @@
 	},
 	"loadMore": "Show more ({{count}})",
 	"categories": {
+		"autumn": "Autumn",
 		"forest": "Forest",
-		"frogs": "Frogs",
+		"lake": "Lake",
 		"misc": "Miscellaneous",
 		"my-cats": "My cats",
 		"sea": "Sea",
