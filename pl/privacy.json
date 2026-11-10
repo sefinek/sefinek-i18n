@@ -1,85 +1,135 @@
 {
 	"meta": {
 		"title": "Polityka prywatności | Sefinek",
-		"description": "Jak sefinek.net postępuje z plikami cookies, logami serwera i danymi przetwarzanymi przez usługi.",
+		"description": "Jakie dane przetwarza sefinek.net, do czego je wykorzystuje i jak możesz korzystać ze swoich praw.",
 		"keywords": "polityka prywatności, cookies, sefinek"
 	},
-	"label": "Informacje prawne",
+	"label": "Informacje o prywatności",
 	"heading": "Polityka prywatności",
 	"updated": "Ostatnia aktualizacja: {{date}}",
 	"pending": "Ta sekcja jest w przygotowaniu.",
 	"sections": [
 		{
 			"id": "controller",
-			"title": "Kto prowadzi tę stronę",
+			"title": "Kto odpowiada za Twoje dane",
 			"body": [
-				"Administratorem danych osobowych przetwarzanych w ramach serwisu sefinek.net i jego usług (weryfikacja na Discordzie, MeshCore Polska, generator blocklist, narzędzia) jest osoba fizyczna występująca pod pseudonimem **Sefinek**. Serwis ma charakter niekomercyjny, nie zawiera reklam, nie ma kont użytkowników ani rejestracji.",
-				"Kontakt we wszystkich sprawach dotyczących danych osobowych: **contact@sefinek.net**.",
-				"Nie wyznaczono inspektora ochrony danych. Poniższe informacje przekazuję na podstawie art. 13 RODO."
+				"Serwis sefinek.net prowadzi osoba fizyczna posługująca się pseudonimem **Sefinek**, która jest administratorem danych osobowych opisanych w tej polityce. W sprawach prywatności możesz napisać na [contact@sefinek.net](mailto:contact@sefinek.net). Nie wyznaczono inspektora ochrony danych.",
+				"Polityka obejmuje przeglądanie sefinek.net, generator list blokujących, weryfikację na Discordzie, funkcje MeshCore Polska oraz sprawdzanie adresów IP w narzędziu IP checker i powiązanym API. Inne projekty i strony, do których prowadzą odnośniki, mogą mieć własne zasady prywatności.",
+				"Serwis ma charakter niekomercyjny. Nie wyświetlam reklam ani nie korzystam z narzędzi analitycznych do śledzenia odwiedzających. Przeglądanie strony nie wymaga zakładania konta. Profile MeshCore Polska są powiązane z kontem Discord.",
+				"Poniżej wyjaśniam, jakie dane otrzymuję od Ciebie, Twojej przeglądarki, Discorda i usług bezpieczeństwa oraz jak z nich korzystam (art. 13 i 14 RODO)."
 			]
 		},
 		{
 			"id": "logs",
-			"title": "Logi serwera i adresy IP",
+			"title": "Działanie strony i bezpieczeństwo",
 			"body": [
-				"Przy każdym żądaniu do serwera zapisywane są w logach: adres IP, adres URL, metoda i status odpowiedzi, czas odpowiedzi, nagłówek User-Agent, wybrany język oraz adres odsyłający (referrer). Treść formularzy i żądań POST nie jest zapisywana w logach.",
-				"Cel: zapewnienie bezpieczeństwa i stabilności serwisu, diagnostyka błędów oraz obrona przed nadużyciami. Podstawa prawna: prawnie uzasadniony interes administratora (art. 6 ust. 1 lit. f RODO). Podanie danych jest niezbędne do technicznej obsługi połączenia.",
-				"Logi są przechowywane na serwerze administratora i usuwane w ramach rotacji, **około co 5 miesięcy**. Ruch przechodzi przez Cloudflare, który przetwarza go także na własnych zasadach (patrz sekcja o usługach podmiotów trzecich).",
-				"Do ograniczania nadużyć stosowany jest limit żądań na adres IP (52 żądania na 40 sekund), liczony w pamięci Redis i wygasający wraz z upływem okna czasowego. Generator blocklist dodatkowo ogranicza liczbę wysyłek do 3 na dobę, osobno dla adresu e-mail i dla adresu IP. Liczniki (zawierające adres e-mail lub IP) są przechowywane w Redis przez 24 godziny."
+				"Serwer otrzymuje dane techniczne połączenia. Logi żądań mogą zawierać adres IP, adres żądania wraz z parametrami, metodę żądania, status i czas odpowiedzi, informacje o przeglądarce z nagłówka User-Agent, wybrany język oraz adres strony odsyłającej, jeżeli przeglądarka go przekazuje. Logowanie żądań w sefinek.net nie obejmuje treści formularzy ani ciał żądań POST. Osobno zapisywane są zdarzenia aplikacji, np. wynik wysyłki wiadomości opisany przy generatorze.",
+				"Dane te służą do obsługi połączeń, diagnozowania błędów i ochrony przed nadużyciami. Podstawą przetwarzania danych osobowych jest mój prawnie uzasadniony interes w zapewnieniu bezpieczeństwa i stabilności serwisu (art. 6 ust. 1 lit. f RODO). Bez danych technicznych obsługa połączenia nie jest możliwa.",
+				"Aby ograniczać przeciążenie i automatyczne nadużycia, serwis prowadzi krótkotrwałe liczniki żądań według adresu IP. Okno limitu dla strony wynosi 40 sekund. Po przekroczeniu limitu kolejne żądania mogą być czasowo odrzucane."
 			]
 		},
 		{
 			"id": "cookies",
-			"title": "Cookies i pamięć lokalna",
+			"title": "Cookies i pamięć przeglądarki",
 			"body": [
-				"Serwis nie używa analityki, reklam ani plików cookies śledzących. Zapisuje na urządzeniu wyłącznie ustawienia potrzebne do działania wybranych przez Ciebie funkcji, dlatego nie wyświetla banera zgody.",
-				"**Cookies:** `lang` (wybrany język, 1 rok), `sef_bg` (jawnie wybrany motyw tła, 1 rok), `sef_bg_auto` (motyw dobrany automatycznie, 7 lub 30 dni). Motyw automatyczny ustalany jest na podstawie pomiaru wykonanego w Twojej przeglądarce (częstotliwość odświeżania ekranu, liczba rdzeni i pamięć urządzenia, obsługa WebGL, preferencje ograniczenia animacji i oszczędzania danych). Wynik pomiaru nie jest wysyłany na serwer, zapisywany jest tylko wybrany motyw. Ustawienie możesz zmienić w panelu ustawień (opcja Auto, Animacja lub Tapeta).",
-				"**Pamięć przeglądarki (localStorage i sessionStorage):** głośność i włączenie dźwięków oraz muzyki, limit FPS i tryb cząstek tła, ustawienia narzędzia IP checker, głośność w MeshCore. Dane te nie są wysyłane na serwer.",
-				"**Service worker:** serwis zapisuje w pamięci podręcznej przeglądarki odwiedzone strony i zasoby wyłącznie po to, aby działać w trybie offline. Gdy masz połączenie, zawsze otrzymujesz aktualną wersję z serwera.",
-				"Wszystkie powyższe dane możesz usunąć w ustawieniach przeglądarki."
+				"Strona korzysta z cookies i pamięci przeglądarki do zapamiętywania ustawień, dostosowania tła i udostępniania zapisanych treści przy problemach z połączeniem. Nie wykorzystuję tych mechanizmów do reklam ani śledzenia Cię między stronami.",
+				"**Język i tło:** cookie `lang` zapamiętuje język przez rok, a `sef_bg` wybrany motyw tła przez rok. Przy braku obsługi animowanego tła `sef_bg` może zostać zastąpione ustawieniem tapety ważnym przez 30 dni. Cookie `sef_bg_auto` przechowuje automatycznie dobrany motyw przez 7 lub 30 dni. Cookies są przesyłane do serwera podczas kolejnych żądań.",
+				"**Automatyczny dobór tła** może uruchomić się już przy pierwszej wizycie. Przeglądarka sprawdza lokalnie obsługę grafiki WebGL, płynność animacji, dostępną informację o liczbie rdzeni i pamięci urządzenia oraz preferencje ograniczenia ruchu i oszczędzania danych. Wyniki pomiarów nie są wysyłane na serwer; cookie zawiera tylko wybrany motyw. Motyw możesz zmienić w panelu ustawień tła.",
+				"**Ustawienia lokalne:** pamięć localStorage zachowuje m.in. ustawienia dźwięków, muzyki, płynności i cząstek tła oraz ostatni adres IP wpisany do IP checkera. Pamięć sessionStorage służy do tymczasowych ustawień i komunikatów w obrębie sesji karty. Sam zapis ustawień nie wysyła ich na serwer. Adres z formularza IP checkera trafia do API, kiedy uruchamiasz sprawdzanie.",
+				"**Pamięć podręczna:** mechanizm service worker automatycznie zapisuje wybrane pliki, odwiedzone strony i odpowiedzi API. Najpierw próbuje pobrać aktualną treść z sieci. Przy braku połączenia, wolnej odpowiedzi lub błędzie serwera może wyświetlić zapisaną kopię.",
+				"localStorage i pamięć podręczna pozostają do usunięcia przez Ciebie, przeglądarkę lub mechanizmy porządkowania strony. sessionStorage jest zwykle usuwane po zakończeniu sesji karty. Dane witryny możesz usunąć lub ograniczyć w ustawieniach przeglądarki; może to zresetować preferencje i wyłączyć działanie offline. Zabezpieczenia Cloudflare opisuję w sekcji o odbiorcach danych."
+			]
+		},
+		{
+			"id": "generator",
+			"title": "Generator list blokujących",
+			"body": [
+				"Jeśli zamawiasz wysyłkę wygenerowanej listy, przetwarzam podany adres e-mail, adres IP, zawartość listy i wynik sprawdzenia zabezpieczenia Turnstile. E-mail jest potrzebny do doręczenia wiadomości. Bez niego możesz korzystać z generatora, ale nie z wysyłki pocztą.",
+				"Adres odbiorcy, temat i odpowiedź serwera pocztowego są zapisywane w logach aplikacji. Adres e-mail i IP służą także do ograniczenia liczby wysyłek. Liczniki wygasają po 24 godzinach od ostatniego zwiększenia. Generator nie zapisuje adresu e-mail w osobnej historii wysyłek w bazie danych i nie dopisuje go do listy mailingowej.",
+				"Podstawą przetwarzania jest mój prawnie uzasadniony interes w realizacji zamówionej przez Ciebie jednorazowej wysyłki, sprawdzeniu jej doręczenia i ochronie generatora przed nadużyciami (art. 6 ust. 1 lit. f RODO)."
 			]
 		},
 		{
 			"id": "verification",
 			"title": "Weryfikacja na Discordzie",
 			"body": [
-				"Strona `/discord/verification/...` służy do weryfikacji osób dołączających do serwerów Discord prowadzonych przez administratora, w celu ochrony przed botami, spamem i nadużyciami. Podstawa prawna: prawnie uzasadniony interes administratora (art. 6 ust. 1 lit. f RODO).",
-				"**Jakie dane są analizowane:** identyfikator, nazwa użytkownika i awatar z konta Discord, wiek konta, adres IP i kraj, User-Agent, parametry przeglądarki (m.in. oznaki automatyzacji, rozmiar ekranu i okna, liczba języków), sposób interakcji (czas wypełnienia formularza, liczba zdarzeń myszy, różnica między zegarem urządzenia i serwera) oraz wynik Cloudflare Turnstile. Awatar jest sprawdzany pod kątem treści NSFW, a nazwa użytkownika pod kątem zabronionych słów i wzorców.",
-				"**Zewnętrzne źródła:** adres IP jest sprawdzany w usługach reputacji IP (AbuseIPDB, SniffCat, VPNAPI) oraz we własnej usłudze administratora, w celu wykrycia m.in. sieci Tor, VPN i proxy, dostawców hostingu oraz adresów zgłaszanych jako złośliwe. Wynik sprawdzenia danego adresu IP jest buforowany w Redis przez 10 minut.",
-				"**Automatyczna decyzja:** z powyższych sygnałów obliczana jest punktacja ryzyka. Poniżej 40 punktów weryfikacja kończy się pozytywnie. Od 40 punktów zgłoszenie trafia do ręcznej oceny moderatora, który zatwierdza je albo odrzuca. Sygnały słabe, takie jak nowe konto, brak awatara czy gorsza reputacja adresu IP, nie mogą same doprowadzić do blokady, więc kończą się ręczną oceną. **Konto jest blokowane automatycznie, bez udziału człowieka,** tylko przy jednoznacznych sygnałach, np. użyciu sieci Tor, wykryciu automatyzacji przeglądarki, wypełnieniu ukrytego pola formularza, wysłaniu formularza w nierealnie krótkim czasie albo użyciu nazwy z listy znanych naruszycieli. Skutkiem blokady jest brak dostępu do serwera Discord. Masz prawo do interwencji człowieka, przedstawienia swojego stanowiska i zakwestionowania decyzji. Napisz na contact@sefinek.net.",
-				"**Okres przechowywania:** po blokadzie zapisywane są identyfikator i nazwa konta Discord, powód, daty oraz dane z weryfikacji (adres IP, User-Agent, wynik i szczegóły wykrycia). Dane techniczne (adres IP, wynik i szczegóły wykrycia) są automatycznie usuwane po **90 dniach**. Wpis o samej blokadzie (identyfikator, nazwa, powód, daty) jest przechowywany, aby ponownie zablokować to konto po powrocie na serwer, do czasu zdjęcia blokady lub usunięcia na Twoją prośbę. Dla zgłoszeń weryfikacyjnych zapisywane są: identyfikator, nazwa i awatar konta, kraj, status oraz wynik z listą typów wykryć, bez adresu IP. Adres IP nie jest wyświetlany w wiadomościach moderatorów na Discordzie. Wyniki są przekazywane botowi Sefibot administratora, który wykonuje decyzję na serwerze Discord.",
-				"Wiek minimalny zależy od kraju: w Polsce wynosi 16 lat, a w pozostałych krajach 13 lat, zgodnie z zasadami Discorda. Nie zbieram daty urodzenia ani dokumentów tożsamości."
+				"Weryfikacja służy ochronie serwerów Discord prowadzonych przez administratora przed botami, spamem i nadużyciami. Podstawą przetwarzania jest prawnie uzasadniony interes w zapewnieniu bezpieczeństwa społeczności (art. 6 ust. 1 lit. f RODO). Weryfikacja jest warunkiem uzyskania dostępu do serwerów, na których jest wymagana.",
+				"**Dane konta i połączenia:** z Discorda otrzymuję identyfikator użytkownika, nazwy wyświetlane na koncie, awatar, informacje o wieku konta i członkostwie w serwerze. Przetwarzam też adres IP, kraj ustalony na podstawie połączenia, informacje o przeglądarce i wynik Turnstile.",
+				"**Kontrola bezpieczeństwa:** analizowane są oznaki automatyzacji przeglądarki, rozmiar ekranu i okna, liczba skonfigurowanych języków, czas wypełnienia formularza, liczba zdarzeń myszy i różnica między czasem na urządzeniu a czasem serwera. Nazwa użytkownika jest sprawdzana pod kątem zabronionych słów i podejrzanych wzorców, a awatar pod kątem treści o charakterze seksualnym. Własna usługa administratora oraz AbuseIPDB, SniffCat i VPNAPI dostarczają informacje o reputacji IP, m.in. o sieciach Tor, VPN, proxy, hostingu i zgłoszeniach nadużyć. Takie dane mogą być niepełne lub błędne.",
+				"**Ocena i wynik:** system łączy sygnały w punktację ryzyka. Jest to profilowanie na potrzeby bezpieczeństwa. Po spełnieniu pozostałych warunków weryfikacji wynik poniżej 40 punktów pozwala ją zatwierdzić, 40-99 punktów kieruje sprawę do moderatora, a 100 punktów lub więcej powoduje automatyczną blokadę dostępu do danego serwera Discord. Nie jest to blokada całego konta na platformie Discord. Wynik i dane potrzebne do wykonania decyzji trafiają do bota Sefibot administratora, a sprawy wymagające oceny także do uprawnionych moderatorów.",
+				"**Odwołanie:** możesz poprosić o wyjaśnienie wyniku, przedstawić swoje stanowisko i wystąpić o ponowną ocenę przez człowieka. Napisz na [contact@sefinek.net](mailto:contact@sefinek.net), podając identyfikator konta Discord i nazwę serwera.",
+				"Minimalny wiek zależy od kraju zamieszkania i zasad Discorda; w Polsce wynosi 16 lat. Nie zbieram daty urodzenia ani dokumentów tożsamości. Kraj ustalony z połączenia nie zawsze odpowiada miejscu zamieszkania."
+			]
+		},
+		{
+			"id": "meshcore",
+			"title": "Profile i społeczność MeshCore Polska",
+			"body": [
+				"Funkcje MeshCore Polska są powiązane z Twoim identyfikatorem Discord. Przetwarzam nazwy i awatar konta, wybrane role społeczności, informacje o urządzeniach (nazwy, klucze publiczne, typ i ustawienia radiowe) oraz podane przez Ciebie dane profilu: opis, e-mail, stronę internetową, nazwę na Telegramie i miejscowość. Zakres danych zależy od używanych funkcji i wypełnionych pól.",
+				"Zgłoszenie operatora obejmuje dane przemienników lub serwerów Room, ich lokalizację, notatki oraz wynik i historię rozpatrzenia zgłoszenia. Opcjonalna ankieta zapisuje odpowiedzi o tym, jak trafiłeś do społeczności, Twojej motywacji i sugestiach. Odpowiedzi są powiązane z kontem Discord, więc ankieta nie jest anonimowa. Nie wpisuj do pól tekstowych zbędnych danych innych osób.",
+				"Dane służą do prowadzenia profilu, ustawiania ról, obsługi zgłoszeń i rozwijania społeczności na podstawie ankiet. Podstawą jest mój prawnie uzasadniony interes w obsłudze funkcji, z których korzystasz, i organizacji społeczności (art. 6 ust. 1 lit. f RODO). Dane wymagane w danym formularzu są potrzebne do realizacji tej funkcji. Podanie danych kontaktowych, opisu i odpowiedzi ankietowych jest dobrowolne.",
+				"**Widoczność profilu:** publiczna wizytówka może udostępniać Twoje dane kontaktowe, miejscowość, opis, role i informacje o urządzeniach każdemu odwiedzającemu. Ustawienia profilu pozwalają ograniczyć jego widoczność i wskazać, czy ma być indeksowany przez wyszukiwarki. Wyłączenie indeksowania nie jest kontrolą dostępu i nie gwarantuje usunięcia kopii już zapisanych przez inne podmioty. Nie publikuj danych, których nie chcesz udostępniać publicznie.",
+				"Dane potrzebne do obsługi społeczności i zgłoszeń są dostępne administratorowi oraz uprawnionym moderatorom. Zmiany ról i informacje o zgłoszeniach są przekazywane przez Sefibota do Discorda. O usunięcie profilu lub danych ankiety możesz wystąpić zgodnie z sekcją „Twoje prawa”."
+			]
+		},
+		{
+			"id": "ip-checker",
+			"title": "Sprawdzanie adresów IP",
+			"body": [
+				"IP checker przekazuje wpisany adres do api.sefinek.net, aby wyświetlić przybliżoną lokalizację sieci i informacje o VPN, proxy, Tor oraz listach zagrożeń. Sprawdzenie odbywa się we własnej infrastrukturze administratora, na podstawie lokalnych baz i list. Nie wymaga wysyłania sprawdzanego adresu do zewnętrznych API reputacyjnych wymienionych przy weryfikacji Discord.",
+				"API otrzymuje też adres IP Twojego połączenia i standardowe dane żądania. Sprawdzany adres znajduje się w adresie żądania i może zostać zapisany w logach API. Ostatni wpisany adres jest zapamiętywany w Twojej przeglądarce. Wyniki mogą być buforowane we własnej usłudze: dane lokalizacji do 12 godzin, a sprawdzenie list zagrożeń do 24 godzin.",
+				"Podstawą przetwarzania danych osobowych jest mój prawnie uzasadniony interes w udostępnianiu zamówionego sprawdzenia, diagnostyce i ochronie narzędzia przed nadużyciami (art. 6 ust. 1 lit. f RODO). Bez podania adresu nie da się wykonać sprawdzenia. Wynik opisuje adres i sieć, nie potwierdza tożsamości ani dokładnego miejsca pobytu osoby. Jeśli sprawdzany adres dotyczy innej osoby, może ona skorzystać z praw opisanych poniżej."
 			]
 		},
 		{
 			"id": "third-parties",
-			"title": "Usługi podmiotów trzecich",
+			"title": "Kto może otrzymać dane",
 			"body": [
-				"**Cloudflare** - serwis działa za siecią Cloudflare (proxy i tunel), która przetwarza ruch, w tym adresy IP odwiedzających. Cloudflare Turnstile chroni formularze (generator blocklist, weryfikacja Discord) i przetwarza dane przeglądarki oraz adres IP w celu odróżnienia człowieka od bota.",
-				"**AbuseIPDB, SniffCat, VPNAPI** - otrzymują adres IP sprawdzany w ramach weryfikacji Discord, aby ocenić jego reputację.",
-				"**Dostawca poczty (SMTP)** - generator blocklist wysyła listę na podany adres e-mail przez serwer pocztowy. Adres e-mail jest używany wyłącznie do tej jednorazowej wysyłki i nie trafia do bazy danych ani listy mailingowej (poza licznikiem limitu w Redis opisanym wyżej). Informacja o wysyłce (adres odbiorcy, temat i odpowiedź serwera pocztowego) jest zapisywana w logach aplikacji.",
-				"**Discord** - jest odrębnym administratorem danych na swojej platformie. Z konta Discord pobierane są dane wskazane w sekcji o weryfikacji oraz, w przypadku MeshCore Polska, dane niezbędne do logowania i prowadzenia profilu.",
-				"**jsDelivr i własny CDN (cdn.sefinek.net)** - z nich ładowane są niektóre skrypty i pliki. Ich operatorzy widzą standardowe dane techniczne połączenia (np. adres IP).",
-				"**MeshCore Polska** - profile członków społeczności, ankiety i zgłoszenia operatorów są zapisywane w bazie danych administratora. Opcjonalna publiczna wizytówka kontaktowa jest dostępna dla każdego pod swoim adresem i może być indeksowana przez wyszukiwarki. Profil możesz usunąć, pisząc na contact@sefinek.net.",
-				"**Narzędzie IP checker** - przeglądarka wysyła sprawdzany adres IP (Twój lub wpisany) do API administratora (api.sefinek.net), które zwraca dane geolokalizacyjne i wynik kontroli VPN. Sprawdzanie odbywa się w infrastrukturze administratora, bez przekazywania adresu do zewnętrznych usług. Zapytanie jest zapisywane w logach API (adres IP klienta i adres URL zawierający sprawdzany adres IP).",
-				"Niektórzy z powyższych dostawców mają siedzibę lub przetwarzają dane poza Europejskim Obszarem Gospodarczym, w szczególności w Stanach Zjednoczonych. Transfer odbywa się na podstawie mechanizmów przewidzianych w RODO, takich jak decyzja o odpowiednim stopniu ochrony (EU-US Data Privacy Framework) lub standardowe klauzule umowne. Szczegóły znajdziesz w politykach prywatności tych dostawców."
+				"**Cloudflare** pośredniczy w ruchu do strony i pomaga chronić ją przed atakami. Otrzymuje dane połączenia, w tym IP i informacje o żądaniu. Turnstile chroni formularze generatora i weryfikacji Discord; analizuje m.in. IP, informacje o przeglądarce i techniczne sygnały połączenia. Cloudflare przetwarza dane na moje zlecenie w celu ochrony strony, a według własnej dokumentacji także jako odrębny administrator w celu ulepszania wykrywania botów. Szczegóły: [polityka Cloudflare](https://www.cloudflare.com/privacypolicy/) i [informacje o Turnstile](https://www.cloudflare.com/turnstile-privacy-policy/).",
+				"**Usługi reputacji IP:** podczas weryfikacji Discord sprawdzany adres otrzymują AbuseIPDB, SniffCat i VPNAPI. Informacje zwrotne służą ocenie bezpieczeństwa opisanej w sekcji o weryfikacji. Dokumentacja dostawców: [AbuseIPDB](https://www.abuseipdb.com/privacy) i [VPNAPI](https://vpnapi.io/privacy-policy).",
+				"**Poczta:** serwer pocztowy obsługuje adresy nadawcy i odbiorcy, treść wiadomości oraz dane potrzebne do jej doręczenia. Dotyczy to wysyłki z generatora i korespondencji ze mną. Operator skrzynki odbiorcy przetwarza doręczoną wiadomość według własnych zasad.",
+				"**Discord** przetwarza dane jako odrębny administrator swojej platformy. Wymiana danych przez bota obejmuje weryfikację, profile, role i zgłoszenia społeczności. Szczegóły opisuje [polityka Discorda](https://discord.com/privacy).",
+				"**Dostarczanie plików:** część zasobów jest pobierana z jsDelivr i mojej domeny cdn.sefinek.net. Widżet statusu łączy się z status.sefinek.net. Takie połączenia przekazują dane techniczne, w tym adres IP. Informacje o zewnętrznej sieci dostarczania plików: [polityka jsDelivr](https://www.jsdelivr.com/terms/privacy-policy).",
+				"Dane mogą zostać udostępnione właściwym organom, jeśli wymaga tego prawo. Po przejściu przez link na inną stronę zastosowanie mają zasady jej operatora."
+			]
+		},
+		{
+			"id": "transfers",
+			"title": "Przetwarzanie poza EOG",
+			"body": [
+				"Korzystanie z usług Cloudflare, Discorda, AbuseIPDB, VPNAPI i jsDelivr może wiązać się z przetwarzaniem danych poza Europejskim Obszarem Gospodarczym (EOG), w tym w Stanach Zjednoczonych. Lokalizacja własnego serwera nie oznacza, że wszystkie operacje odbywają się wyłącznie w Polsce lub EOG.",
+				"Cloudflare opisuje zabezpieczenia transferów, w tym ramy EU-US Data Privacy Framework i standardowe klauzule umowne, w [umowie dotyczącej przetwarzania danych](https://www.cloudflare.com/cloudflare-customer-dpa/). Dokumenty pozostałych dostawców są dostępne pod linkami w poprzedniej sekcji. Mechanizm transferu zależy od odbiorcy i konkretnej usługi; samo wymienienie dostawcy nie oznacza objęcia go certyfikacją DPF.",
+				"O informacje o zabezpieczeniach dotyczących konkretnego przekazania oraz o sposób uzyskania ich kopii możesz wystąpić do administratora pod adresem podanym na początku polityki."
+			]
+		},
+		{
+			"id": "retention",
+			"title": "Jak długo przechowuję dane",
+			"body": [
+				"**Logi strony, API i aplikacji** są usuwane w ramach rotacji wykonywanej co 5 miesięcy. Jest to cykl porządkowania logów.",
+				"**Dane tymczasowe:** okno limitu żądań strony wynosi 40 sekund; liczniki wysyłek generatora wygasają po 24 godzinach od ostatniego zwiększenia. Zbiorczy wynik sprawdzenia IP podczas weryfikacji Discord jest buforowany przez 10 minut, a sesja konfiguracji MeshCore przez 6 godzin. Okresy pamięci przeglądarki i wyników IP checkera opisano przy tych funkcjach.",
+				"**Weryfikacje i blokady Discord** nie mają automatycznego terminu usunięcia. O potrzebie dalszego przechowywania decydują: członkostwo i stan weryfikacji, obowiązywanie blokady, powtarzalność nadużyć oraz potrzeba rozpatrzenia odwołania. Szczegółowe wyniki wykrycia służą wyjaśnieniu decyzji i incydentu; sam fakt utrzymywania blokady nie uzasadnia zachowywania wszystkich szczegółów bez ograniczeń.",
+				"**Profile, zgłoszenia i ankiety MeshCore** również nie wygasają automatycznie. Okres przetwarzania zależy od utrzymywania profilu, obsługi zgłoszonego urządzenia, rozpatrzenia zgłoszenia i wykorzystania odpowiedzi do organizacji społeczności. Rezygnacja z tych funkcji lub żądanie usunięcia wymaga oceny, które dane przestały być potrzebne.",
+				"**Korespondencja** jest przetwarzana w celu udzielenia odpowiedzi i zakończenia sprawy (prawnie uzasadniony interes, art. 6 ust. 1 lit. f RODO). Dalsze przechowywanie zależy od potrzeby zachowania ustaleń, obsługi powiązanych spraw lub dochodzenia i obrony roszczeń. Przedłużenie przechowywania danych na potrzeby konkretnego sporu lub incydentu dotyczy tylko informacji potrzebnych w tej sprawie."
 			]
 		},
 		{
 			"id": "rights",
 			"title": "Twoje prawa",
 			"body": [
-				"Masz prawo do dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania oraz przenoszenia (art. 15-20 RODO). Przysługuje Ci też **prawo sprzeciwu** wobec przetwarzania opartego na prawnie uzasadnionym interesie (art. 21 RODO) oraz prawo do niepodlegania decyzji opartej wyłącznie na zautomatyzowanym przetwarzaniu (art. 22 RODO), o czym mowa w sekcji o weryfikacji na Discordzie.",
-				"Aby skorzystać z tych praw, napisz na contact@sefinek.net. Przy sprawach dotyczących Discorda podaj swój identyfikator użytkownika, abym mógł znaleźć odpowiednie dane. Logi serwera są przeszukiwane na podstawie adresu IP, o ile go podasz.",
-				"Masz prawo wnieść skargę do organu nadzorczego: Prezesa Urzędu Ochrony Danych Osobowych (uodo.gov.pl)."
+				"Możesz żądać dostępu do swoich danych i ich kopii, sprostowania nieprawidłowych danych, usunięcia danych lub ograniczenia przetwarzania, na warunkach określonych w art. 15-18 RODO. Usunięcie może być ograniczone m.in. wtedy, gdy dane są nadal niezbędne do dochodzenia lub obrony roszczeń.",
+				"**Możesz wnieść sprzeciw** wobec przetwarzania opartego na prawnie uzasadnionym interesie, z przyczyn związanych z Twoją szczególną sytuacją (art. 21 RODO). Dalsze przetwarzanie wymaga wówczas wykazania ważnych, nadrzędnych podstaw prawnych lub potrzeby ustalenia, dochodzenia albo obrony roszczeń.",
+				"Prawo do przenoszenia danych ma zastosowanie, gdy przetwarzanie odbywa się automatycznie na podstawie zgody lub umowy (art. 20 RODO); nie obejmuje automatycznie wszystkich danych opisanych w tej polityce. Gdy podstawą konkretnego przetwarzania jest zgoda, możesz ją wycofać bez wpływu na zgodność z prawem wcześniejszego przetwarzania.",
+				"Art. 22 RODO przewiduje ochronę przed decyzjami opartymi wyłącznie na automatycznym przetwarzaniu, które wywołują skutki prawne lub w podobny sposób istotnie wpływają na osobę, z wyjątkami określonymi w tym przepisie. Możliwość zakwestionowania wyniku weryfikacji Discord opisuję w sekcji o weryfikacji.",
+				"Wniosek wyślij na [contact@sefinek.net](mailto:contact@sefinek.net). Podaj informacje pozwalające odnaleźć dane, np. identyfikator Discord lub adres IP i przybliżony czas wizyty. W razie uzasadnionych wątpliwości mogę poprosić o dodatkowe informacje potrzebne do potwierdzenia tożsamości. Nie przesyłaj dokumentu tożsamości bez wcześniejszego uzgodnienia.",
+				"Odpowiedź otrzymasz bez zbędnej zwłoki, co do zasady w ciągu miesiąca od otrzymania wniosku. W przypadkach przewidzianych w RODO termin może zostać przedłużony o kolejne dwa miesiące; w ciągu pierwszego miesiąca poinformuję Cię o przedłużeniu i jego przyczynach. Masz też prawo wnieść skargę do [Prezesa Urzędu Ochrony Danych Osobowych](https://uodo.gov.pl/) lub innego właściwego organu nadzorczego."
 			]
 		},
 		{
 			"id": "contact",
-			"title": "Kontakt",
+			"title": "Zmiany polityki",
 			"body": [
-				"W sprawach dotyczących prywatności i danych osobowych napisz na adres **contact@sefinek.net**.",
-				"Politykę mogę aktualizować, gdy zmieni się sposób działania serwisu. Aktualna wersja jest zawsze dostępna na tej stronie."
+				"Polityka może się zmieniać wraz z funkcjami serwisu lub zasadami przetwarzania danych. Datę ostatniej aktualizacji znajdziesz poniżej. Sama aktualizacja polityki nie jest zgodą na nowe cele przetwarzania ani nie zastępuje wymaganej informacji lub zgody."
 			]
 		}
 	]

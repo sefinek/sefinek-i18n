@@ -1,85 +1,135 @@
 {
 	"meta": {
 		"title": "Privacy policy | Sefinek",
-		"description": "How sefinek.net handles cookies, server logs and data processed by its services.",
+		"description": "What data sefinek.net processes, how it uses that data and how you can exercise your rights.",
 		"keywords": "privacy policy, cookies, sefinek"
 	},
-	"label": "Legal",
+	"label": "Privacy information",
 	"heading": "Privacy policy",
 	"updated": "Last updated: {{date}}",
 	"pending": "This section is being prepared.",
 	"sections": [
 		{
 			"id": "controller",
-			"title": "Who runs this website",
+			"title": "Who is responsible for your data",
 			"body": [
-				"The controller of personal data processed through sefinek.net and its services (Discord verification, MeshCore Polska, the blocklist generator, tools) is a private individual using the pseudonym **Sefinek**. The website is non-commercial, contains no ads, and has no user accounts or registration.",
-				"Contact for all matters concerning personal data: **contact@sefinek.net**.",
-				"No data protection officer has been appointed. The information below is provided under Article 13 of the GDPR."
+				"sefinek.net is run by an individual using the pseudonym **Sefinek**, who is the controller of the personal data described in this policy. For privacy matters, write to [contact@sefinek.net](mailto:contact@sefinek.net). No data protection officer has been appointed.",
+				"This policy covers browsing sefinek.net, the blocklist generator, Discord verification, MeshCore Polska features, and IP address checks in the IP checker tool and its associated API. Other projects and linked websites may have their own privacy notices.",
+				"The website is non-commercial. I do not display ads or use analytics tools to track visitors. You do not need to create an account to browse the website. MeshCore Polska profiles are linked to Discord accounts.",
+				"Below I explain what data I receive from you, your browser, Discord and security services, and how I use it (Articles 13 and 14 GDPR)."
 			]
 		},
 		{
 			"id": "logs",
-			"title": "Server logs and IP addresses",
+			"title": "Website operation and security",
 			"body": [
-				"For every request to the server, the logs record: IP address, URL, request method and response status, response time, User-Agent header, selected language and the referring address (referrer). The content of forms and POST requests is not written to the logs.",
-				"Purpose: keeping the website secure and stable, diagnosing errors and defending against abuse. Legal basis: the controller's legitimate interest (Article 6(1)(f) GDPR). Providing this data is technically necessary to handle the connection.",
-				"Logs are stored on the controller's server and deleted through rotation, **roughly every 5 months**. Traffic passes through Cloudflare, which also processes it under its own terms (see the section on third-party services).",
-				"To limit abuse, requests are rate-limited per IP address (52 requests per 40 seconds), counted in Redis memory and expiring with the time window. The blocklist generator additionally limits sending to 3 per day, separately per e-mail address and per IP address. The counters (containing the e-mail address or IP) are kept in Redis for 24 hours."
+				"The server receives technical connection data. Request logs may include the IP address, requested URL and its parameters, request method, response status and time, browser information from the User-Agent header, selected language and referring page address, if your browser sends it. Request logging on sefinek.net does not include form contents or POST request bodies. Application events are logged separately, such as the delivery result described in the generator section.",
+				"This data is used to handle connections, diagnose errors and prevent abuse. The legal basis for processing personal data is my legitimate interest in keeping the website secure and stable (Article 6(1)(f) GDPR). The connection cannot be handled without technical data.",
+				"To limit overload and automated abuse, the website keeps short-lived request counters by IP address. The website's rate-limit window is 40 seconds. Requests may be temporarily rejected when the limit is exceeded."
 			]
 		},
 		{
 			"id": "cookies",
-			"title": "Cookies and local storage",
+			"title": "Cookies and browser storage",
 			"body": [
-				"The website uses no analytics, no advertising and no tracking cookies. It stores on your device only the settings needed for features you chose to use, which is why it shows no consent banner.",
-				"**Cookies:** `lang` (selected language, 1 year), `sef_bg` (explicitly selected background theme, 1 year), `sef_bg_auto` (automatically selected theme, 7 or 30 days). The automatic theme is chosen from a measurement made in your browser (screen refresh rate, number of CPU cores and device memory, WebGL support, reduced-motion and data-saver preferences). The measurement result is not sent to the server, only the resulting theme is stored. You can change this in the settings panel (Auto, Animation or Wallpaper).",
-				"**Browser storage (localStorage and sessionStorage):** sound and music volume and on/off state, background FPS limit and particle mode, IP checker settings, MeshCore volume. This data is not sent to the server.",
-				"**Service worker:** the website keeps visited pages and assets in the browser cache solely to work offline. When you are online, you always get the current version from the server.",
-				"You can delete all of the above in your browser settings."
+				"The website uses cookies and browser storage to remember preferences, adapt the background and provide saved content when there are connection problems. I do not use these mechanisms for advertising or to track you across websites.",
+				"**Language and background:** the `lang` cookie remembers your language for one year, and `sef_bg` remembers your chosen background theme for one year. If the animated background is unsupported, `sef_bg` may be replaced with a wallpaper preference lasting 30 days. The `sef_bg_auto` cookie stores an automatically selected theme for 7 or 30 days. Cookies are sent to the server with subsequent requests.",
+				"**Automatic background selection** may run on your first visit. Your browser locally checks WebGL graphics support, animation performance, available information about CPU cores and device memory, and reduced-motion and data-saving preferences. Measurement results are not sent to the server; the cookie contains only the selected theme. You can change the theme in the background settings panel.",
+				"**Local preferences:** localStorage keeps settings such as sound and music preferences, animation frame rate and background particles, and the last IP address entered in the IP checker. sessionStorage holds temporary settings and messages for the tab session. Saving preferences alone does not send them to the server. The IP checker address is sent to the API when you run a check.",
+				"**Browser cache:** a service worker automatically saves selected files, visited pages and API responses. It first tries to fetch current content from the network. If the connection is unavailable, slow or returns a server error, it may display a saved copy.",
+				"localStorage and cached content remain until you, your browser or the website's cleanup mechanisms remove them. sessionStorage is usually cleared when the tab session ends. You can delete or restrict website data in your browser settings; this may reset preferences and disable offline access. Cloudflare security features are described in the data recipients section."
+			]
+		},
+		{
+			"id": "generator",
+			"title": "Blocklist generator",
+			"body": [
+				"If you request delivery of a generated list, I process the email address you provide, your IP address, the list contents and the Turnstile security check result. An email address is needed to deliver the message. You can use the generator without providing one, but cannot request email delivery.",
+				"The recipient address, subject and mail server response are recorded in application logs. Your email and IP address are also used to limit deliveries. Counters expire 24 hours after their last increment. The generator does not save your email address in a separate database delivery history or add it to a mailing list.",
+				"The legal basis is my legitimate interest in carrying out the one-time delivery you requested, checking its delivery status and protecting the generator from abuse (Article 6(1)(f) GDPR)."
 			]
 		},
 		{
 			"id": "verification",
 			"title": "Discord verification",
 			"body": [
-				"The `/discord/verification/...` page is used to verify people joining Discord servers run by the controller, to protect against bots, spam and abuse. Legal basis: the controller's legitimate interest (Article 6(1)(f) GDPR).",
-				"**Data analyzed:** user ID, username and avatar from your Discord account, account age, IP address and country, User-Agent, browser parameters (including signs of automation, screen and window size, number of languages), interaction patterns (form completion time, number of mouse events, difference between device and server clocks) and the Cloudflare Turnstile result. The avatar is checked for NSFW content, and the username for prohibited words and patterns.",
-				"**External sources:** the IP address is checked with IP reputation services (AbuseIPDB, SniffCat, VPNAPI) and the controller's own service, to detect Tor, VPN and proxy networks, hosting providers and addresses reported as malicious. The result for a given IP address is cached in Redis for 10 minutes.",
-				"**Automated decision:** a risk score is calculated from these signals. Below 40 points the verification succeeds. From 40 points the request goes to manual review by a moderator, who approves or rejects it. Weak signals, such as a new account, no avatar or a poorer IP reputation, cannot on their own lead to a block, so they end in manual review. **The account is blocked automatically, without human involvement,** only on unambiguous signals, e.g. use of the Tor network, detected browser automation, a filled hidden form field, a form submitted in an unrealistically short time, or a name on the list of known offenders. A block means no access to the Discord server. You have the right to human intervention, to express your point of view and to contest the decision. Write to contact@sefinek.net.",
-				"**Retention:** after a block, the Discord account ID and name, the reason, dates and verification data (IP address, User-Agent, score and detection details) are stored. The technical data (IP address, score and detection details) is deleted automatically after **90 days**. The record of the block itself (ID, name, reason, dates) is kept so the account can be blocked again if it returns to the server, until the block is lifted or the record is deleted at your request. For verification requests, the account ID, name and avatar, country, status and the score with a list of detection types are stored, without the IP address. The IP address is not shown in moderator messages on Discord. Results are passed to the controller's Sefibot bot, which carries out the decision on the Discord server.",
-				"The minimum age depends on the country: 16 in Poland and 13 elsewhere, following Discord's rules. I do not collect dates of birth or identity documents."
+				"Verification protects Discord servers run by the controller against bots, spam and abuse. The legal basis is my legitimate interest in keeping the community safe (Article 6(1)(f) GDPR). Verification is a condition of access to servers that require it.",
+				"**Account and connection data:** Discord provides your user ID, account display names, avatar, account age and server membership information. I also process your IP address, country inferred from the connection, browser information and Turnstile result.",
+				"**Security checks:** the system analyzes signs of browser automation, screen and window dimensions, the number of configured languages, form completion time, mouse event count and the difference between device and server clocks. Usernames are checked for prohibited words and suspicious patterns, and avatars for sexual content. The controller's own service, AbuseIPDB, SniffCat and VPNAPI provide IP reputation information, including Tor, VPN, proxy and hosting networks and abuse reports. This information may be incomplete or incorrect.",
+				"**Assessment and outcome:** the system combines signals into a risk score. This is profiling for security purposes. Once the other verification requirements are met, a score below 40 allows approval, 40-99 sends the case to a moderator, and 100 or more automatically blocks access to that Discord server. It does not disable your entire Discord account. The result and data needed to carry out the decision are passed to the controller's Sefibot bot; cases requiring review are also shared with authorized moderators.",
+				"**Appeals:** you can ask for an explanation, express your point of view and request reassessment by a person. Write to [contact@sefinek.net](mailto:contact@sefinek.net), including your Discord user ID and the server name.",
+				"The minimum age depends on your country of residence and Discord's rules; in Poland it is 16. I do not collect dates of birth or identity documents. The country inferred from a connection does not always match your country of residence."
+			]
+		},
+		{
+			"id": "meshcore",
+			"title": "MeshCore Polska profiles and community",
+			"body": [
+				"MeshCore Polska features are linked to your Discord user ID. I process account names and avatar, selected community roles, device details (names, public keys, type and radio settings), and profile information you provide: bio, email, website, Telegram username and locality. The data involved depends on the features you use and fields you complete.",
+				"An operator application includes repeater or room server details, their locations, notes, and the outcome and review history. The optional survey records how you found the community, your motivation and suggestions. Responses are linked to your Discord account, so the survey is not anonymous. Do not enter unnecessary information about other people in text fields.",
+				"The data is used to maintain profiles, assign roles, handle applications and improve the community using survey responses. The legal basis is my legitimate interest in providing the features you use and organizing the community (Article 6(1)(f) GDPR). Required form fields are necessary for the relevant feature. Providing contact details, a bio and survey answers is optional.",
+				"**Profile visibility:** a public contact card may make your contact details, locality, bio, roles and device information available to anyone visiting it. Profile settings let you restrict visibility and indicate whether search engines should index it. Disabling indexing is not an access restriction and does not guarantee removal of copies already saved by others. Do not publish data you do not want to make public.",
+				"Data needed to manage the community and applications is accessible to the controller and authorized moderators. Role changes and application information are passed to Discord through Sefibot. You can request removal of your profile or survey data as explained in the Your rights section."
+			]
+		},
+		{
+			"id": "ip-checker",
+			"title": "IP address checks",
+			"body": [
+				"The IP checker sends the address you enter to api.sefinek.net to display approximate network location and information about VPN, proxy, Tor and threat lists. Checks run on the controller's own infrastructure using local databases and lists. They do not require sending the checked address to the external reputation APIs listed for Discord verification.",
+				"The API also receives the IP address of your connection and standard request data. The checked address is part of the request URL and may be recorded in API logs. Your browser remembers the last address entered. Results may be cached in the controller's own service: location data for up to 12 hours and threat-list checks for up to 24 hours.",
+				"The legal basis for processing personal data is my legitimate interest in providing the requested check, diagnosing issues and protecting the tool from abuse (Article 6(1)(f) GDPR). A check requires an IP address. Results describe an address and network; they do not establish a person's identity or exact location. If a checked address relates to someone else, that person may exercise the rights described below."
 			]
 		},
 		{
 			"id": "third-parties",
-			"title": "Third-party services",
+			"title": "Who may receive data",
 			"body": [
-				"**Cloudflare** - the website runs behind the Cloudflare network (proxy and tunnel), which processes traffic, including visitors' IP addresses. Cloudflare Turnstile protects forms (blocklist generator, Discord verification) and processes browser data and the IP address to tell humans from bots.",
-				"**AbuseIPDB, SniffCat, VPNAPI** - receive the IP address checked during Discord verification to assess its reputation.",
-				"**Mail provider (SMTP)** - the blocklist generator sends the list to the e-mail address you provide through a mail server. The e-mail address is used only for this one-time delivery and is not stored in a database or mailing list (apart from the rate-limit counter in Redis described above). A record of the delivery (recipient address, subject and the mail server's response) is written to the application logs.",
-				"**Discord** - is a separate controller on its own platform. The data listed in the verification section is retrieved from your Discord account and, for MeshCore Polska, the data needed for login and profile management.",
-				"**jsDelivr and own CDN (cdn.sefinek.net)** - some scripts and files are loaded from them. Their operators see standard technical connection data (e.g. IP address).",
-				"**MeshCore Polska** - community member profiles, surveys and operator applications are stored in the controller's database. The optional public contact card is accessible to anyone at its own address and may be indexed by search engines. You can have your profile removed by writing to contact@sefinek.net.",
-				"**IP checker tool** - your browser sends the IP address being checked (yours or one you enter) to the controller's API (api.sefinek.net), which returns geolocation data and a VPN check result. The check runs on the controller's own infrastructure, without passing the address to external services. The request is written to the API logs (client IP address and a URL containing the checked IP address).",
-				"Some of the providers above are based or process data outside the European Economic Area, in particular in the United States. Transfers rely on mechanisms provided for in the GDPR, such as an adequacy decision (EU-US Data Privacy Framework) or standard contractual clauses. See those providers' privacy policies for details."
+				"**Cloudflare** handles traffic to the website and helps protect it from attacks. It receives connection data, including IP addresses and request information. Turnstile protects the generator and Discord verification forms by analyzing signals such as IP address, browser information and technical connection data. Cloudflare processes data on my behalf to protect the website and, according to its documentation, also as a separate controller to improve bot detection. Details: [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) and [Turnstile privacy information](https://www.cloudflare.com/turnstile-privacy-policy/).",
+				"**IP reputation services:** AbuseIPDB, SniffCat and VPNAPI receive the checked address during Discord verification. Their responses support the security assessment described in the verification section. Provider documentation: [AbuseIPDB](https://www.abuseipdb.com/privacy) and [VPNAPI](https://vpnapi.io/privacy-policy).",
+				"**Email:** the mail server handles sender and recipient addresses, message content and information needed for delivery. This applies to generator deliveries and correspondence with me. The recipient's email provider processes delivered messages under its own rules.",
+				"**Discord** processes data as a separate controller of its platform. Data exchanged through the bot concerns verification, profiles, roles and community applications. See the [Discord privacy policy](https://discord.com/privacy).",
+				"**File delivery:** some resources are loaded from jsDelivr and my cdn.sefinek.net domain. The status widget connects to status.sefinek.net. These connections transmit technical data, including your IP address. Information about the external content delivery network: [jsDelivr privacy policy](https://www.jsdelivr.com/terms/privacy-policy).",
+				"Data may be disclosed to competent authorities if required by law. When you follow a link to another website, its operator's rules apply."
+			]
+		},
+		{
+			"id": "transfers",
+			"title": "Processing outside the EEA",
+			"body": [
+				"Using Cloudflare, Discord, AbuseIPDB, VPNAPI and jsDelivr may involve processing data outside the European Economic Area (EEA), including in the United States. The location of the controller's own server does not mean that all processing takes place exclusively in Poland or the EEA.",
+				"Cloudflare describes its transfer safeguards, including the EU-US Data Privacy Framework and standard contractual clauses, in its [data processing addendum](https://www.cloudflare.com/cloudflare-customer-dpa/). Other providers' documents are linked in the previous section. The transfer mechanism depends on the recipient and service; naming a provider does not mean it is covered by DPF certification.",
+				"You can ask the controller, using the contact address at the start of this policy, for information about safeguards for a specific transfer and how to obtain a copy."
+			]
+		},
+		{
+			"id": "retention",
+			"title": "How long I keep data",
+			"body": [
+				"**Website, API and application logs** are deleted through rotation carried out every 5 months. This is the log cleanup cycle.",
+				"**Temporary data:** the website's request-limit window is 40 seconds; generator delivery counters expire 24 hours after their last increment. The combined IP check result for Discord verification is cached for 10 minutes, and a MeshCore configuration session lasts 6 hours. Browser storage and IP checker result retention are described in their respective sections.",
+				"**Discord verification and block records** have no automatic deletion deadline. The need to retain them depends on membership and verification status, whether a block remains active, repeated abuse and the need to review an appeal. Detailed detection results help explain decisions and incidents; keeping a block active does not by itself justify retaining all details without limit.",
+				"**MeshCore profiles, applications and surveys** also do not expire automatically. Retention depends on maintaining the profile, supporting registered devices, reviewing applications and using responses to organize the community. If you stop using these features or request deletion, an assessment is needed to determine which data is no longer necessary.",
+				"**Correspondence** is processed to reply and resolve the matter (legitimate interest, Article 6(1)(f) GDPR). Further retention depends on the need to preserve agreed arrangements, handle related matters or establish, exercise or defend legal claims. Any extension for a specific dispute or incident is limited to the information needed for that matter."
 			]
 		},
 		{
 			"id": "rights",
 			"title": "Your rights",
 			"body": [
-				"You have the right to access your data, rectify it, erase it, restrict its processing and receive it in a portable form (Articles 15-20 GDPR). You also have the **right to object** to processing based on legitimate interest (Article 21 GDPR) and the right not to be subject to a decision based solely on automated processing (Article 22 GDPR), as described in the Discord verification section.",
-				"To exercise these rights, write to contact@sefinek.net. For Discord-related requests, include your user ID so I can find the relevant data. Server logs are searched by IP address, if you provide it.",
-				"You have the right to lodge a complaint with a supervisory authority: in Poland, the President of the Personal Data Protection Office (uodo.gov.pl)."
+				"You can request access to your data and a copy, correction of inaccurate data, erasure or restriction of processing, subject to Articles 15-18 GDPR. Erasure may be limited, for example where data is still needed to exercise or defend legal claims.",
+				"**You may object** to processing based on legitimate interest on grounds relating to your particular situation (Article 21 GDPR). Continued processing then requires demonstrating compelling overriding legitimate grounds or a need to establish, exercise or defend legal claims.",
+				"Data portability applies where processing is automated and based on consent or a contract (Article 20 GDPR); it does not automatically cover all data described in this policy. Where specific processing is based on consent, you can withdraw it without affecting the lawfulness of earlier processing.",
+				"Article 22 GDPR provides protection against decisions based solely on automated processing that produce legal or similarly significant effects, subject to the exceptions in that article. How to contest a Discord verification outcome is explained in the verification section.",
+				"Send requests to [contact@sefinek.net](mailto:contact@sefinek.net). Include information that helps locate your data, such as your Discord ID or IP address and approximate visit time. If there are reasonable doubts, I may ask for additional information needed to confirm your identity. Do not send an identity document without prior agreement.",
+				"You will receive a response without undue delay, normally within one month of receipt. Where the GDPR permits it, this may be extended by two further months; I will explain the extension and its reasons within the first month. You may also lodge a complaint with the [President of Poland's Personal Data Protection Office](https://uodo.gov.pl/) or another competent supervisory authority."
 			]
 		},
 		{
 			"id": "contact",
-			"title": "Contact",
+			"title": "Changes to this policy",
 			"body": [
-				"For privacy and personal data matters, write to **contact@sefinek.net**.",
-				"I may update this policy when the way the website works changes. The current version is always available on this page."
+				"This policy may change as the website's features or data processing practices change. The last update date appears below. Updating the policy does not amount to consent to new processing purposes or replace any required notice or consent."
 			]
 		}
 	]
