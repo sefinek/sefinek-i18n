@@ -48,6 +48,8 @@
 		"particlesNone": "Wył.",
 		"particlesNoneTitle": "Wyłącz cząstki",
 		"bgType": "Typ tła",
+		"auto": "Auto",
+		"autoTitle": "Animacja tylko na komputerach z ekranem o odświeżaniu od ok. 85 Hz, w pozostałych przypadkach tapeta",
 		"canvas": "Animacja",
 		"wallpaper": "Tapeta",
 		"reset": "Przywróć ustawienia domyślne"
@@ -77,7 +79,8 @@
 			"meshcore": "MeshCore Polska",
 			"email": "E-mail",
 			"support": "Wesprzyj mnie",
-			"contact": "Kontakt"
+			"contact": "Kontakt",
+			"privacy": "Polityka prywatności"
 		}
 	}
 }

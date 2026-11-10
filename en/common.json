@@ -48,6 +48,8 @@
 		"particlesNone": "Off",
 		"particlesNoneTitle": "Disable particles",
 		"bgType": "Background type",
+		"auto": "Auto",
+		"autoTitle": "Animation only on desktops with a display refresh rate of about 85 Hz or more, wallpaper otherwise",
 		"canvas": "Animation",
 		"wallpaper": "Wallpaper",
 		"reset": "Reset to defaults"
@@ -77,7 +79,8 @@
 			"meshcore": "MeshCore Poland",
 			"email": "Email",
 			"support": "Support me",
-			"contact": "Contact"
+			"contact": "Contact",
+			"privacy": "Privacy policy"
 		}
 	}
 }

@@ -1,0 +1,20 @@
+{
+	"meta": {
+		"title": "Privacy policy | Sefinek",
+		"description": "How sefinek.net handles cookies, server logs and data processed by its services.",
+		"keywords": "privacy policy, cookies, sefinek"
+	},
+	"label": "Legal",
+	"heading": "Privacy policy",
+	"updated": "Last updated: {{date}}",
+	"pending": "This section is being prepared.",
+	"sections": [
+		{ "id": "controller", "title": "Who runs this website" },
+		{ "id": "logs", "title": "Server logs and IP addresses" },
+		{ "id": "cookies", "title": "Cookies and local storage" },
+		{ "id": "verification", "title": "Discord verification" },
+		{ "id": "third-parties", "title": "Third-party services" },
+		{ "id": "rights", "title": "Your rights" },
+		{ "id": "contact", "title": "Contact" }
+	]
+}

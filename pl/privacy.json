@@ -1,0 +1,20 @@
+{
+	"meta": {
+		"title": "Polityka prywatności | Sefinek",
+		"description": "Jak sefinek.net postępuje z plikami cookies, logami serwera i danymi przetwarzanymi przez usługi.",
+		"keywords": "polityka prywatności, cookies, sefinek"
+	},
+	"label": "Informacje prawne",
+	"heading": "Polityka prywatności",
+	"updated": "Ostatnia aktualizacja: {{date}}",
+	"pending": "Ta sekcja jest w przygotowaniu.",
+	"sections": [
+		{ "id": "controller", "title": "Kto prowadzi tę stronę" },
+		{ "id": "logs", "title": "Logi serwera i adresy IP" },
+		{ "id": "cookies", "title": "Pliki cookies i pamięć lokalna" },
+		{ "id": "verification", "title": "Weryfikacja na Discordzie" },
+		{ "id": "third-parties", "title": "Usługi podmiotów trzecich" },
+		{ "id": "rights", "title": "Twoje prawa" },
+		{ "id": "contact", "title": "Kontakt" }
+	]
+}
