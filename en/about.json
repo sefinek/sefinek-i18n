@@ -37,6 +37,7 @@
 	},
 	"technology": "Technologies and tools",
 	"music": "Music taste",
+	"recentMusic": "Listening to lately",
 	"musicGenres": {
 		"alternativeRockIndiePop": "Alternative rock / Indie pop",
 		"nuMetalAlternativeMetal": "Nu metal / Alternative metal",
