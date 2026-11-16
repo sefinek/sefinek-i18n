@@ -6,16 +6,6 @@
 	"label": "Telemavix GPS · Aplikacja mobilna",
 	"heading": "Polityka prywatności",
 	"updated": "Ostatnia aktualizacja: {{date}}",
-	"links": [
-		{
-			"path": "/data-deletion",
-			"label": "Poproś o usunięcie danych"
-		},
-		{
-			"path": "/privacy-policy",
-			"label": "Polityka prywatności strony"
-		}
-	],
 	"sections": [
 		{
 			"id": "controller",
@@ -83,6 +73,5 @@
 				"Możesz złożyć skargę do właściwego organu nadzorczego, w Polsce do Prezesa Urzędu Ochrony Danych Osobowych (UODO). Aplikacja nie podejmuje zautomatyzowanych decyzji wywołujących wobec Ciebie skutki prawne lub podobnie istotne skutki."
 			]
 		}
-	],
-	"relatedHeading": "Powiązane strony"
+	]
 }

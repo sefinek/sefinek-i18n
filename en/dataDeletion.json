@@ -6,20 +6,6 @@
 	"label": "Applications",
 	"heading": "Data deletion",
 	"updated": "Last updated: {{date}}",
-	"links": [
-		{
-			"path": "/projects/telemavix/mobile-app/privacy-policy",
-			"label": "Telemavix GPS privacy policy"
-		},
-		{
-			"path": "/projects/meshcore/map/mobile-app/privacy-policy",
-			"label": "MeshCore Map privacy policy"
-		},
-		{
-			"path": "/privacy-policy",
-			"label": "Website privacy policy"
-		}
-	],
 	"sections": [
 		{
 			"id": "request",
@@ -64,6 +50,5 @@
 				"Subject to the conditions set out in the GDPR, you also have rights of access, rectification, restriction, portability and objection. You may complain to the relevant supervisory authority, including the President of the Personal Data Protection Office (UODO) in Poland."
 			]
 		}
-	],
-	"relatedHeading": "Related pages"
+	]
 }

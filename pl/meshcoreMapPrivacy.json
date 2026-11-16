@@ -6,12 +6,6 @@
 	"label": "MeshCore Map · Aplikacja mobilna",
 	"heading": "Polityka prywatności",
 	"updated": "Ostatnia aktualizacja: {{date}}",
-	"links": [
-		{
-			"path": "/privacy-policy",
-			"label": "Polityka prywatności strony"
-		}
-	],
 	"sections": [
 		{
 			"id": "controller",
@@ -75,6 +69,5 @@
 				"Możesz złożyć skargę do właściwego organu nadzorczego, w tym do Prezesa Urzędu Ochrony Danych Osobowych (UODO) w Polsce. Aplikacja nie podejmuje zautomatyzowanych decyzji wywołujących skutki prawne lub w podobny sposób istotnie wpływających na Ciebie."
 			]
 		}
-	],
-	"relatedHeading": "Powiązane strony"
+	]
 }

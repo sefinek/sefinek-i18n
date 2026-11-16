@@ -8,6 +8,25 @@
 	"heading": "Privacy policy",
 	"updated": "Last updated: {{date}}",
 	"pending": "This section is being prepared.",
+	"relatedHeading": "Other privacy policies",
+	"links": [
+		{
+			"path": "/privacy-policy",
+			"label": "Website sefinek.net"
+		},
+		{
+			"path": "/projects/telemavix/mobile-app/privacy-policy",
+			"label": "Telemavix GPS"
+		},
+		{
+			"path": "/projects/meshcore/map/mobile-app/privacy-policy",
+			"label": "MeshCore Map"
+		},
+		{
+			"path": "/data-deletion",
+			"label": "Data deletion"
+		}
+	],
 	"sections": [
 		{
 			"id": "controller",

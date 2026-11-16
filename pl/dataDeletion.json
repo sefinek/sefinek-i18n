@@ -6,20 +6,6 @@
 	"label": "Aplikacje",
 	"heading": "Usuwanie danych",
 	"updated": "Ostatnia aktualizacja: {{date}}",
-	"links": [
-		{
-			"path": "/projects/telemavix/mobile-app/privacy-policy",
-			"label": "Polityka prywatności Telemavix GPS"
-		},
-		{
-			"path": "/projects/meshcore/map/mobile-app/privacy-policy",
-			"label": "Polityka prywatności MeshCore Map"
-		},
-		{
-			"path": "/privacy-policy",
-			"label": "Polityka prywatności strony"
-		}
-	],
 	"sections": [
 		{
 			"id": "request",
@@ -64,6 +50,5 @@
 				"Na zasadach określonych w RODO przysługuje Ci także prawo dostępu do danych, ich sprostowania, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Możesz złożyć skargę do właściwego organu nadzorczego, w Polsce do Prezesa Urzędu Ochrony Danych Osobowych (UODO)."
 			]
 		}
-	],
-	"relatedHeading": "Powiązane strony"
+	]
 }

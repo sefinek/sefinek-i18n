@@ -6,16 +6,6 @@
 	"label": "Telemavix GPS · Mobile app",
 	"heading": "Privacy policy",
 	"updated": "Last updated: {{date}}",
-	"links": [
-		{
-			"path": "/data-deletion",
-			"label": "Request data deletion"
-		},
-		{
-			"path": "/privacy-policy",
-			"label": "Website privacy policy"
-		}
-	],
 	"sections": [
 		{
 			"id": "controller",
@@ -83,6 +73,5 @@
 				"You may complain to the relevant supervisory authority, including the President of the Personal Data Protection Office (UODO) in Poland. The app does not make automated decisions that produce legal or similarly significant effects on you."
 			]
 		}
-	],
-	"relatedHeading": "Related pages"
+	]
 }
