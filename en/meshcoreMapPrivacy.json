@@ -1,0 +1,80 @@
+{
+	"meta": {
+		"title": "MeshCore Map - mobile app privacy policy | Sefinek",
+		"description": "Privacy policy for the MeshCore Map mobile app: no accounts or ads, local settings and cache, optional Bugsnag error reports, map providers and data deletion."
+	},
+	"label": "MeshCore Map · Mobile app",
+	"heading": "Privacy policy",
+	"updated": "Last updated: {{date}}",
+	"links": [
+		{
+			"path": "/privacy-policy",
+			"label": "Website privacy policy"
+		}
+	],
+	"sections": [
+		{
+			"id": "controller",
+			"title": "Who is responsible",
+			"body": [
+				"**Sefinek** develops MeshCore Map and is the controller of personal data processed for app diagnostics and handling requests. Contact: [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"MeshCore Map is an interactive map of MeshCore mesh network nodes. It is an independent community project and not an official MeshCore app.",
+				"The app does not require an account and does not display advertising. Use of sefinek.net is covered by the separate [website privacy policy]({{websitePrivacyUrl}})."
+			]
+		},
+		{
+			"id": "local",
+			"title": "Data stored on your device",
+			"body": [
+				"The app stores your settings (such as the selected map scope, base map, language and filters), the last downloaded node list for offline use and, if you enter them, your own map provider API keys. This data stays on your device and is not uploaded to a server operated by the developer.",
+				"You can clear it by clearing the app storage in system settings or by uninstalling the app."
+			]
+		},
+		{
+			"id": "location",
+			"title": "Location",
+			"body": [
+				"If you allow it, the app uses your device location only while it is open, to centre the map on your position. The location is processed on the device. It is not sent to the developer, to error reporting or to any other recipient.",
+				"You can revoke the permission in system settings; the map then opens at its default view."
+			]
+		},
+		{
+			"id": "network",
+			"title": "Data downloaded from the internet",
+			"body": [
+				"Node data is downloaded over HTTPS from the MeshCore Map server (map.meshcoreprofiles.com), which receives the device IP address and a User-Agent header with each request. The node data itself comes from the public MeshCore map (map.meshcore.io) and is refreshed on our servers.",
+				"Base map tiles and styles are downloaded from the provider you choose: OpenStreetMap Foundation (tile.openstreetmap.org), OpenFreeMap (tiles.openfreemap.org) and, when you enable them with your own key, MapTiler or CARTO. Terrain and coverage tools request elevation values for points on the map from an elevation service (the developer's API, Open-Elevation or Open-Meteo). These services receive the device IP address, the requested tile or point coordinates and the app User-Agent, and handle them under their own privacy policies.",
+				"Tile and elevation requests identify the displayed area or chosen points, not your device location, unless you place a point at your own position."
+			]
+		},
+		{
+			"id": "diagnostics",
+			"title": "Optional error reporting",
+			"body": [
+				"The app uses **Bugsnag (SmartBear)** to diagnose crashes and errors. Reports contain the error description, stack trace, app version, operating system version, device model, an anonymous device identifier and the device IP address when a report is sent.",
+				"Reporting is enabled by default. You can disable it in the app settings and the change applies immediately. Reports do not include your location or your API keys.",
+				"The legal basis for processing diagnostic data is the controller's legitimate interest in detecting and fixing faults (Article 6(1)(f) GDPR). You may object by writing to the contact address above.",
+				"Error reports and diagnostic data in Bugsnag are automatically deleted after 7 days."
+			]
+		},
+		{
+			"id": "recipients",
+			"title": "Recipients, security and international processing",
+			"body": [
+				"Bugsnag receives error reports. The map and elevation providers listed above receive tile and elevation requests. Messages sent to the developer are processed by the email provider to deliver and store correspondence.",
+				"All network requests of the app use HTTPS.",
+				"Bugsnag uses [data centers in the USA](https://docs.bugsnag.com/security/overview/). Transfers outside the European Economic Area are governed by the [SmartBear Data Processing Addendum (DPA)](https://smartbear.com/legal/data-processing-addendum/), which provides for European Commission Standard Contractual Clauses for transfers not covered by an adequacy decision."
+			]
+		},
+		{
+			"id": "rights",
+			"title": "Deletion, contact and your rights",
+			"body": [
+				"To remove data stored by the app, clear the app storage or uninstall it. The developer has no remote access to it. Disabling error reporting does not delete earlier reports, but they are removed automatically after 7 days. To request earlier deletion, email [contact@sefinek.net](mailto:contact@sefinek.net?subject=Data%20deletion%20request) with the approximate date and time (with time zone), app version and device model so the reports can be identified.",
+				"Subject to the conditions set out in the GDPR, you have rights of access, rectification, erasure, restriction, portability and objection. Send requests to [contact@sefinek.net](mailto:contact@sefinek.net). You will receive a response within one month; any extension and its reason will be communicated within that period.",
+				"You may complain to the relevant supervisory authority, including the President of the Personal Data Protection Office (UODO) in Poland. The app does not make automated decisions that produce legal or similarly significant effects on you."
+			]
+		}
+	],
+	"relatedHeading": "Related pages"
+}

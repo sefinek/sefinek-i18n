@@ -1,0 +1,88 @@
+{
+	"meta": {
+		"title": "Telemavix GPS - polityka prywatności aplikacji mobilnej | Sefinek",
+		"description": "Polityka prywatności aplikacji mobilnej Telemavix GPS: lokalne trasy GPS, mapy OpenStreetMap, opcjonalne raporty błędów Bugsnag i usuwanie danych."
+	},
+	"label": "Telemavix GPS · Aplikacja mobilna",
+	"heading": "Polityka prywatności",
+	"updated": "Ostatnia aktualizacja: {{date}}",
+	"links": [
+		{
+			"path": "/data-deletion",
+			"label": "Poproś o usunięcie danych"
+		},
+		{
+			"path": "/privacy-policy",
+			"label": "Polityka prywatności strony"
+		}
+	],
+	"sections": [
+		{
+			"id": "controller",
+			"title": "Kto odpowiada za dane",
+			"body": [
+				"Twórcą Telemavix GPS i administratorem danych osobowych przetwarzanych na potrzeby diagnostyki aplikacji oraz obsługi zgłoszeń jest **Sefinek**. Kontakt: [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"Telemavix GPS pozwala śledzić prędkość, dystans i przebieg trasy oraz zapisywać dane GPS i odczyty czujników telefonu w plikach FIT i GPX. Zapisane dane można wykorzystać w Telemavix Studio do nałożenia prędkości, trasy i innych wskazań na film.",
+				"Aplikacja nie wymaga konta i nie wyświetla reklam. Korzystanie z sefinek.net opisuje osobna [polityka prywatności strony]({{websitePrivacyUrl}})."
+			]
+		},
+		{
+			"id": "local",
+			"title": "Dane zapisane na urządzeniu",
+			"body": [
+				"Aplikacja odczytuje pozycję GPS, wysokość, prędkość, kierunek ruchu, czas pomiaru, dokładność lokalizacji i liczbę satelitów. Na tej podstawie wyświetla trasę i statystyki, w tym dystans, czas ruchu i sumę podjazdów. Podczas nagrywania lokalizacja może być odczytywana w tle lub przy wyłączonym ekranie.",
+				"Zależnie od urządzenia dostępne są również odczyty barometru, akcelerometru, żyroskopu i czujnika światła, poziom i temperatura baterii, stan ładowania oraz siła sygnału sieci komórkowej. Dane te służą do wyświetlania bieżących wskazań i zapisu w plikach FIT/GPX. Zapis odczytów akcelerometru, żyroskopu i czujnika światła można wyłączyć w ustawieniach.",
+				"Przejazdy, dane odzyskiwania, ustawienia i pamięć podręczna map są zapisywane lokalnie. Aplikacja nie przesyła archiwum przejazdów na serwer dewelopera. Jeśli wyeksportujesz lub udostępnisz plik, wybrana aplikacja lub odbiorca otrzyma go wraz z zawartą w nim lokalizacją i telemetrią.",
+				"Uprawnienia możesz cofnąć w ustawieniach systemu; funkcje, które ich wymagają, przestaną wtedy działać. Przejazdy są przechowywane do czasu ich usunięcia. Ustawienia i pamięć podręczną możesz wyczyścić; może je również usunąć system. Po udostępnieniu pliku jego dalsze przechowywanie zależy od odbiorcy."
+			]
+		},
+		{
+			"id": "maps",
+			"title": "Mapy online i ujawnianie lokalizacji",
+			"body": [
+				"Kafelki map są pobierane przez HTTPS z **tile.openstreetmap.org**, usługi OpenStreetMap Foundation (OSMF). Serwery obsługujące żądanie otrzymują adres kafelka i adres IP urządzenia oraz nagłówek User-Agent z nazwą i wersją aplikacji.",
+				"Adresy kafelków wskazują wyświetlany obszar. Gdy mapa śledzi pozycję GPS, zapytania mogą ujawniać przybliżoną lokalizację urządzenia. OSMF może przechowywać adresy IP, czas i szczegóły żądań w logach zgodnie ze swoją [polityką prywatności](https://osmfoundation.org/wiki/Privacy_Policy). Deweloper nie zarządza tymi logami.",
+				"Aplikacja nie ma przełącznika wyłączającego pobieranie map. Bez połączenia z siecią może wyświetlać wcześniej zapisane kafelki."
+			]
+		},
+		{
+			"id": "diagnostics",
+			"title": "Opcjonalne raportowanie błędów",
+			"body": [
+				"Aplikacja korzysta z **Bugsnag (SmartBear)** do diagnozowania błędów. Raporty zawierają opis błędu, stos wywołań, wersję aplikacji, wersje systemu i środowiska wykonawczego oraz producenta i model urządzenia. Podczas wysyłania raportu Bugsnag otrzymuje również adres IP urządzenia.",
+				"Raportowanie jest domyślnie włączone. Możesz je wyłączyć w ustawieniach aplikacji bez wpływu na rejestrowanie przejazdów.",
+				"Do raportów nie są dołączane trasy GPS, pliki przejazdów ani dane odtwarzanej muzyki. Komunikat błędu może zawierać informacje o operacji, która się nie powiodła.",
+				"Podstawą przetwarzania danych diagnostycznych jest prawnie uzasadniony interes administratora w wykrywaniu i naprawianiu usterek (art. 6 ust. 1 lit. f RODO). Możesz wnieść sprzeciw, pisząc na podany adres kontaktowy.",
+				"Raporty błędów i dane diagnostyczne w Bugsnag są automatycznie usuwane po 7 dniach."
+			]
+		},
+		{
+			"id": "music",
+			"title": "Sterowanie muzyką i wizualizacja dźwięku",
+			"body": [
+				"Po przyznaniu odpowiedniego dostępu w Androidzie widżet muzyczny odczytuje informacje o aktywnej sesji multimedialnej, np. tytuł, wykonawcę, stan odtwarzania i okładkę, oraz przekazuje polecenia sterujące do aplikacji muzycznej.",
+				"Opcjonalna wizualizacja widma korzysta z systemowego Visualizera Androida, który wymaga uprawnienia opisanego przez system jako dostęp do mikrofonu lub nagrywania dźwięku. Próbki odtwarzanego dźwięku są analizowane lokalnie w celu wyświetlenia widma; funkcja nie zapisuje nagrań ani nie przesyła dźwięku do dewelopera. Dostęp możesz cofnąć w ustawieniach systemu."
+			]
+		},
+		{
+			"id": "recipients",
+			"title": "Odbiorcy, bezpieczeństwo i przetwarzanie za granicą",
+			"body": [
+				"Bugsnag otrzymuje raporty błędów, a OSMF i dostawcy obsługujący jej serwery map otrzymują zapytania o kafelki. Eksportowane pliki trafiają do wybranych przez Ciebie aplikacji lub odbiorców. Wiadomości wysłane do dewelopera są przetwarzane przez dostawcę poczty na potrzeby dostarczenia i przechowywania korespondencji.",
+				"Pobieranie map i wysyłanie raportów odbywa się przez HTTPS. Pliki FIT/GPX mogą zawierać lokalizację i telemetrię przejazdu. Przed udostępnieniem sprawdź, jakie informacje przekazujesz odbiorcy.",
+				"Bugsnag korzysta z [centrów danych w USA](https://docs.bugsnag.com/security/overview/). Zasady transferów danych poza Europejski Obszar Gospodarczy określa [umowa powierzenia przetwarzania danych SmartBear (DPA)](https://smartbear.com/legal/data-processing-addendum/). Jej sekcja 7 przewiduje standardowe klauzule umowne Komisji Europejskiej dla transferów nieobjętych decyzją stwierdzającą odpowiedni stopień ochrony. Treść tych zabezpieczeń jest dostępna w DPA.",
+				"OSMF korzysta z serwerów map rozmieszczonych na świecie. Lokalizacje przetwarzania i zasady ochrony danych opisuje w swojej [polityce prywatności](https://osmfoundation.org/wiki/Privacy_Policy)."
+			]
+		},
+		{
+			"id": "rights",
+			"title": "Usuwanie danych, kontakt i Twoje prawa",
+			"body": [
+				"Instrukcję usuwania plików z urządzenia i zgłaszania próśb o usunięcie raportów znajdziesz na stronie [Usuwanie danych]({{dataDeletionUrl}}). Wyłączenie raportowania nie usuwa wcześniejszych raportów.",
+				"Na zasadach określonych w RODO przysługuje Ci prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Żądania kieruj na [contact@sefinek.net](mailto:contact@sefinek.net). Odpowiedź otrzymasz w ciągu miesiąca; o ewentualnym przedłużeniu terminu i jego przyczynie otrzymasz informację w tym samym czasie.",
+				"Możesz złożyć skargę do właściwego organu nadzorczego, w Polsce do Prezesa Urzędu Ochrony Danych Osobowych (UODO). Aplikacja nie podejmuje zautomatyzowanych decyzji wywołujących wobec Ciebie skutki prawne lub podobnie istotne skutki."
+			]
+		}
+	],
+	"relatedHeading": "Powiązane strony"
+}

@@ -1,0 +1,69 @@
+{
+	"meta": {
+		"title": "Usuwanie danych | Sefinek",
+		"description": "Jak poprosić o usunięcie danych przetwarzanych przez moje aplikacje: plików na urządzeniu, raportów błędów i danych diagnostycznych."
+	},
+	"label": "Aplikacje",
+	"heading": "Usuwanie danych",
+	"updated": "Ostatnia aktualizacja: {{date}}",
+	"links": [
+		{
+			"path": "/projects/telemavix/mobile-app/privacy-policy",
+			"label": "Polityka prywatności Telemavix GPS"
+		},
+		{
+			"path": "/projects/meshcore/map/mobile-app/privacy-policy",
+			"label": "Polityka prywatności MeshCore Map"
+		},
+		{
+			"path": "/privacy-policy",
+			"label": "Polityka prywatności strony"
+		}
+	],
+	"sections": [
+		{
+			"id": "request",
+			"title": "Jak poprosić o usunięcie danych",
+			"body": [
+				"Napisz na [contact@sefinek.net](mailto:contact@sefinek.net?subject=Prosba%20o%20usuniecie%20danych). W temacie podaj **Usunięcie danych - nazwa aplikacji**.",
+				"Opisz dane, które chcesz usunąć. W przypadku raportu błędu podaj przybliżoną datę i godzinę ze strefą czasową oraz, jeśli je znasz, wersję aplikacji i model urządzenia.",
+				"Jeśli do odnalezienia danych będą potrzebne dodatkowe informacje lub nie uda się zidentyfikować raportu, otrzymasz informację w odpowiedzi."
+			]
+		},
+		{
+			"id": "telemavix-gps",
+			"title": "Telemavix GPS",
+			"body": [
+				"**Dane na urządzeniu:** przejazdy usuniesz z historii aplikacji, a pamięć podręczną map wyczyścisz w ustawieniach. Dane odzyskiwania i ustawienia możesz usunąć, czyszcząc dane aplikacji w ustawieniach Androida. Pliki w Documents/Telemavix oraz wyeksportowane i udostępnione kopie mogą pozostać po wyczyszczeniu danych lub odinstalowaniu aplikacji. Usuń je osobno w menedżerze plików lub usłudze, w której je przechowujesz. Deweloper nie ma zdalnego dostępu do tych plików.",
+				"**Raporty błędów:** są wysyłane do Bugsnag i automatycznie usuwane po 7 dniach. Raportowanie możesz wyłączyć w ustawieniach aplikacji; nie usuwa to wcześniejszych raportów. Aby poprosić o ich wcześniejsze usunięcie, napisz na adres podany wyżej. Prośba może zostać zrealizowana, jeśli uda się zidentyfikować raporty.",
+				"**Zapytania o mapy:** logami zarządza OpenStreetMap Foundation (OSMF). Prośby dotyczące tych danych kieruj na [privacy@osmfoundation.org](mailto:privacy@osmfoundation.org). Szczegóły opisuje [polityka prywatności OSMF](https://osmfoundation.org/wiki/Privacy_Policy)."
+			]
+		},
+		{
+			"id": "meshcore-map",
+			"title": "MeshCore Map",
+			"body": [
+				"**Dane na urządzeniu:** ustawienia, lista węzłów offline i Twoje własne klucze API dostawców map są zapisane wyłącznie na urządzeniu. Aby je usunąć, wyczyść dane aplikacji w ustawieniach Androida lub ją odinstaluj. Deweloper nie ma zdalnego dostępu do tych danych.",
+				"**Raporty błędów:** są wysyłane do Bugsnag i automatycznie usuwane po 7 dniach. Raportowanie możesz wyłączyć w ustawieniach aplikacji; nie usuwa to wcześniejszych raportów. Aby poprosić o ich wcześniejsze usunięcie, napisz na adres podany wyżej. Prośba może zostać zrealizowana, jeśli uda się zidentyfikować raporty.",
+				"**Zapytania o mapy i wysokości:** logami zarządza używany przez Ciebie dostawca (np. OpenStreetMap Foundation, OpenFreeMap, MapTiler, CARTO, Open-Elevation lub Open-Meteo). Prośby dotyczące tych danych kieruj do dostawcy i zapoznaj się z jego polityką prywatności."
+			]
+		},
+		{
+			"id": "retained",
+			"title": "Jakie dane mogą pozostać",
+			"body": [
+				"Korespondencja dotycząca usuwania danych jest przechowywana przez czas obsługi zgłoszenia oraz przez 12 miesięcy od jego zamknięcia, aby udokumentować sposób jego rozpatrzenia. Po tym okresie jest usuwana.",
+				"Jeżeli prawo wymaga dłuższego przechowywania lub dane są niezbędne do ustalenia, dochodzenia albo obrony roszczeń, zachowane zostaną tylko informacje potrzebne w tym celu, do czasu ustania obowiązku lub zakończenia sprawy. W odpowiedzi otrzymasz uzasadnienie oraz informację o okresie przechowywania lub kryteriach jego ustalania."
+			]
+		},
+		{
+			"id": "response",
+			"title": "Odpowiedź i Twoje prawa",
+			"body": [
+				"Odpowiedź otrzymasz bez zbędnej zwłoki, w ciągu miesiąca od otrzymania prośby. W przypadkach przewidzianych przez RODO termin może zostać przedłużony o kolejne dwa miesiące ze względu na złożoność lub liczbę żądań. Informację o przedłużeniu i jego przyczynie otrzymasz w pierwszym miesiącu.",
+				"Na zasadach określonych w RODO przysługuje Ci także prawo dostępu do danych, ich sprostowania, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Możesz złożyć skargę do właściwego organu nadzorczego, w Polsce do Prezesa Urzędu Ochrony Danych Osobowych (UODO)."
+			]
+		}
+	],
+	"relatedHeading": "Powiązane strony"
+}

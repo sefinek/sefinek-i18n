@@ -1,0 +1,69 @@
+{
+	"meta": {
+		"title": "Data deletion | Sefinek",
+		"description": "How to request deletion of data processed by my applications: files on your device, error reports and diagnostic data."
+	},
+	"label": "Applications",
+	"heading": "Data deletion",
+	"updated": "Last updated: {{date}}",
+	"links": [
+		{
+			"path": "/projects/telemavix/mobile-app/privacy-policy",
+			"label": "Telemavix GPS privacy policy"
+		},
+		{
+			"path": "/projects/meshcore/map/mobile-app/privacy-policy",
+			"label": "MeshCore Map privacy policy"
+		},
+		{
+			"path": "/privacy-policy",
+			"label": "Website privacy policy"
+		}
+	],
+	"sections": [
+		{
+			"id": "request",
+			"title": "How to request deletion",
+			"body": [
+				"Email [contact@sefinek.net](mailto:contact@sefinek.net?subject=Data%20deletion%20request) with the subject **Data deletion - application name**.",
+				"Describe the data you want deleted. For an error report, include the approximate date and time with time zone and, if known, the app version and device model.",
+				"If more information is needed to locate the data, or the report cannot be identified, you will be informed in the reply."
+			]
+		},
+		{
+			"id": "telemavix-gps",
+			"title": "Telemavix GPS",
+			"body": [
+				"**Data on your device:** delete rides from the app history and clear cached maps in settings. Recovery data and settings can be removed by clearing app storage in Android settings. Files in Documents/Telemavix and exported or shared copies may remain after clearing app storage or uninstalling. Delete them separately using a file manager or the service where you store them. The developer has no remote access to these files.",
+				"**Error reports:** reports are sent to Bugsnag and automatically deleted after 7 days. You can disable reporting in the app settings; this does not delete earlier reports. To request earlier deletion, use the email address above. The request can be fulfilled if the reports can be identified.",
+				"**Map requests:** logs are managed by OpenStreetMap Foundation (OSMF). Send requests concerning this data to [privacy@osmfoundation.org](mailto:privacy@osmfoundation.org). See the [OSMF privacy policy](https://osmfoundation.org/wiki/Privacy_Policy) for details."
+			]
+		},
+		{
+			"id": "meshcore-map",
+			"title": "MeshCore Map",
+			"body": [
+				"**Data on your device:** settings, the offline node list and your own map provider API keys are stored only on the device. Clear the app storage in Android settings or uninstall the app to remove them. The developer has no remote access to this data.",
+				"**Error reports:** reports are sent to Bugsnag and automatically deleted after 7 days. You can disable reporting in the app settings; this does not delete earlier reports. To request earlier deletion, use the email address above. The request can be fulfilled if the reports can be identified.",
+				"**Map and elevation requests:** logs are managed by the provider you use (such as OpenStreetMap Foundation, OpenFreeMap, MapTiler, CARTO, Open-Elevation or Open-Meteo). Send requests concerning this data to the provider and see its privacy policy."
+			]
+		},
+		{
+			"id": "retained",
+			"title": "What may be retained",
+			"body": [
+				"Correspondence about data deletion is kept while the request is being handled and for 12 months after it is closed, to document how it was resolved. It is then deleted.",
+				"If longer retention is required by law or the data is needed to establish, exercise or defend legal claims, only the necessary information will be kept until the obligation ends or the matter is resolved. The reply will explain the reason and the retention period or the criteria used to determine it."
+			]
+		},
+		{
+			"id": "response",
+			"title": "Response and your rights",
+			"body": [
+				"You will receive a response without undue delay, within one month of receipt. Where the GDPR permits, this period may be extended by a further two months because of the complexity or number of requests. You will be informed of the extension and its reason within the first month.",
+				"Subject to the conditions set out in the GDPR, you also have rights of access, rectification, restriction, portability and objection. You may complain to the relevant supervisory authority, including the President of the Personal Data Protection Office (UODO) in Poland."
+			]
+		}
+	],
+	"relatedHeading": "Related pages"
+}

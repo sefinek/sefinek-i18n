@@ -1,0 +1,80 @@
+{
+	"meta": {
+		"title": "MeshCore Map - polityka prywatności aplikacji mobilnej | Sefinek",
+		"description": "Polityka prywatności aplikacji mobilnej MeshCore Map: brak kont i reklam, lokalne ustawienia i pamięć podręczna, opcjonalne raporty błędów Bugsnag, dostawcy map i usuwanie danych."
+	},
+	"label": "MeshCore Map · Aplikacja mobilna",
+	"heading": "Polityka prywatności",
+	"updated": "Ostatnia aktualizacja: {{date}}",
+	"links": [
+		{
+			"path": "/privacy-policy",
+			"label": "Polityka prywatności strony"
+		}
+	],
+	"sections": [
+		{
+			"id": "controller",
+			"title": "Kto odpowiada za dane",
+			"body": [
+				"Twórcą MeshCore Map i administratorem danych osobowych przetwarzanych na potrzeby diagnostyki aplikacji oraz obsługi zgłoszeń jest **Sefinek**. Kontakt: [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"MeshCore Map to interaktywna mapa węzłów sieci mesh MeshCore. To niezależny projekt społeczności, a nie oficjalna aplikacja MeshCore.",
+				"Aplikacja nie wymaga konta i nie wyświetla reklam. Korzystanie z sefinek.net opisuje osobna [polityka prywatności strony]({{websitePrivacyUrl}})."
+			]
+		},
+		{
+			"id": "local",
+			"title": "Dane zapisane na urządzeniu",
+			"body": [
+				"Aplikacja zapisuje Twoje ustawienia (np. wybrany zakres mapy, mapę podkładową, język i filtry), ostatnio pobraną listę węzłów na potrzeby trybu offline oraz, jeśli je podasz, Twoje własne klucze API dostawców map. Te dane pozostają na urządzeniu i nie są przesyłane na serwer prowadzony przez twórcę.",
+				"Możesz je usunąć, czyszcząc dane aplikacji w ustawieniach systemu lub odinstalowując aplikację."
+			]
+		},
+		{
+			"id": "location",
+			"title": "Lokalizacja",
+			"body": [
+				"Jeśli wyrazisz zgodę, aplikacja używa lokalizacji urządzenia wyłącznie podczas działania na ekranie, aby wyśrodkować mapę na Twojej pozycji. Lokalizacja jest przetwarzana na urządzeniu. Nie jest wysyłana do twórcy, do raportowania błędów ani do żadnego innego odbiorcy.",
+				"Uprawnienie możesz cofnąć w ustawieniach systemu; mapa otworzy się wtedy w widoku domyślnym."
+			]
+		},
+		{
+			"id": "network",
+			"title": "Dane pobierane z internetu",
+			"body": [
+				"Dane węzłów są pobierane przez HTTPS z serwera MeshCore Map (map.meshcoreprofiles.com), który przy każdym żądaniu otrzymuje adres IP urządzenia i nagłówek User-Agent. Same dane węzłów pochodzą z publicznej mapy MeshCore (map.meshcore.io) i są odświeżane na naszych serwerach.",
+				"Kafelki i style map podkładowych są pobierane od wybranego przez Ciebie dostawcy: OpenStreetMap Foundation (tile.openstreetmap.org), OpenFreeMap (tiles.openfreemap.org) oraz, po włączeniu z własnym kluczem, MapTiler lub CARTO. Narzędzia terenu i zasięgu pobierają wysokości punktów na mapie z usługi wysokościowej (API twórcy, Open-Elevation lub Open-Meteo). Te usługi otrzymują adres IP urządzenia, współrzędne kafelka lub punktu oraz User-Agent aplikacji i przetwarzają je zgodnie z własnymi politykami prywatności.",
+				"Żądania kafelków i wysokości wskazują wyświetlany obszar lub wybrane punkty, a nie lokalizację urządzenia, chyba że umieścisz punkt na własnej pozycji."
+			]
+		},
+		{
+			"id": "diagnostics",
+			"title": "Opcjonalne raportowanie błędów",
+			"body": [
+				"Aplikacja korzysta z **Bugsnag (SmartBear)** do diagnozowania awarii i błędów. Raporty zawierają opis błędu, ślad stosu, wersję aplikacji, wersję systemu operacyjnego, model urządzenia, anonimowy identyfikator urządzenia oraz adres IP urządzenia w chwili wysłania raportu.",
+				"Raportowanie jest domyślnie włączone. Możesz je wyłączyć w ustawieniach aplikacji, a zmiana działa od razu. Raporty nie zawierają Twojej lokalizacji ani kluczy API.",
+				"Podstawą prawną przetwarzania danych diagnostycznych jest prawnie uzasadniony interes administratora w wykrywaniu i usuwaniu usterek (art. 6 ust. 1 lit. f RODO). Możesz wnieść sprzeciw, pisząc na powyższy adres kontaktowy.",
+				"Raporty błędów i dane diagnostyczne w Bugsnag są automatycznie usuwane po 7 dniach."
+			]
+		},
+		{
+			"id": "recipients",
+			"title": "Odbiorcy, bezpieczeństwo i przetwarzanie za granicą",
+			"body": [
+				"Bugsnag otrzymuje raporty błędów. Wymienieni wyżej dostawcy map i danych wysokościowych otrzymują żądania kafelków i wysokości. Wiadomości wysłane do twórcy przetwarza dostawca poczty e-mail w celu ich dostarczenia i przechowywania korespondencji.",
+				"Wszystkie żądania sieciowe aplikacji używają HTTPS.",
+				"Bugsnag korzysta z [centrów danych w USA](https://docs.bugsnag.com/security/overview/). Zasady transferów danych poza Europejski Obszar Gospodarczy określa [umowa powierzenia przetwarzania danych SmartBear (DPA)](https://smartbear.com/legal/data-processing-addendum/), która przewiduje standardowe klauzule umowne Komisji Europejskiej dla transferów nieobjętych decyzją stwierdzającą odpowiedni stopień ochrony."
+			]
+		},
+		{
+			"id": "rights",
+			"title": "Usuwanie danych, kontakt i Twoje prawa",
+			"body": [
+				"Aby usunąć dane zapisane przez aplikację, wyczyść jej dane lub ją odinstaluj. Twórca nie ma do nich zdalnego dostępu. Wyłączenie raportowania błędów nie usuwa wcześniejszych raportów, ale są one automatycznie kasowane po 7 dniach. Aby poprosić o wcześniejsze usunięcie, napisz na [contact@sefinek.net](mailto:contact@sefinek.net?subject=Data%20deletion%20request) i podaj przybliżoną datę i godzinę (ze strefą czasową), wersję aplikacji i model urządzenia, aby można było zidentyfikować raporty.",
+				"Na warunkach określonych w RODO przysługują Ci prawa dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych i sprzeciwu. Wnioski wysyłaj na [contact@sefinek.net](mailto:contact@sefinek.net). Odpowiedź otrzymasz w ciągu miesiąca; ewentualne przedłużenie terminu i jego przyczyna zostaną podane w tym czasie.",
+				"Możesz złożyć skargę do właściwego organu nadzorczego, w tym do Prezesa Urzędu Ochrony Danych Osobowych (UODO) w Polsce. Aplikacja nie podejmuje zautomatyzowanych decyzji wywołujących skutki prawne lub w podobny sposób istotnie wpływających na Ciebie."
+			]
+		}
+	],
+	"relatedHeading": "Powiązane strony"
+}
