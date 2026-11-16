@@ -12,7 +12,7 @@
 			"title": "Who is responsible",
 			"body": [
 				"**Sefinek** develops Telemavix GPS and is the controller of personal data processed for app diagnostics and handling requests. Contact: [contact@sefinek.net](mailto:contact@sefinek.net).",
-				"Telemavix GPS displays speed, distance and your route, and records GPS data and phone sensor readings in FIT and GPX files. The recorded data can be used in Telemavix Studio to overlay speed, the route and other readings on a video.",
+				"Telemavix GPS displays speed, distance and your route, and records GPS data and phone sensor readings in FIT and GPX files. The recorded data can be used in [Telemavix Studio](https://github.com/sefinek/telemavix-studio) to overlay speed, the route and other readings on a video.",
 				"The app does not require an account or display advertising. Use of sefinek.net is covered by the separate [website privacy policy]({{websitePrivacyUrl}})."
 			]
 		},
@@ -23,7 +23,7 @@
 				"The app reads GPS position, altitude, speed, direction of travel, measurement time, location accuracy and satellite count. It uses these readings to display your route and statistics, including distance, moving time and elevation gain. During recording, location may be accessed in the background or with the screen off.",
 				"Depending on the device, additional readings include barometer, accelerometer, gyroscope and light sensor data, battery level and temperature, charging state and cellular signal strength. These readings are displayed in the app and recorded in FIT/GPX files. Recording of accelerometer, gyroscope and light sensor readings can be disabled in settings.",
 				"Rides, recovery data, settings and cached maps are stored locally. The app does not upload your ride archive to a developer-operated server. When you export or share a file, the selected app or recipient receives that file, including any location and telemetry it contains.",
-				"You can revoke permissions in system settings; features that require them will then stop working. Rides are kept until deleted. You can clear settings and cached data; the system may also remove them. Once a file is shared, its further retention depends on the recipient."
+				"Rides remain on your device until you delete them. You can revoke app permissions in system settings."
 			]
 		},
 		{
@@ -32,7 +32,7 @@
 			"body": [
 				"Map tiles are downloaded over HTTPS from **tile.openstreetmap.org**, a service provided by OpenStreetMap Foundation (OSMF). Servers handling a request receive the tile address, the device IP address and a User-Agent header containing the app name and version.",
 				"Tile addresses identify the displayed area. When the map follows your GPS position, requests can reveal the approximate location of your device. OSMF may log IP addresses, request times and request details under its [privacy policy](https://osmfoundation.org/wiki/Privacy_Policy). The developer does not manage these logs.",
-				"The app has no switch for disabling map downloads. Without a network connection, it can display previously cached tiles."
+				"Map downloads cannot be disabled in the app settings. Previously downloaded tiles remain available offline."
 			]
 		},
 		{
@@ -50,8 +50,8 @@
 			"id": "music",
 			"title": "Music controls and audio visualisation",
 			"body": [
-				"With the relevant Android access enabled, the music widget reads information about the active media session, such as track title, artist, playback state and album art, and sends playback commands to the music app.",
-				"Optional spectrum visualisation uses Android’s audio Visualizer, which requires the system permission labelled as microphone or audio recording access. The app analyses playback samples locally to draw the spectrum; this feature does not save audio recordings or upload audio to the developer. Access can be revoked in system settings."
+				"Once you grant access in Android settings, the music widget reads the track title, artist, playback state and album art. It also lets you control playback in the music app.",
+				"Optional audio spectrum visualisation uses Android’s system Visualizer and requires audio recording permission. Playback audio is analysed locally. This feature does not save recordings or upload audio to the developer."
 			]
 		},
 		{
@@ -60,8 +60,16 @@
 			"body": [
 				"Bugsnag receives error reports. OSMF and the providers operating its map servers receive tile requests. Exported files are sent to the apps or recipients you choose. Messages sent to the developer are processed by the email provider to deliver and store correspondence.",
 				"Map downloads and error reports use HTTPS. FIT/GPX files may contain ride location and telemetry. Check what information you are sending before sharing a file.",
-				"Bugsnag uses [data centers in the USA](https://docs.bugsnag.com/security/overview/). Transfers outside the European Economic Area are governed by the [SmartBear Data Processing Addendum (DPA)](https://smartbear.com/legal/data-processing-addendum/). Section 7 provides for European Commission Standard Contractual Clauses for transfers not covered by an adequacy decision. The safeguards are available in the DPA.",
+				"Bugsnag uses [data centers in the USA](https://docs.bugsnag.com/security/overview/). Transfers outside the European Economic Area are governed by the [SmartBear Data Processing Addendum (DPA)](https://smartbear.com/legal/data-processing-addendum/). Section 7 provides for European Commission Standard Contractual Clauses for transfers not covered by an adequacy decision.",
 				"OSMF uses map servers around the world. Its [privacy policy](https://osmfoundation.org/wiki/Privacy_Policy) describes processing locations and data protection practices."
+			]
+		},
+		{
+			"id": "contact",
+			"title": "Contact and correspondence",
+			"body": [
+				"When you contact me, you provide your email address and message. I use them to reply and handle your enquiry based on my legitimate interest in handling correspondence (Article 6(1)(f) GDPR). Providing this information is voluntary, but I cannot reply without a contact address.",
+				"Requests concerning GDPR rights are handled to meet a legal obligation (Article 6(1)(c) GDPR). Correspondence is kept until the matter is closed and for up to 5 months afterwards to document how it was handled (Article 6(1)(f) GDPR). Exceptions are explained on the [Data deletion]({{dataDeletionUrl}}) page."
 			]
 		},
 		{
@@ -69,7 +77,7 @@
 			"title": "Deletion, contact and your rights",
 			"body": [
 				"See [Data deletion]({{dataDeletionUrl}}) for instructions on removing files from your device and requesting deletion of reports. Disabling reporting does not delete earlier reports.",
-				"Subject to the conditions set out in the GDPR, you have rights of access, rectification, erasure, restriction, portability and objection. Send requests to [contact@sefinek.net](mailto:contact@sefinek.net). You will receive a response within one month; any extension and its reason will be communicated within that period.",
+				"Subject to the conditions set out in the GDPR, you have rights of access, rectification, erasure, restriction, portability and objection. Send requests to [contact@sefinek.net](mailto:contact@sefinek.net). You will receive a response within one month. If more time is needed, you will be told the reason and the new response deadline within that period.",
 				"You may complain to the relevant supervisory authority, including the President of the Personal Data Protection Office (UODO) in Poland. The app does not make automated decisions that produce legal or similarly significant effects on you."
 			]
 		}

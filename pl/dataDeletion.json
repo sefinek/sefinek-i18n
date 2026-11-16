@@ -38,8 +38,8 @@
 			"id": "retained",
 			"title": "Jakie dane mogą pozostać",
 			"body": [
-				"Korespondencja dotycząca usuwania danych jest przechowywana przez czas obsługi zgłoszenia oraz przez 12 miesięcy od jego zamknięcia, aby udokumentować sposób jego rozpatrzenia. Po tym okresie jest usuwana.",
-				"Jeżeli prawo wymaga dłuższego przechowywania lub dane są niezbędne do ustalenia, dochodzenia albo obrony roszczeń, zachowane zostaną tylko informacje potrzebne w tym celu, do czasu ustania obowiązku lub zakończenia sprawy. W odpowiedzi otrzymasz uzasadnienie oraz informację o okresie przechowywania lub kryteriach jego ustalania."
+				"Korespondencja jest usuwana najpóźniej 5 miesięcy po zamknięciu zgłoszenia.",
+				"Dłużej mogą pozostać tylko dane wymagane prawem lub niezbędne do ustalenia, dochodzenia lub obrony roszczeń. W takim przypadku otrzymasz informację o przyczynie i okresie ich przechowywania."
 			]
 		},
 		{

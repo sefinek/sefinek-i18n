@@ -11,8 +11,8 @@
 			"id": "controller",
 			"title": "Kto odpowiada za dane",
 			"body": [
-				"Twórcą Telemavix GPS i administratorem danych osobowych przetwarzanych na potrzeby diagnostyki aplikacji oraz obsługi zgłoszeń jest **Sefinek**. Kontakt: [contact@sefinek.net](mailto:contact@sefinek.net).",
-				"Telemavix GPS pozwala śledzić prędkość, dystans i przebieg trasy oraz zapisywać dane GPS i odczyty czujników telefonu w plikach FIT i GPX. Zapisane dane można wykorzystać w Telemavix Studio do nałożenia prędkości, trasy i innych wskazań na film.",
+				"**Sefinek** jest twórcą Telemavix GPS i administratorem danych osobowych przetwarzanych w celu diagnozowania błędów i obsługi zgłoszeń. Kontakt: [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"Telemavix GPS wyświetla prędkość, dystans i trasę oraz zapisuje dane GPS i odczyty czujników telefonu w plikach FIT i GPX. Zapisane dane można wykorzystać w [Telemavix Studio](https://github.com/sefinek/telemavix-studio) do nałożenia prędkości, trasy i innych wskazań na film.",
 				"Aplikacja nie wymaga konta i nie wyświetla reklam. Korzystanie z sefinek.net opisuje osobna [polityka prywatności strony]({{websitePrivacyUrl}})."
 			]
 		},
@@ -23,16 +23,16 @@
 				"Aplikacja odczytuje pozycję GPS, wysokość, prędkość, kierunek ruchu, czas pomiaru, dokładność lokalizacji i liczbę satelitów. Na tej podstawie wyświetla trasę i statystyki, w tym dystans, czas ruchu i sumę podjazdów. Podczas nagrywania lokalizacja może być odczytywana w tle lub przy wyłączonym ekranie.",
 				"Zależnie od urządzenia dostępne są również odczyty barometru, akcelerometru, żyroskopu i czujnika światła, poziom i temperatura baterii, stan ładowania oraz siła sygnału sieci komórkowej. Dane te służą do wyświetlania bieżących wskazań i zapisu w plikach FIT/GPX. Zapis odczytów akcelerometru, żyroskopu i czujnika światła można wyłączyć w ustawieniach.",
 				"Przejazdy, dane odzyskiwania, ustawienia i pamięć podręczna map są zapisywane lokalnie. Aplikacja nie przesyła archiwum przejazdów na serwer dewelopera. Jeśli wyeksportujesz lub udostępnisz plik, wybrana aplikacja lub odbiorca otrzyma go wraz z zawartą w nim lokalizacją i telemetrią.",
-				"Uprawnienia możesz cofnąć w ustawieniach systemu; funkcje, które ich wymagają, przestaną wtedy działać. Przejazdy są przechowywane do czasu ich usunięcia. Ustawienia i pamięć podręczną możesz wyczyścić; może je również usunąć system. Po udostępnieniu pliku jego dalsze przechowywanie zależy od odbiorcy."
+				"Przejazdy są przechowywane na urządzeniu, dopóki ich nie usuniesz. Uprawnienia aplikacji możesz cofnąć w ustawieniach systemu."
 			]
 		},
 		{
 			"id": "maps",
 			"title": "Mapy online i ujawnianie lokalizacji",
 			"body": [
-				"Kafelki map są pobierane przez HTTPS z **tile.openstreetmap.org**, usługi OpenStreetMap Foundation (OSMF). Serwery obsługujące żądanie otrzymują adres kafelka i adres IP urządzenia oraz nagłówek User-Agent z nazwą i wersją aplikacji.",
+				"Kafelki map są pobierane przez HTTPS z serwera **tile.openstreetmap.org**, prowadzonego przez OpenStreetMap Foundation (OSMF). Serwery obsługujące żądanie otrzymują adres kafelka i adres IP urządzenia oraz nagłówek User-Agent z nazwą i wersją aplikacji.",
 				"Adresy kafelków wskazują wyświetlany obszar. Gdy mapa śledzi pozycję GPS, zapytania mogą ujawniać przybliżoną lokalizację urządzenia. OSMF może przechowywać adresy IP, czas i szczegóły żądań w logach zgodnie ze swoją [polityką prywatności](https://osmfoundation.org/wiki/Privacy_Policy). Deweloper nie zarządza tymi logami.",
-				"Aplikacja nie ma przełącznika wyłączającego pobieranie map. Bez połączenia z siecią może wyświetlać wcześniej zapisane kafelki."
+				"Pobierania map nie można wyłączyć w ustawieniach aplikacji. Bez internetu można korzystać z wcześniej pobranych kafelków."
 			]
 		},
 		{
@@ -50,8 +50,8 @@
 			"id": "music",
 			"title": "Sterowanie muzyką i wizualizacja dźwięku",
 			"body": [
-				"Po przyznaniu odpowiedniego dostępu w Androidzie widżet muzyczny odczytuje informacje o aktywnej sesji multimedialnej, np. tytuł, wykonawcę, stan odtwarzania i okładkę, oraz przekazuje polecenia sterujące do aplikacji muzycznej.",
-				"Opcjonalna wizualizacja widma korzysta z systemowego Visualizera Androida, który wymaga uprawnienia opisanego przez system jako dostęp do mikrofonu lub nagrywania dźwięku. Próbki odtwarzanego dźwięku są analizowane lokalnie w celu wyświetlenia widma; funkcja nie zapisuje nagrań ani nie przesyła dźwięku do dewelopera. Dostęp możesz cofnąć w ustawieniach systemu."
+				"Po przyznaniu dostępu w ustawieniach Androida widżet muzyczny odczytuje tytuł utworu, wykonawcę, stan odtwarzania i okładkę. Pozwala też sterować odtwarzaniem w aplikacji muzycznej.",
+				"Opcjonalna wizualizacja widma dźwięku korzysta z systemowego Visualizera Androida i wymaga uprawnienia do nagrywania dźwięku. Odtwarzany dźwięk jest analizowany lokalnie. Funkcja nie zapisuje nagrań ani nie przesyła dźwięku do dewelopera."
 			]
 		},
 		{
@@ -60,8 +60,16 @@
 			"body": [
 				"Bugsnag otrzymuje raporty błędów, a OSMF i dostawcy obsługujący jej serwery map otrzymują zapytania o kafelki. Eksportowane pliki trafiają do wybranych przez Ciebie aplikacji lub odbiorców. Wiadomości wysłane do dewelopera są przetwarzane przez dostawcę poczty na potrzeby dostarczenia i przechowywania korespondencji.",
 				"Pobieranie map i wysyłanie raportów odbywa się przez HTTPS. Pliki FIT/GPX mogą zawierać lokalizację i telemetrię przejazdu. Przed udostępnieniem sprawdź, jakie informacje przekazujesz odbiorcy.",
-				"Bugsnag korzysta z [centrów danych w USA](https://docs.bugsnag.com/security/overview/). Zasady transferów danych poza Europejski Obszar Gospodarczy określa [umowa powierzenia przetwarzania danych SmartBear (DPA)](https://smartbear.com/legal/data-processing-addendum/). Jej sekcja 7 przewiduje standardowe klauzule umowne Komisji Europejskiej dla transferów nieobjętych decyzją stwierdzającą odpowiedni stopień ochrony. Treść tych zabezpieczeń jest dostępna w DPA.",
+				"Bugsnag korzysta z [centrów danych w USA](https://docs.bugsnag.com/security/overview/). Zasady transferów danych poza Europejski Obszar Gospodarczy określa [umowa powierzenia przetwarzania danych SmartBear (DPA)](https://smartbear.com/legal/data-processing-addendum/). Jej sekcja 7 przewiduje standardowe klauzule umowne Komisji Europejskiej dla transferów nieobjętych decyzją stwierdzającą odpowiedni stopień ochrony.",
 				"OSMF korzysta z serwerów map rozmieszczonych na świecie. Lokalizacje przetwarzania i zasady ochrony danych opisuje w swojej [polityce prywatności](https://osmfoundation.org/wiki/Privacy_Policy)."
+			]
+		},
+		{
+			"id": "contact",
+			"title": "Kontakt i korespondencja",
+			"body": [
+				"Kontaktując się ze mną, przekazujesz adres e-mail i treść wiadomości. Używam ich do odpowiedzi i obsługi zgłoszenia na podstawie uzasadnionego interesu w prowadzeniu korespondencji (art. 6 ust. 1 lit. f RODO). Podanie tych danych jest dobrowolne, ale bez adresu kontaktowego nie mogę odpowiedzieć.",
+				"Żądania dotyczące praw z RODO obsługuję w ramach obowiązku prawnego (art. 6 ust. 1 lit. c RODO). Korespondencję przechowuję do zamknięcia sprawy i maksymalnie przez 5 miesięcy później, aby udokumentować jej obsługę (art. 6 ust. 1 lit. f RODO). Wyjątki opisuje strona [Usuwanie danych]({{dataDeletionUrl}})."
 			]
 		},
 		{
@@ -69,7 +77,7 @@
 			"title": "Usuwanie danych, kontakt i Twoje prawa",
 			"body": [
 				"Instrukcję usuwania plików z urządzenia i zgłaszania próśb o usunięcie raportów znajdziesz na stronie [Usuwanie danych]({{dataDeletionUrl}}). Wyłączenie raportowania nie usuwa wcześniejszych raportów.",
-				"Na zasadach określonych w RODO przysługuje Ci prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Żądania kieruj na [contact@sefinek.net](mailto:contact@sefinek.net). Odpowiedź otrzymasz w ciągu miesiąca; o ewentualnym przedłużeniu terminu i jego przyczynie otrzymasz informację w tym samym czasie.",
+				"Na zasadach określonych w RODO przysługuje Ci prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia oraz wniesienia sprzeciwu. Żądania kieruj na [contact@sefinek.net](mailto:contact@sefinek.net). Odpowiedź otrzymasz w ciągu miesiąca. Jeśli termin zostanie przedłużony, w tym czasie otrzymasz informację o przyczynie i nowym terminie odpowiedzi.",
 				"Możesz złożyć skargę do właściwego organu nadzorczego, w Polsce do Prezesa Urzędu Ochrony Danych Osobowych (UODO). Aplikacja nie podejmuje zautomatyzowanych decyzji wywołujących wobec Ciebie skutki prawne lub podobnie istotne skutki."
 			]
 		}
