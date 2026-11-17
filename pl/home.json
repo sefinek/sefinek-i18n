@@ -82,6 +82,18 @@
 	},
 	"minimize": "Minimalizuj",
 	"close": "Zamknij",
+	"terminal": {
+		"disable": "Wyłącz terminal",
+		"motdTitle": "Wiadomość dnia",
+		"motd": [
+			"Strona została niedawno wdrożona na produkcję, więc może zawierać błędy i różne niedoskonałości.",
+			"Znalazłeś coś, co nie działa? Daj mi znać (contact@sefinek.net lub Discord). Dzięki!"
+		],
+		"hint": "Wskazówka: terminal możesz wyłączyć przyciskiem X w prawym górnym rogu okna.",
+		"disabledText": "Terminal jest wyłączony.",
+		"enable": "Włącz terminal",
+		"downAlt": "Szafy serwerowe z kablami i chomikiem biegnącym w kole"
+	},
 	"egg": {
 		"title": "Znalazłeś easter egga ฅ^•ﻌ•^ฅ",
 		"minimize": "Minimalizuj",
