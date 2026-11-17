@@ -23,7 +23,7 @@
 				"The app reads GPS position, altitude, speed, direction of travel, measurement time, location accuracy and satellite count. It uses these readings to display your route and statistics, including distance, moving time and elevation gain. During recording, location may be accessed in the background or with the screen off.",
 				"Depending on the device, additional readings include barometer, accelerometer, gyroscope and light sensor data, battery level and temperature, charging state and cellular signal strength. These readings are displayed in the app and recorded in FIT/GPX files. Recording of accelerometer, gyroscope and light sensor readings can be disabled in settings.",
 				"Rides, recovery data, settings and cached maps are stored locally. The app does not upload your ride archive to a developer-operated server. When you export or share a file, the selected app or recipient receives that file, including any location and telemetry it contains.",
-				"Rides remain on your device until you delete them. You can revoke app permissions in system settings."
+				"Rides remain on your device until you delete them. FIT/GPX files are saved to the Documents/Telemavix folder in shared storage and remain there after the app is uninstalled. On Android 9 and earlier, other apps with storage access can read them. You can revoke app permissions in system settings."
 			]
 		},
 		{

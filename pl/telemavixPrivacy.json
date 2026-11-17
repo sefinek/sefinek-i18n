@@ -23,7 +23,7 @@
 				"Aplikacja odczytuje pozycję GPS, wysokość, prędkość, kierunek ruchu, czas pomiaru, dokładność lokalizacji i liczbę satelitów. Na tej podstawie wyświetla trasę i statystyki, w tym dystans, czas ruchu i sumę podjazdów. Podczas nagrywania lokalizacja może być odczytywana w tle lub przy wyłączonym ekranie.",
 				"Zależnie od urządzenia dostępne są również odczyty barometru, akcelerometru, żyroskopu i czujnika światła, poziom i temperatura baterii, stan ładowania oraz siła sygnału sieci komórkowej. Dane te służą do wyświetlania bieżących wskazań i zapisu w plikach FIT/GPX. Zapis odczytów akcelerometru, żyroskopu i czujnika światła można wyłączyć w ustawieniach.",
 				"Przejazdy, dane odzyskiwania, ustawienia i pamięć podręczna map są zapisywane lokalnie. Aplikacja nie przesyła archiwum przejazdów na serwer dewelopera. Jeśli wyeksportujesz lub udostępnisz plik, wybrana aplikacja lub odbiorca otrzyma go wraz z zawartą w nim lokalizacją i telemetrią.",
-				"Przejazdy są przechowywane na urządzeniu, dopóki ich nie usuniesz. Uprawnienia aplikacji możesz cofnąć w ustawieniach systemu."
+				"Przejazdy są przechowywane na urządzeniu, dopóki ich nie usuniesz. Pliki FIT/GPX trafiają do folderu Documents/Telemavix we współdzielonej pamięci i zostają w nim po odinstalowaniu aplikacji. Na Androidzie 9 i starszym mogą je odczytać inne aplikacje z dostępem do pamięci. Uprawnienia aplikacji możesz cofnąć w ustawieniach systemu."
 			]
 		},
 		{
