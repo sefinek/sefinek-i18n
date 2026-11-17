@@ -21,7 +21,7 @@
 			"title": "Telemavix GPS",
 			"body": [
 				"**Dane na urządzeniu:** przejazdy usuniesz z historii aplikacji, a pamięć podręczną map wyczyścisz w ustawieniach. Dane odzyskiwania i ustawienia możesz usunąć, czyszcząc dane aplikacji w ustawieniach Androida. Pliki w Documents/Telemavix oraz wyeksportowane i udostępnione kopie mogą pozostać po wyczyszczeniu danych lub odinstalowaniu aplikacji. Usuń je osobno w menedżerze plików lub usłudze, w której je przechowujesz. Deweloper nie ma zdalnego dostępu do tych plików.",
-				"**Raporty błędów:** są wysyłane do Bugsnag i automatycznie usuwane po 7 dniach. Raportowanie możesz wyłączyć w ustawieniach aplikacji; nie usuwa to wcześniejszych raportów. Aby poprosić o ich wcześniejsze usunięcie, napisz na adres podany wyżej. Prośba może zostać zrealizowana, jeśli uda się zidentyfikować raporty.",
+				"**Raporty błędów:** są wysyłane do Bugsnag i automatycznie usuwane po 7 dniach. Raportowanie włączasz dobrowolnie. Zgodę możesz wycofać w ustawieniach aplikacji. Nie usuwa to wcześniejszych raportów. Aby poprosić o ich wcześniejsze usunięcie, napisz na adres podany wyżej. Prośba może zostać zrealizowana, jeśli uda się zidentyfikować raporty.",
 				"**Zapytania o mapy:** logami zarządza OpenStreetMap Foundation (OSMF). Prośby dotyczące tych danych kieruj na [privacy@osmfoundation.org](mailto:privacy@osmfoundation.org). Szczegóły opisuje [polityka prywatności OSMF](https://osmfoundation.org/wiki/Privacy_Policy)."
 			]
 		},

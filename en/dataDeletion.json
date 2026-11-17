@@ -21,7 +21,7 @@
 			"title": "Telemavix GPS",
 			"body": [
 				"**Data on your device:** delete rides from the app history and clear cached maps in settings. Recovery data and settings can be removed by clearing app storage in Android settings. Files in Documents/Telemavix and exported or shared copies may remain after clearing app storage or uninstalling. Delete them separately using a file manager or the service where you store them. The developer has no remote access to these files.",
-				"**Error reports:** reports are sent to Bugsnag and automatically deleted after 7 days. You can disable reporting in the app settings; this does not delete earlier reports. To request earlier deletion, use the email address above. The request can be fulfilled if the reports can be identified.",
+				"**Error reports:** reports are sent to Bugsnag and automatically deleted after 7 days. Reporting is optional and requires your consent. You can withdraw consent in the app settings. This does not delete earlier reports. To request earlier deletion, use the email address above. The request can be fulfilled if the reports can be identified.",
 				"**Map requests:** logs are managed by OpenStreetMap Foundation (OSMF). Send requests concerning this data to [privacy@osmfoundation.org](mailto:privacy@osmfoundation.org). See the [OSMF privacy policy](https://osmfoundation.org/wiki/Privacy_Policy) for details."
 			]
 		},

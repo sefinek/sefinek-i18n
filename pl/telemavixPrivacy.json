@@ -40,9 +40,9 @@
 			"title": "Opcjonalne raportowanie błędów",
 			"body": [
 				"Aplikacja korzysta z **Bugsnag (SmartBear)** do diagnozowania błędów. Raporty zawierają opis błędu, stos wywołań, wersję aplikacji, wersje systemu i środowiska wykonawczego oraz producenta i model urządzenia. Podczas wysyłania raportu Bugsnag otrzymuje również adres IP urządzenia.",
-				"Raportowanie jest domyślnie włączone. Możesz je wyłączyć w ustawieniach aplikacji bez wpływu na rejestrowanie przejazdów.",
+				"Raportowanie jest domyślnie wyłączone. Możesz je dobrowolnie włączyć w oknie powitalnym lub ustawieniach aplikacji. Odmowa nie wpływa na rejestrowanie przejazdów.",
 				"Do raportów nie są dołączane trasy GPS, pliki przejazdów ani dane odtwarzanej muzyki. Komunikat błędu może zawierać informacje o operacji, która się nie powiodła.",
-				"Podstawą przetwarzania danych diagnostycznych jest prawnie uzasadniony interes administratora w wykrywaniu i naprawianiu usterek (art. 6 ust. 1 lit. f RODO). Możesz wnieść sprzeciw, pisząc na podany adres kontaktowy.",
+				"Podstawą przetwarzania danych diagnostycznych jest Twoja zgoda (art. 6 ust. 1 lit. a RODO). Możesz ją wycofać w dowolnym momencie, wyłączając raportowanie w ustawieniach. Wycofanie zgody nie wpływa na zgodność z prawem wcześniejszego przetwarzania.",
 				"Raporty błędów i dane diagnostyczne w Bugsnag są automatycznie usuwane po 7 dniach."
 			]
 		},
