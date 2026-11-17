@@ -87,7 +87,7 @@
 		"motdTitle": "Message of the day",
 		"motd": [
 			"This website was recently deployed to production, so it may contain bugs and various imperfections.",
-			"Found something that doesn't work? Let me know (contact@sefinek.net or Discord). Thanks!"
+			"Feedback? Bugs? Suggestions? Let me know (contact@sefinek.net or Discord). Thanks!"
 		],
 		"hint": "Tip: you can disable the terminal with the X button in the top right corner of the window.",
 		"disabledText": "The terminal is disabled.",
