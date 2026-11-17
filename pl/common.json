@@ -33,6 +33,8 @@
 		"introTitle": "Odtwarzaj dźwięk łączenia się modemu przy wejściu na stronę główną",
 		"rhythm": "Rytm muzyki",
 		"rhythmTitle": "Włącz bas, perkusję i arpeggio w tle",
+		"react": "Reakcja animacji na muzykę",
+		"reactTitle": "Animacja tła pulsuje w rytm muzyki",
 		"clicks": "Dźwięki kliknięć",
 		"clicksAria": "Dźwięki kliknięć myszą",
 		"clicksVolume": "Głośność kliknięć",

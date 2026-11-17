@@ -33,6 +33,8 @@
 		"introTitle": "Play the modem dial-up sound when landing on the home page",
 		"rhythm": "Music rhythm",
 		"rhythmTitle": "Enable bass, drums and arpeggio in the background",
+		"react": "Animation reacts to music",
+		"reactTitle": "The background animation pulses to the music beat",
 		"clicks": "Click sounds",
 		"clicksAria": "Mouse click sounds",
 		"clicksVolume": "Click volume",
