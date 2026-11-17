@@ -12,7 +12,8 @@
 		"ariaLogo": "sefinek.net - strona główna",
 		"ariaMain": "Nawigacja główna",
 		"ariaMobile": "Menu mobilne",
-		"ariaToggle": "Przełącz menu"
+		"ariaToggle": "Przełącz menu",
+		"skip": "Przejdź do treści"
 	},
 	"ext": {
 		"freeApi": "Darmowe API",

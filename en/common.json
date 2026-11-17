@@ -12,7 +12,8 @@
 		"ariaLogo": "sefinek.net - home",
 		"ariaMain": "Main navigation",
 		"ariaMobile": "Mobile menu",
-		"ariaToggle": "Toggle menu"
+		"ariaToggle": "Toggle menu",
+		"skip": "Skip to content"
 	},
 	"ext": {
 		"freeApi": "Free API",
