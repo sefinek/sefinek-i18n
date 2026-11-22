@@ -37,7 +37,7 @@
 			},
 			{
 				"title": "3. Dodaj nakładkę i zapisz film",
-				"text": "Wybierz widgety i ułóż je na obrazie. Jeśli korzystasz z osobnego pliku trasy, sprawdź jego synchronizację z nagraniem. Sprawdź efekt w podglądzie i wyeksportuj gotowy film."
+				"text": "Wybierz widgety i ułóż je na obrazie. Jeśli korzystasz z osobnego pliku trasy, sprawdź jego synchronizację z nagraniem. Obejrzyj podgląd i wyeksportuj gotowy film."
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 		},
 		"recommended": "Pobierz dla Windows (instalator x64)",
 		"others": "Inne systemy i wersje przenośne",
-		"cpuHelp": "Nie wiesz, jaki masz procesor? W Windows przejdź do Ustawienia > System > Informacje i sprawdź pole Typ systemu. W Linuksie i macOS uruchom `uname -m`: x86_64 oznacza x64, a arm64 lub aarch64 oznacza ARM64.",
+		"cpuHelp": "Nie wiesz, jaki masz procesor? W Windows otwórz Ustawienia > System > Informacje i sprawdź pole Typ systemu. W Linuksie i macOS uruchom `uname -m`: x86_64 oznacza x64, a arm64 lub aarch64 oznacza ARM64.",
 		"runtimeHelp": "Jeśli wybierzesz wersję wymagającą .NET, zainstaluj [.NET 10 Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) dla swojego systemu i procesora. Studio potrzebuje też FFmpeg 9. Jeśli go brakuje, przy pierwszym uruchomieniu proponuje jego instalację. Wersje dla Linuksa i macOS są eksperymentalne.",
 		"more": "Wszystkie pliki, sumy kontrolne i informacje o wydaniach są na [stronie wydań]({{releasesUrl}})."
 	},
@@ -105,7 +105,7 @@
 			},
 			{
 				"title": "Dane zapisane przez kamerę",
-				"text": "Studio odczytuje z nagrania dostępne dane, np. pozycję GPS, prędkość, ruch kamery i parametry ekspozycji. Zakres odczytów zależy od modelu i sposobu nagrywania. Kolejne części nagrania podzielonego przez kamerę możesz połączyć w jeden film."
+				"text": "Studio odczytuje z nagrania dostępne dane, np. pozycję GPS, prędkość, ruch kamery i parametry ekspozycji. Zakres odczytów zależy od modelu i sposobu nagrywania. Jeśli kamera dzieli nagranie na kilka plików, możesz połączyć je w jeden film."
 			},
 			{
 				"title": "Trasy z telefonu, zegarka i drona",
@@ -148,7 +148,7 @@
 			{
 				"device": "GoPro HERO12 Black",
 				"tier": "likely",
-				"notes": "To jedyny model GoPro, którego obsługę dotąd dodano. Przy jej opracowywaniu korzystano też z danych GPS z liczników rowerowych Garmin.",
+				"notes": "To jedyny dotąd przetestowany model GoPro. Pochylenie sprawdzono na nagraniu, a przechył boczny wymaga jeszcze kontrolowanego testu.",
 				"gps": "Zewnętrzny plik FIT lub GPX, np. z Telemavix GPS. HERO12 Black nie ma wbudowanego GPS. Odczyt GPS z innych modeli GoPro nie został jeszcze potwierdzony na rzeczywistych nagraniach."
 			},
 			{

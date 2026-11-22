@@ -148,7 +148,7 @@
 			{
 				"device": "GoPro HERO12 Black",
 				"tier": "likely",
-				"notes": "This is the only GoPro model with a dedicated implementation so far. GPS data from Garmin bike computers was also used during development.",
+				"notes": "This is the only GoPro model tested so far. Pitch has been checked against recorded footage, while roll still needs a controlled sideways tilt test.",
 				"gps": "An external FIT or GPX file, for example from Telemavix GPS. The HERO12 Black has no built-in GPS. GPS data from other GoPro models has not yet been verified with real recordings."
 			},
 			{
