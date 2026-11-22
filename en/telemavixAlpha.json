@@ -5,7 +5,7 @@
 	},
 	"label": "Telemavix",
 	"heading": "Closed alpha testing",
-	"intro": "Telemavix GPS records your route and phone sensor data during outdoor activities. Open the saved FIT and GPX files in Telemavix Studio to explore them later.",
+	"intro": "Telemavix GPS records your route and phone sensor data during outdoor activities. Open the saved FIT and GPX files in [Telemavix Studio](https://github.com/sefinek/telemavix-studio) to explore them later.",
 	"features": {
 		"title": "What the app can do",
 		"items": [
@@ -15,7 +15,7 @@
 			},
 			{
 				"title": "GPS data in the footage",
-				"text": "Your phone sends its GPS position and time to the camera. The camera saves this data in the video file so you can synchronize the footage with your route in Telemavix Studio. The app also warns you about low camera battery, low card space and overheating."
+				"text": "Your phone sends its GPS position and time to the camera. The camera saves this data in the video file so you can synchronize the footage with your route in [Telemavix Studio](https://github.com/sefinek/telemavix-studio). The app also warns you about low camera battery, low card space and overheating."
 			},
 			{
 				"title": "Route recording",
@@ -35,7 +35,7 @@
 			},
 			{
 				"title": "History and export",
-				"text": "Find your saved activities in the history, each with a route preview and summary. Share the FIT and GPX files or open them in Telemavix Studio."
+				"text": "Find your saved activities in the history, each with a route preview and summary. Share the FIT and GPX files or open them in [Telemavix Studio](https://github.com/sefinek/telemavix-studio)."
 			},
 			{
 				"title": "Extras",
@@ -63,8 +63,14 @@
 		"success": "Thank you for signing up! Your address has been saved. You'll receive an email once you've been added to the tester list. This usually takes up to a week, sometimes less.",
 		"done": "Saved."
 	},
+	"validation": {
+		"emailRequired": "Enter your email address.",
+		"emailInvalid": "Enter a valid email address.",
+		"consentRequired": "Tick the consent box to sign up."
+	},
 	"errors": {
 		"invalidRequest": "Enter a valid email address and tick the consent box.",
+		"invalidDomain": "The domain of this email address does not accept mail. Check that the address is correct.",
 		"captcha": "Cloudflare Turnstile verification failed. Please try again.",
 		"expired": "Verification expired. Please try again.",
 		"load": "Could not load Cloudflare Turnstile. Check your connection and content blocker settings, then try again.",

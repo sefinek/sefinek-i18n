@@ -5,7 +5,7 @@
 	},
 	"label": "Telemavix",
 	"heading": "Zamknięte testy alpha",
-	"intro": "Telemavix GPS rejestruje trasy i dane z czujników telefonu podczas aktywności na świeżym powietrzu. Pliki FIT i GPX możesz później otworzyć w Telemavix Studio.",
+	"intro": "Telemavix GPS rejestruje trasy i dane z czujników telefonu podczas aktywności na świeżym powietrzu. Pliki FIT i GPX możesz później otworzyć w [Telemavix Studio](https://github.com/sefinek/telemavix-studio).",
 	"features": {
 		"title": "Co potrafi aplikacja",
 		"items": [
@@ -15,7 +15,7 @@
 			},
 			{
 				"title": "Dane GPS w nagraniu",
-				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje te dane w pliku wideo, co pozwala zsynchronizować nagranie z trasą w Telemavix Studio. Aplikacja ostrzega też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
+				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje te dane w pliku wideo, co pozwala zsynchronizować nagranie z trasą w [Telemavix Studio](https://github.com/sefinek/telemavix-studio). Aplikacja ostrzega też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
 			},
 			{
 				"title": "Zapis trasy",
@@ -35,7 +35,7 @@
 			},
 			{
 				"title": "Historia i eksport",
-				"text": "Zapisane aktywności znajdziesz w historii wraz z podglądem trasy i podsumowaniem. Pliki FIT i GPX możesz udostępnić lub otworzyć w Telemavix Studio."
+				"text": "Zapisane aktywności znajdziesz w historii wraz z podglądem trasy i podsumowaniem. Pliki FIT i GPX możesz udostępnić lub otworzyć w [Telemavix Studio](https://github.com/sefinek/telemavix-studio)."
 			},
 			{
 				"title": "Dodatki",
@@ -63,8 +63,14 @@
 		"success": "Dziękuję za zgłoszenie! Twój adres został zapisany. Otrzymasz e-mail, gdy zostaniesz dodany do listy testerów. Zwykle trwa to do tygodnia, czasem krócej.",
 		"done": "Zapisano."
 	},
+	"validation": {
+		"emailRequired": "Podaj adres e-mail.",
+		"emailInvalid": "Podaj poprawny adres e-mail.",
+		"consentRequired": "Zaznacz zgodę, aby się zapisać."
+	},
 	"errors": {
 		"invalidRequest": "Podaj poprawny adres e-mail i zaznacz zgodę.",
+		"invalidDomain": "Domena tego adresu e-mail nie przyjmuje poczty. Sprawdź, czy adres jest poprawny.",
 		"captcha": "Weryfikacja Cloudflare Turnstile nie powiodła się. Spróbuj ponownie.",
 		"expired": "Weryfikacja wygasła. Spróbuj ponownie.",
 		"load": "Nie udało się załadować Cloudflare Turnstile. Sprawdź połączenie i ustawienia blokera treści, a potem spróbuj ponownie.",
