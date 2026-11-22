@@ -1,0 +1,75 @@
+{
+	"meta": {
+		"title": "Telemavix GPS - zamknięte testy alpha | Sefinek",
+		"description": "Zapisz się do zamkniętych testów alpha Telemavix GPS, aplikacji na Androida, która zapisuje trasy GPS i telemetrię telefonu w formatach FIT i GPX."
+	},
+	"label": "Telemavix",
+	"heading": "Zamknięte testy alpha",
+	"intro": "Telemavix GPS zapisuje trasy GPS i telemetrię telefonu podczas dowolnej aktywności na zewnątrz i zapisuje je jako FIT i GPX dla Telemavix Studio.",
+	"features": {
+		"title": "Co potrafi aplikacja",
+		"items": [
+			{
+				"title": "Sterowanie kamerą",
+				"text": "Po połączeniu z DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth rozpoczęcie trasy włącza też nagrywanie na kamerze, a zakończenie je zatrzymuje. Działa to również w drugą stronę: nagranie włączone przyciskiem na kamerze uruchamia trasę."
+			},
+			{
+				"title": "Dane GPS w nagraniu",
+				"text": "Telefon wysyła do kamery pozycję i czas, a kamera zapisuje je w wideo, dzięki czemu Telemavix Studio dokładnie synchronizuje nagranie z trasą. Aplikacja ostrzega też o niskiej baterii kamery, prawie pełnej karcie i przegrzaniu."
+			},
+			{
+				"title": "Zapis trasy",
+				"text": "Dystans, czas ruchu, przewyższenie, nachylenie i automatyczna pauza. Nagrywanie trwa przy wygaszonym ekranie, a przerwany zapis (np. po awarii lub rozładowaniu telefonu) można odzyskać."
+			},
+			{
+				"title": "Telemetria telefonu",
+				"text": "Barometr, akcelerometr, żyroskop, światło otoczenia i dane baterii są zapisywane razem z trasą. Sam wybierasz, które czujniki nagrywać."
+			},
+			{
+				"title": "Dashboard i mapa offline",
+				"text": "Prędkość i inne odczyty na żywo oraz mapa OpenStreetMap z trasą, która działa offline dzięki pamięci podręcznej kafelków."
+			},
+			{
+				"title": "Satelity i słońce",
+				"text": "Wykres nieba z widocznymi satelitami i jakością sygnału oraz przypomnienie przed zachodem słońca, żeby nie zaskoczyła Cię ciemność."
+			},
+			{
+				"title": "Historia i eksport",
+				"text": "Każda trasa zapisuje się jako FIT i GPX, trafia do historii z podglądem przebiegu i można ją udostępnić lub otworzyć w Telemavix Studio."
+			},
+			{
+				"title": "Dodatki",
+				"text": "Alerty dystansu, blokada ekranu dotykowego po przekroczeniu prędkości, widżet odtwarzacza muzyki, motywy oraz jednostki metryczne lub imperialne."
+			}
+		]
+	},
+	"how": {
+		"title": "Jak to działa",
+		"steps": [
+			"Zapisz się adresem e-mail konta Google, którego używasz w Sklepie Play.",
+			"Dodaję ten adres do zamkniętych testów w Google Play.",
+			"Dostajesz maila z linkiem, dzięki któremu dołączysz do testów i zainstalujesz aplikację.",
+			"Używaj aplikacji podczas aktywności i daj mi znać, co nie działa albo co byś zmienił."
+		],
+		"note": "To wczesna wersja alpha, więc spodziewaj się błędów i zmian. Na razie tylko Android."
+	},
+	"form": {
+		"title": "Zapisz się",
+		"emailLabel": "E-mail konta Google",
+		"emailPlaceholder": "twoj.adres@gmail.com",
+		"consent": "Wyrażam zgodę na przetwarzanie mojego adresu e-mail w celu dodania mnie do zamkniętych testów i kontaktu w ich sprawie. Adres zostanie usunięty po zakończeniu testów, a o jego usunięcie mogę poprosić w każdej chwili. Więcej w [polityce prywatności]({{privacyUrl}}).",
+		"submit": "Zapisz się",
+		"sending": "Zapisywanie, proszę czekać...",
+		"success": "Dziękuję! Twój adres został zapisany. Odezwę się mailowo, gdy dodam Cię do testów."
+	},
+	"errors": {
+		"invalidRequest": "Podaj poprawny adres e-mail i zaznacz zgodę.",
+		"captcha": "Weryfikacja Cloudflare Turnstile nie powiodła się. Spróbuj ponownie.",
+		"expired": "Weryfikacja wygasła. Spróbuj ponownie.",
+		"load": "Nie udało się załadować Cloudflare Turnstile. Sprawdź połączenie i ustawienia blokera treści, a potem spróbuj ponownie.",
+		"request": "Nie udało się zapisać zgłoszenia. Spróbuj ponownie.",
+		"rateLimited": "Zbyt wiele prób. Spróbuj ponownie później.",
+		"unavailable": "Zapisy są chwilowo niedostępne. Spróbuj ponownie później.",
+		"server": "Wystąpił błąd serwera. Spróbuj ponownie później."
+	}
+}

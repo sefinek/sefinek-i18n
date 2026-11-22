@@ -1,0 +1,75 @@
+{
+	"meta": {
+		"title": "Telemavix GPS - closed alpha testing | Sefinek",
+		"description": "Sign up for the closed alpha tests of Telemavix GPS, an Android app that records GPS tracks and phone telemetry and saves them as FIT and GPX."
+	},
+	"label": "Telemavix",
+	"heading": "Closed alpha testing",
+	"intro": "Telemavix GPS records GPS tracks and phone telemetry for any outdoor activity and saves them as FIT and GPX for Telemavix Studio.",
+	"features": {
+		"title": "What the app can do",
+		"items": [
+			{
+				"title": "Camera control",
+				"text": "With a DJI Osmo Action 4, 5 Pro or 6 connected over Bluetooth, starting a route also starts recording on the camera and ending it stops the camera. It works the other way too: a recording started with the camera button starts the route."
+			},
+			{
+				"title": "GPS data in the footage",
+				"text": "The phone sends its position and time to the camera, which writes them into the video so Telemavix Studio can precisely synchronize the footage with your route. The app also warns you about a low camera battery, a nearly full card and overheating."
+			},
+			{
+				"title": "Route recording",
+				"text": "Distance, moving time, ascent, grade and auto-pause. Recording keeps going with the screen off, and an unfinished recording (for example after a crash or a dead phone) can be recovered."
+			},
+			{
+				"title": "Phone telemetry",
+				"text": "Barometer, accelerometer, gyroscope, ambient light and battery data are saved along with the route. You choose which sensors to record."
+			},
+			{
+				"title": "Dashboard and offline map",
+				"text": "Live speed and other readings on a dashboard, plus an OpenStreetMap map with your route that keeps working offline thanks to the tile cache."
+			},
+			{
+				"title": "Satellites and sun",
+				"text": "A sky chart with the satellites in view and signal quality, and a reminder before sunset so you are not caught in the dark."
+			},
+			{
+				"title": "History and export",
+				"text": "Every ride is saved as FIT and GPX, listed in the history with a route preview and ready to share or open in Telemavix Studio."
+			},
+			{
+				"title": "Extras",
+				"text": "Distance alerts, a speed lock for the touch screen, a music player widget, themes and metric or imperial units."
+			}
+		]
+	},
+	"how": {
+		"title": "How it works",
+		"steps": [
+			"Sign up with the email address of the Google account you use in the Play Store.",
+			"I add that address to the closed test on Google Play.",
+			"You get an email with the link to join the test and install the app.",
+			"Use the app on your outdoor activities and tell me what does not work or what you would change."
+		],
+		"note": "The app is an early alpha, so expect bugs and changes. Android only for now."
+	},
+	"form": {
+		"title": "Sign up",
+		"emailLabel": "Google account email",
+		"emailPlaceholder": "your.address@gmail.com",
+		"consent": "I agree to the processing of my email address to add me to the closed test and to contact me about it. The address will be deleted once testing ends, and I can ask for its removal at any time. More in the [privacy policy]({{privacyUrl}}).",
+		"submit": "Sign up",
+		"sending": "Saving, please wait...",
+		"success": "Thank you! Your address has been saved. I will get back to you by email once I add you to the test."
+	},
+	"errors": {
+		"invalidRequest": "Enter a valid email address and tick the consent box.",
+		"captcha": "Cloudflare Turnstile verification failed. Please try again.",
+		"expired": "Verification expired. Please try again.",
+		"load": "Could not load Cloudflare Turnstile. Check your connection and content blocker settings, then try again.",
+		"request": "Could not save your sign-up. Please try again.",
+		"rateLimited": "Too many attempts. Please try again later.",
+		"unavailable": "Sign-ups are temporarily unavailable. Please try again later.",
+		"server": "Something went wrong on the server. Please try again later."
+	}
+}
