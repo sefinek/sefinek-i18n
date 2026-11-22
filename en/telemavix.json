@@ -7,15 +7,16 @@
 	"softwareDescription": "Telemavix GPS records routes and phone sensor data. Telemavix Studio adds overlays with speed, maps, tilt and other readings to your videos.",
 	"label": "Project",
 	"heading": "Telemavix",
-	"intro": "Your footage can show more. Add a speedometer, route map, tilt indicator and other widgets in Telemavix Studio. Choose their appearance, arrange them on the video and share a new perspective on your activity. Record your route on your phone with Telemavix GPS, or import a FIT or GPX file from a sports watch or bike computer, including Garmin devices. Studio also uses telemetry from supported action cameras and DJI drone flight logs.",
+	"intro": "Your footage can show more. Use Telemavix Studio to add a speedometer, route map, tilt indicator and other widgets. Customize their appearance, arrange them on your video and show your activity from a new perspective. Use data from your camera or drone, or record your route on your phone with Telemavix GPS.",
 	"cta": {
 		"alpha": "Join the closed alpha",
 		"download": "Download Telemavix Studio",
+		"guide": "Guide",
 		"source": "Studio source code"
 	},
 	"videos": {
 		"title": "See the results",
-		"intro": "Example videos with Telemavix Studio widgets. Choose a video to watch it on YouTube. The app keeps evolving, so some widgets may already look different - and even better - in the current version.",
+		"intro": "Example videos with Telemavix Studio widgets. Choose a video to watch it on YouTube. The app keeps evolving, so some widgets may already look different in the current version.",
 		"watch": "Watch on YouTube",
 		"items": {
 			"drone": "Autumn flight with the DJI Mavic Air 2 in 4K",
@@ -28,11 +29,11 @@
 		"steps": [
 			{
 				"title": "1. Record your activity",
-				"text": "Film your activity with an action camera or drone. If you need a track from your phone, start Telemavix GPS. With a supported DJI Osmo Action camera, you can start and stop track recording together with video recording. The app also replaces the DJI GPS Bluetooth Remote Controller, so you do not need to buy it."
+				"text": "Film your activity with an action camera or drone. To record your route on your phone, start Telemavix GPS. With a supported DJI Osmo Action camera, you can start and stop track recording at the same time as video recording. The app replaces the DJI GPS Bluetooth Remote Controller, so you do not need to buy one."
 			},
 			{
 				"title": "2. Open the footage in Studio",
-				"text": "Telemavix Studio reads the data saved by your camera. You can also add a FIT or GPX file from Telemavix GPS, a Garmin sports watch or bike computer, or another device that saves these formats. For DJI drone footage, use a flight log."
+				"text": "Telemavix Studio reads the available data saved by a supported camera. You can also add a FIT or GPX file from Telemavix GPS, a sports watch or a bike computer, such as a Garmin device. If your DJI drone does not store telemetry in the footage, add a flight log."
 			},
 			{
 				"title": "3. Add an overlay and save your video",
@@ -45,7 +46,7 @@
 		"mobile": {
 			"badge": "Closed alpha",
 			"title": "Telemavix GPS for your phone",
-			"text": "Records your route and readings from available phone sensors. Shows speed, distance, moving time and elevation changes. Recording continues with the screen off, and previously loaded map areas remain available offline. For DJI Osmo Action cameras it works as the GPS remote, so the DJI GPS Bluetooth Remote Controller is not needed.",
+			"text": "Records your route and readings from available phone sensors. Shows speed, distance, moving time and elevation changes. Recording continues with the screen off, and previously loaded map areas remain available offline. It works as a GPS remote for supported DJI Osmo Action cameras, replacing the DJI GPS Bluetooth Remote Controller.",
 			"tags": [
 				"Android",
 				"FIT",
@@ -85,7 +86,9 @@
 			"selfContained": "Portable, .NET included",
 			"frameworkDependent": "Portable, requires .NET 10"
 		},
-		"cpuHelp": "Not sure which processor you have? On Windows, open Settings, then System, then About, and check System type. On Linux and macOS run `uname -m`: x86_64 means x64, arm64 or aarch64 means ARM64.",
+		"recommended": "Download for Windows (x64 installer)",
+		"others": "Other systems and portable builds",
+		"cpuHelp": "Not sure which processor you have? On Windows, go to Settings > System > About and check System type. On Linux and macOS, run `uname -m`: x86_64 means x64, while arm64 or aarch64 means ARM64.",
 		"runtimeHelp": "If you choose the version that requires .NET, install the [.NET 10 Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) for your system and processor. Studio also needs FFmpeg 9 and offers to install it on first launch if it is missing. Linux and macOS versions are experimental.",
 		"more": "All files, checksums and release notes are on the [releases page]({{releasesUrl}})."
 	},
@@ -94,7 +97,7 @@
 		"items": [
 			{
 				"title": "Export with the original settings",
-				"text": "By default, Studio keeps the original resolution, codec, color depth and bitrate, including 10-bit color. Adding an overlay requires re-encoding the picture; using the source settings helps limit quality loss."
+				"text": "By default, Studio keeps the original resolution, codec, color depth and bitrate, including for 10-bit footage. Adding an overlay requires re-encoding the video. Keeping the source settings helps limit quality loss."
 			},
 			{
 				"title": "Processing on your computer",
@@ -102,14 +105,14 @@
 			},
 			{
 				"title": "Data recorded by your camera",
-				"text": "Studio reads available data from your footage, such as GPS position, speed, camera motion and exposure settings. Available readings depend on the model and how you record. You can combine consecutive files split by the camera into one video."
+				"text": "Studio reads available data from your footage, such as GPS position, speed, camera motion and exposure settings. Available readings depend on the model and how you record. If your camera splits a recording into several files, you can join them into one video."
 			},
 			{
 				"title": "Tracks from phones, watches and drones",
-				"text": "Import a FIT or GPX file from Telemavix GPS, a sports watch or a bike computer, including Garmin devices. Alongside the route, Studio reads available data such as speed, elevation, heart rate, cadence and battery level. Use flight logs for DJI drone footage and align the data with the video by synchronizing their timing."
+				"text": "Import a FIT or GPX file from Telemavix GPS, a sports watch or a bike computer, such as a Garmin device. Alongside the route, Studio reads available data such as speed, elevation, heart rate, cadence and battery level. You can also add flight logs for supported DJI drones. Synchronize the data with your footage so the readings match what you see in the video."
 			},
 			{
-				"title": "Arrange your own widgets",
+				"title": "Customize your widgets",
 				"text": "Choose a speedometer, map, compass, tilt indicator, G-meter or elevation chart. Drag widgets into place on the video and check the result in the preview. Available widgets depend on the data in your footage or track file."
 			},
 			{
@@ -122,7 +125,7 @@
 			},
 			{
 				"title": "Extra tools for your recordings",
-				"text": "Remove metadata before sharing a video, fix color tags or compare up to six files side by side. Convert a separate AAC file from the camera microphone to WAV or M4A for further editing."
+				"text": "Remove metadata before sharing a video, fix color tags or compare the properties of up to six videos side by side. Convert a separate AAC file from the camera microphone to WAV or M4A for further editing."
 			}
 		]
 	},
@@ -131,43 +134,33 @@
 		"intro": "Check which devices you can use and where to get GPS data for your video. Open the original recordings from the memory card in Studio.",
 		"columns": {
 			"gps": "Where to get GPS data",
+			"notes": "Additional notes",
 			"support": "Support"
 		},
-		"note": "In my experience, recording telemetry through DJI Mimo is cumbersome and unintuitive, and sometimes it is hard to tell whether it is working at all. For recording a GPS track and telemetry, I recommend the dedicated [Telemavix GPS](#apps) app - especially if you have a DJI Osmo Action series camera.",
+		"note": "In my experience, recording telemetry in DJI Mimo is cumbersome and unintuitive. Sometimes it is hard to tell whether recording is working at all. I recommend [Telemavix GPS](#apps) for recording routes and sensor data, especially if you have a supported DJI Osmo Action camera.",
 		"rows": [
 			{
-				"device": "DJI Osmo Action 6, Action 5 Pro",
+				"device": "DJI Osmo Action",
 				"tier": "full",
-				"note": "Tested",
-				"gps": "Telemavix GPS or DJI GPS Bluetooth Remote Controller"
-			},
-			{
-				"device": "Other DJI Osmo Action (e.g. Action 4)",
-				"tier": "likely",
-				"note": "Support not verified by testing",
+				"notes": "Tested models: Action 6 and Action 5 Pro. Other models in the series should work, but have not been tested yet.",
 				"gps": "Telemavix GPS or DJI GPS Bluetooth Remote Controller"
 			},
 			{
 				"device": "GoPro HERO12 Black",
 				"tier": "likely",
-				"note": "Tested",
-				"gps": "Add a FIT or GPX track. This camera has no GPS receiver."
+				"notes": "This is the only GoPro model with a dedicated implementation so far. GPS data from Garmin bike computers was also used during development.",
+				"gps": "An external FIT or GPX file, for example from Telemavix GPS. The HERO12 Black has no built-in GPS. GPS data from other GoPro models has not yet been verified with real recordings."
 			},
 			{
-				"device": "DJI drones (Mavic Air 2, Mavic 4 Pro, Flip, Avata 360)",
+				"device": "DJI drones",
 				"tier": "full",
-				"note": "FlightRecord_*.txt files",
-				"gps": "Data recorded by the DJI Fly app during the flight."
+				"notes": "Supported models: Mavic Air 2, Mavic 4 Pro, Flip, Avata 360 and Lito X1 Plus.",
+				"gps": "Mavic Air 2, Mavic 4 Pro, Flip and Avata 360: a flight log (FlightRecord_*.txt) saved by the DJI Fly app. Lito X1 Plus: telemetry is stored in the footage, so you do not need to add a separate file."
 			},
 			{
-				"device": "DJI Lito X1 Plus",
+				"device": "Garmin devices",
 				"tier": "full",
-				"gps": "Telemetry stored directly in the recording file."
-			},
-			{
-				"device": "Garmin 7X",
-				"tier": "full",
-				"note": "Tested",
+				"notes": "Tested with the Garmin 7X. Studio also supports FIT files from Garmin bike computers.",
 				"gps": "A FIT activity file. Studio also reads heart rate, cadence and battery level when present in the file."
 			},
 			{
@@ -185,5 +178,9 @@
 	"license": {
 		"title": "License",
 		"text": "The desktop app is free for non-commercial use under the [PolyForm Noncommercial License 1.0.0](https://github.com/sefinek/telemavix-studio/blob/main/LICENSE), and its source code is on [GitHub](https://github.com/sefinek/telemavix-studio). Commercial use, including monetized videos, sponsored content and paid client work, requires separate permission: write to [contact@sefinek.net](mailto:contact@sefinek.net). More in the [licensing guide](https://github.com/sefinek/telemavix-studio/blob/main/LICENSING.md)."
+	},
+	"guide": {
+		"title": "Telemavix Studio guide",
+		"intro": "Installation, requirements and working with telemetry. Choose a topic to jump to its instructions."
 	}
 }

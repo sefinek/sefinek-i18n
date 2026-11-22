@@ -1,0 +1,34 @@
+{
+	"meta": {
+		"title": "Feedback and reports | Sefinek",
+		"description": "How to send feedback, report a bug or share an idea about my apps, tools and projects, including during closed testing."
+	},
+	"heading": "Feedback and reports",
+	"intro": "Using my apps, tools or websites? Testing one of my projects before release? Your feedback, bug reports and ideas help me improve them.",
+	"send": {
+		"title": "How to send feedback",
+		"text": "Get in touch using one of the options on my contact page. You will find my email address and links to my Discord server and GitHub profile there. I usually reply within 24-48 hours.",
+		"button": "Contact me"
+	},
+	"include": {
+		"title": "What to include in a bug report",
+		"items": [
+			"The name of the project, app or website you are writing about.",
+			"The app version and the device and operating system you use. If you are reporting a website issue, also include your browser name and version.",
+			"Bug reproduction. A description of the problem and steps to reproduce it.",
+			"What you expected to happen instead.",
+			"A screenshot, recording or log excerpt, if possible."
+		]
+	},
+	"kinds": {
+		"title": "What you can share",
+		"items": [
+			"Bugs and crashes.",
+			"Ideas for new features and improvements.",
+			"Unclear wording, translation errors and typos.",
+			"Feedback on design, usability and performance.",
+			"Feedback from closed testing."
+		]
+	},
+	"note": "Before leaving a review on Google Play, I encourage you to get in touch. Tell me what you find difficult, what is missing or what you would like to change in the app. A conversation helps me understand the problem, ask for details and make useful improvements. Your suggestions help me build a better app. I use the data you send to handle your report, as described in the [privacy policy]({{privacyUrl}})."
+}

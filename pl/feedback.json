@@ -1,0 +1,34 @@
+{
+	"meta": {
+		"title": "Opinie i zgłoszenia | Sefinek",
+		"description": "Jak przesłać opinię, zgłosić błąd lub podzielić się pomysłem dotyczącym moich aplikacji, narzędzi i projektów, także podczas zamkniętych testów."
+	},
+	"heading": "Opinie i zgłoszenia",
+	"intro": "Korzystasz z moich aplikacji, narzędzi lub stron? Testujesz któryś z moich projektów przed premierą? Twoje uwagi, zgłoszenia błędów i pomysły pomagają mi je rozwijać.",
+	"send": {
+		"title": "Jak przesłać opinię",
+		"text": "Napisz do mnie, korzystając z jednej z form kontaktu podanych na stronie kontaktowej. Znajdziesz tam mój adres e-mail oraz linki do serwera Discord i profilu na GitHubie. Zwykle odpowiadam w ciągu 24-48 godzin.",
+		"button": "Przejdź do kontaktu"
+	},
+	"include": {
+		"title": "Co warto podać przy zgłaszaniu błędu",
+		"items": [
+			"Nazwę projektu, aplikacji lub strony, której dotyczy zgłoszenie.",
+			"Wersję aplikacji oraz urządzenie i system operacyjny, z których korzystasz. Jeśli zgłaszasz problem ze stroną, podaj też nazwę i wersję przeglądarki.",
+			"Odtworzenie błędu. Opis problemu i kroki pozwalające go odtworzyć.",
+			"Opis oczekiwanego działania.",
+			"Zrzut ekranu, nagranie lub fragment logów, jeśli to możliwe."
+		]
+	},
+	"kinds": {
+		"title": "Co możesz zgłosić",
+		"items": [
+			"Błędy i awarie.",
+			"Pomysły na nowe funkcje i ulepszenia.",
+			"Niejasne sformułowania, błędy w tłumaczeniach i literówki.",
+			"Uwagi do wyglądu, użyteczności i wydajności.",
+			"Uwagi z zamkniętych testów."
+		]
+	},
+	"note": "Zanim wystawisz opinię w Google Play, zachęcam Cię do kontaktu. Napisz, co sprawia Ci trudność, czego brakuje lub co warto zmienić w aplikacji. Dzięki rozmowie łatwiej mi zrozumieć problem, dopytać o szczegóły i wprowadzić przydatne poprawki. Twoje sugestie pomagają mi tworzyć lepszą aplikację. Przesłane dane wykorzystuję do obsługi zgłoszenia, zgodnie z [polityką prywatności]({{privacyUrl}})."
+}

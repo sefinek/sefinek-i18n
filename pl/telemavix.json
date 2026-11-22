@@ -7,15 +7,16 @@
 	"softwareDescription": "Telemavix GPS zapisuje trasy i dane z czujników telefonu. Telemavix Studio dodaje do filmów nakładki z prędkością, mapą, przechyłem i innymi odczytami.",
 	"label": "Projekt",
 	"heading": "Telemavix",
-	"intro": "Twoje nagrania mogą pokazać więcej. Dodaj do nich prędkościomierz, mapę trasy, przechył i inne widgety w Telemavix Studio. Wybierz ich wygląd, ułóż je na obrazie i pokaż swoją aktywność z nowej perspektywy. Trasę zarejestruj telefonem w Telemavix GPS lub wczytaj plik FIT albo GPX z zegarka sportowego lub licznika rowerowego, w tym urządzeń Garmin. Studio wykorzystuje też telemetrię obsługiwanych kamer sportowych i dzienniki lotu dronów DJI.",
+	"intro": "Twoje nagrania mogą pokazać więcej. W Telemavix Studio dodaj do nich prędkościomierz, mapę trasy, wskaźnik przechyłu i inne widgety. Dopasuj ich wygląd, ułóż je na obrazie i pokaż swoją aktywność z nowej perspektywy. Skorzystaj z danych z kamery lub drona albo zarejestruj trasę telefonem w Telemavix GPS.",
 	"cta": {
 		"alpha": "Dołącz do zamkniętych testów",
 		"download": "Pobierz Telemavix Studio",
+		"guide": "Przewodnik",
 		"source": "Kod źródłowy Studio"
 	},
 	"videos": {
 		"title": "Zobacz efekt na filmie",
-		"intro": "Przykładowe nagrania z widgetami Telemavix Studio. Wybierz film, aby obejrzeć go na YouTube. Aplikacja stale się rozwija, więc w aktualnej wersji niektóre widgety mogą już wyglądać inaczej - nawet jeszcze lepiej.",
+		"intro": "Przykładowe nagrania z widgetami Telemavix Studio. Wybierz film, aby obejrzeć go na YouTube. Aplikacja stale się rozwija, więc w aktualnej wersji niektóre widgety mogą już wyglądać inaczej.",
 		"watch": "Obejrzyj na YouTube",
 		"items": {
 			"drone": "Jesienny lot DJI Mavic Air 2 w 4K",
@@ -28,15 +29,15 @@
 		"steps": [
 			{
 				"title": "1. Nagraj swoją aktywność",
-				"text": "Nagraj film kamerą sportową lub dronem. Jeśli potrzebujesz zapisu trasy z telefonu, uruchom Telemavix GPS. Z obsługiwaną kamerą DJI Osmo Action możesz rozpoczynać i kończyć zapis trasy razem z nagrywaniem wideo, a aplikacja zastępuje pilota DJI GPS Bluetooth Remote Controller, więc nie musisz go kupować."
+				"text": "Nagraj film kamerą sportową lub dronem. Aby zarejestrować trasę telefonem, uruchom Telemavix GPS. Jeśli korzystasz z obsługiwanej kamery DJI Osmo Action, możesz rozpoczynać i kończyć zapis trasy razem z nagrywaniem wideo. Aplikacja zastępuje pilota DJI GPS Bluetooth Remote Controller, więc nie musisz go kupować."
 			},
 			{
 				"title": "2. Otwórz nagranie w Studio",
-				"text": "Telemavix Studio odczyta dane zapisane przez kamerę. Możesz też dodać plik FIT lub GPX z Telemavix GPS, zegarka sportowego lub licznika rowerowego Garmin i innych urządzeń zapisujących te formaty. Do nagrań z drona DJI użyj dziennika lotu."
+				"text": "Telemavix Studio odczyta dostępne dane zapisane przez obsługiwaną kamerę. Możesz też dodać plik FIT lub GPX z Telemavix GPS, zegarka sportowego albo licznika rowerowego, np. marki Garmin. Jeśli dron DJI nie zapisuje telemetrii w nagraniu, dodaj dziennik lotu."
 			},
 			{
 				"title": "3. Dodaj nakładkę i zapisz film",
-				"text": "Wybierz wskaźniki i ułóż je na obrazie. Jeśli korzystasz z osobnego pliku trasy, sprawdź jego synchronizację z nagraniem. Obejrzyj podgląd i wyeksportuj gotowy film."
+				"text": "Wybierz widgety i ułóż je na obrazie. Jeśli korzystasz z osobnego pliku trasy, sprawdź jego synchronizację z nagraniem. Sprawdź efekt w podglądzie i wyeksportuj gotowy film."
 			}
 		]
 	},
@@ -45,7 +46,7 @@
 		"mobile": {
 			"badge": "Zamknięte testy alpha",
 			"title": "Telemavix GPS na telefon",
-			"text": "Zapisuje trasę i odczyty z dostępnych czujników telefonu. Pokazuje prędkość, dystans, czas w ruchu i zmiany wysokości. Rejestruje aktywność także przy wygaszonym ekranie, a wcześniej wczytane fragmenty mapy są dostępne bez internetu. Dla kamer DJI Osmo Action pełni rolę pilota GPS, więc pilot DJI GPS Bluetooth Remote Controller nie jest potrzebny.",
+			"text": "Zapisuje trasę i odczyty z dostępnych czujników telefonu. Pokazuje prędkość, dystans, czas w ruchu i zmiany wysokości. Rejestruje aktywność także przy wygaszonym ekranie, a wcześniej wczytane fragmenty mapy są dostępne bez internetu. Współpracuje z obsługiwanymi kamerami DJI Osmo Action jako pilot GPS, zastępując DJI GPS Bluetooth Remote Controller.",
 			"tags": [
 				"Android",
 				"FIT",
@@ -60,7 +61,7 @@
 		"desktop": {
 			"badge": "Za darmo do użytku niekomercyjnego",
 			"title": "Telemavix Studio na komputer",
-			"text": "Dodaje do filmów nakładki z danymi z kamery, pliku trasy lub dziennika lotu. Pozwala ułożyć wskaźniki, przyciąć nagranie i dodać muzykę. Wersja na Windows jest regularnie testowana; wersje na Linux i macOS są eksperymentalne.",
+			"text": "Dodaje do filmów nakładki z danymi z kamery, pliku trasy lub dziennika lotu. Pozwala rozmieścić widgety, przyciąć nagranie i dodać muzykę. Wersja dla Windows jest regularnie testowana, a wersje dla Linuksa i macOS są eksperymentalne.",
 			"tags": [
 				"Windows",
 				"Linux",
@@ -85,8 +86,10 @@
 			"selfContained": "Przenośna, z .NET",
 			"frameworkDependent": "Przenośna, wymaga .NET 10"
 		},
-		"cpuHelp": "Nie wiesz, jaki masz procesor? W Windows otwórz Ustawienia, następnie System, następnie Informacje i sprawdź Typ systemu. W Linuksie i macOS uruchom `uname -m`: x86_64 oznacza x64, a arm64 lub aarch64 oznacza ARM64.",
-		"runtimeHelp": "Jeśli wybierzesz wersję wymagającą .NET, zainstaluj [.NET 10 Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) dla swojego systemu i procesora. Studio potrzebuje też FFmpeg 9 i przy pierwszym uruchomieniu proponuje jego instalację, jeśli go brakuje. Wersje na Linux i macOS są eksperymentalne.",
+		"recommended": "Pobierz dla Windows (instalator x64)",
+		"others": "Inne systemy i wersje przenośne",
+		"cpuHelp": "Nie wiesz, jaki masz procesor? W Windows przejdź do Ustawienia > System > Informacje i sprawdź pole Typ systemu. W Linuksie i macOS uruchom `uname -m`: x86_64 oznacza x64, a arm64 lub aarch64 oznacza ARM64.",
+		"runtimeHelp": "Jeśli wybierzesz wersję wymagającą .NET, zainstaluj [.NET 10 Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) dla swojego systemu i procesora. Studio potrzebuje też FFmpeg 9. Jeśli go brakuje, przy pierwszym uruchomieniu proponuje jego instalację. Wersje dla Linuksa i macOS są eksperymentalne.",
 		"more": "Wszystkie pliki, sumy kontrolne i informacje o wydaniach są na [stronie wydań]({{releasesUrl}})."
 	},
 	"features": {
@@ -94,7 +97,7 @@
 		"items": [
 			{
 				"title": "Eksport z ustawieniami oryginału",
-				"text": "Domyślnie Studio zachowuje rozdzielczość, kodek, głębię kolorów i bitrate oryginału, w tym kolor 10-bitowy. Dodanie nakładki wymaga ponownego kodowania obrazu; ustawienia źródła pomagają ograniczyć utratę jakości."
+				"text": "Domyślnie Studio zachowuje rozdzielczość, kodek, głębię kolorów i bitrate oryginału, także w nagraniach 10-bitowych. Dodanie nakładki wymaga ponownego kodowania obrazu. Zachowanie ustawień źródłowych pomaga ograniczyć utratę jakości."
 			},
 			{
 				"title": "Przetwarzanie na komputerze",
@@ -106,11 +109,11 @@
 			},
 			{
 				"title": "Trasy z telefonu, zegarka i drona",
-				"text": "Wczytaj plik FIT lub GPX z Telemavix GPS, zegarka sportowego albo licznika rowerowego, w tym urządzeń Garmin. Oprócz trasy Studio odczytuje dostępne w pliku dane, np. prędkość, wysokość, tętno, kadencję i poziom baterii. Nagrania z dronów DJI uzupełnisz dziennikiem lotu, a dane dopasujesz do obrazu przez synchronizację czasu."
+				"text": "Wczytaj plik FIT lub GPX z Telemavix GPS, zegarka sportowego albo licznika rowerowego, np. marki Garmin. Oprócz trasy Studio odczytuje dostępne w pliku dane, np. prędkość, wysokość, tętno, kadencję i poziom baterii. Do nagrań z obsługiwanych dronów DJI możesz dodać dziennik lotu. Zsynchronizuj dane z nagraniem, aby odczyty odpowiadały temu, co widać na filmie."
 			},
 			{
-				"title": "Wskaźniki według Twojego pomysłu",
-				"text": "Wybierz prędkościomierz, mapę, kompas, wskaźnik przechyłu, przeciążeń lub wykres wysokości. Przeciągaj elementy na obrazie i sprawdzaj efekt w podglądzie. Dostępne wskaźniki zależą od danych w nagraniu lub pliku trasy."
+				"title": "Widgety według Twojego pomysłu",
+				"text": "Wybierz prędkościomierz, mapę, kompas, wskaźnik przechyłu lub przeciążeń albo wykres wysokości. Przeciągaj widgety na obrazie i sprawdzaj efekt w podglądzie. Ich dostępność zależy od danych w nagraniu lub pliku trasy."
 			},
 			{
 				"title": "Montaż i muzyka",
@@ -118,11 +121,11 @@
 			},
 			{
 				"title": "Gotowy film lub sama nakładka",
-				"text": "Zapisz film z nałożonymi wskaźnikami lub wyeksportuj samą nakładkę na zielonym tle albo z przezroczystością do dalszego montażu. Kolejka pozwala przygotować kilka eksportów, a narzędzie wiersza poleceń umożliwia ich automatyzację."
+				"text": "Zapisz film z widgetami lub wyeksportuj samą nakładkę na zielonym tle albo z przezroczystością do dalszego montażu. Dodaj kilka zadań do kolejki eksportu lub zautomatyzuj eksport za pomocą narzędzia wiersza poleceń."
 			},
 			{
 				"title": "Dodatkowe narzędzia do nagrań",
-				"text": "Usuń metadane przed udostępnieniem filmu, popraw oznaczenie kolorów lub porównaj do sześciu plików obok siebie. Osobny plik AAC z mikrofonu kamery możesz przekonwertować do WAV albo M4A do dalszej obróbki."
+				"text": "Usuń metadane przed udostępnieniem filmu, popraw oznaczenie kolorów lub porównaj obok siebie parametry nawet sześciu nagrań. Osobny plik AAC z mikrofonu kamery możesz przekonwertować do WAV albo M4A do dalszej obróbki."
 			}
 		]
 	},
@@ -131,44 +134,34 @@
 		"intro": "Sprawdź, z jakich urządzeń możesz korzystać i skąd pobrać dane GPS do filmu. W Studio otwieraj oryginalne nagrania z karty pamięci.",
 		"columns": {
 			"gps": "Skąd wziąć dane GPS",
+			"notes": "Dodatkowe uwagi",
 			"support": "Wsparcie"
 		},
-		"note": "Z mojego doświadczenia rejestrowanie telemetrii przez DJI Mimo jest niewygodne i mało intuicyjne, a czasem trudno stwierdzić, czy w ogóle działa. Do nagrywania śladu GPS i telemetrii zalecam dedykowaną aplikację [Telemavix GPS](#apps) - tym bardziej, jeśli masz kamerę z serii DJI Osmo Action.",
+		"note": "Z mojego doświadczenia rejestrowanie telemetrii w DJI Mimo jest niewygodne i mało intuicyjne. Czasem trudno nawet stwierdzić, czy zapis działa. Do rejestrowania trasy i danych z czujników polecam [Telemavix GPS](#apps), szczególnie jeśli masz obsługiwaną kamerę z serii DJI Osmo Action.",
 		"rows": [
 			{
-				"device": "DJI Osmo Action 6, Action 5 Pro",
+				"device": "DJI Osmo Action",
 				"tier": "full",
-				"note": "Przetestowane",
-				"gps": "Telemavix GPS lub pilot DJI GPS Bluetooth"
-			},
-			{
-				"device": "Inne DJI Osmo Action (np. Action 4)",
-				"tier": "likely",
-				"note": "Obsługa niepotwierdzona testami",
+				"notes": "Przetestowane modele: Action 6 i Action 5 Pro. Pozostałe modele z serii powinny działać, ale nie zostały jeszcze przetestowane.",
 				"gps": "Telemavix GPS lub pilot DJI GPS Bluetooth"
 			},
 			{
 				"device": "GoPro HERO12 Black",
 				"tier": "likely",
-				"note": "Przetestowane",
-				"gps": "Dodaj trasę z pliku FIT lub GPX. Ta kamera nie ma odbiornika GPS."
+				"notes": "To jedyny model GoPro, którego obsługę dotąd dodano. Przy jej opracowywaniu korzystano też z danych GPS z liczników rowerowych Garmin.",
+				"gps": "Zewnętrzny plik FIT lub GPX, np. z Telemavix GPS. HERO12 Black nie ma wbudowanego GPS. Odczyt GPS z innych modeli GoPro nie został jeszcze potwierdzony na rzeczywistych nagraniach."
 			},
 			{
-				"device": "Drony DJI (Mavic Air 2, Mavic 4 Pro, Flip, Avata 360)",
+				"device": "Drony DJI",
 				"tier": "full",
-				"note": "Pliki FlightRecord_*.txt",
-				"gps": "Dane zapisane przez aplikację DJI Fly podczas lotu."
+				"notes": "Obsługiwane modele: Mavic Air 2, Mavic 4 Pro, Flip, Avata 360 i Lito X1 Plus.",
+				"gps": "Mavic Air 2, Mavic 4 Pro, Flip i Avata 360: dziennik lotu (FlightRecord_*.txt) zapisany przez aplikację DJI Fly. Lito X1 Plus: telemetria jest zapisana w nagraniu, więc nie musisz dodawać osobnego pliku."
 			},
 			{
-				"device": "DJI Lito X1 Plus",
+				"device": "Urządzenia Garmin",
 				"tier": "full",
-				"gps": "Telemetria zapisana bezpośrednio w pliku nagrania."
-			},
-			{
-				"device": "Garmin 7X",
-				"tier": "full",
-				"note": "Przetestowane",
-				"gps": "Plik FIT z zapisem aktywności. Studio odczytuje też dostępne w nim tętno, kadencję i poziom baterii."
+				"notes": "Przetestowane na modelu Garmin 7X. Studio obsługuje też pliki FIT z liczników rowerowych Garmin.",
+				"gps": "Plik FIT z zapisem aktywności. Jeśli zawiera dane o tętnie, kadencji i poziomie baterii, Studio również je odczyta."
 			},
 			{
 				"device": "Insta360 X4",
@@ -185,5 +178,9 @@
 	"license": {
 		"title": "Licencja",
 		"text": "Aplikacja desktopowa jest darmowa do użytku niekomercyjnego na licencji [PolyForm Noncommercial License 1.0.0](https://github.com/sefinek/telemavix-studio/blob/main/LICENSE), a jej kod źródłowy jest na [GitHubie](https://github.com/sefinek/telemavix-studio). Użycie komercyjne, w tym monetyzowane filmy, treści sponsorowane i płatne zlecenia, wymaga osobnej zgody: napisz na [contact@sefinek.net](mailto:contact@sefinek.net). Więcej w [przewodniku po licencjonowaniu](https://github.com/sefinek/telemavix-studio/blob/main/LICENSING.md)."
+	},
+	"guide": {
+		"title": "Przewodnik Telemavix Studio",
+		"intro": "Instalacja, wymagania i praca z telemetrią. Wybierz temat, aby przejść do instrukcji."
 	}
 }
