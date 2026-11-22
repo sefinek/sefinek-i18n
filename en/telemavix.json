@@ -137,47 +137,50 @@
 		"rows": [
 			{
 				"device": "DJI Osmo Action 6, Action 5 Pro",
-				"status": "Tested",
-				"gps": "DJI GPS Bluetooth Remote Controller or Telemavix GPS",
-				"tier": "full"
+				"tier": "full",
+				"note": "Tested",
+				"gps": "Telemavix GPS or DJI GPS Bluetooth Remote Controller"
 			},
 			{
 				"device": "Other DJI Osmo Action (e.g. Action 4)",
-				"status": "Should work; support not verified by testing",
-				"gps": "DJI GPS Bluetooth Remote Controller or Telemavix GPS",
-				"tier": "likely"
+				"tier": "likely",
+				"note": "Support not verified by testing",
+				"gps": "Telemavix GPS or DJI GPS Bluetooth Remote Controller"
 			},
 			{
 				"device": "GoPro HERO12 Black",
-				"status": "Tested, should work",
-				"gps": "Add a FIT or GPX track. This camera has no GPS receiver.",
-				"tier": "likely"
+				"tier": "likely",
+				"note": "Tested",
+				"gps": "Add a FIT or GPX track. This camera has no GPS receiver."
 			},
 			{
 				"device": "DJI drones (Mavic Air 2, Mavic 4 Pro, Flip, Avata 360)",
-				"status": "Full support (FlightRecord_*.txt)",
-				"gps": "Data recorded by the DJI Fly app during the flight.",
-				"tier": "full"
+				"tier": "full",
+				"note": "FlightRecord_*.txt files",
+				"gps": "Data recorded by the DJI Fly app during the flight."
 			},
 			{
 				"device": "DJI Lito X1 Plus",
-				"status": "Supported",
-				"gps": "Telemetry stored directly in the recording file.",
-				"tier": "full"
+				"tier": "full",
+				"gps": "Telemetry stored directly in the recording file."
 			},
 			{
 				"device": "Garmin 7X",
-				"status": "Tested",
-				"gps": "A FIT activity file. Studio also reads heart rate, cadence and battery level when present in the file.",
-				"tier": "full"
+				"tier": "full",
+				"note": "Tested",
+				"gps": "A FIT activity file. Studio also reads heart rate, cadence and battery level when present in the file."
 			},
 			{
 				"device": "Insta360 X4",
-				"status": "Experimental support",
-				"gps": "Add a FIT or GPX track. Studio does not yet read GPS data from this camera's recordings.",
-				"tier": "experimental"
+				"tier": "experimental",
+				"gps": "Add a FIT or GPX track. Studio does not yet read GPS data from this camera's recordings."
 			}
-		]
+		],
+		"tiers": {
+			"full": "Full support",
+			"likely": "Should work",
+			"experimental": "Experimental"
+		}
 	},
 	"license": {
 		"title": "License",

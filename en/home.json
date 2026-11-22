@@ -38,7 +38,7 @@
 	},
 	"hero": {
 		"title": "Hi, I'm Sefinek",
-		"description": "My main interests are servers, infrastructure and computing in general. I also work with programming and OSINT. I maintain a large collection of blocklists for DNS servers. Recently, I've also become interested in amateur radio, particularly LoRa MeshCore. I'm a radio listener too, and I plan to take the exam and get my own callsign in the future. If you have an interesting project idea or would like to work on something together, get in touch! In the meantime, have a good day or night. 73!",
+		"description": "My main interests are servers, infrastructure and computing in general. I also work with programming and OSINT. I maintain a large collection of blocklists for DNS servers. Recently, I've also become interested in amateur radio, particularly LoRa MeshCore. I'm a radio listener too, and I plan to take the exam and get my own callsign in the future. If you have an interesting project idea or would like to work on something together, get in touch! In the meantime, have a good day or night!",
 		"projects": "View projects",
 		"contact": "Get in touch",
 		"label": "Introduction"
@@ -89,7 +89,6 @@
 			"This website was recently deployed to production, so it may contain bugs and various imperfections.",
 			"Feedback? Bugs? Suggestions? Let me know (contact@sefinek.net or Discord). Thanks!"
 		],
-		"hint": "Tip: you can disable the terminal with the X button in the top right corner of the window.",
 		"disabledText": "The terminal is disabled.",
 		"enable": "Enable terminal",
 		"downAlt": "Server racks with cables and a hamster running in a wheel"

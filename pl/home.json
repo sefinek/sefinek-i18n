@@ -38,7 +38,7 @@
 	},
 	"hero": {
 		"title": "Hej, jestem Sefinek",
-		"description": "Najbardziej interesują mnie serwery, infrastruktura i szeroko pojęta informatyka. Zajmuję się również programowaniem i OSINT-em. Utrzymuję sporą kolekcję blocklist przeznaczonych dla serwerów DNS. Od niedawna rozwijam też zainteresowanie krótkofalarstwem - obecnie szczególnie LoRa MeshCore. Jestem również nasłuchowcem, a w przyszłości planuję zdać egzamin i uzyskać własny znak wywoławczy. Jeśli masz ciekawy pomysł na projekt albo chciałbyś wspólnie nad czymś popracować, odezwij się do mnie! Tymczasem życzę Ci miłego dnia lub nocy. 73!",
+		"description": "Najbardziej interesują mnie serwery, infrastruktura i szeroko pojęta informatyka. Zajmuję się również programowaniem i OSINT-em. Utrzymuję sporą kolekcję blocklist przeznaczonych dla serwerów DNS. Od niedawna rozwijam też zainteresowanie krótkofalarstwem - obecnie szczególnie LoRa MeshCore. Jestem również nasłuchowcem, a w przyszłości planuję zdać egzamin i uzyskać własny znak wywoławczy. Jeśli masz ciekawy pomysł na projekt albo chciałbyś wspólnie nad czymś popracować, odezwij się do mnie! Tymczasem życzę Ci miłego dnia lub nocy!",
 		"projects": "Zobacz projekty",
 		"contact": "Skontaktuj się",
 		"label": "Wprowadzenie"
@@ -89,7 +89,6 @@
 			"Strona została niedawno wdrożona na produkcję, więc może zawierać błędy i różne niedoskonałości.",
 			"Opinia? Błąd? Sugestia? Daj mi znać (contact@sefinek.net lub Discord). Dzięki!"
 		],
-		"hint": "Wskazówka: terminal możesz wyłączyć przyciskiem X w prawym górnym rogu okna.",
 		"disabledText": "Terminal jest wyłączony.",
 		"enable": "Włącz terminal",
 		"downAlt": "Szafy serwerowe z kablami i chomikiem biegnącym w kole"

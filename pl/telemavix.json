@@ -137,47 +137,50 @@
 		"rows": [
 			{
 				"device": "DJI Osmo Action 6, Action 5 Pro",
-				"status": "Przetestowane",
-				"gps": "Pilot DJI GPS Bluetooth lub Telemavix GPS",
-				"tier": "full"
+				"tier": "full",
+				"note": "Przetestowane",
+				"gps": "Telemavix GPS lub pilot DJI GPS Bluetooth"
 			},
 			{
 				"device": "Inne DJI Osmo Action (np. Action 4)",
-				"status": "Powinno działać, obsługa niepotwierdzona testami",
-				"gps": "Pilot DJI GPS Bluetooth lub Telemavix GPS",
-				"tier": "likely"
+				"tier": "likely",
+				"note": "Obsługa niepotwierdzona testami",
+				"gps": "Telemavix GPS lub pilot DJI GPS Bluetooth"
 			},
 			{
 				"device": "GoPro HERO12 Black",
-				"status": "Przetestowane, powinno działać",
-				"gps": "Dodaj trasę z pliku FIT lub GPX. Ta kamera nie ma odbiornika GPS.",
-				"tier": "likely"
+				"tier": "likely",
+				"note": "Przetestowane",
+				"gps": "Dodaj trasę z pliku FIT lub GPX. Ta kamera nie ma odbiornika GPS."
 			},
 			{
 				"device": "Drony DJI (Mavic Air 2, Mavic 4 Pro, Flip, Avata 360)",
-				"status": "Pełne wsparcie (FlightRecord_*.txt)",
-				"gps": "Dane zapisane przez aplikację DJI Fly podczas lotu.",
-				"tier": "full"
+				"tier": "full",
+				"note": "Pliki FlightRecord_*.txt",
+				"gps": "Dane zapisane przez aplikację DJI Fly podczas lotu."
 			},
 			{
 				"device": "DJI Lito X1 Plus",
-				"status": "Obsługiwany",
-				"gps": "Telemetria zapisana bezpośrednio w pliku nagrania.",
-				"tier": "full"
+				"tier": "full",
+				"gps": "Telemetria zapisana bezpośrednio w pliku nagrania."
 			},
 			{
 				"device": "Garmin 7X",
-				"status": "Przetestowany",
-				"gps": "Plik FIT z zapisem aktywności. Studio odczytuje też dostępne w nim tętno, kadencję i poziom baterii.",
-				"tier": "full"
+				"tier": "full",
+				"note": "Przetestowane",
+				"gps": "Plik FIT z zapisem aktywności. Studio odczytuje też dostępne w nim tętno, kadencję i poziom baterii."
 			},
 			{
 				"device": "Insta360 X4",
-				"status": "Obsługa eksperymentalna",
-				"gps": "Dodaj trasę z pliku FIT lub GPX. Studio nie odczytuje jeszcze GPS z nagrań tej kamery.",
-				"tier": "experimental"
+				"tier": "experimental",
+				"gps": "Dodaj trasę z pliku FIT lub GPX. Studio nie odczytuje jeszcze GPS z nagrań tej kamery."
 			}
-		]
+		],
+		"tiers": {
+			"full": "Pełne wsparcie",
+			"likely": "Powinno działać",
+			"experimental": "Eksperymentalne"
+		}
 	},
 	"license": {
 		"title": "Licencja",
