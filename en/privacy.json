@@ -33,7 +33,7 @@
 			"title": "Who is responsible for your data",
 			"body": [
 				"sefinek.net is run by an individual using the pseudonym **Sefinek**, who is the controller of the personal data described in this policy. For privacy matters, write to [contact@sefinek.net](mailto:contact@sefinek.net). No data protection officer has been appointed.",
-				"This policy covers browsing sefinek.net, the blocklist generator, Discord verification, MeshCore Polska features, and IP address checks in the IP checker tool and its associated API. Other projects and linked websites may have their own privacy notices.",
+				"This policy covers browsing sefinek.net, the blocklist generator, Discord verification, MeshCore Polska features, the Telemavix closed alpha sign-up, and IP address checks in the IP checker tool and its associated API. Other projects and linked websites may have their own privacy notices.",
 				"The website is non-commercial. I do not display ads or use analytics tools to track visitors. You do not need to create an account to browse the website. MeshCore Polska profiles are linked to Discord accounts.",
 				"Below I explain what data I receive from you, your browser, Discord and security services, and how I use it (Articles 13 and 14 GDPR)."
 			]
@@ -93,6 +93,15 @@
 			]
 		},
 		{
+			"id": "telemavix-alpha",
+			"title": "Telemavix closed alpha sign-up",
+			"body": [
+				"If you sign up for the closed alpha of Telemavix GPS, I process the email address you provide (the one of your Google account), the language of the page, the time you gave your consent and the Turnstile security check result. I use them to add you to the tester list on Google Play and to contact you about the test.",
+				"To limit abuse, your IP address is used to count sign-up attempts; the counter expires after one hour. Before the address is saved, a DNS lookup checks whether its domain has a mail server. The sign-up form does not send the address to any mailing list.",
+				"The legal basis is your consent (Article 6(1)(a) GDPR), given by ticking the box in the form. Providing the address is voluntary, but it is needed to take part in the test. You can withdraw your consent at any time by writing to [contact@sefinek.net](mailto:contact@sefinek.net); withdrawal does not affect the lawfulness of earlier processing."
+			]
+		},
+		{
 			"id": "ip-checker",
 			"title": "IP address checks",
 			"body": [
@@ -105,9 +114,10 @@
 			"id": "third-parties",
 			"title": "Who may receive data",
 			"body": [
-				"**Cloudflare** handles traffic to the website and helps protect it from attacks. It receives connection data, including IP addresses and request information. Turnstile protects the generator and Discord verification forms by analyzing signals such as IP address, browser information and technical connection data. Cloudflare processes data on my behalf to protect the website and, according to its documentation, also as a separate controller to improve bot detection. Details: [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) and [Turnstile privacy information](https://www.cloudflare.com/turnstile-privacy-policy/).",
+				"**Cloudflare** handles traffic to the website and helps protect it from attacks. It receives connection data, including IP addresses and request information. Turnstile protects the generator, Discord verification and Telemavix alpha sign-up forms by analyzing signals such as IP address, browser information and technical connection data. Cloudflare processes data on my behalf to protect the website and, according to its documentation, also as a separate controller to improve bot detection. Details: [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) and [Turnstile privacy information](https://www.cloudflare.com/turnstile-privacy-policy/).",
 				"**IP reputation services:** AbuseIPDB, SniffCat and VPNAPI receive the checked address during Discord verification. Their responses support the security assessment described in the verification section. Provider documentation: [AbuseIPDB](https://www.abuseipdb.com/privacy) and [VPNAPI](https://vpnapi.io/privacy-policy).",
 				"**Email:** the mail server handles sender and recipient addresses, message content and information needed for delivery. This applies to generator deliveries and correspondence with me. The recipient's email provider processes delivered messages under its own rules.",
+				"**Google** receives the email address you give for the Telemavix closed alpha when I add it to the tester list in Google Play Console, and processes it as a separate controller of its services. See the [Google privacy policy](https://policies.google.com/privacy).",
 				"**Discord** processes data as a separate controller of its platform. Data exchanged through the bot concerns verification, profiles, roles and community applications. See the [Discord privacy policy](https://discord.com/privacy).",
 				"**File delivery:** some resources are loaded from jsDelivr and my cdn.sefinek.net domain. The status widget connects to status.sefinek.net. These connections transmit technical data, including your IP address. Information about the external content delivery network: [jsDelivr privacy policy](https://www.jsdelivr.com/terms/privacy-policy).",
 				"Data may be disclosed to competent authorities if required by law. When you follow a link to another website, its operator's rules apply."
@@ -117,7 +127,7 @@
 			"id": "transfers",
 			"title": "Processing outside the EEA",
 			"body": [
-				"Using Cloudflare, Discord, AbuseIPDB, VPNAPI and jsDelivr may involve processing data outside the European Economic Area (EEA), including in the United States. The location of the controller's own server does not mean that all processing takes place exclusively in Poland or the EEA.",
+				"Using Cloudflare, Google, Discord, AbuseIPDB, VPNAPI and jsDelivr may involve processing data outside the European Economic Area (EEA), including in the United States. The location of the controller's own server does not mean that all processing takes place exclusively in Poland or the EEA.",
 				"Cloudflare describes its transfer safeguards, including the EU-US Data Privacy Framework and standard contractual clauses, in its [data processing addendum](https://www.cloudflare.com/cloudflare-customer-dpa/). Other providers' documents are linked in the previous section. The transfer mechanism depends on the recipient and service; naming a provider does not mean it is covered by DPF certification.",
 				"You can ask the controller, using the contact address at the start of this policy, for information about safeguards for a specific transfer and how to obtain a copy."
 			]
@@ -130,6 +140,7 @@
 				"**Temporary data:** the website's request-limit window is 40 seconds; generator delivery counters expire 24 hours after their last increment. The combined IP check result for Discord verification is cached for 10 minutes, and a MeshCore configuration session lasts 6 hours. Browser storage and IP checker result retention are described in their respective sections.",
 				"**Discord blocks:** the technical data stored with a block (IP address, score and detection details) is deleted automatically after 90 days. The record of the block itself (account ID and name, reason, dates) is kept so the account can be blocked again if it returns to the server, until the block is lifted or the record is deleted at your request. **Verification requests** (account ID, name and avatar, country, status and the score with a list of detection types, without the IP address) have no automatic deletion deadline. The need to retain them depends on membership and verification status, repeated abuse and the need to review an appeal.",
 				"**MeshCore profiles, applications and surveys** also do not expire automatically. Retention depends on maintaining the profile, supporting registered devices, reviewing applications and using responses to organize the community. If you stop using these features or request deletion, an assessment is needed to determine which data is no longer necessary.",
+				"**Telemavix alpha sign-ups** are deleted once the closed test ends, or earlier at your request. The counter of sign-up attempts expires after one hour.",
 				"**Correspondence** is processed to reply and resolve the matter (legitimate interest, Article 6(1)(f) GDPR). Further retention depends on the need to preserve agreed arrangements, handle related matters or establish, exercise or defend legal claims. Any extension for a specific dispute or incident is limited to the information needed for that matter."
 			]
 		},

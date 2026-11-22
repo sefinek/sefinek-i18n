@@ -33,7 +33,7 @@
 			"title": "Kto odpowiada za Twoje dane",
 			"body": [
 				"Serwis sefinek.net prowadzi osoba fizyczna posługująca się pseudonimem **Sefinek**, która jest administratorem danych osobowych opisanych w tej polityce. W sprawach prywatności możesz napisać na [contact@sefinek.net](mailto:contact@sefinek.net). Nie wyznaczono inspektora ochrony danych.",
-				"Polityka obejmuje przeglądanie sefinek.net, generator list blokujących, weryfikację na Discordzie, funkcje MeshCore Polska oraz sprawdzanie adresów IP w narzędziu IP checker i powiązanym API. Inne projekty i strony, do których prowadzą odnośniki, mogą mieć własne zasady prywatności.",
+				"Polityka obejmuje przeglądanie sefinek.net, generator list blokujących, weryfikację na Discordzie, funkcje MeshCore Polska, zapis do zamkniętych testów alpha Telemavix oraz sprawdzanie adresów IP w narzędziu IP checker i powiązanym API. Inne projekty i strony, do których prowadzą odnośniki, mogą mieć własne zasady prywatności.",
 				"Serwis ma charakter niekomercyjny. Nie wyświetlam reklam ani nie korzystam z narzędzi analitycznych do śledzenia odwiedzających. Przeglądanie strony nie wymaga zakładania konta. Profile MeshCore Polska są powiązane z kontem Discord.",
 				"Poniżej wyjaśniam, jakie dane otrzymuję od Ciebie, Twojej przeglądarki, Discorda i usług bezpieczeństwa oraz jak z nich korzystam (art. 13 i 14 RODO)."
 			]
@@ -93,6 +93,15 @@
 			]
 		},
 		{
+			"id": "telemavix-alpha",
+			"title": "Zapis do zamkniętych testów Telemavix",
+			"body": [
+				"Jeśli zapiszesz się do zamkniętych testów alpha Telemavix GPS, przetwarzam podany adres e-mail (konta Google), język strony, czas wyrażenia zgody oraz wynik kontroli bezpieczeństwa Turnstile. Używam ich, aby dodać Cię do listy testerów w Google Play i skontaktować się z Tobą w sprawie testów.",
+				"Aby ograniczać nadużycia, adres IP służy do liczenia prób zapisu; licznik wygasa po godzinie. Przed zapisaniem adresu zapytanie DNS sprawdza, czy jego domena ma serwer poczty. Formularz nie przekazuje adresu do żadnej listy mailingowej.",
+				"Podstawą przetwarzania jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), wyrażona przez zaznaczenie pola w formularzu. Podanie adresu jest dobrowolne, ale potrzebne do udziału w testach. Zgodę możesz w każdej chwili wycofać, pisząc na [contact@sefinek.net](mailto:contact@sefinek.net); wycofanie nie wpływa na zgodność z prawem wcześniejszego przetwarzania."
+			]
+		},
+		{
 			"id": "ip-checker",
 			"title": "Sprawdzanie adresów IP",
 			"body": [
@@ -105,9 +114,10 @@
 			"id": "third-parties",
 			"title": "Kto może otrzymać dane",
 			"body": [
-				"**Cloudflare** pośredniczy w ruchu do strony i pomaga chronić ją przed atakami. Otrzymuje dane połączenia, w tym IP i informacje o żądaniu. Turnstile chroni formularze generatora i weryfikacji Discord; analizuje m.in. IP, informacje o przeglądarce i techniczne sygnały połączenia. Cloudflare przetwarza dane na moje zlecenie w celu ochrony strony, a według własnej dokumentacji także jako odrębny administrator w celu ulepszania wykrywania botów. Szczegóły: [polityka Cloudflare](https://www.cloudflare.com/privacypolicy/) i [informacje o Turnstile](https://www.cloudflare.com/turnstile-privacy-policy/).",
+				"**Cloudflare** pośredniczy w ruchu do strony i pomaga chronić ją przed atakami. Otrzymuje dane połączenia, w tym IP i informacje o żądaniu. Turnstile chroni formularze generatora, weryfikacji Discord i zapisu do testów alpha Telemavix; analizuje m.in. IP, informacje o przeglądarce i techniczne sygnały połączenia. Cloudflare przetwarza dane na moje zlecenie w celu ochrony strony, a według własnej dokumentacji także jako odrębny administrator w celu ulepszania wykrywania botów. Szczegóły: [polityka Cloudflare](https://www.cloudflare.com/privacypolicy/) i [informacje o Turnstile](https://www.cloudflare.com/turnstile-privacy-policy/).",
 				"**Usługi reputacji IP:** podczas weryfikacji Discord sprawdzany adres otrzymują AbuseIPDB, SniffCat i VPNAPI. Informacje zwrotne służą ocenie bezpieczeństwa opisanej w sekcji o weryfikacji. Dokumentacja dostawców: [AbuseIPDB](https://www.abuseipdb.com/privacy) i [VPNAPI](https://vpnapi.io/privacy-policy).",
 				"**Poczta:** serwer pocztowy obsługuje adresy nadawcy i odbiorcy, treść wiadomości oraz dane potrzebne do jej doręczenia. Dotyczy to wysyłki z generatora i korespondencji ze mną. Operator skrzynki odbiorcy przetwarza doręczoną wiadomość według własnych zasad.",
+				"**Google** otrzymuje adres e-mail podany przy zapisie do zamkniętych testów Telemavix, gdy dodaję go do listy testerów w Google Play Console, i przetwarza go jako odrębny administrator swoich usług. Zobacz [politykę prywatności Google](https://policies.google.com/privacy).",
 				"**Discord** przetwarza dane jako odrębny administrator swojej platformy. Wymiana danych przez bota obejmuje weryfikację, profile, role i zgłoszenia społeczności. Szczegóły opisuje [polityka Discorda](https://discord.com/privacy).",
 				"**Dostarczanie plików:** część zasobów jest pobierana z jsDelivr i mojej domeny cdn.sefinek.net. Widżet statusu łączy się z status.sefinek.net. Takie połączenia przekazują dane techniczne, w tym adres IP. Informacje o zewnętrznej sieci dostarczania plików: [polityka jsDelivr](https://www.jsdelivr.com/terms/privacy-policy).",
 				"Dane mogą zostać udostępnione właściwym organom, jeśli wymaga tego prawo. Po przejściu przez link na inną stronę zastosowanie mają zasady jej operatora."
@@ -117,7 +127,7 @@
 			"id": "transfers",
 			"title": "Przetwarzanie poza EOG",
 			"body": [
-				"Korzystanie z usług Cloudflare, Discorda, AbuseIPDB, VPNAPI i jsDelivr może wiązać się z przetwarzaniem danych poza Europejskim Obszarem Gospodarczym (EOG), w tym w Stanach Zjednoczonych. Lokalizacja własnego serwera nie oznacza, że wszystkie operacje odbywają się wyłącznie w Polsce lub EOG.",
+				"Korzystanie z usług Cloudflare, Google, Discorda, AbuseIPDB, VPNAPI i jsDelivr może wiązać się z przetwarzaniem danych poza Europejskim Obszarem Gospodarczym (EOG), w tym w Stanach Zjednoczonych. Lokalizacja własnego serwera nie oznacza, że wszystkie operacje odbywają się wyłącznie w Polsce lub EOG.",
 				"Cloudflare opisuje zabezpieczenia transferów, w tym ramy EU-US Data Privacy Framework i standardowe klauzule umowne, w [umowie dotyczącej przetwarzania danych](https://www.cloudflare.com/cloudflare-customer-dpa/). Dokumenty pozostałych dostawców są dostępne pod linkami w poprzedniej sekcji. Mechanizm transferu zależy od odbiorcy i konkretnej usługi; samo wymienienie dostawcy nie oznacza objęcia go certyfikacją DPF.",
 				"O informacje o zabezpieczeniach dotyczących konkretnego przekazania oraz o sposób uzyskania ich kopii możesz wystąpić do administratora pod adresem podanym na początku polityki."
 			]
@@ -130,6 +140,7 @@
 				"**Dane tymczasowe:** okno limitu żądań strony wynosi 40 sekund; liczniki wysyłek generatora wygasają po 24 godzinach od ostatniego zwiększenia. Zbiorczy wynik sprawdzenia IP podczas weryfikacji Discord jest buforowany przez 10 minut, a sesja konfiguracji MeshCore przez 6 godzin. Okresy pamięci przeglądarki i wyników IP checkera opisano przy tych funkcjach.",
 				"**Blokady Discord:** dane techniczne zapisane przy blokadzie (adres IP, wynik i szczegóły wykrycia) są automatycznie usuwane po 90 dniach. Wpis o samej blokadzie (identyfikator i nazwa konta, powód, daty) jest przechowywany, aby ponownie zablokować to konto po powrocie na serwer, do czasu zdjęcia blokady lub usunięcia na Twoją prośbę. **Zgłoszenia weryfikacyjne** (identyfikator, nazwa i awatar konta, kraj, status oraz wynik z listą typów wykryć, bez adresu IP) nie mają automatycznego terminu usunięcia. O potrzebie dalszego przechowywania decydują członkostwo i stan weryfikacji, powtarzalność nadużyć oraz potrzeba rozpatrzenia odwołania.",
 				"**Profile, zgłoszenia i ankiety MeshCore** również nie wygasają automatycznie. Okres przetwarzania zależy od utrzymywania profilu, obsługi zgłoszonego urządzenia, rozpatrzenia zgłoszenia i wykorzystania odpowiedzi do organizacji społeczności. Rezygnacja z tych funkcji lub żądanie usunięcia wymaga oceny, które dane przestały być potrzebne.",
+				"**Zapisy do testów alpha Telemavix** są usuwane po zakończeniu zamkniętych testów lub wcześniej na Twoją prośbę. Licznik prób zapisu wygasa po godzinie.",
 				"**Korespondencja** jest przetwarzana w celu udzielenia odpowiedzi i zakończenia sprawy (prawnie uzasadniony interes, art. 6 ust. 1 lit. f RODO). Dalsze przechowywanie zależy od potrzeby zachowania ustaleń, obsługi powiązanych spraw lub dochodzenia i obrony roszczeń. Przedłużenie przechowywania danych na potrzeby konkretnego sporu lub incydentu dotyczy tylko informacji potrzebnych w tej sprawie."
 			]
 		},
