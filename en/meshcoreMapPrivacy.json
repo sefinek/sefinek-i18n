@@ -45,8 +45,8 @@
 			"id": "diagnostics",
 			"title": "Optional error reporting",
 			"body": [
-				"The app uses **Bugsnag (SmartBear)** to diagnose crashes and errors. Reports contain the error description, stack trace, app version, operating system version, device model, an anonymous device identifier and the device IP address when a report is sent.",
-				"Reporting is enabled by default. You can disable it in the app settings and the change applies immediately. Reports do not include your location or your API keys.",
+				"The app uses **Bugsnag (SmartBear)** to diagnose crashes and errors. Reports contain the error description, stack trace, app version, operating system version, device manufacturer and model, and the device IP address when a report is sent (the Bugsnag server sees the IP address on every connection). Reports do not include a device or user identifier, and the app sends no sessions or trail of your actions in the app to Bugsnag.",
+				"Reporting is enabled by default and only runs in production builds of the app. You can disable it in the app settings and the change applies immediately. Reports do not include your location or your API keys.",
 				"The legal basis for processing diagnostic data is the controller's legitimate interest in detecting and fixing faults (Article 6(1)(f) GDPR). You may object by writing to the contact address above.",
 				"Error reports and diagnostic data in Bugsnag are automatically deleted after 7 days."
 			]

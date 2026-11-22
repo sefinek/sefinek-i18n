@@ -45,8 +45,8 @@
 			"id": "diagnostics",
 			"title": "Opcjonalne raportowanie błędów",
 			"body": [
-				"Aplikacja korzysta z **Bugsnag (SmartBear)** do diagnozowania awarii i błędów. Raporty zawierają opis błędu, ślad stosu, wersję aplikacji, wersję systemu operacyjnego, model urządzenia, anonimowy identyfikator urządzenia oraz adres IP urządzenia w chwili wysłania raportu.",
-				"Raportowanie jest domyślnie włączone. Możesz je wyłączyć w ustawieniach aplikacji, a zmiana działa od razu. Raporty nie zawierają Twojej lokalizacji ani kluczy API.",
+				"Aplikacja korzysta z **Bugsnag (SmartBear)** do diagnozowania awarii i błędów. Raporty zawierają opis błędu, ślad stosu, wersję aplikacji, wersję systemu operacyjnego, producenta i model urządzenia oraz adres IP urządzenia w chwili wysłania raportu (adres IP widzi serwer Bugsnag przy każdym połączeniu). Raporty nie zawierają identyfikatora urządzenia ani użytkownika, a aplikacja nie wysyła do Bugsnag sesji ani śladu Twoich działań w aplikacji.",
+				"Raportowanie jest domyślnie włączone i działa tylko w wersjach produkcyjnych aplikacji. Możesz je wyłączyć w ustawieniach aplikacji, a zmiana działa od razu. Raporty nie zawierają Twojej lokalizacji ani kluczy API.",
 				"Podstawą prawną przetwarzania danych diagnostycznych jest prawnie uzasadniony interes administratora w wykrywaniu i usuwaniu usterek (art. 6 ust. 1 lit. f RODO). Możesz wnieść sprzeciw, pisząc na powyższy adres kontaktowy.",
 				"Raporty błędów i dane diagnostyczne w Bugsnag są automatycznie usuwane po 7 dniach."
 			]
