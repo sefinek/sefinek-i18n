@@ -5,53 +5,53 @@
 	},
 	"label": "Telemavix",
 	"heading": "Zamknięte testy alpha",
-	"intro": "Telemavix GPS zapisuje trasy GPS i telemetrię telefonu podczas dowolnej aktywności na zewnątrz i zapisuje je jako FIT i GPX dla Telemavix Studio.",
+	"intro": "Telemavix GPS rejestruje trasy i dane z czujników telefonu podczas aktywności na świeżym powietrzu. Pliki FIT i GPX możesz później otworzyć w Telemavix Studio.",
 	"features": {
 		"title": "Co potrafi aplikacja",
 		"items": [
 			{
 				"title": "Sterowanie kamerą",
-				"text": "Po połączeniu z DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth rozpoczęcie trasy włącza też nagrywanie na kamerze, a zakończenie je zatrzymuje. Działa to również w drugą stronę: nagranie włączone przyciskiem na kamerze uruchamia trasę."
+				"text": "Połącz telefon z DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth. Możesz wtedy rozpoczynać i kończyć zapis trasy razem z nagrywaniem wideo. Przycisk nagrywania na kamerze również pozwala rozpocząć zapis trasy w aplikacji."
 			},
 			{
 				"title": "Dane GPS w nagraniu",
-				"text": "Telefon wysyła do kamery pozycję i czas, a kamera zapisuje je w wideo, dzięki czemu Telemavix Studio dokładnie synchronizuje nagranie z trasą. Aplikacja ostrzega też o niskiej baterii kamery, prawie pełnej karcie i przegrzaniu."
+				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje te dane w pliku wideo, co pozwala zsynchronizować nagranie z trasą w Telemavix Studio. Aplikacja ostrzega też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
 			},
 			{
 				"title": "Zapis trasy",
-				"text": "Dystans, czas ruchu, przewyższenie, nachylenie i automatyczna pauza. Nagrywanie trwa przy wygaszonym ekranie, a przerwany zapis (np. po awarii lub rozładowaniu telefonu) można odzyskać."
+				"text": "Aplikacja mierzy dystans, czas w ruchu, sumę podejść i nachylenie trasy. Oferuje automatyczną pauzę i zapis przy wygaszonym ekranie. Niedokończoną aktywność można odzyskać po awarii aplikacji lub rozładowaniu telefonu."
 			},
 			{
 				"title": "Telemetria telefonu",
-				"text": "Barometr, akcelerometr, żyroskop, światło otoczenia i dane baterii są zapisywane razem z trasą. Sam wybierasz, które czujniki nagrywać."
+				"text": "Odczyty z dostępnych czujników telefonu, w tym barometru, akcelerometru, żyroskopu i czujnika światła, są zapisywane razem z trasą i danymi baterii. W ustawieniach wybierasz, które dane z czujników chcesz rejestrować."
 			},
 			{
-				"title": "Dashboard i mapa offline",
-				"text": "Prędkość i inne odczyty na żywo oraz mapa OpenStreetMap z trasą, która działa offline dzięki pamięci podręcznej kafelków."
+				"title": "Pulpit i mapa offline",
+				"text": "Śledź prędkość i pozostałe odczyty na żywo oraz swoją trasę na mapie OpenStreetMap. Wcześniej wczytane fragmenty mapy są dostępne także bez internetu."
 			},
 			{
 				"title": "Satelity i słońce",
-				"text": "Wykres nieba z widocznymi satelitami i jakością sygnału oraz przypomnienie przed zachodem słońca, żeby nie zaskoczyła Cię ciemność."
+				"text": "Sprawdź położenie satelitów na mapie nieba i jakość sygnału GPS. Przypomnienia przed zachodem słońca pomogą Ci zaplanować powrót przed zmrokiem."
 			},
 			{
 				"title": "Historia i eksport",
-				"text": "Każda trasa zapisuje się jako FIT i GPX, trafia do historii z podglądem przebiegu i można ją udostępnić lub otworzyć w Telemavix Studio."
+				"text": "Zapisane aktywności znajdziesz w historii wraz z podglądem trasy i podsumowaniem. Pliki FIT i GPX możesz udostępnić lub otworzyć w Telemavix Studio."
 			},
 			{
 				"title": "Dodatki",
-				"text": "Alerty dystansu, blokada ekranu dotykowego po przekroczeniu prędkości, widżet odtwarzacza muzyki, motywy oraz jednostki metryczne lub imperialne."
+				"text": "Dostosuj aplikację do siebie: włącz powiadomienia o pokonanym dystansie, blokadę dotyku po przekroczeniu wybranej prędkości lub widżet muzyczny. Wybierz motyw oraz jednostki metryczne lub imperialne."
 			}
 		]
 	},
 	"how": {
 		"title": "Jak to działa",
 		"steps": [
-			"Zapisz się adresem e-mail konta Google, którego używasz w Sklepie Play.",
-			"Dodaję ten adres do zamkniętych testów w Google Play.",
-			"Dostajesz maila z linkiem, dzięki któremu dołączysz do testów i zainstalujesz aplikację.",
-			"Używaj aplikacji podczas aktywności i daj mi znać, co nie działa albo co byś zmienił."
+			"Podaj adres e-mail konta Google, którego używasz w Sklepie Play.",
+			"Twój adres zostanie dodany do listy testerów w Google Play. Zwykle trwa to do tygodnia, czasem krócej.",
+			"Otrzymasz e-mail z linkiem do dołączenia do testów i instalacji aplikacji.",
+			"Korzystaj z aplikacji podczas swoich aktywności. Daj mi znać o błędach i podziel się pomysłami na ulepszenia."
 		],
-		"note": "To wczesna wersja alpha, więc spodziewaj się błędów i zmian. Na razie tylko Android."
+		"note": "Testy trwają 14 dni. To wczesna wersja alpha, więc może zawierać błędy, a jej funkcje mogą się zmieniać. Testy są obecnie dostępne tylko na Androidzie."
 	},
 	"form": {
 		"title": "Zapisz się",
@@ -59,8 +59,9 @@
 		"emailPlaceholder": "twoj.adres@gmail.com",
 		"consent": "Wyrażam zgodę na przetwarzanie mojego adresu e-mail w celu dodania mnie do zamkniętych testów i kontaktu w ich sprawie. Adres zostanie usunięty po zakończeniu testów, a o jego usunięcie mogę poprosić w każdej chwili. Więcej w [polityce prywatności]({{privacyUrl}}).",
 		"submit": "Zapisz się",
-		"sending": "Zapisywanie, proszę czekać...",
-		"success": "Dziękuję! Twój adres został zapisany. Odezwę się mailowo, gdy dodam Cię do testów."
+		"sending": "Zapisywanie zgłoszenia...",
+		"success": "Dziękuję za zgłoszenie! Twój adres został zapisany. Otrzymasz e-mail, gdy zostaniesz dodany do listy testerów. Zwykle trwa to do tygodnia, czasem krócej.",
+		"done": "Zapisano."
 	},
 	"errors": {
 		"invalidRequest": "Podaj poprawny adres e-mail i zaznacz zgodę.",

@@ -1,57 +1,57 @@
 {
 	"meta": {
 		"title": "Telemavix GPS - closed alpha testing | Sefinek",
-		"description": "Sign up for the closed alpha tests of Telemavix GPS, an Android app that records GPS tracks and phone telemetry and saves them as FIT and GPX."
+		"description": "Join the Telemavix GPS closed alpha for Android. Record GPS tracks and phone telemetry, then save your activities as FIT and GPX files."
 	},
 	"label": "Telemavix",
 	"heading": "Closed alpha testing",
-	"intro": "Telemavix GPS records GPS tracks and phone telemetry for any outdoor activity and saves them as FIT and GPX for Telemavix Studio.",
+	"intro": "Telemavix GPS records your route and phone sensor data during outdoor activities. Open the saved FIT and GPX files in Telemavix Studio to explore them later.",
 	"features": {
 		"title": "What the app can do",
 		"items": [
 			{
 				"title": "Camera control",
-				"text": "With a DJI Osmo Action 4, 5 Pro or 6 connected over Bluetooth, starting a route also starts recording on the camera and ending it stops the camera. It works the other way too: a recording started with the camera button starts the route."
+				"text": "Connect your phone to a DJI Osmo Action 4, 5 Pro or 6 over Bluetooth. You can then start and stop track recording together with video recording. The camera's record button can also start track recording in the app."
 			},
 			{
 				"title": "GPS data in the footage",
-				"text": "The phone sends its position and time to the camera, which writes them into the video so Telemavix Studio can precisely synchronize the footage with your route. The app also warns you about a low camera battery, a nearly full card and overheating."
+				"text": "Your phone sends its GPS position and time to the camera. The camera saves this data in the video file so you can synchronize the footage with your route in Telemavix Studio. The app also warns you about low camera battery, low card space and overheating."
 			},
 			{
 				"title": "Route recording",
-				"text": "Distance, moving time, ascent, grade and auto-pause. Recording keeps going with the screen off, and an unfinished recording (for example after a crash or a dead phone) can be recovered."
+				"text": "The app tracks distance, moving time, total ascent and grade. It supports auto-pause and keeps recording with the screen off. You can recover an unfinished activity after an app crash or a drained phone battery."
 			},
 			{
 				"title": "Phone telemetry",
-				"text": "Barometer, accelerometer, gyroscope, ambient light and battery data are saved along with the route. You choose which sensors to record."
+				"text": "Readings from available phone sensors, including the barometer, accelerometer, gyroscope and light sensor, are saved alongside your route and battery data. Choose which sensor data to record in settings."
 			},
 			{
 				"title": "Dashboard and offline map",
-				"text": "Live speed and other readings on a dashboard, plus an OpenStreetMap map with your route that keeps working offline thanks to the tile cache."
+				"text": "Follow your speed and other live readings on the dashboard, and your route on an OpenStreetMap map. Previously loaded areas of the map remain available offline."
 			},
 			{
 				"title": "Satellites and sun",
-				"text": "A sky chart with the satellites in view and signal quality, and a reminder before sunset so you are not caught in the dark."
+				"text": "Check satellite positions on a sky chart and monitor GPS signal quality. Sunset reminders help you plan your return before dark."
 			},
 			{
 				"title": "History and export",
-				"text": "Every ride is saved as FIT and GPX, listed in the history with a route preview and ready to share or open in Telemavix Studio."
+				"text": "Find your saved activities in the history, each with a route preview and summary. Share the FIT and GPX files or open them in Telemavix Studio."
 			},
 			{
 				"title": "Extras",
-				"text": "Distance alerts, a speed lock for the touch screen, a music player widget, themes and metric or imperial units."
+				"text": "Customize the app with distance alerts, a touch lock above your chosen speed or a music player widget. Choose a theme and use metric or imperial units."
 			}
 		]
 	},
 	"how": {
 		"title": "How it works",
 		"steps": [
-			"Sign up with the email address of the Google account you use in the Play Store.",
-			"I add that address to the closed test on Google Play.",
-			"You get an email with the link to join the test and install the app.",
-			"Use the app on your outdoor activities and tell me what does not work or what you would change."
+			"Enter the email address of the Google account you use in the Play Store.",
+			"Your address will be added to the tester list on Google Play. This usually takes up to a week, sometimes less.",
+			"You'll receive an email with a link to join the test and install the app.",
+			"Use the app during your activities. Let me know about bugs and share your ideas for improvements."
 		],
-		"note": "The app is an early alpha, so expect bugs and changes. Android only for now."
+		"note": "Testing lasts 14 days. This is an early alpha, so you may encounter bugs and features may change. Testing is currently available on Android only."
 	},
 	"form": {
 		"title": "Sign up",
@@ -59,8 +59,9 @@
 		"emailPlaceholder": "your.address@gmail.com",
 		"consent": "I agree to the processing of my email address to add me to the closed test and to contact me about it. The address will be deleted once testing ends, and I can ask for its removal at any time. More in the [privacy policy]({{privacyUrl}}).",
 		"submit": "Sign up",
-		"sending": "Saving, please wait...",
-		"success": "Thank you! Your address has been saved. I will get back to you by email once I add you to the test."
+		"sending": "Submitting your sign-up...",
+		"success": "Thank you for signing up! Your address has been saved. You'll receive an email once you've been added to the tester list. This usually takes up to a week, sometimes less.",
+		"done": "Saved."
 	},
 	"errors": {
 		"invalidRequest": "Enter a valid email address and tick the consent box.",
