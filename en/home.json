@@ -84,11 +84,6 @@
 	"close": "Close",
 	"terminal": {
 		"disable": "Disable terminal",
-		"motdTitle": "Message of the day",
-		"motd": [
-			"This website was recently deployed to production, so it may contain bugs and various imperfections.",
-			"Feedback? Bugs? Suggestions? Let me know (contact@sefinek.net or Discord). Thanks!"
-		],
 		"disabledText": "The terminal is disabled.",
 		"enable": "Enable terminal",
 		"downAlt": "Server racks with cables and a hamster running in a wheel"
