@@ -1,0 +1,159 @@
+{
+	"meta": {
+		"title": "Telemavix - GPS tracks and telemetry overlays for action cameras | Sefinek",
+		"description": "Record GPS tracks on your phone and add speed, maps and other data to action camera and drone footage. Discover Telemavix GPS and Telemavix Studio.",
+		"keywords": "telemavix, telemetry overlay, gps track, fit, gpx, dji osmo action, gopro, dji drone, hud"
+	},
+	"softwareDescription": "Telemavix GPS records routes and phone sensor data. Telemavix Studio adds overlays with speed, maps, tilt and other readings to your videos.",
+	"label": "Project",
+	"heading": "Telemavix",
+	"intro": "Show speed, your route, tilt and other activity data in your videos. Telemavix Studio adds these overlays to action camera and drone footage, while Telemavix GPS lets you record your route on your phone.",
+	"cta": {
+		"alpha": "Join the closed alpha",
+		"download": "Download Telemavix Studio",
+		"source": "Studio source code"
+	},
+	"how": {
+		"title": "How it works",
+		"steps": [
+			{
+				"title": "1. Record your activity",
+				"text": "Film your activity with an action camera or drone. If you need a track from your phone, start Telemavix GPS. With a supported DJI Osmo Action camera, you can start and stop track recording together with video recording. The app also replaces the DJI GPS Bluetooth Remote Controller, so you do not need to buy it."
+			},
+			{
+				"title": "2. Open the footage in Studio",
+				"text": "Telemavix Studio reads the data saved by your camera. You can also add a FIT or GPX track from your phone, watch or bike computer. For DJI drone footage, use a flight log."
+			},
+			{
+				"title": "3. Add an overlay and save your video",
+				"text": "Choose your widgets and arrange them on the video. If you use a separate track file, check its alignment with the footage. Watch the preview, then export your finished video."
+			}
+		]
+	},
+	"apps": {
+		"title": "Meet the two apps",
+		"mobile": {
+			"badge": "Closed alpha",
+			"title": "Telemavix GPS for your phone",
+			"text": "Records your route and readings from available phone sensors. Shows speed, distance, moving time and elevation changes. Recording continues with the screen off, and previously loaded map areas remain available offline. For DJI Osmo Action cameras it works as the GPS remote, so the DJI GPS Bluetooth Remote Controller is not needed.",
+			"tags": [
+				"Android",
+				"FIT",
+				"GPX"
+			],
+			"devices": [
+				"Osmo Action"
+			],
+			"alpha": "Join the closed alpha",
+			"privacy": "Privacy policy"
+		},
+		"desktop": {
+			"badge": "Free for non-commercial use",
+			"title": "Telemavix Studio for your computer",
+			"text": "Adds video overlays using data from your camera, a track file or a flight log. Arrange widgets, trim your footage and add music. The Windows version is regularly tested; Linux and macOS versions are experimental.",
+			"tags": [
+				"Windows",
+				"Linux",
+				"macOS"
+			],
+			"devices": [
+				"DJI drones",
+				"Osmo Action",
+				"GoPro"
+			],
+			"download": "Download",
+			"source": "Source code"
+		}
+	},
+	"download": {
+		"title": "Download Telemavix Studio",
+		"intro": "Pick the file for your system. If you are not sure which one to choose, use the installer on Windows. Current version: {{version}}.",
+		"columns": {
+			"system": "System",
+			"cpu": "Processor",
+			"installer": "Installer (recommended)",
+			"selfContained": "Portable, .NET included",
+			"frameworkDependent": "Portable, requires .NET 10"
+		},
+		"cpuHelp": "Not sure which processor you have? On Windows, open Settings, then System, then About, and check System type. On Linux and macOS run `uname -m`: x86_64 means x64, arm64 or aarch64 means ARM64.",
+		"runtimeHelp": "The portable version that requires .NET needs the [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0). Linux and macOS versions are experimental.",
+		"more": "All files, checksums and release notes are on the [releases page]({{releasesUrl}})."
+	},
+	"features": {
+		"title": "What you can do in Telemavix Studio",
+		"items": [
+			{
+				"title": "Export with the original settings",
+				"text": "By default, Studio keeps the original resolution, codec, color depth and bitrate, including 10-bit color. Adding an overlay requires re-encoding the picture; using the source settings helps limit quality loss."
+			},
+			{
+				"title": "Processing on your computer",
+				"text": "Your video is processed on your computer. Studio can use a supported graphics card to speed up export. Keep the original settings or choose an export profile for how you plan to share the video."
+			},
+			{
+				"title": "Data recorded by your camera",
+				"text": "Studio reads available data from your footage, such as GPS position, speed, camera motion and exposure settings. Available readings depend on the model and how you record. You can combine consecutive files split by the camera into one video."
+			},
+			{
+				"title": "Tracks from phones, watches and drones",
+				"text": "Add a FIT or GPX file from Telemavix GPS, a watch or a bike computer. Use a flight log for DJI drone footage. Match a moment in the video to its time in the file to synchronize the data with the picture."
+			},
+			{
+				"title": "Arrange your own widgets",
+				"text": "Choose a speedometer, map, compass, tilt indicator, G-meter or elevation chart. Drag widgets into place on the video and check the result in the preview. Available widgets depend on the data in your footage or track file."
+			},
+			{
+				"title": "Editing and music",
+				"text": "Remove unwanted sections and add transitions and captions. Add music with fades and adjust the volume of the recording. You can open the video with a map and route summary."
+			},
+			{
+				"title": "A finished video or just the overlay",
+				"text": "Save your video with the widgets included, or export just the overlay on a green background or with transparency for further editing. Queue several exports or automate them with the command-line tool."
+			},
+			{
+				"title": "Extra tools for your recordings",
+				"text": "Remove metadata before sharing a video, fix color tags or compare up to six files side by side. Convert a separate AAC file from the camera microphone to WAV or M4A for further editing."
+			}
+		]
+	},
+	"devices": {
+		"title": "Footage supported by Studio",
+		"intro": "Open the original files from the memory card so Studio can read the data saved by your camera. Exporting through DJI Mimo removes telemetry. The table below shows device support and GPS data sources.",
+		"columns": {
+			"device": "Device",
+			"status": "Status",
+			"gps": "GPS data source"
+		},
+		"rows": [
+			{
+				"device": "DJI Osmo Action 6, Action 5 Pro",
+				"status": "Tested",
+				"gps": "DJI GPS Bluetooth Remote Controller, Telemavix GPS or a phone connected through DJI Mimo"
+			},
+			{
+				"device": "Other DJI Osmo Action (e.g. Action 4)",
+				"status": "Support not verified by testing",
+				"gps": "DJI GPS Bluetooth Remote Controller, Telemavix GPS or a phone connected through DJI Mimo"
+			},
+			{
+				"device": "GoPro HERO12 Black",
+				"status": "Tested",
+				"gps": "External FIT or GPX file; this model has no GPS receiver"
+			},
+			{
+				"device": "DJI drones (Mavic Air 2, Mavic 4 Pro, Flip, Avata 360)",
+				"status": "Tested (flight logs)",
+				"gps": "DJI flight log"
+			},
+			{
+				"device": "Insta360 X4",
+				"status": "Experimental",
+				"gps": "External FIT or GPX file; GPS from the camera file is not read"
+			}
+		]
+	},
+	"license": {
+		"title": "License",
+		"text": "The desktop app is free for non-commercial use under the [PolyForm Noncommercial License 1.0.0](https://github.com/sefinek/telemavix-studio/blob/main/LICENSE), and its source code is on [GitHub](https://github.com/sefinek/telemavix-studio). Commercial use, including monetized videos, sponsored content and paid client work, requires separate permission: write to [contact@sefinek.net](mailto:contact@sefinek.net). More in the [licensing guide](https://github.com/sefinek/telemavix-studio/blob/main/LICENSING.md)."
+	}
+}

@@ -3,7 +3,6 @@
 		"title": "Telemavix GPS - closed alpha testing | Sefinek",
 		"description": "Join the Telemavix GPS closed alpha for Android. Record GPS tracks and phone telemetry, then save your activities as FIT and GPX files."
 	},
-	"label": "Telemavix",
 	"heading": "Closed alpha testing",
 	"intro": "Telemavix GPS records your route and phone sensor data during outdoor activities. Open the saved FIT and GPX files in [Telemavix Studio](https://github.com/sefinek/telemavix-studio) to explore them later.",
 	"features": {
@@ -15,7 +14,7 @@
 			},
 			{
 				"title": "GPS data in the footage",
-				"text": "Your phone sends its GPS position and time to the camera. The camera saves this data in the video file so you can synchronize the footage with your route in [Telemavix Studio](https://github.com/sefinek/telemavix-studio). The app also warns you about low camera battery, low card space and overheating."
+				"text": "Your phone sends its GPS position and time to the camera. The camera saves this data in the video file so you can synchronize the footage with your route in [Telemavix Studio](https://github.com/sefinek/telemavix-studio). The app replaces the DJI GPS Bluetooth Remote Controller, so you do not need to buy it. It also warns you about low camera battery, low card space and overheating."
 			},
 			{
 				"title": "Route recording",

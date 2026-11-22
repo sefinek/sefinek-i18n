@@ -1,0 +1,159 @@
+{
+	"meta": {
+		"title": "Telemavix - trasy GPS i nakładki telemetryczne do kamer sportowych | Sefinek",
+		"description": "Rejestruj trasy GPS telefonem i dodawaj prędkość, mapę oraz inne dane do filmów z kamer sportowych i dronów. Poznaj Telemavix GPS i Telemavix Studio.",
+		"keywords": "telemavix, nakładka telemetryczna, ślad gps, fit, gpx, dji osmo action, gopro, dron dji, hud"
+	},
+	"softwareDescription": "Telemavix GPS zapisuje trasy i dane z czujników telefonu. Telemavix Studio dodaje do filmów nakładki z prędkością, mapą, przechyłem i innymi odczytami.",
+	"label": "Projekt",
+	"heading": "Telemavix",
+	"intro": "Pokaż na filmie prędkość, przebieg trasy, przechył i inne dane z aktywności. Telemavix Studio dodaje je do nagrań z kamery sportowej lub drona, a Telemavix GPS pozwala rejestrować trasę telefonem.",
+	"cta": {
+		"alpha": "Dołącz do zamkniętych testów",
+		"download": "Pobierz Telemavix Studio",
+		"source": "Kod źródłowy Studio"
+	},
+	"how": {
+		"title": "Jak to działa",
+		"steps": [
+			{
+				"title": "1. Nagraj swoją aktywność",
+				"text": "Nagraj film kamerą sportową lub dronem. Jeśli potrzebujesz zapisu trasy z telefonu, uruchom Telemavix GPS. Z obsługiwaną kamerą DJI Osmo Action możesz rozpoczynać i kończyć zapis trasy razem z nagrywaniem wideo, a aplikacja zastępuje pilota DJI GPS Bluetooth Remote Controller, więc nie musisz go kupować."
+			},
+			{
+				"title": "2. Otwórz nagranie w Studio",
+				"text": "Telemavix Studio odczyta dane zapisane przez kamerę. Możesz też dodać trasę FIT lub GPX z telefonu, zegarka lub licznika rowerowego. Do nagrań z drona DJI użyj dziennika lotu."
+			},
+			{
+				"title": "3. Dodaj nakładkę i zapisz film",
+				"text": "Wybierz wskaźniki i ułóż je na obrazie. Jeśli korzystasz z osobnego pliku trasy, sprawdź jego synchronizację z nagraniem. Obejrzyj podgląd i wyeksportuj gotowy film."
+			}
+		]
+	},
+	"apps": {
+		"title": "Poznaj obie aplikacje",
+		"mobile": {
+			"badge": "Zamknięte testy alpha",
+			"title": "Telemavix GPS na telefon",
+			"text": "Zapisuje trasę i odczyty z dostępnych czujników telefonu. Pokazuje prędkość, dystans, czas w ruchu i zmiany wysokości. Rejestruje aktywność także przy wygaszonym ekranie, a wcześniej wczytane fragmenty mapy są dostępne bez internetu. Dla kamer DJI Osmo Action pełni rolę pilota GPS, więc pilot DJI GPS Bluetooth Remote Controller nie jest potrzebny.",
+			"tags": [
+				"Android",
+				"FIT",
+				"GPX"
+			],
+			"devices": [
+				"Osmo Action"
+			],
+			"alpha": "Dołącz do zamkniętych testów",
+			"privacy": "Polityka prywatności"
+		},
+		"desktop": {
+			"badge": "Za darmo do użytku niekomercyjnego",
+			"title": "Telemavix Studio na komputer",
+			"text": "Dodaje do filmów nakładki z danymi z kamery, pliku trasy lub dziennika lotu. Pozwala ułożyć wskaźniki, przyciąć nagranie i dodać muzykę. Wersja na Windows jest regularnie testowana; wersje na Linux i macOS są eksperymentalne.",
+			"tags": [
+				"Windows",
+				"Linux",
+				"macOS"
+			],
+			"devices": [
+				"Drony DJI",
+				"Osmo Action",
+				"GoPro"
+			],
+			"download": "Pobierz",
+			"source": "Kod źródłowy"
+		}
+	},
+	"download": {
+		"title": "Pobierz Telemavix Studio",
+		"intro": "Wybierz plik dla swojego systemu. Jeśli nie wiesz, który wybrać, w Windows użyj instalatora. Aktualna wersja: {{version}}.",
+		"columns": {
+			"system": "System",
+			"cpu": "Procesor",
+			"installer": "Instalator (zalecany)",
+			"selfContained": "Przenośna, z .NET",
+			"frameworkDependent": "Przenośna, wymaga .NET 10"
+		},
+		"cpuHelp": "Nie wiesz, jaki masz procesor? W Windows otwórz Ustawienia, następnie System, następnie Informacje i sprawdź Typ systemu. W Linuksie i macOS uruchom `uname -m`: x86_64 oznacza x64, a arm64 lub aarch64 oznacza ARM64.",
+		"runtimeHelp": "Wersja przenośna wymagająca .NET potrzebuje [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0). Wersje na Linux i macOS są eksperymentalne.",
+		"more": "Wszystkie pliki, sumy kontrolne i informacje o wydaniach są na [stronie wydań]({{releasesUrl}})."
+	},
+	"features": {
+		"title": "Co zrobisz w Telemavix Studio",
+		"items": [
+			{
+				"title": "Eksport z ustawieniami oryginału",
+				"text": "Domyślnie Studio zachowuje rozdzielczość, kodek, głębię kolorów i bitrate oryginału, w tym kolor 10-bitowy. Dodanie nakładki wymaga ponownego kodowania obrazu; ustawienia źródła pomagają ograniczyć utratę jakości."
+			},
+			{
+				"title": "Przetwarzanie na komputerze",
+				"text": "Film jest przetwarzany na Twoim komputerze. Studio może wykorzystać obsługiwaną kartę graficzną do przyspieszenia eksportu. Wybierz ustawienia oryginału lub profil dopasowany do sposobu publikacji."
+			},
+			{
+				"title": "Dane zapisane przez kamerę",
+				"text": "Studio odczytuje z nagrania dostępne dane, np. pozycję GPS, prędkość, ruch kamery i parametry ekspozycji. Zakres odczytów zależy od modelu i sposobu nagrywania. Kolejne części nagrania podzielonego przez kamerę możesz połączyć w jeden film."
+			},
+			{
+				"title": "Trasy z telefonu, zegarka i drona",
+				"text": "Dodaj plik FIT lub GPX z Telemavix GPS, zegarka albo licznika rowerowego. Nagranie z drona DJI uzupełnij dziennikiem lotu. Dopasuj wybrany moment filmu do czasu w pliku, aby zsynchronizować dane z obrazem."
+			},
+			{
+				"title": "Wskaźniki według Twojego pomysłu",
+				"text": "Wybierz prędkościomierz, mapę, kompas, wskaźnik przechyłu, przeciążeń lub wykres wysokości. Przeciągaj elementy na obrazie i sprawdzaj efekt w podglądzie. Dostępne wskaźniki zależą od danych w nagraniu lub pliku trasy."
+			},
+			{
+				"title": "Montaż i muzyka",
+				"text": "Usuń zbędne fragmenty, dodaj przejścia i napisy. Uzupełnij film muzyką z płynnym wyciszaniem i dostosuj głośność nagrania. Na początku możesz pokazać mapę z podsumowaniem trasy."
+			},
+			{
+				"title": "Gotowy film lub sama nakładka",
+				"text": "Zapisz film z nałożonymi wskaźnikami lub wyeksportuj samą nakładkę na zielonym tle albo z przezroczystością do dalszego montażu. Kolejka pozwala przygotować kilka eksportów, a narzędzie wiersza poleceń umożliwia ich automatyzację."
+			},
+			{
+				"title": "Dodatkowe narzędzia do nagrań",
+				"text": "Usuń metadane przed udostępnieniem filmu, popraw oznaczenie kolorów lub porównaj do sześciu plików obok siebie. Osobny plik AAC z mikrofonu kamery możesz przekonwertować do WAV albo M4A do dalszej obróbki."
+			}
+		]
+	},
+	"devices": {
+		"title": "Nagrania obsługiwane przez Studio",
+		"intro": "Otwieraj oryginalne pliki z karty pamięci, aby Studio mogło odczytać dane zapisane przez kamerę. Eksport z DJI Mimo usuwa telemetrię. Poniżej znajdziesz stan obsługi urządzeń oraz źródła danych GPS.",
+		"columns": {
+			"device": "Urządzenie",
+			"status": "Status",
+			"gps": "Źródło danych GPS"
+		},
+		"rows": [
+			{
+				"device": "DJI Osmo Action 6, Action 5 Pro",
+				"status": "Przetestowane",
+				"gps": "Pilot DJI GPS Bluetooth, Telemavix GPS lub telefon połączony przez DJI Mimo"
+			},
+			{
+				"device": "Inne DJI Osmo Action (np. Action 4)",
+				"status": "Obsługa niepotwierdzona testami",
+				"gps": "Pilot DJI GPS Bluetooth, Telemavix GPS lub telefon połączony przez DJI Mimo"
+			},
+			{
+				"device": "GoPro HERO12 Black",
+				"status": "Przetestowane",
+				"gps": "Zewnętrzny plik FIT lub GPX; ten model nie ma odbiornika GPS"
+			},
+			{
+				"device": "Drony DJI (Mavic Air 2, Mavic 4 Pro, Flip, Avata 360)",
+				"status": "Przetestowane (dzienniki lotu)",
+				"gps": "Dziennik lotu DJI"
+			},
+			{
+				"device": "Insta360 X4",
+				"status": "Eksperymentalne",
+				"gps": "Zewnętrzny plik FIT lub GPX; GPS z pliku kamery nie jest odczytywany"
+			}
+		]
+	},
+	"license": {
+		"title": "Licencja",
+		"text": "Aplikacja desktopowa jest darmowa do użytku niekomercyjnego na licencji [PolyForm Noncommercial License 1.0.0](https://github.com/sefinek/telemavix-studio/blob/main/LICENSE), a jej kod źródłowy jest na [GitHubie](https://github.com/sefinek/telemavix-studio). Użycie komercyjne, w tym monetyzowane filmy, treści sponsorowane i płatne zlecenia, wymaga osobnej zgody: napisz na [contact@sefinek.net](mailto:contact@sefinek.net). Więcej w [przewodniku po licencjonowaniu](https://github.com/sefinek/telemavix-studio/blob/main/LICENSING.md)."
+	}
+}

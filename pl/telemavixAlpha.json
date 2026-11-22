@@ -3,7 +3,6 @@
 		"title": "Telemavix GPS - zamknięte testy alpha | Sefinek",
 		"description": "Zapisz się do zamkniętych testów alpha Telemavix GPS, aplikacji na Androida, która zapisuje trasy GPS i telemetrię telefonu w formatach FIT i GPX."
 	},
-	"label": "Telemavix",
 	"heading": "Zamknięte testy alpha",
 	"intro": "Telemavix GPS rejestruje trasy i dane z czujników telefonu podczas aktywności na świeżym powietrzu. Pliki FIT i GPX możesz później otworzyć w [Telemavix Studio](https://github.com/sefinek/telemavix-studio).",
 	"features": {
@@ -15,7 +14,7 @@
 			},
 			{
 				"title": "Dane GPS w nagraniu",
-				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje te dane w pliku wideo, co pozwala zsynchronizować nagranie z trasą w [Telemavix Studio](https://github.com/sefinek/telemavix-studio). Aplikacja ostrzega też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
+				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje te dane w pliku wideo, co pozwala zsynchronizować nagranie z trasą w [Telemavix Studio](https://github.com/sefinek/telemavix-studio). Aplikacja zastępuje pilota DJI GPS Bluetooth Remote Controller, więc nie musisz go kupować. Ostrzega też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
 			},
 			{
 				"title": "Zapis trasy",

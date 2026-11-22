@@ -8,8 +8,8 @@
 		"recent": "Recently updated"
 	},
 	"listLabel": "List",
-	"telemavixStudio": {
-		"desc": "Add a HUD with speed, map, route and tilt to DJI Osmo, GoPro and DJI drone footage. Use camera telemetry, flight logs or external GPS tracks and export video with the source's codec and settings.",
+	"telemavix": {
+		"desc": "Record GPS tracks with a phone and add a HUD with speed, map, route and tilt to DJI Osmo, GoPro and DJI drone footage. A mobile app and a desktop app that exports video with the source's codec and settings.",
 		"tags": ["DJI Osmo", "GPS", "Telemetry", "Video"]
 	},
 	"webLabel": "Website",
