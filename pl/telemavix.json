@@ -8,7 +8,7 @@
 	"label": "Projekt",
 	"heading": "Telemavix",
 	"pageHeading": "Telemavix - nakładki telemetryczne do filmów",
-	"intro": "Twoje nagrania mogą pokazać więcej! W Telemavix Studio dodaj do nich prędkościomierz, mapę trasy, wskaźnik przechyłu i inne widgety. Dopasuj ich wygląd, ułóż je na obrazie i pokaż swoją aktywność z nowej perspektywy. Skorzystaj z danych z kamery lub drona albo zarejestruj trasę telefonem w Telemavix GPS.",
+	"intro": "Twoje nagrania mogą pokazać więcej! W Telemavix Studio dodasz do filmu prędkościomierz, mapę trasy i wskaźnik przechyłu. Studio odczytuje telemetrię z oryginalnych plików MP4 obsługiwanych kamer i dronów. Możesz też zsynchronizować film z dziennikiem lotu DJI albo ze śladem FIT lub GPX. Taki ślad zapiszesz w Telemavix GPS razem z odczytami z czujników telefonu.",
 	"cta": {
 		"alpha": "Dołącz do zamkniętych testów",
 		"download": "Pobierz Telemavix Studio",

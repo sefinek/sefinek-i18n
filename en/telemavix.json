@@ -8,7 +8,7 @@
 	"label": "Project",
 	"heading": "Telemavix",
 	"pageHeading": "Telemavix - telemetry overlays for videos",
-	"intro": "Your footage can show more. Use Telemavix Studio to add a speedometer, route map, tilt indicator and other widgets. Customize their appearance, arrange them on your video and show your activity from a new perspective. Use data from your camera or drone, or record your route on your phone with Telemavix GPS.",
+	"intro": "Your footage can show more. Add a speedometer, route map and tilt indicator to your video in Telemavix Studio. Studio reads telemetry embedded in original MP4 files from supported cameras and drones. You can also sync your footage with a DJI flight log or a FIT or GPX track. Telemavix GPS records those tracks along with readings from your phone's sensors.",
 	"cta": {
 		"alpha": "Join the closed alpha",
 		"download": "Download Telemavix Studio",
