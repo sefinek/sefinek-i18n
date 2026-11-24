@@ -55,39 +55,48 @@
 		]
 	},
 	"apps": {
-		"title": "Telemavix Studio and Telemavix GPS",
+		"title": "From GPS track to video overlay",
 		"mobile": {
 			"badge": "Closed alpha",
 			"title": "Telemavix GPS for Android",
-			"text": "Record your route and phone sensor data even with the screen off. Check speed and distance live and use previously loaded maps offline. Review routes and charts in your history or open FIT or GPX files in Studio. Connect a DJI Osmo Action 4, 5 Pro or 6 over Bluetooth to start logging in the app and filming on the camera with one button. The camera saves your phone's GPS positions in the MP4 file, ready to open in Studio.",
-			"tags": [
-				"Android",
-				"FIT",
-				"GPX"
-			],
-			"devices": [
-				"Osmo Action"
-			],
+			"text": "Record your route and phone sensor readings during an activity, even with the screen off.",
 			"alpha": "Join the closed alpha",
-			"privacy": "Privacy policy"
+			"privacy": "Privacy policy",
+			"highlights": [
+				{
+					"title": "Use your phone as an Osmo Action GPS remote",
+					"text": "Connect an Osmo Action 4, 5 Pro or 6 over Bluetooth. Start filming and logging with one button. The camera saves your phone's GPS positions in the original MP4."
+				},
+				{
+					"title": "Live readings and activity history",
+					"text": "Check speed, distance, elevation gain and grade. After your activity, revisit the route map and charts or open the FIT or GPX recording in Studio."
+				}
+			],
+			"screens": {
+				"dashboard": "Telemavix GPS dashboard showing speed, distance, elapsed time and grade.",
+				"camera": "Camera recording settings in Telemavix GPS showing GPS forwarding to a DJI camera and linked recording."
+			}
 		},
 		"desktop": {
-			"badge": "Free for non-commercial use",
-			"title": "Telemavix Studio for your computer",
-			"text": "Studio reads telemetry embedded in original MP4 files from supported cameras and drones. You can also sync a FIT or GPX track or a DJI flight log with your video. Choose from over 40 widgets, including a route map, speedometer and tilt indicator. Adjust the overlay in the preview, trim clips and add music. The interface is in Polish and English. The Windows build is regularly tested. Linux and macOS builds are experimental.",
-			"tags": [
-				"Windows",
-				"Linux",
-				"macOS"
-			],
-			"devices": [
-				"Osmo Action",
-				"DJI drones",
-				"GoPro",
-				"Garmin"
-			],
-			"download": "Download",
-			"source": "Source code"
+			"title": "Telemavix Studio",
+			"text": "Edit footage from your action camera or drone and show what happened along the route or during the flight.",
+			"alt": "Telemavix Studio workspace with footage from a forest trail, a map, a speedometer, the widget panel and the timeline.",
+			"download": "Download Studio",
+			"source": "Source code",
+			"highlights": [
+				{
+					"title": "Telemetry from the original MP4",
+					"text": "Studio reads data from supported cameras and drones. You can also add a FIT or GPX track or a DJI flight log. Align an external track with the footage and use a second sync point to correct clock drift."
+				},
+				{
+					"title": "Over 40 widgets in the live preview",
+					"text": "Place a map, tilt indicator, heart rate or flight readings on the video. Save your layout as a preset and use the timeline to choose when widgets appear."
+				},
+				{
+					"title": "Export the overlay on its own",
+					"text": "Join and trim clips in Studio or export the widgets with a transparent background to layer them over footage in another editor."
+				}
+			]
 		}
 	},
 	"download": {
@@ -105,26 +114,6 @@
 		"cpuHelp": "Not sure which processor you have? On Windows, go to Settings > System > About and check System type. On Linux and macOS, run `uname -m`: x86_64 means x64, while arm64 or aarch64 means ARM64.",
 		"runtimeHelp": "If you choose the version that requires .NET, install the [.NET 10 Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) for your system and processor. Studio also needs FFmpeg 9 and offers to install it on first launch if it is missing. Linux and macOS versions are experimental.",
 		"more": "All files, checksums and release notes are on the [releases page]({{releasesUrl}})."
-	},
-	"features": {
-		"title": "Telemavix Studio features",
-		"items": {
-			"overlay": {
-				"title": "Overlay editor with live preview",
-				"text": "Drag a speedometer, route map or tilt indicator onto the video. Adjust the size and appearance of your widgets and see the changes immediately in the preview.",
-				"alt": "Telemavix Studio preview with a map and speedometer next to the widget panel"
-			},
-			"timeline": {
-				"title": "Timeline editing",
-				"text": "Join clips, cut unwanted sections and add transitions. Use the same timeline to set when widgets appear and adjust the volume of the original audio and music.",
-				"alt": "Timeline showing clip thumbnails, marked cuts, an audio waveform and widget layers"
-			},
-			"telemetry": {
-				"title": "Camera telemetry and GPS tracks",
-				"text": "The summary shows the video settings and available readings, such as distance and top speed. Use an external track as the main source for position and speed, or use it to fill gaps in the camera telemetry.",
-				"alt": "Video settings and telemetry summary next to a route map in the recording preview"
-			}
-		}
 	},
 	"devices": {
 		"title": "Supported cameras, drones and Garmin devices",

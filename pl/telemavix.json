@@ -55,39 +55,48 @@
 		]
 	},
 	"apps": {
-		"title": "Telemavix Studio i Telemavix GPS",
+		"title": "Od trasy GPS do filmu z telemetrią",
 		"mobile": {
 			"badge": "Zamknięte testy alpha",
 			"title": "Telemavix GPS na Androida",
-			"text": "Zapisuj trasę i dane z czujników telefonu także przy wygaszonym ekranie. Sprawdzaj prędkość i dystans na żywo, a wcześniej wczytaną mapę przeglądaj offline. Trasę i wykresy znajdziesz w historii, a plik FIT lub GPX otworzysz w Studio. Połącz DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth, by jednym przyciskiem uruchomić zapis w aplikacji i nagrywanie w kamerze. Kamera zapisze pozycję GPS z telefonu w MP4, który wystarczy otworzyć w Studio.",
-			"tags": [
-				"Android",
-				"FIT",
-				"GPX"
-			],
-			"devices": [
-				"Osmo Action"
-			],
+			"text": "Zapisuj trasę i odczyty z czujników telefonu podczas aktywności, także przy wygaszonym ekranie.",
 			"alpha": "Dołącz do zamkniętych testów",
-			"privacy": "Polityka prywatności"
+			"privacy": "Polityka prywatności",
+			"highlights": [
+				{
+					"title": "Telefon jako pilot GPS do Osmo Action",
+					"text": "Połącz Osmo Action 4, 5 Pro lub 6 przez Bluetooth. Jednym przyciskiem uruchomisz nagrywanie i zapis trasy. Kamera zapisze pozycję telefonu w oryginalnym MP4."
+				},
+				{
+					"title": "Odczyty na żywo i historia tras",
+					"text": "Sprawdzaj prędkość, dystans, przewyższenie i nachylenie. Po aktywności wróć do mapy i wykresów lub otwórz zapis FIT albo GPX w Studio."
+				}
+			],
+			"screens": {
+				"dashboard": "Panel Telemavix GPS z prędkościomierzem, dystansem, czasem i nachyleniem.",
+				"camera": "Ekran „Nagrywanie z kamerą” w Telemavix GPS pokazuje przesyłanie pozycji do kamery DJI i powiązanie nagrywania z zapisem trasy."
+			}
 		},
 		"desktop": {
-			"badge": "Za darmo do użytku niekomercyjnego",
-			"title": "Telemavix Studio na komputer",
-			"text": "Studio odczytuje telemetrię zapisaną w oryginalnych plikach MP4 z obsługiwanych kamer i dronów. Możesz też zsynchronizować z filmem ślad FIT lub GPX albo dziennik lotu DJI. Do dyspozycji masz ponad 40 widżetów, m.in. mapę trasy, prędkościomierz i wskaźnik przechyłu. Ustaw nakładkę w podglądzie, przytnij klipy i dodaj muzykę. Interfejs jest po polsku i angielsku. Wersja dla Windows jest regularnie testowana, a wydania dla Linuksa i macOS są eksperymentalne.",
-			"tags": [
-				"Windows",
-				"Linux",
-				"macOS"
-			],
-			"devices": [
-				"Osmo Action",
-				"Drony DJI",
-				"GoPro",
-				"Garmin"
-			],
-			"download": "Pobierz",
-			"source": "Kod źródłowy"
+			"title": "Telemavix Studio",
+			"text": "Zmontuj nagranie z kamery lub drona i pokaż na obrazie to, co działo się w trasie albo podczas lotu.",
+			"alt": "Obszar roboczy Telemavix Studio z nagraniem z leśnej drogi, mapą, prędkościomierzem, panelem widżetów i osią czasu.",
+			"download": "Pobierz Studio",
+			"source": "Kod źródłowy",
+			"highlights": [
+				{
+					"title": "Telemetria w oryginalnym MP4",
+					"text": "Studio odczytuje dane z obsługiwanych kamer i dronów. Możesz też dodać ślad FIT lub GPX albo dziennik lotu DJI. Zewnętrzny ślad dopasujesz do filmu, korygując także rozjazd zegarów za pomocą drugiego punktu synchronizacji."
+				},
+				{
+					"title": "Ponad 40 widżetów w podglądzie",
+					"text": "Rozmieść na obrazie mapę, przechył, tętno lub parametry lotu. Zapisz układ jako preset i ustaw na osi czasu, w których fragmentach pojawiają się widżety."
+				},
+				{
+					"title": "Samodzielny eksport nakładki",
+					"text": "Połącz i przytnij klipy w Studio albo wyeksportuj same widżety na przezroczystym tle, aby nałożyć je na film w innym edytorze."
+				}
+			]
 		}
 	},
 	"download": {
@@ -105,26 +114,6 @@
 		"cpuHelp": "Nie wiesz, jaki masz procesor? W Windows otwórz Ustawienia > System > Informacje i sprawdź pole Typ systemu. W Linuksie i macOS uruchom `uname -m`: x86_64 oznacza x64, a arm64 lub aarch64 oznacza ARM64.",
 		"runtimeHelp": "Jeśli wybierzesz wersję wymagającą .NET, zainstaluj [.NET 10 Runtime](https://dotnet.microsoft.com/download/dotnet/10.0) dla swojego systemu i procesora. Studio potrzebuje też FFmpeg 9. Jeśli go brakuje, przy pierwszym uruchomieniu proponuje jego instalację. Wersje dla Linuksa i macOS są eksperymentalne.",
 		"more": "Wszystkie pliki, sumy kontrolne i informacje o wydaniach są na [stronie wydań]({{releasesUrl}})."
-	},
-	"features": {
-		"title": "Funkcje Telemavix Studio",
-		"items": {
-			"overlay": {
-				"title": "Edytor nakładek z podglądem na żywo",
-				"text": "Przeciągnij prędkościomierz, mapę trasy albo wskaźnik przechyłu w wybrane miejsce na obrazie. Dopasuj rozmiar i wygląd widżetów, a efekt od razu zobaczysz w podglądzie.",
-				"alt": "Podgląd nagrania z mapą i prędkościomierzem obok panelu widżetów w Telemavix Studio"
-			},
-			"timeline": {
-				"title": "Montaż na osi czasu",
-				"text": "Połącz klipy, wytnij zbędne fragmenty i dodaj przejścia. Na tej samej osi czasu ustawisz, kiedy wyświetlają się widżety, i dopasujesz głośność nagrania oraz muzyki.",
-				"alt": "Oś czasu z miniaturami klipów, zaznaczonymi cięciami, ścieżką dźwięku i warstwami widżetów"
-			},
-			"telemetry": {
-				"title": "Telemetria z kamery i plików GPS",
-				"text": "W podsumowaniu zobaczysz parametry filmu oraz dostępne odczyty, takie jak dystans i maksymalna prędkość. Zewnętrzny ślad możesz wykorzystać jako główne źródło pozycji i prędkości lub uzupełnić nim dane z kamery.",
-				"alt": "Panel parametrów wideo i podsumowanie telemetrii obok mapy trasy w podglądzie nagrania"
-			}
-		}
 	},
 	"devices": {
 		"title": "Obsługiwane kamery, drony i urządzenia Garmin",
