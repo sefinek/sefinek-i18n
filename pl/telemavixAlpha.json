@@ -4,21 +4,22 @@
 		"description": "Zapisz się do zamkniętych testów alpha Telemavix GPS, aplikacji na Androida, która zapisuje trasy GPS i telemetrię telefonu w formatach FIT i GPX."
 	},
 	"heading": "Zamknięte testy alpha",
-	"intro": "Telemavix GPS rejestruje trasy i dane z czujników telefonu podczas aktywności na świeżym powietrzu. Pliki FIT i GPX możesz później otworzyć w [Telemavix Studio](https://github.com/sefinek/telemavix-studio).",
+	"pageHeading": "Telemavix GPS na Androida - zamknięte testy alpha",
+	"intro": "Wypróbuj Telemavix GPS na Androidzie. Zapisz trasę i dane z czujników telefonu, a potem użyj ich do dodania mapy i prędkości do filmu w [Telemavix Studio](/pl/projects/telemavix). Z DJI Osmo Action 4, 5 Pro lub 6 telefon może też działać jako pilot GPS przez Bluetooth.",
 	"features": {
-		"title": "Co potrafi aplikacja",
+		"title": "Funkcje Telemavix GPS",
 		"items": [
 			{
 				"title": "Sterowanie kamerą",
-				"text": "Połącz telefon z DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth. Możesz wtedy rozpoczynać i kończyć zapis trasy razem z nagrywaniem wideo. Przycisk nagrywania na kamerze również pozwala rozpocząć zapis trasy w aplikacji."
+				"text": "Połącz telefon z DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth. Po włączeniu wspólnego nagrywania rozpoczęcie lub zakończenie zapisu trasy w aplikacji steruje nagrywaniem filmu. Jeśli zaczniesz nagrywać przyciskiem na kamerze, aplikacja zapisze trasę do końca nagrania. Ostrzeże też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
 			},
 			{
-				"title": "Dane GPS w nagraniu",
-				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje te dane w pliku wideo, co pozwala zsynchronizować nagranie z trasą w [Telemavix Studio](https://github.com/sefinek/telemavix-studio). Aplikacja zastępuje pilota DJI GPS Bluetooth Remote Controller, więc nie musisz go kupować. Ostrzega też o niskim poziomie baterii kamery, małej ilości miejsca na karcie i przegrzewaniu."
+				"title": "Pozycja GPS w pliku MP4",
+				"text": "Telefon przesyła do kamery pozycję GPS i czas. Kamera zapisuje je bezpośrednio w pliku MP4, a Studio odczytuje je z nagrania. Osobny ślad FIT lub GPX przyda się, gdy chcesz dodać dane z czujników telefonu lub uzupełnić przerwy w pozycji GPS."
 			},
 			{
 				"title": "Zapis trasy",
-				"text": "Aplikacja mierzy dystans, czas w ruchu, sumę podejść i nachylenie trasy. Oferuje automatyczną pauzę i zapis przy wygaszonym ekranie. Niedokończoną aktywność można odzyskać po awarii aplikacji lub rozładowaniu telefonu."
+				"text": "Aplikacja mierzy dystans, czas w ruchu, sumę podejść i nachylenie trasy. Obsługuje automatyczną pauzę i nagrywanie przy wygaszonym ekranie. Jeśli nagrywanie zostanie przerwane, po ponownym otwarciu aplikacji możesz odzyskać zapisane dane."
 			},
 			{
 				"title": "Telemetria telefonu",
@@ -34,7 +35,7 @@
 			},
 			{
 				"title": "Historia i eksport",
-				"text": "Zapisane aktywności znajdziesz w historii wraz z podglądem trasy i podsumowaniem. Pliki FIT i GPX możesz udostępnić lub otworzyć w [Telemavix Studio](https://github.com/sefinek/telemavix-studio)."
+				"text": "W historii znajdziesz podgląd trasy, podsumowanie oraz wykresy prędkości i wysokości. Udostępnij plik FIT lub GPX, by otworzyć go na komputerze w [Telemavix Studio](/pl/projects/telemavix)."
 			},
 			{
 				"title": "Dodatki",
@@ -43,7 +44,7 @@
 		]
 	},
 	"how": {
-		"title": "Jak to działa",
+		"title": "Jak dołączyć do testów",
 		"steps": [
 			"Podaj adres e-mail konta Google, którego używasz w Sklepie Play.",
 			"Twój adres zostanie dodany do listy testerów w Google Play. Zwykle trwa to do tygodnia, czasem krócej.",

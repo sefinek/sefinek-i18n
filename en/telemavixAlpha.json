@@ -4,21 +4,22 @@
 		"description": "Join the Telemavix GPS closed alpha for Android. Record GPS tracks and phone telemetry, then save your activities as FIT and GPX files."
 	},
 	"heading": "Closed alpha testing",
-	"intro": "Telemavix GPS records your route and phone sensor data during outdoor activities. Open the saved FIT and GPX files in [Telemavix Studio](https://github.com/sefinek/telemavix-studio) to explore them later.",
+	"pageHeading": "Telemavix GPS for Android - closed alpha testing",
+	"intro": "Try Telemavix GPS on Android. Record your route and phone sensor readings, then use them to add a map and speed to your video in [Telemavix Studio](/projects/telemavix). With a DJI Osmo Action 4, 5 Pro or 6, your phone can also act as a Bluetooth GPS remote.",
 	"features": {
-		"title": "What the app can do",
+		"title": "Telemavix GPS features",
 		"items": [
 			{
 				"title": "Camera control",
-				"text": "Connect your phone to a DJI Osmo Action 4, 5 Pro or 6 over Bluetooth. You can then start and stop track recording together with video recording. The camera's record button can also start track recording in the app."
+				"text": "Connect your phone to a DJI Osmo Action 4, 5 Pro or 6 over Bluetooth. With linked recording enabled, starting or stopping a route in the app controls video recording. If you start recording with the camera button, the app records the route until the video stops. It also warns you about low camera battery, low card space and overheating."
 			},
 			{
-				"title": "GPS data in the footage",
-				"text": "Your phone sends its GPS position and time to the camera. The camera saves this data in the video file so you can synchronize the footage with your route in [Telemavix Studio](https://github.com/sefinek/telemavix-studio). The app replaces the DJI GPS Bluetooth Remote Controller, so you do not need to buy it. It also warns you about low camera battery, low card space and overheating."
+				"title": "GPS positions in the MP4 file",
+				"text": "Your phone sends GPS positions and time to the camera. The camera embeds them directly in the MP4 file, and Studio reads them from the footage. Use a separate FIT or GPX track to add phone sensor readings or fill gaps in the GPS data."
 			},
 			{
 				"title": "Route recording",
-				"text": "The app tracks distance, moving time, total ascent and grade. It supports auto-pause and keeps recording with the screen off. You can recover an unfinished activity after an app crash or a drained phone battery."
+				"text": "The app tracks distance, moving time, elevation gain and grade. It supports auto-pause and records with the screen off. If recording is interrupted, reopen the app to recover the data it saved."
 			},
 			{
 				"title": "Phone telemetry",
@@ -34,7 +35,7 @@
 			},
 			{
 				"title": "History and export",
-				"text": "Find your saved activities in the history, each with a route preview and summary. Share the FIT and GPX files or open them in [Telemavix Studio](https://github.com/sefinek/telemavix-studio)."
+				"text": "Review a route preview, activity summary and speed and elevation charts in your history. Share the FIT or GPX file to open it on your computer in [Telemavix Studio](/projects/telemavix)."
 			},
 			{
 				"title": "Extras",
@@ -43,7 +44,7 @@
 		]
 	},
 	"how": {
-		"title": "How it works",
+		"title": "How to join the closed alpha",
 		"steps": [
 			"Enter the email address of the Google account you use in the Play Store.",
 			"Your address will be added to the tester list on Google Play. This usually takes up to a week, sometimes less.",

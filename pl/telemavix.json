@@ -7,7 +7,8 @@
 	"softwareDescription": "Telemavix GPS zapisuje trasy i dane z czujników telefonu. Telemavix Studio dodaje do filmów nakładki z prędkością, mapą, przechyłem i innymi odczytami.",
 	"label": "Projekt",
 	"heading": "Telemavix",
-	"intro": "Twoje nagrania mogą pokazać więcej. W Telemavix Studio dodaj do nich prędkościomierz, mapę trasy, wskaźnik przechyłu i inne widgety. Dopasuj ich wygląd, ułóż je na obrazie i pokaż swoją aktywność z nowej perspektywy. Skorzystaj z danych z kamery lub drona albo zarejestruj trasę telefonem w Telemavix GPS.",
+	"pageHeading": "Telemavix - nakładki telemetryczne do filmów",
+	"intro": "Twoje nagrania mogą pokazać więcej! W Telemavix Studio dodaj do nich prędkościomierz, mapę trasy, wskaźnik przechyłu i inne widgety. Dopasuj ich wygląd, ułóż je na obrazie i pokaż swoją aktywność z nowej perspektywy. Skorzystaj z danych z kamery lub drona albo zarejestruj trasę telefonem w Telemavix GPS.",
 	"cta": {
 		"alpha": "Dołącz do zamkniętych testów",
 		"download": "Pobierz Telemavix Studio",
@@ -15,38 +16,50 @@
 		"source": "Kod źródłowy Studio"
 	},
 	"videos": {
-		"title": "Zobacz efekt na filmie",
-		"intro": "Przykładowe nagrania z widgetami Telemavix Studio. Wybierz film, aby obejrzeć go na YouTube. Aplikacja stale się rozwija, więc w aktualnej wersji niektóre widgety mogą już wyglądać inaczej.",
+		"title": "Przykładowe filmy z nakładkami telemetrycznymi",
+		"intro": "Wybierz film, aby zobaczyć nakładki Telemavix Studio w akcji. Wygląd niektórych widżetów mógł się zmienić od publikacji nagrań.",
 		"watch": "Obejrzyj na YouTube",
 		"items": {
-			"drone": "Jesienny lot DJI Mavic Air 2 w 4K",
-			"lake": "Trasa wokół jeziora i widoki z mostu",
-			"rain": "Wokół jeziora w deszczu"
+			"drone": {
+				"title": "Jesienny lot DJI Mavic Air 2 w 4K",
+				"thumbnail": "dji-mavic-air-2-jesienny-lot.webp",
+				"alt": "Widok na pola z drona. Nakładka pokazuje prędkość lotu, wykres wysokości i stan baterii."
+			},
+			"lake": {
+				"title": "Trasa wokół jeziora i widoki z mostu",
+				"thumbnail": "wiszacy-most-nad-jeziorem.webp",
+				"alt": "Widok z wiszącego mostu nad jeziorem z nałożoną mapą trasy i prędkościomierzem."
+			},
+			"rain": {
+				"title": "Wokół jeziora w deszczu",
+				"thumbnail": "trasa-nad-jeziorem-w-deszczu.webp",
+				"alt": "Mokra ścieżka nad jeziorem. Nakładka pokazuje mapę trasy, prędkość i dystans."
+			}
 		}
 	},
 	"how": {
-		"title": "Jak to działa",
+		"title": "Jak dodać telemetrię do filmu",
 		"steps": [
 			{
 				"title": "1. Nagraj swoją aktywność",
-				"text": "Nagraj film kamerą sportową lub dronem. Aby zarejestrować trasę telefonem, uruchom Telemavix GPS. Jeśli korzystasz z obsługiwanej kamery DJI Osmo Action, możesz rozpoczynać i kończyć zapis trasy razem z nagrywaniem wideo. Aplikacja zastępuje pilota DJI GPS Bluetooth Remote Controller, więc nie musisz go kupować."
+				"text": "Nagraj film kamerą sportową lub dronem. Jeśli chcesz mieć osobny ślad trasy lub dane z czujników telefonu, włącz równolegle zapis w Telemavix GPS."
 			},
 			{
 				"title": "2. Otwórz nagranie w Studio",
-				"text": "Telemavix Studio odczyta dostępne dane zapisane przez obsługiwaną kamerę. Możesz też dodać plik FIT lub GPX z Telemavix GPS, zegarka sportowego albo licznika rowerowego, np. marki Garmin. Jeśli dron DJI nie zapisuje telemetrii w nagraniu, dodaj dziennik lotu."
+				"text": "Zacznij od oryginalnego pliku z kamery. Jeśli zawiera telemetrię, Studio odczyta ją bezpośrednio z nagrania. Możesz też dodać FIT lub GPX z telefonu, zegarka albo licznika rowerowego. W przypadku drona DJI, który zapisuje dane osobno, użyj dziennika lotu z DJI Fly."
 			},
 			{
 				"title": "3. Dodaj nakładkę i zapisz film",
-				"text": "Wybierz widgety i ułóż je na obrazie. Jeśli korzystasz z osobnego pliku trasy, sprawdź jego synchronizację z nagraniem. Obejrzyj podgląd i wyeksportuj gotowy film."
+				"text": "Jeśli korzystasz z osobnego pliku z telemetrią, sprawdź jego synchronizację z filmem. Wybierz widżety, rozmieść je na obrazie i sprawdź podgląd przed eksportem."
 			}
 		]
 	},
 	"apps": {
-		"title": "Poznaj obie aplikacje",
+		"title": "Telemavix Studio i Telemavix GPS",
 		"mobile": {
 			"badge": "Zamknięte testy alpha",
-			"title": "Telemavix GPS na telefon",
-			"text": "Zapisuje trasę i odczyty z dostępnych czujników telefonu. Pokazuje prędkość, dystans, czas w ruchu i zmiany wysokości. Rejestruje aktywność także przy wygaszonym ekranie, a wcześniej wczytane fragmenty mapy są dostępne bez internetu. Współpracuje z obsługiwanymi kamerami DJI Osmo Action jako pilot GPS, zastępując DJI GPS Bluetooth Remote Controller.",
+			"title": "Telemavix GPS na Androida",
+			"text": "Zapisuj trasę i dane z czujników telefonu także przy wygaszonym ekranie. Sprawdzaj prędkość i dystans na żywo, a wcześniej wczytaną mapę przeglądaj offline. Trasę i wykresy znajdziesz w historii, a plik FIT lub GPX otworzysz w Studio. Połącz DJI Osmo Action 4, 5 Pro lub 6 przez Bluetooth, by jednym przyciskiem uruchomić zapis w aplikacji i nagrywanie w kamerze. Kamera zapisze pozycję GPS z telefonu w MP4, który wystarczy otworzyć w Studio.",
 			"tags": [
 				"Android",
 				"FIT",
@@ -61,16 +74,17 @@
 		"desktop": {
 			"badge": "Za darmo do użytku niekomercyjnego",
 			"title": "Telemavix Studio na komputer",
-			"text": "Dodaje do filmów nakładki z danymi z kamery, pliku trasy lub dziennika lotu. Pozwala rozmieścić widgety, przyciąć nagranie i dodać muzykę. Wersja dla Windows jest regularnie testowana, a wersje dla Linuksa i macOS są eksperymentalne.",
+			"text": "Studio odczytuje telemetrię zapisaną w oryginalnych plikach MP4 z obsługiwanych kamer i dronów. Możesz też zsynchronizować z filmem ślad FIT lub GPX albo dziennik lotu DJI. Do dyspozycji masz ponad 40 widżetów, m.in. mapę trasy, prędkościomierz i wskaźnik przechyłu. Ustaw nakładkę w podglądzie, przytnij klipy i dodaj muzykę. Interfejs jest po polsku i angielsku. Wersja dla Windows jest regularnie testowana, a wydania dla Linuksa i macOS są eksperymentalne.",
 			"tags": [
 				"Windows",
 				"Linux",
 				"macOS"
 			],
 			"devices": [
-				"Drony DJI",
 				"Osmo Action",
-				"GoPro"
+				"Drony DJI",
+				"GoPro",
+				"Garmin"
 			],
 			"download": "Pobierz",
 			"source": "Kod źródłowy"
@@ -78,7 +92,7 @@
 	},
 	"download": {
 		"title": "Pobierz Telemavix Studio",
-		"intro": "Wybierz plik dla swojego systemu. Jeśli nie wiesz, który wybrać, w Windows użyj instalatora. Aktualna wersja: {{version}}.",
+		"intro": "Wybierz pakiet dla swojego systemu i procesora. W Windows najprościej użyć instalatora. Aktualna wersja to {{version}}.",
 		"columns": {
 			"system": "System",
 			"cpu": "Procesor",
@@ -93,57 +107,40 @@
 		"more": "Wszystkie pliki, sumy kontrolne i informacje o wydaniach są na [stronie wydań]({{releasesUrl}})."
 	},
 	"features": {
-		"title": "Co zrobisz w Telemavix Studio",
-		"items": [
-			{
-				"title": "Eksport z ustawieniami oryginału",
-				"text": "Domyślnie Studio zachowuje rozdzielczość, kodek, głębię kolorów i bitrate oryginału, także w nagraniach 10-bitowych. Dodanie nakładki wymaga ponownego kodowania obrazu. Zachowanie ustawień źródłowych pomaga ograniczyć utratę jakości."
+		"title": "Funkcje Telemavix Studio",
+		"items": {
+			"overlay": {
+				"title": "Edytor nakładek z podglądem na żywo",
+				"text": "Przeciągnij prędkościomierz, mapę trasy albo wskaźnik przechyłu w wybrane miejsce na obrazie. Dopasuj rozmiar i wygląd widżetów, a efekt od razu zobaczysz w podglądzie.",
+				"alt": "Podgląd nagrania z mapą i prędkościomierzem obok panelu widżetów w Telemavix Studio"
 			},
-			{
-				"title": "Przetwarzanie na komputerze",
-				"text": "Film jest przetwarzany na Twoim komputerze. Studio może wykorzystać obsługiwaną kartę graficzną do przyspieszenia eksportu. Wybierz ustawienia oryginału lub profil dopasowany do sposobu publikacji."
+			"timeline": {
+				"title": "Montaż na osi czasu",
+				"text": "Połącz klipy, wytnij zbędne fragmenty i dodaj przejścia. Na tej samej osi czasu ustawisz, kiedy wyświetlają się widżety, i dopasujesz głośność nagrania oraz muzyki.",
+				"alt": "Oś czasu z miniaturami klipów, zaznaczonymi cięciami, ścieżką dźwięku i warstwami widżetów"
 			},
-			{
-				"title": "Dane zapisane przez kamerę",
-				"text": "Studio odczytuje z nagrania dostępne dane, np. pozycję GPS, prędkość, ruch kamery i parametry ekspozycji. Zakres odczytów zależy od modelu i sposobu nagrywania. Jeśli kamera dzieli nagranie na kilka plików, możesz połączyć je w jeden film."
-			},
-			{
-				"title": "Trasy z telefonu, zegarka i drona",
-				"text": "Wczytaj plik FIT lub GPX z Telemavix GPS, zegarka sportowego albo licznika rowerowego, np. marki Garmin. Oprócz trasy Studio odczytuje dostępne w pliku dane, np. prędkość, wysokość, tętno, kadencję i poziom baterii. Do nagrań z obsługiwanych dronów DJI możesz dodać dziennik lotu. Zsynchronizuj dane z nagraniem, aby odczyty odpowiadały temu, co widać na filmie."
-			},
-			{
-				"title": "Widgety według Twojego pomysłu",
-				"text": "Wybierz prędkościomierz, mapę, kompas, wskaźnik przechyłu lub przeciążeń albo wykres wysokości. Przeciągaj widgety na obrazie i sprawdzaj efekt w podglądzie. Ich dostępność zależy od danych w nagraniu lub pliku trasy."
-			},
-			{
-				"title": "Montaż i muzyka",
-				"text": "Usuń zbędne fragmenty, dodaj przejścia i napisy. Uzupełnij film muzyką z płynnym wyciszaniem i dostosuj głośność nagrania. Na początku możesz pokazać mapę z podsumowaniem trasy."
-			},
-			{
-				"title": "Gotowy film lub sama nakładka",
-				"text": "Zapisz film z widgetami lub wyeksportuj samą nakładkę na zielonym tle albo z przezroczystością do dalszego montażu. Dodaj kilka zadań do kolejki eksportu lub zautomatyzuj eksport za pomocą narzędzia wiersza poleceń."
-			},
-			{
-				"title": "Dodatkowe narzędzia do nagrań",
-				"text": "Usuń metadane przed udostępnieniem filmu, popraw oznaczenie kolorów lub porównaj obok siebie parametry nawet sześciu nagrań. Osobny plik AAC z mikrofonu kamery możesz przekonwertować do WAV albo M4A do dalszej obróbki."
+			"telemetry": {
+				"title": "Telemetria z kamery i plików GPS",
+				"text": "W podsumowaniu zobaczysz parametry filmu oraz dostępne odczyty, takie jak dystans i maksymalna prędkość. Zewnętrzny ślad możesz wykorzystać jako główne źródło pozycji i prędkości lub uzupełnić nim dane z kamery.",
+				"alt": "Panel parametrów wideo i podsumowanie telemetrii obok mapy trasy w podglądzie nagrania"
 			}
-		]
+		}
 	},
 	"devices": {
-		"title": "Obsługiwane urządzenia",
-		"intro": "Sprawdź, z jakich urządzeń możesz korzystać i skąd pobrać dane GPS do filmu. W Studio otwieraj oryginalne nagrania z karty pamięci.",
+		"title": "Obsługiwane kamery, drony i urządzenia Garmin",
+		"intro": "Sprawdź, które urządzenia obsługuje Studio i czy dane GPS znajdziesz w nagraniu, śladzie aktywności czy dzienniku lotu.",
 		"columns": {
 			"gps": "Skąd wziąć dane GPS",
 			"notes": "Dodatkowe uwagi",
 			"support": "Wsparcie"
 		},
-		"note": "Z mojego doświadczenia rejestrowanie telemetrii w DJI Mimo jest niewygodne i mało intuicyjne. Czasem trudno nawet stwierdzić, czy zapis działa. Do rejestrowania trasy i danych z czujników polecam [Telemavix GPS](#apps), szczególnie jeśli masz obsługiwaną kamerę z serii DJI Osmo Action.",
+		"note": "Jeśli kamera nie zapisuje pozycji GPS, możesz nagrać trasę telefonem w [Telemavix GPS](#apps). Z obsługiwaną kamerą DJI Osmo Action aplikacja może też przesyłać pozycję na żywo, aby kamera zapisała ją w pliku MP4.",
 		"rows": [
 			{
 				"device": "DJI Osmo Action",
 				"tier": "full",
 				"notes": "Przetestowane modele: Action 6 i Action 5 Pro. Pozostałe modele z serii powinny działać, ale nie zostały jeszcze przetestowane.",
-				"gps": "Telemavix GPS lub pilot DJI GPS Bluetooth"
+				"gps": "Kamera zapisuje pozycję w MP4, gdy odbiera ją z Telemavix GPS lub pilota DJI GPS Bluetooth."
 			},
 			{
 				"device": "GoPro HERO12 Black",
@@ -155,7 +152,7 @@
 				"device": "Drony DJI",
 				"tier": "full",
 				"notes": "Obsługiwane modele: Mavic Air 2, Mavic 4 Pro, Flip, Avata 360 i Lito X1 Plus.",
-				"gps": "Mavic Air 2, Mavic 4 Pro, Flip i Avata 360: dziennik lotu (FlightRecord_*.txt) zapisany przez aplikację DJI Fly. Lito X1 Plus: telemetria jest zapisana w nagraniu, więc nie musisz dodawać osobnego pliku."
+				"gps": "Mavic Air 2, Mavic 4 Pro, Flip i Avata 360 korzystają z dziennika lotu (FlightRecord_*.txt) z DJI Fly. Lito X1 Plus zapisuje telemetrię w pliku MP4."
 			},
 			{
 				"device": "Urządzenia Garmin",
@@ -166,7 +163,8 @@
 			{
 				"device": "Insta360 X4",
 				"tier": "experimental",
-				"gps": "Dodaj trasę z pliku FIT lub GPX. Studio nie odczytuje jeszcze GPS z nagrań tej kamery."
+				"notes": "Eksperymentalny odczyt przechyłu i przeciążeń oraz kadrowanie nagrań 360°.",
+				"gps": "GPS dodasz z pliku FIT lub GPX. Odczyt pozycji z nagrań tej kamery jest jeszcze niedostępny."
 			}
 		],
 		"tiers": {
@@ -176,11 +174,11 @@
 		}
 	},
 	"license": {
-		"title": "Licencja",
+		"title": "Licencja Telemavix Studio",
 		"text": "Aplikacja desktopowa jest darmowa do użytku niekomercyjnego na licencji [PolyForm Noncommercial License 1.0.0](https://github.com/sefinek/telemavix-studio/blob/main/LICENSE), a jej kod źródłowy jest na [GitHubie](https://github.com/sefinek/telemavix-studio). Użycie komercyjne, w tym monetyzowane filmy, treści sponsorowane i płatne zlecenia, wymaga osobnej zgody: napisz na [contact@sefinek.net](mailto:contact@sefinek.net). Więcej w [przewodniku po licencjonowaniu](https://github.com/sefinek/telemavix-studio/blob/main/LICENSING.md)."
 	},
 	"guide": {
 		"title": "Przewodnik Telemavix Studio",
-		"intro": "Instalacja, wymagania i praca z telemetrią. Wybierz temat, aby przejść do instrukcji."
+		"intro": "Znajdziesz tu instrukcje instalacji, wymagania i wskazówki dotyczące pracy z telemetrią."
 	}
 }
