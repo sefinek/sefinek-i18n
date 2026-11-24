@@ -128,48 +128,48 @@
 	},
 	"devices": {
 		"title": "Obsługiwane kamery, drony i urządzenia Garmin",
-		"intro": "Znajdź swoje urządzenie i sprawdź, czy do filmu wystarczy oryginalne nagranie, czy potrzebujesz osobnego śladu GPS lub dziennika lotu.",
+		"intro": "Sprawdź zakres obsługi swojego urządzenia i dowiedz się, skąd wziąć dane GPS do filmu.",
 		"columns": {
 			"gps": "Źródło GPS",
-			"notes": "Odczyt w Studio",
+			"notes": "Zakres obsługi",
 			"support": "Wsparcie"
 		},
-		"note": "Jeśli kamera nie zapisuje GPS, zarejestruj trasę telefonem w [Telemavix GPS](#apps) i dodaj ją w Studio jako FIT lub GPX. Szczegóły odczytu znajdziesz w [przewodniku po telemetrii kamer](#camera-telemetry).",
+		"note": "Jeśli potrzebujesz osobnego śladu GPS, zapisz trasę w aplikacji [Telemavix GPS](#apps) i zaimportuj plik FIT do Studio. Więcej o danych z nagrań znajdziesz w [przewodniku po telemetrii kamer](#camera-telemetry).",
 		"rows": [
 			{
 				"device": "DJI Osmo Action",
 				"tier": "full",
-				"notes": "Z odczytów akcelerometru Studio wylicza przechył, pochylenie i przeciążenia. Z MP4 odczytuje też ISO i czas migawki. Sprawdzono na Osmo Action 5 Pro i 6.",
-				"gps": "Otwórz oryginalny MP4. Pozycja jest w nagraniu, jeśli podczas filmowania kamera odbierała GPS z Telemavix GPS lub pilota DJI GPS Bluetooth."
+				"notes": "Odczyt telemetrii z oryginalnych nagrań MP4 sprawdzono na modelach Osmo Action 5 Pro i Osmo Action 6.",
+				"gps": "Użyj oryginalnego pliku MP4. Kamera zapisuje w nim pozycję, jeśli podczas nagrywania otrzymuje dane GPS z aplikacji Telemavix GPS lub pilota Bluetooth DJI z GPS."
 			},
 			{
 				"device": "Drony DJI",
 				"tier": "full",
-				"notes": "Studio odczytuje m.in. pozycję, prędkość i wysokość względem punktu startu.",
-				"gps": "Lito X1 Plus zapisuje dane w MP4. Dla Mavic Air 2, Mavic 4 Pro, Flip i Avata 360 dodaj dziennik lotu (FlightRecord_*.txt) z telefonu lub aparatury sterującej."
+				"notes": "Zależnie od modelu drona Studio odczytuje telemetrię z nagrania lub z dziennika lotu DJI (FlightRecord_*.txt).",
+				"gps": "Lito X1 Plus zapisuje telemetrię w pliku MP4. W przypadku modeli Mavic Air 2, Mavic 4 Pro, Flip i Avata 360 użyj dziennika lotu z telefonu lub aparatury sterującej."
 			},
 			{
 				"device": "GoPro HERO12 Black",
 				"tier": "likely",
-				"notes": "Studio odczytuje z nagrania dane o ruchu i ekspozycji. Odczyt pochylenia sprawdzono na nagraniu z HERO12 Black.",
-				"gps": "HERO12 Black nie ma wbudowanego GPS. Dodaj ślad GPS z aplikacji Telemavix GPS, zegarka albo licznika rowerowego."
+				"notes": "Studio obsługuje pliki MP4 i LRV. Odczyt pochylenia sprawdzono na nagraniu, a przechył boczny wymaga jeszcze testu w kontrolowanych warunkach.",
+				"gps": "Do wyświetlenia trasy dodaj osobny ślad GPS z aplikacji Telemavix GPS, zegarka lub licznika rowerowego."
 			},
 			{
 				"device": "Urządzenia Garmin",
 				"tier": "full",
-				"notes": "Studio odczytuje także tętno, kadencję i poziom baterii, jeśli są zapisane w pliku. Import sprawdzono na Garminie 7X.",
-				"gps": "Otwórz plik FIT z aktywności zarejestrowanej zegarkiem lub licznikiem Garmin."
+				"notes": "Aktywność z urządzenia Garmin można zsynchronizować z nagraniem. Import sprawdzono na pliku z zegarka Garmin 7X.",
+				"gps": "Zaimportuj plik FIT z aktywnością zapisaną na zegarku lub liczniku Garmin."
 			},
 			{
 				"device": "Insta360 X4",
 				"tier": "experimental",
-				"notes": "Studio odczytuje przechył i przeciążenia oraz pozwala wybrać kadr w nagraniu 360°. Inne kamery Insta360 nie są obsługiwane.",
-				"gps": "X4 nie ma wbudowanego GPS. Dodaj w Studio ślad FIT lub GPX, np. z telefonu albo zegarka."
+				"notes": "Studio obsługuje import plików INSV i kadrowanie nagrań 360°. Obsługa kamer Insta360 obejmuje wyłącznie model X4.",
+				"gps": "Do wyświetlenia trasy dodaj osobny ślad w pliku FIT lub GPX, np. z telefonu albo zegarka."
 			}
 		],
 		"tiers": {
 			"full": "Obsługiwane",
-			"likely": "Obsługa z ograniczeniami",
+			"likely": "Częściowo",
 			"experimental": "Eksperymentalne"
 		}
 	},
