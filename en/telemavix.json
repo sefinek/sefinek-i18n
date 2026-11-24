@@ -8,7 +8,7 @@
 	"label": "Project",
 	"heading": "Telemavix",
 	"pageHeading": "Telemavix - telemetry overlays for videos",
-	"intro": "Your footage can show more. Add a speedometer, route map and tilt indicator to your video in Telemavix Studio. Studio reads telemetry embedded in original MP4 files from supported cameras and drones. You can also sync your footage with a DJI flight log or a FIT or GPX track. Telemavix GPS records those tracks along with readings from your phone's sensors.",
+	"intro": "Your footage can show more. Choose from over 40 widgets in Telemavix Studio, from maps and speedometers to heart rate and flight data. Use data from the original MP4 of a supported camera or drone, a FIT or GPX track, or a DJI flight log. Use Telemavix GPS to record your route and phone sensor readings. With an Osmo Action 4, 5 Pro or 6, the app can replace the DJI Osmo Action GPS Bluetooth Remote Controller. One button starts logging and filming, and the camera saves GPS positions in its MP4 file.",
 	"cta": {
 		"alpha": "Join the closed alpha",
 		"download": "Download Telemavix Studio",
@@ -46,7 +46,7 @@
 			},
 			{
 				"title": "2. Open the footage in Studio",
-				"text": "Start with the original camera file. If it contains telemetry, Studio reads it directly from the footage. You can also add a FIT or GPX file from your phone, sports watch or bike computer. If your DJI drone records telemetry separately, use the flight log from DJI Fly."
+				"text": "Start with the original camera file. If it contains telemetry, Studio reads it directly from the footage. You can also add a FIT or GPX file from your phone, sports watch or bike computer. If your DJI drone records telemetry separately, add the DJI flight log."
 			},
 			{
 				"title": "3. Add an overlay and save your video",
@@ -128,48 +128,48 @@
 	},
 	"devices": {
 		"title": "Supported cameras, drones and Garmin devices",
-		"intro": "See which devices Studio supports and whether to look for GPS data in the footage, an activity file or a flight log.",
+		"intro": "Find your device to see whether the original footage has the data you need or whether to add a GPS track or flight log.",
 		"columns": {
-			"gps": "Where to get GPS data",
-			"notes": "Additional notes",
+			"gps": "GPS source",
+			"notes": "What Studio reads",
 			"support": "Support"
 		},
-		"note": "If your camera does not record GPS positions, you can record your route on your phone with [Telemavix GPS](#apps). With a supported DJI Osmo Action camera, the app can also send your position live for the camera to save in the MP4 file.",
+		"note": "If your camera does not record GPS, track your route on your phone with [Telemavix GPS](#apps) and add it to Studio as a FIT or GPX file. See the [camera telemetry guide](#camera-telemetry) for details.",
 		"rows": [
 			{
 				"device": "DJI Osmo Action",
 				"tier": "full",
-				"notes": "Tested models: Action 6 and Action 5 Pro. Other models in the series should work, but have not been tested yet.",
-				"gps": "The camera saves GPS positions in its MP4 files when it receives them from Telemavix GPS or a DJI GPS Bluetooth remote."
-			},
-			{
-				"device": "GoPro HERO12 Black",
-				"tier": "likely",
-				"notes": "This is the only GoPro model tested so far. Pitch has been checked against recorded footage, while roll still needs a controlled sideways tilt test.",
-				"gps": "An external FIT or GPX file, for example from Telemavix GPS. The HERO12 Black has no built-in GPS. GPS data from other GoPro models has not yet been verified with real recordings."
+				"notes": "Studio uses accelerometer readings to calculate roll, pitch and G-force. It also reads ISO and shutter speed from the MP4. Tested with the Osmo Action 5 Pro and 6.",
+				"gps": "Open the original MP4. It contains GPS positions if the camera received them from Telemavix GPS or a DJI GPS Bluetooth remote while filming."
 			},
 			{
 				"device": "DJI drones",
 				"tier": "full",
-				"notes": "Supported models: Mavic Air 2, Mavic 4 Pro, Flip, Avata 360 and Lito X1 Plus.",
-				"gps": "Mavic Air 2, Mavic 4 Pro, Flip and Avata 360 use a flight log (FlightRecord_*.txt) from DJI Fly. Lito X1 Plus embeds telemetry in the MP4 file."
+				"notes": "Studio reads position, speed and height above takeoff, among other flight data.",
+				"gps": "The Lito X1 Plus embeds the data in its MP4. For the Mavic Air 2, Mavic 4 Pro, Flip and Avata 360, add the flight log (FlightRecord_*.txt) from your phone or remote controller."
+			},
+			{
+				"device": "GoPro HERO12 Black",
+				"tier": "likely",
+				"notes": "Studio reads motion and exposure data from the footage. Pitch readings were checked on HERO12 Black footage.",
+				"gps": "The HERO12 Black has no built-in GPS. Add a GPS track from the Telemavix GPS app, a sports watch or a bike computer."
 			},
 			{
 				"device": "Garmin devices",
 				"tier": "full",
-				"notes": "Tested with the Garmin 7X. Studio also supports FIT files from Garmin bike computers.",
-				"gps": "A FIT activity file. Studio also reads heart rate, cadence and battery level when present in the file."
+				"notes": "Studio also reads heart rate, cadence and battery level when present. FIT import was tested with the Garmin 7X.",
+				"gps": "Open the FIT activity file from your Garmin watch or bike computer."
 			},
 			{
 				"device": "Insta360 X4",
 				"tier": "experimental",
-				"notes": "Experimental tilt and G-force readings and 360° reframing.",
-				"gps": "Add GPS data from a FIT or GPX file. Studio does not yet read positions from this camera's footage."
+				"notes": "Studio reads tilt and G-force data and lets you reframe 360° footage. Other Insta360 cameras are unsupported.",
+				"gps": "The X4 has no built-in GPS. Add a FIT or GPX track in Studio, for example from a phone or sports watch."
 			}
 		],
 		"tiers": {
-			"full": "Full support",
-			"likely": "Should work",
+			"full": "Supported",
+			"likely": "Support with limitations",
 			"experimental": "Experimental"
 		}
 	},

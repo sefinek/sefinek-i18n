@@ -8,7 +8,7 @@
 	"label": "Projekt",
 	"heading": "Telemavix",
 	"pageHeading": "Telemavix - nakładki telemetryczne do filmów",
-	"intro": "Twoje nagrania mogą pokazać więcej! W Telemavix Studio dodasz do filmu prędkościomierz, mapę trasy i wskaźnik przechyłu. Studio odczytuje telemetrię z oryginalnych plików MP4 obsługiwanych kamer i dronów. Możesz też zsynchronizować film z dziennikiem lotu DJI albo ze śladem FIT lub GPX. Taki ślad zapiszesz w Telemavix GPS razem z odczytami z czujników telefonu.",
+	"intro": "Twoje nagrania mogą pokazać więcej! W Telemavix Studio masz do wyboru ponad 40 widżetów, od mapy i prędkościomierza po tętno i parametry lotu. Dane do nakładki wczytasz z oryginalnego MP4 obsługiwanej kamery lub drona, śladu FIT lub GPX albo dziennika lotu DJI. Trasę i odczyty z czujników telefonu zapiszesz w Telemavix GPS. Z kamerą Osmo Action 4, 5 Pro lub 6 aplikacja może zastąpić pilot DJI Osmo Action GPS Bluetooth Remote Controller (ok. 360 zł). Jednym przyciskiem uruchomisz zapis trasy i nagrywanie filmu, a kamera umieści pozycję GPS w swoim pliku MP4.",
 	"cta": {
 		"alpha": "Dołącz do zamkniętych testów",
 		"download": "Pobierz Telemavix Studio",
@@ -46,7 +46,7 @@
 			},
 			{
 				"title": "2. Otwórz nagranie w Studio",
-				"text": "Zacznij od oryginalnego pliku z kamery. Jeśli zawiera telemetrię, Studio odczyta ją bezpośrednio z nagrania. Możesz też dodać FIT lub GPX z telefonu, zegarka albo licznika rowerowego. W przypadku drona DJI, który zapisuje dane osobno, użyj dziennika lotu z DJI Fly."
+				"text": "Zacznij od oryginalnego pliku z kamery. Jeśli zawiera telemetrię, Studio odczyta ją bezpośrednio z nagrania. Możesz też dodać FIT lub GPX z telefonu, zegarka albo licznika rowerowego. Jeśli telemetria jest zapisana osobno, dodaj dziennik lotu DJI."
 			},
 			{
 				"title": "3. Dodaj nakładkę i zapisz film",
@@ -128,48 +128,48 @@
 	},
 	"devices": {
 		"title": "Obsługiwane kamery, drony i urządzenia Garmin",
-		"intro": "Sprawdź, które urządzenia obsługuje Studio i czy dane GPS znajdziesz w nagraniu, śladzie aktywności czy dzienniku lotu.",
+		"intro": "Znajdź swoje urządzenie i sprawdź, czy do filmu wystarczy oryginalne nagranie, czy potrzebujesz osobnego śladu GPS lub dziennika lotu.",
 		"columns": {
-			"gps": "Skąd wziąć dane GPS",
-			"notes": "Dodatkowe uwagi",
+			"gps": "Źródło GPS",
+			"notes": "Odczyt w Studio",
 			"support": "Wsparcie"
 		},
-		"note": "Jeśli kamera nie zapisuje pozycji GPS, możesz nagrać trasę telefonem w [Telemavix GPS](#apps). Z obsługiwaną kamerą DJI Osmo Action aplikacja może też przesyłać pozycję na żywo, aby kamera zapisała ją w pliku MP4.",
+		"note": "Jeśli kamera nie zapisuje GPS, zarejestruj trasę telefonem w [Telemavix GPS](#apps) i dodaj ją w Studio jako FIT lub GPX. Szczegóły odczytu znajdziesz w [przewodniku po telemetrii kamer](#camera-telemetry).",
 		"rows": [
 			{
 				"device": "DJI Osmo Action",
 				"tier": "full",
-				"notes": "Przetestowane modele: Action 6 i Action 5 Pro. Pozostałe modele z serii powinny działać, ale nie zostały jeszcze przetestowane.",
-				"gps": "Kamera zapisuje pozycję w MP4, gdy odbiera ją z Telemavix GPS lub pilota DJI GPS Bluetooth."
-			},
-			{
-				"device": "GoPro HERO12 Black",
-				"tier": "likely",
-				"notes": "To jedyny dotąd przetestowany model GoPro. Pochylenie sprawdzono na nagraniu, a przechył boczny wymaga jeszcze kontrolowanego testu.",
-				"gps": "Zewnętrzny plik FIT lub GPX, np. z Telemavix GPS. HERO12 Black nie ma wbudowanego GPS. Odczyt GPS z innych modeli GoPro nie został jeszcze potwierdzony na rzeczywistych nagraniach."
+				"notes": "Z odczytów akcelerometru Studio wylicza przechył, pochylenie i przeciążenia. Z MP4 odczytuje też ISO i czas migawki. Sprawdzono na Osmo Action 5 Pro i 6.",
+				"gps": "Otwórz oryginalny MP4. Pozycja jest w nagraniu, jeśli podczas filmowania kamera odbierała GPS z Telemavix GPS lub pilota DJI GPS Bluetooth."
 			},
 			{
 				"device": "Drony DJI",
 				"tier": "full",
-				"notes": "Obsługiwane modele: Mavic Air 2, Mavic 4 Pro, Flip, Avata 360 i Lito X1 Plus.",
-				"gps": "Mavic Air 2, Mavic 4 Pro, Flip i Avata 360 korzystają z dziennika lotu (FlightRecord_*.txt) z DJI Fly. Lito X1 Plus zapisuje telemetrię w pliku MP4."
+				"notes": "Studio odczytuje m.in. pozycję, prędkość i wysokość względem punktu startu.",
+				"gps": "Lito X1 Plus zapisuje dane w MP4. Dla Mavic Air 2, Mavic 4 Pro, Flip i Avata 360 dodaj dziennik lotu (FlightRecord_*.txt) z telefonu lub aparatury sterującej."
+			},
+			{
+				"device": "GoPro HERO12 Black",
+				"tier": "likely",
+				"notes": "Studio odczytuje z nagrania dane o ruchu i ekspozycji. Odczyt pochylenia sprawdzono na nagraniu z HERO12 Black.",
+				"gps": "HERO12 Black nie ma wbudowanego GPS. Dodaj ślad GPS z aplikacji Telemavix GPS, zegarka albo licznika rowerowego."
 			},
 			{
 				"device": "Urządzenia Garmin",
 				"tier": "full",
-				"notes": "Przetestowane na modelu Garmin 7X. Studio obsługuje też pliki FIT z liczników rowerowych Garmin.",
-				"gps": "Plik FIT z zapisem aktywności. Jeśli zawiera dane o tętnie, kadencji i poziomie baterii, Studio również je odczyta."
+				"notes": "Studio odczytuje także tętno, kadencję i poziom baterii, jeśli są zapisane w pliku. Import sprawdzono na Garminie 7X.",
+				"gps": "Otwórz plik FIT z aktywności zarejestrowanej zegarkiem lub licznikiem Garmin."
 			},
 			{
 				"device": "Insta360 X4",
 				"tier": "experimental",
-				"notes": "Eksperymentalny odczyt przechyłu i przeciążeń oraz kadrowanie nagrań 360°.",
-				"gps": "GPS dodasz z pliku FIT lub GPX. Odczyt pozycji z nagrań tej kamery jest jeszcze niedostępny."
+				"notes": "Studio odczytuje przechył i przeciążenia oraz pozwala wybrać kadr w nagraniu 360°. Inne kamery Insta360 nie są obsługiwane.",
+				"gps": "X4 nie ma wbudowanego GPS. Dodaj w Studio ślad FIT lub GPX, np. z telefonu albo zegarka."
 			}
 		],
 		"tiers": {
-			"full": "Pełne wsparcie",
-			"likely": "Powinno działać",
+			"full": "Obsługiwane",
+			"likely": "Obsługa z ograniczeniami",
 			"experimental": "Eksperymentalne"
 		}
 	},
