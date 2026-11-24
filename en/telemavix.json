@@ -81,6 +81,10 @@
 			"title": "Telemavix Studio",
 			"text": "Edit footage from your action camera or drone and show what happened along the route or during the flight.",
 			"alt": "Telemavix Studio workspace with footage from a forest trail, a map, a speedometer, the widget panel and the timeline.",
+			"screens": {
+				"speed": "The Default, Modern, Ring and Legacy speedometers all show 22 km/h on the same country road.",
+				"route": "Bridge crossing with an aerial map and GPS trail, a compass, and the ride's elevation profile."
+			},
 			"download": "Download Studio",
 			"source": "Source code",
 			"highlights": [
