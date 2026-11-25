@@ -82,8 +82,11 @@
 			"text": "Edit footage from your action camera or drone and show what happened along the route or during the flight.",
 			"alt": "Telemavix Studio workspace with footage from a forest trail, a map, a speedometer, the widget panel and the timeline.",
 			"screens": {
+				"ride": "Forest trail ride with a speedometer, a compass showing the GPS track, and distance, elevation and grade readouts.",
 				"speed": "The Default, Modern, Ring and Legacy speedometers all show 22 km/h on the same country road.",
-				"route": "Bridge crossing with an aerial map and GPS trail, a compass, and the ride's elevation profile."
+				"route": "Bridge crossing with an aerial map and GPS trail, a compass, and the ride's elevation profile.",
+				"motion": "Bend in a forest road with camera roll, pitch and G-force readouts alongside a speed of 23 km/h.",
+				"progress": "The ride at 90% completion with a progress bar, a speed-over-time chart, and average and maximum speeds."
 			},
 			"download": "Download Studio",
 			"source": "Source code",

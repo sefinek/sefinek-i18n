@@ -82,8 +82,11 @@
 			"text": "Zmontuj nagranie z kamery lub drona i pokaż na obrazie to, co działo się w trasie albo podczas lotu.",
 			"alt": "Obszar roboczy Telemavix Studio z nagraniem z leśnej drogi, mapą, prędkościomierzem, panelem widżetów i osią czasu.",
 			"screens": {
+				"ride": "Przejazd leśną ścieżką z prędkościomierzem, kompasem ze śladem GPS oraz odczytami dystansu, wysokości i nachylenia.",
 				"speed": "Prędkościomierze Domyślny, Nowoczesny, Pierścień i Przestarzały pokazują 22 km/h na tym samym ujęciu polnej drogi.",
-				"route": "Przejazd przez most z ortofotomapą i śladem GPS, kompasem oraz profilem wysokości trasy."
+				"route": "Przejazd przez most z ortofotomapą i śladem GPS, kompasem oraz profilem wysokości trasy.",
+				"motion": "Zakręt na leśnej drodze z odczytami przechyłu bocznego, pochylenia kamery i przeciążenia oraz prędkością 23 km/h.",
+				"progress": "Przejazd na 90% trasy z paskiem postępu, wykresem prędkości oraz średnią i maksymalną prędkością."
 			},
 			"download": "Pobierz Studio",
 			"source": "Kod źródłowy",
