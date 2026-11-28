@@ -15,6 +15,10 @@
 			"label": "Website sefinek.net"
 		},
 		{
+			"path": "/projects/telemavix/privacy-policy",
+			"label": "Telemavix Studio"
+		},
+		{
 			"path": "/projects/telemavix/mobile-app/privacy-policy",
 			"label": "Telemavix GPS"
 		},

@@ -1,0 +1,86 @@
+{
+	"meta": {
+		"title": "Telemavix Studio - polityka prywatności programu | Sefinek",
+		"description": "Polityka prywatności Telemavix Studio: nagrania i ślady GPS przetwarzane na komputerze, mapy online, raporty błędów Bugsnag i usuwanie danych."
+	},
+	"label": "Telemavix Studio · Program na komputer",
+	"heading": "Polityka prywatności",
+	"updated": "Ostatnia aktualizacja: {{date}}",
+	"sections": [
+		{
+			"id": "controller",
+			"title": "Kto odpowiada za dane",
+			"body": [
+				"Twórcą Telemavix Studio i administratorem danych osobowych opisanych w tej polityce jest osoba działająca pod pseudonimem **Sefinek**. W sprawach prywatności napisz na [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"Ta polityka dotyczy Telemavix Studio na Windows, macOS i Linuksie, w tym wersji z Microsoft Store. Program nie wymaga konta i nie wyświetla reklam. Korzystanie z sefinek.net opisuje osobna [polityka prywatności witryny]({{websitePrivacyUrl}})."
+			]
+		},
+		{
+			"id": "local",
+			"title": "Dane na twoim komputerze",
+			"body": [
+				"Program przetwarza na twoim komputerze wybrane przez ciebie nagrania, logi lotów, ślady GPS i muzykę. Pliki mogą zawierać m.in. pozycję GPS, czas, prędkość, wysokość, tętno i numer seryjny kamery. Program nie przesyła tych plików do twórcy. Poniższe sekcje opisują zapytania o mapy, odszyfrowywanie logów DJI i raporty o błędach.",
+				"Ustawienia, presety, kolejka renderowania, pamięć podręczna i logi programu pozostają w lokalnym folderze danych. Program chroni zapisane klucze API za pomocą mechanizmów szyfrowania dostępnych w systemie. Jeśli zabezpieczenie klucza się nie powiedzie, program zapisze go bez szyfrowania i odnotuje to w logu.",
+				"Wyeksportowane filmy i dane telemetrii mogą ujawniać trasę, tętno i inne dane z nagrania lub śladu. Numer seryjny kamery jest domyślnie usuwany z eksportowanego filmu. O tym, które pliki udostępniasz, decydujesz ty."
+			]
+		},
+		{
+			"id": "version",
+			"title": "Sprawdzanie wersji i aktualizacje",
+			"body": [
+				"Przy uruchomieniu program łączy się z **api.sefinek.net**, aby sprawdzić, czy dana wersja jest nadal dopuszczona do użytku. Wersja z interfejsem graficznym ponawia sprawdzenie co 6 godzin. Zapytanie przechodzi przez **Cloudflare**. W logach API zapisują się m.in. adres IP i nagłówek User-Agent z nazwą i wersją programu. Logi są usuwane w cyklu rotacji co 5 miesięcy.",
+				"Wersja z Microsoft Store otrzymuje aktualizacje ze sklepu. Pozostałe wydania programu z interfejsem graficznym sprawdzają dostępność nowych wersji na **GitHubie**. W zależności od sposobu instalacji program może pobrać aktualizację po twoim potwierdzeniu lub otworzyć stronę wydania. Sprawdzanie wersji i instalowanie FFmpeg oraz opcjonalnego ExifTool może korzystać z systemowego menedżera pakietów.",
+				"Administrator przetwarza dane techniczne z zapytań do API na podstawie prawnie uzasadnionego interesu w zapewnieniu bezpieczeństwa i poprawnego działania programu (art. 6 ust. 1 lit. f RODO)."
+			]
+		},
+		{
+			"id": "maps",
+			"title": "Mapy online",
+			"body": [
+				"Program pobiera kafelki map bezpośrednio od dostawcy, np. [Esri](https://www.esri.com/en-us/privacy/overview), [CARTO](https://carto.com/privacy), [MapTiler](https://www.maptiler.com/privacy-policy/) czy [Thunderforest](https://www.thunderforest.com/privacy/). Możesz też wskazać własny serwer. Program kontaktuje się z Esri również przy sprawdzaniu połączenia w oknie powitalnym i przy weryfikacji klucza API Esri.",
+				"Dostawca otrzymuje adres IP, dane techniczne połączenia, w tym nazwę i wersję programu, adresy zamawianych kafelków oraz klucz API, jeśli jest używany. Adresy kafelków wskazują obszar mapy i mogą ujawniać przebieg trasy. Dostawca stosuje własne zasady prywatności. Pobrane kafelki mogą być przechowywane lokalnie."
+			]
+		},
+		{
+			"id": "dji",
+			"title": "Logi lotów dronów DJI",
+			"body": [
+				"Jeśli do odczytu zaszyfrowanego logu brakuje kluczy w lokalnej pamięci podręcznej, program może pobrać je z **API DJI**. Wysyła w tym celu zaszyfrowane bloki kluczy, wersję formatu logu, oznaczenie `department` z logu i twój klucz API DJI. DJI otrzymuje też adres IP i inne dane połączenia. Współrzędne lotu pozostają na komputerze. Program zapisuje otrzymane klucze lokalnie."
+			]
+		},
+		{
+			"id": "diagnostics",
+			"title": "Raporty o błędach",
+			"body": [
+				"W wydaniach z włączoną integracją **BugSnag (SmartBear)** raporty o błędach są domyślnie włączone. Możesz je wyłączyć w **Ustawieniach > Prywatność**. Wyłączenie zatrzymuje wysyłanie nowych raportów.",
+				"Raport jest przesyłany przez HTTPS i zawiera opis błędu, stos wywołań, wersję programu, typ aplikacji (GUI lub CLI) oraz wersje systemu i środowiska uruchomieniowego. BugSnag otrzymuje też adres IP połączenia. Program usuwa ścieżkę do katalogu domowego z komunikatów błędów i ścieżek plików w stosie wywołań. W opisie błędu może pozostać np. nazwa pliku.",
+				"Raporty służą do wykrywania i naprawiania błędów. Podstawą prawną jest uzasadniony interes administratora w utrzymaniu sprawności programu (art. 6 ust. 1 lit. f RODO). BugSnag przechowuje dane raportów przez 7 dni w planie bezpłatnym."
+			]
+		},
+		{
+			"id": "recipients",
+			"title": "Odbiorcy i przetwarzanie za granicą",
+			"body": [
+				"Cloudflare obsługuje połączenia z api.sefinek.net, SmartBear obsługuje raporty błędów, a dostawca poczty przetwarza korespondencję. Microsoft, GitHub, dostawcy map i DJI otrzymują dane połączenia, gdy program lub użytkownik korzysta z ich usług.",
+				"Usługi te mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym. BugSnag korzysta z centrów danych w USA. [Warunki SmartBear](https://smartbear.com/legal/data-processing-addendum/) i [warunki Cloudflare](https://www.cloudflare.com/cloudflare-customer-dpa/) przewidują standardowe klauzule umowne UE dla transferów bez odpowiedniej decyzji Komisji Europejskiej. O informacje o zabezpieczeniach konkretnego transferu lub o kopię klauzul możesz poprosić mailowo."
+			]
+		},
+		{
+			"id": "contact",
+			"title": "Kontakt i korespondencja",
+			"body": [
+				"Administrator używa twojego adresu e-mail i treści wiadomości, aby odpowiedzieć i obsłużyć zgłoszenie. Podstawą jest prawnie uzasadniony interes administratora w prowadzeniu korespondencji (art. 6 ust. 1 lit. f RODO). Podanie danych jest dobrowolne. Do udzielenia odpowiedzi potrzebny jest adres kontaktowy.",
+				"Administrator obsługuje żądania dotyczące praw z RODO w ramach obowiązku prawnego (art. 6 ust. 1 lit. c RODO). Korespondencję przechowuje do zamknięcia sprawy i najwyżej przez 5 miesięcy od jej zamknięcia, aby udokumentować jej obsługę (art. 6 ust. 1 lit. f RODO). Wyjątki opisuje strona [Usuwanie danych]({{dataDeletionUrl}})."
+			]
+		},
+		{
+			"id": "rights",
+			"title": "Usuwanie danych i twoje prawa",
+			"body": [
+				"Na stronie [Usuwanie danych]({{dataDeletionUrl}}#telemavix-studio) znajdziesz instrukcję usunięcia danych z komputera i zgłoszenia prośby o usunięcie raportu.",
+				"Na zasadach określonych w RODO możesz żądać dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania lub przeniesienia. Możesz też wnieść sprzeciw wobec przetwarzania na podstawie prawnie uzasadnionego interesu. Napisz na [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"Możesz złożyć skargę do właściwego organu nadzorczego, w Polsce do Prezesa Urzędu Ochrony Danych Osobowych. Sprawdzenie wersji dotyczy wydania programu. Administrator nie podejmuje na podstawie twoich danych zautomatyzowanych decyzji wywołujących skutki prawne lub podobnie istotne skutki."
+			]
+		}
+	]
+}

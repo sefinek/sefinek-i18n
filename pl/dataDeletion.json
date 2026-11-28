@@ -17,6 +17,15 @@
 			]
 		},
 		{
+			"id": "telemavix-studio",
+			"title": "Telemavix Studio",
+			"body": [
+				"**Dane na komputerze.** Zamknij program i usuń jego folder danych, aby skasować ustawienia, klucze API, pamięć podręczną oraz logi. W Windows zwykle jest to `%LOCALAPPDATA%\\Telemavix`. Odinstalowanie wersji z Microsoft Store usuwa dane zapisane w folderze pakietu. Projekty, filmy i pozostałe pliki zapisane w innych miejscach usuń osobno.",
+				"**Raporty o błędach.** W Ustawieniach > Prywatność możesz zatrzymać wysyłanie nowych raportów. BugSnag przechowuje dane raportów przez 7 dni w planie bezpłatnym. Jeśli chcesz wcześniej usunąć raport, napisz na podany wyżej adres i podaj informacje, które pomogą mi go odnaleźć.",
+				"**Zapytania do usług zewnętrznych.** Prośby dotyczące logów map lub odszyfrowywania logów lotu kieruj do swojego dostawcy map albo DJI."
+			]
+		},
+		{
 			"id": "telemavix-gps",
 			"title": "Telemavix GPS",
 			"body": [

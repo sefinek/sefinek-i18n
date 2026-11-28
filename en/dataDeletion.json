@@ -17,6 +17,15 @@
 			]
 		},
 		{
+			"id": "telemavix-studio",
+			"title": "Telemavix Studio",
+			"body": [
+				"**Data on your computer.** Close the app and delete its data folder to remove settings, API keys, caches and logs. On Windows, this is usually `%LOCALAPPDATA%\\Telemavix`. Uninstalling the Microsoft Store version removes data stored in the package folder. Delete projects, videos and other files saved elsewhere separately.",
+				"**Error reports.** You can stop new reports from being sent under Settings > Privacy. BugSnag retains report data for seven days on its free plan. To ask for a report to be deleted sooner, email the address above and include details that will help me find it.",
+				"**Requests to external services.** For logs of map requests or flight log decryption requests, contact your map provider or DJI."
+			]
+		},
+		{
 			"id": "telemavix-gps",
 			"title": "Telemavix GPS",
 			"body": [

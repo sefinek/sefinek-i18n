@@ -1,0 +1,86 @@
+{
+	"meta": {
+		"title": "Telemavix Studio - desktop app privacy policy | Sefinek",
+		"description": "Privacy policy for Telemavix Studio: recordings and GPS tracks processed on your computer, online maps, Bugsnag error reports and data deletion."
+	},
+	"label": "Telemavix Studio · Desktop app",
+	"heading": "Privacy policy",
+	"updated": "Last updated: {{date}}",
+	"sections": [
+		{
+			"id": "controller",
+			"title": "Who is responsible for your data",
+			"body": [
+				"Telemavix Studio is developed by an individual who goes by **Sefinek** and is the controller of the personal data described in this policy. For privacy questions, email [contact@sefinek.net](mailto:contact@sefinek.net).",
+				"This policy covers Telemavix Studio for Windows, macOS and Linux, including the Microsoft Store version. The app requires no account and shows no ads. The separate [website privacy policy]({{websitePrivacyUrl}}) covers your use of sefinek.net."
+			]
+		},
+		{
+			"id": "local",
+			"title": "Data on your computer",
+			"body": [
+				"The app processes the recordings, flight logs, GPS tracks and music you select on your computer. These files may contain GPS locations, timestamps, speed, altitude, heart rate and a camera serial number. The app does not send these files to the developer. Map requests, DJI log decryption and error reports are described below.",
+				"Settings, presets, the render queue, caches and app logs are stored in a local data folder. The app uses the encryption available on your system to protect saved API keys. If a key cannot be encrypted, the app saves it unencrypted and records the failure in its log.",
+				"Exported videos and telemetry data may reveal your route, heart rate or other information from your recordings or tracks. The app removes the camera serial number from exported video by default. You decide which files to share."
+			]
+		},
+		{
+			"id": "version",
+			"title": "Version check and updates",
+			"body": [
+				"At startup, the app contacts **api.sefinek.net** to check whether that release can still be used. The graphical app repeats the check every six hours. The request passes through **Cloudflare**. The API logs include your IP address and a User-Agent header with the app's name and version. The logs are deleted on a five-month rotation cycle.",
+				"The Microsoft Store updates its version of the app. Other graphical versions check **GitHub** for new releases. Depending on how you installed the app, it can download an update after you confirm or open the release page. The app may use your system's package manager to check versions and install FFmpeg and the optional ExifTool.",
+				"The controller processes technical data from API requests based on the legitimate interest in keeping the app secure and working properly (Article 6(1)(f) GDPR)."
+			]
+		},
+		{
+			"id": "maps",
+			"title": "Online maps",
+			"body": [
+				"The app downloads map tiles directly from a provider such as [Esri](https://www.esri.com/en-us/privacy/overview), [CARTO](https://carto.com/privacy), [MapTiler](https://www.maptiler.com/privacy-policy/) or [Thunderforest](https://www.thunderforest.com/privacy/). You can also specify your own server. The app also contacts Esri during the connection check in the welcome window and when it validates an Esri API key.",
+				"The provider receives your IP address, connection details including the app name and version, the URLs of the requested tiles, and the API key if one is used. Tile URLs show the area displayed on the map and may reveal your route. Providers apply their own privacy policies. Downloaded tiles may be cached on your computer."
+			]
+		},
+		{
+			"id": "dji",
+			"title": "DJI drone flight logs",
+			"body": [
+				"If the keys needed to read an encrypted flight log are missing from the local cache, the app can request them from **DJI's API**. It sends the encrypted key blocks, the log format version, the log's `department` value and your DJI API key. DJI also receives your IP address and other connection details. Flight coordinates stay on your computer. The app stores the keys it receives locally."
+			]
+		},
+		{
+			"id": "diagnostics",
+			"title": "Error reports",
+			"body": [
+				"Error reporting is on by default in builds with the **BugSnag (SmartBear)** integration enabled. You can turn it off under **Settings > Privacy** to stop sending new reports.",
+				"Reports are sent over HTTPS and include the error description, stack trace, app version, app type (GUI or CLI), and operating system and runtime versions. BugSnag also receives your connection IP address. The app redacts the home directory in error messages and file paths in the stack trace. An error description may still include details such as a file name.",
+				"The controller uses reports to find and fix errors based on the legitimate interest in keeping the app working (Article 6(1)(f) GDPR). BugSnag retains report data for seven days on its free plan."
+			]
+		},
+		{
+			"id": "recipients",
+			"title": "Recipients and international transfers",
+			"body": [
+				"Cloudflare handles requests to api.sefinek.net, SmartBear handles error reports, and the controller's email provider processes correspondence. Microsoft, GitHub, map providers and DJI receive connection data when the app or the user uses their services.",
+				"These services may process data outside the European Economic Area. BugSnag uses data centres in the United States. The [SmartBear terms](https://smartbear.com/legal/data-processing-addendum/) and [Cloudflare terms](https://www.cloudflare.com/cloudflare-customer-dpa/) provide for EU standard contractual clauses where an applicable adequacy decision does not cover the transfer. You can email the controller for details of the safeguards for a specific transfer or a copy of the clauses."
+			]
+		},
+		{
+			"id": "contact",
+			"title": "Contact and correspondence",
+			"body": [
+				"The controller uses your email address and message to reply and handle your request. The legal basis is the controller's legitimate interest in handling correspondence (Article 6(1)(f) GDPR). Providing this information is voluntary. A contact address is needed to reply.",
+				"The controller handles GDPR rights requests to comply with a legal obligation (Article 6(1)(c) GDPR). To document how a request was handled, the controller keeps correspondence until the matter is closed and for up to five months afterwards (Article 6(1)(f) GDPR). See [Data deletion]({{dataDeletionUrl}}) for exceptions."
+			]
+		},
+		{
+			"id": "rights",
+			"title": "Data deletion and your rights",
+			"body": [
+				"See [Data deletion]({{dataDeletionUrl}}#telemavix-studio) for instructions on removing data from your computer or asking for a report to be deleted.",
+				"Subject to the conditions in the GDPR, you can request access to your data, correction, deletion, restriction of processing or data portability. You can also object to processing based on legitimate interests. Email [contact@sefinek.net](mailto:contact@sefinek.net) to exercise your rights.",
+				"You can lodge a complaint with your supervisory authority. In Poland, this is the President of the Personal Data Protection Office (UODO). The version check applies to the app release. The controller does not use your personal data to make automated decisions that have legal or similarly significant effects on you."
+			]
+		}
+	]
+}
